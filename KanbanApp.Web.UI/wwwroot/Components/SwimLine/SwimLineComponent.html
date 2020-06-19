@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JQuery Sortable</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <style>
+        #sortable {
+            list-style-type: none;
+            margin: 30px;
+            padding: 30px;
+            width: 60%;
+        }
+
+            #sortable li {
+                margin: 10px;
+                padding: 10px;
+                padding-left: 1.5em;
+                font-size: 1.4em;
+
+            }
+
+                #sortable li span {
+                    position: absolute;
+                    margin-left: -1.3em;
+                }
+    </style>
+    <link rel="stylesheet" href="https://adminlte.io/themes/dev/AdminLTE/dist/css/adminlte.min.css" >
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>$(function () {
+            var sortedItems = [];
+
+            $("#sortable").sortable({
+                stop: function (e, ui) {
+                    SetSortOrder();
+                    var items = PopulateSortItems();
+                    SubmitData(items);
+                },
+            });
+            $("#sortable").disableSelection();
+
+            //Init the list items on load
+            SetSortOrder();
+
+            //Set the data-order attribute to the index
+            function SetSortOrder() {
+                $("#sortable li").each(function (index, value) {
+                    $(this).data("order", index);
+                });
+            }
+
+            //AJAX
+            function SubmitData(items) {
+
+                $.ajax({
+                    type: "POST",
+                    url: "/TestingWeb/JQuerySortable.aspx/SaveSortOrder",
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({ "items": items })
+                })//done handler
+                    .done(function (data) {
+                        console.log(data.d);
+                    });
+            }
+
+            //Get the current order state
+            function PopulateSortItems() {
+                sortedItems.length = 0;
+
+                $("#sortable li").each(function (index, value) {
+                    let item = {};
+
+                    item.id = $(this).attr("id");
+                    item.order = $(this).data("order");
+                    sortedItems.push(item);
+                });
+
+                return sortedItems
+            }
+
+            //For debugging
+            $('#Button1').click(function () {
+                var items = PopulateSortItems();
+                console.log(items);
+            });
+
+        });</script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-info card-outline">
+                    <h3 class="card-title">Expandable</h3>
+
+                    <div class="card-tools">
+                        <button type="button" class="btn btn-tool" data-widget="collapse">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <!-- /.card-tools -->
+                    <!-- /.card-header -->
+                    <div class="card-body" style="display: block;">
+
+                        <ul id="sortable">
+                            <li id="1" class="ui-state-default" data-order="1">
+                                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                <div class="card card-info card-outline">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Expandable</h3>
+
+                                        <div class="card-tools">
+                                            <button type="button" class="btn btn-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /.card-tools -->
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body" style="display: block;">
+                                        Item 1
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                            </li>
+                            <li id="2" class="ui-state-default" data-order="2">
+                                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span> <div class="card card-info card-outline">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Expandable</h3>
+
+                                        <div class="card-tools">
+                                            <button type="button" class="btn btn-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /.card-tools -->
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body" style="display: block;">
+                                        Item 2
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                            </li>
+
+                            <li id="3" class="ui-state-default" data-order="3">
+                                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span> <div class="card card-info card-outline">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Expandable</h3>
+
+                                        <div class="card-tools">
+                                            <button type="button" class="btn btn-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /.card-tools -->
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body" style="display: block;">
+                                        Item 3
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                            </li>
+
+                            <li id="4" class="ui-state-default" data-order="4">
+                                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span> <div class="card card-info card-outline">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Expandable</h3>
+
+                                        <div class="card-tools">
+                                            <button type="button" class="btn btn-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /.card-tools -->
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body" style="display: block;">
+                                        Item 4
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                            </li>
+
+                            <li id="5" class="ui-state-default" data-order="5">
+                                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                <div class="card card-info card-outline">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Expandable</h3>
+
+                                        <div class="card-tools">
+                                            <button type="button" class="btn btn-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /.card-tools -->
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body">
+                                        Item 5
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                            </li>
+
+                            <li id="6" class="ui-state-default" data-order="6">
+                                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                <div class="card card-info card-outline">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Expandable</h3>
+
+                                        <div class="card-tools">
+                                            <button type="button" class="btn btn-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- /.card-tools -->
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body">
+                                        Item 6
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                            </li>
+
+
+
+
+
+                        </ul>
+
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+                </div>
+
+                <div>
+                    <input id="Button1" type="button" value="button" />
+                </div>
+
+</body>
+</html>

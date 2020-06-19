@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "_Layout1";
+}
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Quick Example</h3>
+    </div>
+    <!-- /.card-header -->
+    <!-- form start -->
+    <form role="form">
+        <div class="card-body">
+            <div class="form-group">
+                <label for="cardName">Card Name</label>
+                <input type="email" class="form-control-sm" id="cardName" placeholder="Enter Card Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Card Description</label>
+                <textarea class="form-control-sm" id="cardDescription" placeholder="Enter Description">
+                    </textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Priority</label>
+                <select class="form-control-sm">
+                    <option>Urgent</option>
+                    <option>High</option>
+                    <option>Normal</option>
+                    <option>Low</option>
+
+                </select>
+            </div>
+        </div>
+        <!-- /.card-body -->
+
+        <div class="card-footer">
+            <button type="button" id="btnCardSave" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+<script src="~/AdminLTE3/plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="~/Services/Card/CardService.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btnCardSave").on("click", function () {
+
+            var card = {
+                Name: $("#cardName").val(),
+                Description: $("#cardDescription").val(),
+            };
+            alert(card.Name);
+          //  CardService.CardSave(card);
+        });
+
+    });
+
+</script>

@@ -1,0 +1,101 @@
+@model KanbanApp.Web.UI.ViewModels.BoardViewModel
+@{
+    Layout = "_Layout";
+}
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.css" integrity="sha256-EYSmiSz2daAX5Xq+m8lxGFf+qWABUgdCPUvU5X0vpI4=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js" integrity="sha256-rVf3H94DblhP4Z6wLSa2mpMwRS5qePBWykE6QWPOaO0=" crossorigin="anonymous"></script>
+<div>
+    <div class="row row-cards row-deck">
+        @foreach (var item in @Model.BoardList)
+        {
+            <div class="col-md-4">
+                <div class="card" id="@item.BoardId.ToString()">
+                    <div class="card-header">
+                        <h3 class="card-title">@item.BoardId.ToString()</h3>
+                        <div class="card-options">
+                            <a href="#" class="btn btn-danger btn-sm">Sil</a>
+                            <a href="#" class="btn btn-secondary btn-sm ml-2">Göster</a>
+                        </div>
+                    </div>
+                    <div class="card-body">@item.Name.ToString()</div>
+
+                </div>
+            </div>
+
+        }
+
+
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        /* Custom Dragula JS */
+        dragula([
+            document.getElementById("1"),
+            document.getElementById("2"),
+            document.getElementById("3"),
+            document.getElementById("4"),
+            document.getElementById("5")
+        ]
+            //,
+            //{
+            //    removeOnSpill: false
+            //        .on("drag", function (el) {
+            //            el.className.replace("ex-moved", "");
+            //        })
+            //        .on("drop", function (el) {
+            //            el.className += "ex-moved";
+            //        })
+            //        .on("over", function (el, container) {
+            //            container.className += "ex-over";
+            //        })
+            //        .on("out", function (el, container) {
+            //            container.className.replace("ex-over", "");
+            //        }
+            //}
+        );
+
+        /* Vanilla JS to add a new task */
+        function addTask() {
+            /* Get task text from input */
+            var inputTask = document.getElementById("taskText").value;
+            /* Add task to the 'To Do' column */
+            document.getElementById("to-do").innerHTML +=
+                "<li class='task'><p>" + inputTask + "</p></li>";
+            /* Clear task text from input after adding task */
+            document.getElementById("taskText").value = "";
+        }
+
+        /* Vanilla JS to delete tasks in 'Trash' column */
+        function emptyTrash() {
+            /* Clear tasks from 'Trash' column */
+            document.getElementById("trash").innerHTML = "";
+        }
+
+    });
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                loading ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+

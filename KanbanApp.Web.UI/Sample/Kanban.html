@@ -1,0 +1,120 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <link href="../wwwroot/AdminLTE3/css/adminlte.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        h2 {
+            margin: 5px;
+        }
+
+        input[type=text] {
+            margin: 10px
+        }
+
+        input[type=button] {
+            margin: 10px
+        }
+
+        .container {
+            width: 15%;
+            float: left;
+            clear: right;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .sortable {
+            list-style-type: none;
+            margin: 0;
+            padding: 2px;
+            min-height: 30px;
+            border-radius: 5px;
+        }
+
+            .sortable li {
+                margin: 3px 3px 3px 3px;
+                padding: 0.4em;
+                padding-left: 1.5em;
+                font-size: 1.4em;
+                height: 68px;
+            }
+
+                .sortable li span {
+                    position: absolute;
+                    margin-left: -1.3em;
+                }
+
+        .card {
+            background-color: white;
+            border-radius: 3px;
+        }
+    </style>
+    <script>
+        $(function () {
+            $(".sortable").sortable({
+                connectWith: ".connectedSortable",
+                receive: function (event, ui) {
+                    $(this).css({ "background-color": "blue" });
+                }
+            });
+            $('.add-button').click(function () {
+                var txtNewItem = $('#new_text').val();
+                $(this).closest('div.container').find('ul').append('<li class="card">' + txtNewItem + '</li>');
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div>
+        <!--<div class="container" style="background-color:pink;">
+            <h2>TODO</h2>
+            <ul class="sortable connectedSortable">
+                <li class="card">Activity A1</li>
+                <li class="card">Activity A2</li>
+                <li class="card">Activity A3</li>
+            </ul>
+            <div class="link-div">
+                <input type="text" id="new_text" value="" />
+                <input type="button" name="btnAddNew" value="Add" class="add-button" />
+            </div>
+        </div>
+        <div class="container" style="background-color:orange;">
+            <h2>In Progress</h2>
+            <ul class="sortable connectedSortable">
+                <li class="card">Activity B1</li>
+                <li class="card">Activity B2</li>
+            </ul>
+        </div>-->
+        <div id="colum1" class="sortable">
+            <div class="card card-primary" style="  width: 20%;   float: left; clear: right;  margin: 10px; ">
+                <div class="card-header"> <h3 class="card-title">Quick Example   <button class="btn btn-azure">Add New Card</button></h3> </div>
+                <ul class="sortable connectedSortable">
+                    <li class="callout callout-danger">Activity C1</li>
+                    <li class="callout callout-danger">Activity C2</li>
+                </ul>
+            </div>
+        </div>
+        <div id="colum1" class="sortable">
+            <div class="card card-primary sortable" style="  width: 20%;   float: left; clear: right;  margin: 10px; ">
+                <div class="card-header"> <h3 class="card-title">Quick Example</h3> </div>
+                <ul class="sortable connectedSortable">
+                    <li class="callout callout-danger">Activity C1</li>
+                    <li class="callout callout-danger">Activity C2</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

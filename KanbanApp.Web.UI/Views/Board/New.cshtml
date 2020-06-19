@@ -1,0 +1,74 @@
+@model KanbanApp.Web.UI.ViewModels.BoardNewViewModel
+
+@{
+    Layout = "";
+    //"_Layout1";
+}
+
+
+
+
+@* *@
+@* <h2>Board Tanimlama</h2> *@
+@* <form method="post" action="/Board/Save"  > *@
+@* *@
+@*     <div class="form-group"> *@
+@*         <label asp-for="Name" class="form-label">Board Adi<span class="form-required"></span></label> *@
+@*         <input type="text" class="form-control" /> *@
+@*     </div> *@
+@*     <div class="form-group"> *@
+@*         <label asp-for = "Description" class="form-label">Board Aciklama<span class="form-required"></span></label> *@
+@*         <input type="text" class="form-control" /> *@
+@*     </div> *@
+@*     <div class="form-group"> *@
+@*         <button type="submit" class="btn btn-primary">Kaydet</button> *@
+@*          *@
+@*     </div> *@
+@*   *@
+@* *@
+@* </form> *@
+@* <script> *@
+
+  <div class="container-fluid" id="loading-light-theme">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">New Board</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form role="form">
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="txtBoardName">Board Name</label>
+                    <input type="text" class="form-control" id="txtBoardName" placeholder="Board Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="txtBoardDescription">Board Description</label>
+                    <input type="text" class="form-control" id="txtBoardDescription" placeholder="Description">
+                  </div>
+                
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                  <button type="button" class="btn btn-primary" id="btnSave">Kaydet</button>
+                </div>
+              </form>
+            </div>
+            <!-- /.card -->
+
+           
+
+        
+          </div>
+          <!--/.col (left) -->
+     
+        </div>
+        <!-- /.row -->
+</div><!-- /.container-fluid -->
+<script src="~/AdminLTE3/plugins/jquery/jquery.min.js"></script>
+<script src="~/BoardService.js"></script>

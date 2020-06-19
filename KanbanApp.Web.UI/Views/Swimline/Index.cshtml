@@ -1,0 +1,35 @@
+@model KanbanApp.Web.UI.ViewModels.SwimlineViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>@Model.BoardItem.Name</h2>
+<div class="row flex-row flex-sm-nowrap py-5">
+
+     @foreach (var item in Model.SwimLaneList)
+{
+    <div class="col-sm-4 col-md-3">
+    <div class="card">
+        <div class="card-block">
+            <a href="" data-toggle="dismiss" class="close">&times;</a>
+            <h4 class="card-title text-truncate py-2">@item.Name </h4>
+            @foreach (var subItem in Model.SwimLaneList.Find(x => x.SwimLaneId == item.SwimLaneId).Cards)
+            {
+                <div class="card p-2 bg-faded">
+                    <h5 class="card-title">@subItem.Name </h5>
+                    <p>@subItem.Description</p>
+                </div>
+                <hr> 
+            }
+            
+        </div>
+    </div>
+</div>
+            }
+</div>
+
+           
+           
+           

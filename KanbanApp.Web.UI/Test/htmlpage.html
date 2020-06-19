@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link href="css/kanban.css" rel="stylesheet" />
+    <script src="js/kanban.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#kanban').kanban({
+                titles: ['Task', 'Estimate', 'Complete'],
+                colours: ['#00aaff', '#ff921d', '#00ff40', '#ffe54b', '#8454ff'],
+                items: [
+                    {
+                        id: 1,
+                        title: 'Test',
+                        block: 'Task',
+                        link: '[URL]',
+                        link_text: 'TEST001',
+                        footer: '<i class="ion-md-chatboxes"></i> 1 <div class="pull-right"><i class="ion-md-checkbox"></i> 1/4</div>'
+                    },
+                    {
+                        id: 2,
+                        title: 'Test 2',
+                        block: 'Estimate',
+                        footer: '<i class="ion-md-chatboxes"></i> 1 <div class="pull-right"><i class="ion-md-checkbox"></i> 1/4</div>'
+                    },
+                    {
+                        id: 3,
+                        title: 'Test 3',
+                        block: 'Estimate',
+                        footer: '<i class="ion-md-chatboxes"></i> 1 <div class="pull-right"><i class="ion-md-checkbox"></i> 1/4</div>'
+                    }
+                
+                  
+                ]
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="kanban"></div>
+</body>
+</html>

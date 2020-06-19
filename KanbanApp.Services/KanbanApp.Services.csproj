@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup Label="Globals">
+      <SccProjectName></SccProjectName>
+      <SccProvider></SccProvider>
+      <SccAuxPath></SccAuxPath>
+      <SccLocalPath></SccLocalPath>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Mapping\**" />
+      <EmbeddedResource Remove="Mapping\**" />
+      <None Remove="Mapping\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="8.6.2" />
+      <PackageReference Include="MediatR" Version="8.0.1" />
+      <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\KanbanApp.Data\KanbanApp.Data.csproj" />
+      <ProjectReference Include="..\KanbanApp.Domain\KanbanApp.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="UseCases\Board\UpdateBoard\" />
+      <Folder Include="UseCases\Attachment\" />
+    </ItemGroup>
+
+</Project>
