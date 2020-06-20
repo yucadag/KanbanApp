@@ -27,3 +27,4 @@ jobs:
       uses: SonarSource/sonarcloud-github-action@v1.3
       with:
         projectBaseDir: default
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
