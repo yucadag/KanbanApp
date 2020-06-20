@@ -11,6 +11,8 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <AssemblyName>KanbanApp.Api</AssemblyName>
+        <UserSecretsId>8f8d2e12-1352-4ab6-aea7-cc2efb038c0e</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -22,6 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
       <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.0" />
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.0" />
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.5.0" />
