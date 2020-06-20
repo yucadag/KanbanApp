@@ -26,6 +26,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4CEB7C1C-2C0F-4E48-B6B9-7A28EEE575B8}"
 	ProjectSection(SolutionItems) = preProject
 		Introduction.html = Introduction.html
+		Introduction.md = Introduction.md
 	EndProjectSection
 EndProject
 Global
