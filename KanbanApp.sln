@@ -23,8 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.Api.Test", "Kanba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.Domain.Shared", "KanbanApp.Domain.Shared\KanbanApp.Domain.Shared.csproj", "{1837B604-92C2-452E-9890-062381C604F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docs", "docs\docs.csproj", "{29A8EE6C-6E2A-47AB-8218-1EBAFC80E288}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,10 +69,6 @@ Global
 		{1837B604-92C2-452E-9890-062381C604F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1837B604-92C2-452E-9890-062381C604F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1837B604-92C2-452E-9890-062381C604F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29A8EE6C-6E2A-47AB-8218-1EBAFC80E288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29A8EE6C-6E2A-47AB-8218-1EBAFC80E288}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29A8EE6C-6E2A-47AB-8218-1EBAFC80E288}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29A8EE6C-6E2A-47AB-8218-1EBAFC80E288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
