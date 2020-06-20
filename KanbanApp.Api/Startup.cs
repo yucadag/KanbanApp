@@ -56,14 +56,7 @@ namespace KanbanApp.Api
 
             services.AddSwaggerGen(g =>
             {
-                g.SwaggerDoc("v2", new Info
-                {
-                    Title = "Kanban API",
-                    Version = "2.0",
-                    Description = "Get your friends daily quotes, add something beaty words and more...",
-                    Contact = new Contact { Name = "Mustafa Yucadağ", Email = "yucadag@gmail.com", Url = "http://www.google.com" }
-
-                });
+              
 
                 g.IncludeXmlComments(Path.ChangeExtension(typeof(Startup).Assembly.Location, ".xml"));
             });
