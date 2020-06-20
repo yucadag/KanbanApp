@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.Api.Test", "Kanba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.Domain.Shared", "KanbanApp.Domain.Shared\KanbanApp.Domain.Shared.csproj", "{1837B604-92C2-452E-9890-062381C604F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4CEB7C1C-2C0F-4E48-B6B9-7A28EEE575B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
