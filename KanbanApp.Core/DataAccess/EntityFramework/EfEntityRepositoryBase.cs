@@ -1,9 +1,9 @@
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 
 namespace KanbanApp.Core.DataAccess.EntityFramework
 {
@@ -65,9 +65,9 @@ namespace KanbanApp.Core.DataAccess.EntityFramework
 
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> filter = null)
         {
-           
-                return await _context.Set<TEntity>().SingleOrDefaultAsync(filter);
-            
+
+            return await _context.Set<TEntity>().SingleOrDefaultAsync(filter);
+
         }
 
         public Task<List<TEntity>> GetListAsync(Expression<Func<TEntity, bool>> filter = null)

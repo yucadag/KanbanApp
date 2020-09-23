@@ -1,23 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-
-using KanbanApp.Data.Concrete.EntityFramework;
+﻿using KanbanApp.Data.Concrete.EntityFramework;
 using KanbanApp.Domain.Data;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.Concrete;
+using KanbanApp.Services.UseCases.Boards.CreateBoard;
+using KanbanApp.Services.UseCases.Boards.GetBoardDetail;
+using KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;
+using KanbanApp.Services.UseCases.Cards.CreateCard;
+using KanbanApp.Services.UseCases.Cards.MoveCard;
+using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
+using System;
 
 namespace KanbanApp.Api
 {
@@ -33,12 +32,27 @@ namespace KanbanApp.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.MaxDepth = 64;  // or however deep you need
+            });
+
+            //MvcOptions.EnableEndpointRouting = false
             var optionsBuilder = new DbContextOptionsBuilder<KanbanContext>();
             services.AddDbContext<KanbanContext>(option => option.UseSqlServer(@"Data Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial Catalog=Kanban;Integrated Security=True", b => b.MigrationsAssembly("KanbanApp.Api")));
 
+            services.AddScoped<IRequestHandler<GetBoardSwimLanesCommand, GetBoardSwimLanesCommandResult>, GetBoardSwimLanesCommandHandler>();
+            services.AddScoped<IRequestHandler<GetSwimLaneCardsCommand, GetSwimLaneCardsCommandResult>, GetSwimLaneCardsCommandHandler>();
+            services.AddScoped<IRequestHandler<MoveCardCommand, MoveCardCommandResult>, MoveCardCommandHandler>();
+            services.AddScoped<IRequestHandler<CreateCardCommand, CreateCardCommandResult>, CreateCardCommandHandler>();
+            services.AddScoped<IRequestHandler<CreateBoardCommand, CreateBoardCommandResult>, CreateBoardCommandHandler>();
+            services.AddScoped<IRequestHandler<GetBoardDetailCommand, GetBoardDetailCommandResult>, GetBoardDetailCommandHandler>();
 
-
+            services.AddMediatR(typeof(Startup));
+            services.AddScoped<IMediator, Mediator>();
+            //services.AddTransient<SingleInstanceFactory>(sp => t => sp.GetService(t));
+            //services.AddTransient<MultiInstanceFactory>(sp => t => sp.GetServices(t));
+            //services.AddMediatorHandlers(typeof(Startup).GetTypeInfo().Assembly);
             //services.AddScoped<DbContext, KanbanContext>();
             services.AddTransient<IBoardRepository, EfBoardRepository>();
             services.AddTransient<IBoardService, BoardService>();
@@ -54,11 +68,34 @@ namespace KanbanApp.Api
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
             });
 
-            services.AddSwaggerGen(g =>
-            {
-              
+            //services.AddSwaggerGen(g =>
+            //{
 
-                g.IncludeXmlComments(Path.ChangeExtension(typeof(Startup).Assembly.Location, ".xml"));
+
+            //    g.IncludeXmlComments(Path.ChangeExtension(typeof(Startup).Assembly.Location, ".xml"));
+            //});
+
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Kanban API",
+                    Description = "A simple example ASP.NET Core Web API",
+                    TermsOfService = new Uri("https://example.com/terms"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Mustafa YUCADAĞ",
+                        Email = "yucadag@gmail.com",
+                        Url = new Uri("https://www.zedotech.com"),
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Use under LICX",
+                        Url = new Uri("https://example.com/license"),
+                    }
+                });
             });
         }
 
@@ -73,6 +110,7 @@ namespace KanbanApp.Api
             {
                 app.UseHsts();
             }
+
             app.UseCors(builder =>
                   builder.AllowAnyOrigin().AllowAnyMethod()
                   );
@@ -80,11 +118,25 @@ namespace KanbanApp.Api
 
             app.UseMvc();
 
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
-            app.UseSwaggerUI(s =>
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
             {
-                s.SwaggerEndpoint("/swagger/v2/swagger.json", "Kanban API");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Kanban API V1");
             });
+
+            app.UseStaticFiles();
+            app.UseRouting();
+
+
+            //app.UseSwagger();
+            //app.UseSwaggerUI(s =>
+            //{
+            //    s.SwaggerEndpoint("/swagger/v2/swagger.json", "Kanban API");
+
+            //});
         }
     }
 }

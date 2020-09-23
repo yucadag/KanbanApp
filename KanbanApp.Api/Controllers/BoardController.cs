@@ -1,16 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Threading.Tasks;
-using KanbanApp.Domain;
-using KanbanApp.Domain.Entities;
-using KanbanApp.Services.UseCases.Board.CreateBoard;
+using KanbanApp.Api.Models.Boards.Input;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.DTO.Core;
-using KanbanApp.Services.DTO.Input.BoardServiceInput;
-using KanbanApp.Services.DTO.OutPut.BoardServiceOutput;
+using KanbanApp.Services.UseCases.Boards.CreateBoard;
+using KanbanApp.Services.UseCases.Boards.GetBoardDetail;
+using KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Controllers
 {
@@ -32,44 +27,46 @@ namespace KanbanApp.Api.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="boardId"></param>
+        /// <param name="input"></param>
         /// <returns></returns>
-        [HttpGet("Get/{boardId}")]
-        public ActionResult<BoardGetOutPut> Get(string boardId)
+        [HttpPost]
+        public ActionResult<GetBoardDetailCommandResult> Get(BoardGetInput input)
         {
-            ServiceResult<BoardGetOutPut> result = _boardService.Get(boardId);
-            if (result.Success)
+            GetBoardDetailCommand command = new GetBoardDetailCommand(input.BoardId);
+
+            Task<GetBoardDetailCommandResult> result = _boardService.Get(command);
+            if (result.Result.ResultObject.Success)
             {
                 return Ok(result);
             }
             else
             {
-                return BadRequest(result.ServiceMessageList);
+                return BadRequest(result);
             }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        [Route("GetList")]
-        [HttpGet]
-        public ActionResult<ServiceResult<List<BoardGetListOutPut>>> GetList()
-        {
-            //BoardGetListFilterInput input
-            // Expression<Func<BoardGetListFilterInput, bool>> projectFilter;
+        ///// <summary>
+        ///// 
+        ///// </summary>
+        ///// <returns></returns>
+        //[Route("GetList")]
+        //[HttpGet]
+        //public ActionResult<ServiceResult<List<BoardGetListOutPut>>> GetList()
+        //{
+        //    //BoardGetListFilterInput input
+        //    // Expression<Func<BoardGetListFilterInput, bool>> projectFilter;
 
-            ServiceResult<List<BoardGetListOutPut>> result = new ServiceResult<List<BoardGetListOutPut>>();
-            result = _boardService.GetList(null);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            else
-            {
-                return BadRequest(result.ServiceMessageList);
-            }
-        }
+        //    ServiceResult<List<BoardGetListOutPut>> result = new ServiceResult<List<BoardGetListOutPut>>();
+        //    result = _boardService.GetList(null);
+        //    if (result.Success)
+        //    {
+        //        return Ok(result);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(result.ServiceMessageList);
+        //    }
+        //}
 
         /// <summary>
         /// 
@@ -80,37 +77,38 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<ServiceResult<CreateBoardCommandResult>> Add(BoardAddInput input)
         {
+            CreateBoardCommand command = new CreateBoardCommand(input.BoardId, string.Empty, input.Name, input.Description);
 
-            ServiceResult<CreateBoardCommandResult> result = _boardService.Add(input);
-            if (result.Success)
+            Task<CreateBoardCommandResult> result = _boardService.Add(command);
+            if (result.Result.ResultObject.Success)
             {
                 return Ok(result);
             }
             else
             {
-                return BadRequest(result.ServiceMessageList);
+                return BadRequest(result);
             }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        [Route("Update")]
-        [HttpPatch]
-        public ActionResult<ServiceResult<BoardUpdateOutPut>> Update(BoardUpdateInput input)
-        {
-            ServiceResult<BoardUpdateOutPut> result = _boardService.Update(input);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            else
-            {
-                return BadRequest(result.ServiceMessageList);
-            }
-        }
+        ///// <summary>
+        ///// 
+        ///// </summary>
+        ///// <param name="input"></param>
+        ///// <returns></returns>
+        //[Route("Update")]
+        //[HttpPatch]
+        //public ActionResult<ServiceResult<BoardUpdateOutPut>> Update(BoardUpdateInput input)
+        //{
+        //    ServiceResult<BoardUpdateOutPut> result = _boardService.Update(input);
+        //    if (result.Success)
+        //    {
+        //        return Ok(result);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(result.ServiceMessageList);
+        //    }
+        //}
 
 
         /// <summary>
@@ -119,11 +117,12 @@ namespace KanbanApp.Api.Controllers
         /// <param name="boardId"></param>
         /// <returns></returns>
         [HttpGet("GetBoardSwimLanes/{boardId}")]
-        public ActionResult<ServiceResult<List<GetBoardSwimLanesOutPut>>> GetBoardSwimLanes(string boardId)
+        public ActionResult<GetBoardSwimLanesCommandResult> GetBoardSwimLanes(string boardId)
         {
-            ServiceResult<List<GetBoardSwimLanesOutPut>> result = _boardService.GetBoardSwimLanes(boardId);
-            
-            if (result.Success)
+            GetBoardSwimLanesCommand command = new GetBoardSwimLanesCommand(boardId);
+            Task<GetBoardSwimLanesCommandResult> result = _boardService.GetBoardSwimLanes(command);
+
+            if (result.Result.ResultObject.Success)
             {
                 return Ok(result);
             }

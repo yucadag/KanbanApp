@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace KanbanApp.Core.DataAccess
 {
-    public interface IEntityRepository<T> where T:class ,IEntity,new()
+    public interface IEntityRepository<T> where T : class, IEntity, new()
     {
-        T Get(Expression<Func<T,bool>> filter=null);
+        T Get(Expression<Func<T, bool>> filter = null);
 
         Task<T> GetAsync(Expression<Func<T, bool>> filter = null);
 

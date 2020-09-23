@@ -1,0 +1,39 @@
+﻿<div class="card" style="position: relative; left: 0px; top: 0px;">
+    <div class="card-header" style="cursor: move;">
+        <h3 class="card-title">
+            <i class="ion ion-clipboard mr-1"></i>
+            {{ SwimLaneName }}
+        </h3>
+
+        <div class="card-tools" id="options1">
+            <ul class="pagination pagination-sm">
+                <li class="page-item"><a href="#" class="page-link">«</a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div id="{{id}}" class="card-body">
+
+        {{#each cards}}
+
+        <div id="{{cardId}}" class="callout callout-info">
+            <h5>{{name}}</h5>
+
+            <p>{{description}}</p>
+        </div>
+
+        {{/each}}
+
+
+
+
+    </div>
+    <!-- /.card-body -->
+    <div class="card-footer clearfix">
+        <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#modal-lg">
+            <i class="fas fa-plus"></i>  Add Item
+        </button>
+    </div>
+</div>

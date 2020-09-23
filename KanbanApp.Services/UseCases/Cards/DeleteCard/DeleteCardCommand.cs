@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MediatR;
 
 namespace KanbanApp.Services.UseCases.Cards.DeleteCard
 {
-    public class DeleteCardCommand
+    public class DeleteCardCommand : IRequest<DeleteCardCommandResult>
     {
+   
+        public string CardId { get; set; }
+       
+
     }
+    
 }

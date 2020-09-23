@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MediatR;
 
 namespace KanbanApp.Services.UseCases.Cards.GetCardDetail
 {
-  public  class GetCardDetailCommand
+    public class GetCardDetailCommand : IRequest<GetCardDetailCommandResult>
     {
+        public string CardId { get; set; }
     }
 }

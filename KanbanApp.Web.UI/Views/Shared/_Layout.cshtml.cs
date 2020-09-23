@@ -6,7 +6,7 @@ namespace KanbanApp.Web.UI.View.Shared
     {
         public void OnGet()
         {
-            
+
         }
     }
 }

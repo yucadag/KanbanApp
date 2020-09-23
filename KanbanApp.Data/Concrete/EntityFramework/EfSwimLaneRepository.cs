@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Threading.Tasks;
-using KanbanApp.Core.DataAccess.EntityFramework;
-using KanbanApp.Domain;
+﻿using KanbanApp.Core.DataAccess.EntityFramework;
 using KanbanApp.Domain.Data;
 using KanbanApp.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace KanbanApp.Data.Concrete.EntityFramework
 {
@@ -19,9 +14,9 @@ namespace KanbanApp.Data.Concrete.EntityFramework
             _context = context;
         }
 
-        public  List<Card> GetSwimLaneCards(string SwimLaneId)
+        public List<Card> GetSwimLaneCards(string SwimLaneId)
         {
-            return  _context.Cards.Where(x => x.SwimLaneId == SwimLaneId).ToList();
+            return _context.Cards.Where(x => x.SwimLaneId == SwimLaneId).ToList();
         }
     }
 }

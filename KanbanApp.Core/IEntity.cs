@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace KanbanApp.Core
+﻿namespace KanbanApp.Core
 {
-   public interface  IEntity
+    public interface IEntity
     {
     }
 }

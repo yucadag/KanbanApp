@@ -2,8 +2,8 @@ using KanbanApp.Core;
 
 namespace KanbanApp.Domain.Entities
 {
-    public class CardAttachment:IEntity
-    
+    public class CardAttachment : IEntity
+
     {
         public string CardId { get; set; }
         public string CardAttachmentId { get; set; }

@@ -1,5 +1,3 @@
-using KanbanApp.Domain.Entities;
-
 namespace KanbanApp.Web.UI.ViewModels
 {
     public class BoardNewViewModel

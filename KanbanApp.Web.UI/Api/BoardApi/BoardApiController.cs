@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-
+﻿using KanbanApp.Domain.Entities;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 using KanbanApp.Web.UI.ViewModels;
-using KanbanApp.Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
 
 namespace KanbanApp.Web.UI.Api.BoardApi
 {
@@ -24,7 +21,7 @@ namespace KanbanApp.Web.UI.Api.BoardApi
             board1.BoardId = Guid.NewGuid().ToString();
             board1.Description = "Proje Fikirleri bu boardda tutulur";
             board1.Name = "Proje Fikirleri";
-            board1.OwnerId="MYUCADAG";
+            board1.OwnerId = "MYUCADAG";
             viewModelList.BoardList.Add(board1);
 
             Board board2 = new Board();
@@ -45,7 +42,7 @@ namespace KanbanApp.Web.UI.Api.BoardApi
             List<Board> boardList = new List<Board>();
 
             Board board1 = new Board();
-            board1.BoardId = Guid.NewGuid().ToString(); 
+            board1.BoardId = Guid.NewGuid().ToString();
             board1.Description = "Proje Fikirleri bu boardda tutulur";
             board1.Name = "Proje Fikirleri";
             board1.OwnerId = "MYUCADAG";

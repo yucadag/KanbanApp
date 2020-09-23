@@ -1,15 +1,15 @@
 ﻿
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace KanbanApp.Services.UseCases.Cards.CreateCard
 {
     public sealed class CreateCardCommand : IRequest<CreateCardCommandResult>
     {
-       
+        public string BoardId { get; set; }
+        public string SwimLaneId { get; set; }
+        public string CardId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+
     }
 }

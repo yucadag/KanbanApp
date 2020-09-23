@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using MediatR;
 
-namespace KanbanApp.Services.UseCases.Cards.GetAttachment
+namespace KanbanApp.Services.UseCases.Cards.GetAttachmentList
 {
-    class GetAttachmentListCommand
+    public class GetAttachmentListCommand : IRequest<GetAttachmentListCommandResult>
     {
+        public string CardId { get; set; }
     }
 }

@@ -1,11 +1,8 @@
 ﻿using KanbanApp.Core;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace KanbanApp.Domain.Entities
 {
-    public class SwimLaneSetting:IEntity
+    public class SwimLaneSetting : IEntity
     {
         public SwimLaneSetting()
         {

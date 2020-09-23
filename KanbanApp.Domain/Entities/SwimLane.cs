@@ -1,13 +1,13 @@
-using System.Collections.Generic;
 using KanbanApp.Core;
+using System.Collections.Generic;
 
 namespace KanbanApp.Domain.Entities
 {
-    public class SwimLane:IEntity
+    public class SwimLane : IEntity
     {
         public SwimLane()
         {
-            Cards=new List<Card>();
+            Cards = new List<Card>();
         }
 
         public string BoardId { get; set; }
@@ -20,5 +20,5 @@ namespace KanbanApp.Domain.Entities
         public SwimLaneSetting Settings { get; set; }
     }
 
-    
+
 }

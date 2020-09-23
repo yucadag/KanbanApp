@@ -1,23 +1,27 @@
-﻿using KanbanApp.Domain.Entities;
-using KanbanApp.Services.DTO.Core;
-using KanbanApp.Services.DTO.Input.CardServiceInput;
+﻿using KanbanApp.Services.DTO.Core;
+
 using KanbanApp.Services.DTO.OutPut.CardServiceOutput;
+using KanbanApp.Services.UseCases.Cards.CreateCard;
+using KanbanApp.Services.UseCases.Cards.DeleteCard;
+using KanbanApp.Services.UseCases.Cards.GetCardDetail;
+using KanbanApp.Services.UseCases.Cards.MoveCard;
+using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Abstract
 {
-   public interface ICardService
+    public interface ICardService
     {
 
-        ServiceResult<List<CardGetListOutPut>> GetList(Expression<Func<CardGetListFilterInput, bool>> filter = null);
-        ServiceResult<CardAddOutPut> Add(CardAddInput input);
-        ServiceResult<CardUpdateOutPut> Update(CardUpdateInput input);
-        ServiceResult<CardDeleteOutPut> Delete(string cardId);
-        ServiceResult<CardGetOutPut> Get(string cardId);
+        Task<UpdateCardCommandResult> Update(UpdateCardCommand command);
+        Task<DeleteCardCommandResult> Delete(DeleteCardCommand command);
+        Task<GetCardDetailCommandResult> Get(GetCardDetailCommand command);
         ServiceResult<List<CardAttachmentsGetOutPut>> GetCardAttachments(string cardId);
+        Task<MoveCardCommandResult> MoveCard(MoveCardCommand command);
+        Task<CreateCardCommandResult> CreateCard(CreateCardCommand command);
+
     }
 }

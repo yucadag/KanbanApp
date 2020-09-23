@@ -9,6 +9,8 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+        <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,21 +21,12 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation" Version="8.6.2" />
-      <PackageReference Include="MediatR" Version="8.0.1" />
-      <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0">
-        <PrivateAssets>all</PrivateAssets>
-        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      </PackageReference>
+      <PackageReference Include="MediatR" Version="8.1.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\KanbanApp.Data\KanbanApp.Data.csproj" />
       <ProjectReference Include="..\KanbanApp.Domain\KanbanApp.Domain.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="UseCases\Board\UpdateBoard\" />
-      <Folder Include="UseCases\Attachment\" />
     </ItemGroup>
 
 </Project>

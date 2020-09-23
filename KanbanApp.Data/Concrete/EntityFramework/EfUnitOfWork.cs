@@ -1,9 +1,9 @@
-using System.Threading.Tasks;
 using KanbanApp.Core.DataAccess;
+using System.Threading.Tasks;
 
 namespace KanbanApp.Data.Concrete.EntityFramework
 {
-    public class EfUnitOfWork:IUnitOfWork
+    public class EfUnitOfWork : IUnitOfWork
     {
         private readonly KanbanContext context;
 

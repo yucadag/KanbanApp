@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MediatR;
 
 namespace KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail
 {
-  public class GetSwimlaneDetailCommand
+    public class GetSwimlaneDetailCommand : IRequest<GetSwimlaneDetailCommandResult>
     {
+        public string SwimLaneId { get; set; }
     }
 }

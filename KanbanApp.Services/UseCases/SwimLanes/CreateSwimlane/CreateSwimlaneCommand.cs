@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MediatR;
 
 namespace KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane
 {
-  public class CreateSwimlaneCommand
+    public class CreateSwimlaneCommand : IRequest<CreateSwimlaneCommandResult>
     {
+        public string BoardId { get; set; }
+        public string Name { get; set; }
+        public string SwimLaneId { get; set; }
     }
+
 }

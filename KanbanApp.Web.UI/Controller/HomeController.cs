@@ -10,6 +10,6 @@ namespace KanbanApp.Web.UI
             return View();
         }
 
-       
+
     }
 }

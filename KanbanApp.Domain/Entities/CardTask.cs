@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace KanbanApp.Domain.Entities
 {
-    public class CardTask:IEntity
+    public class CardTask : IEntity
     {
         public string CardTaskId { get; set; }
         public string Text { get; set; }

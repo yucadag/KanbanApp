@@ -9,23 +9,25 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+      <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <StartupObject></StartupObject>
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="jkanban\" />
+        <Folder Include="Controllers\" />
+        <Folder Include="wwwroot\jkanban\" />
         <Folder Include="Pages" />
         <Folder Include="ViewModels\BoardViewModels" />
+        <Folder Include="wwwroot\images\" />
         <Folder Include="wwwroot\Plugins\LoadingPlugIn\" />
         <Folder Include="wwwroot\Helper\" />
+        <Folder Include="wwwroot\Plugins\handlebars\" />
         <Folder Include="wwwroot\Services\" />
         <Folder Include="wwwroot\Services\Card\" />
         <Folder Include="wwwroot\Services\SwimLine\" />
-        <Folder Include="wwwroot\Components\" />
         <Folder Include="wwwroot\Components\Card\" />
         <Folder Include="wwwroot\Components\Board\" />
-        <Folder Include="wwwroot\Components\SwimLine\" />
         <Folder Include="wwwroot\Components\Attachment\" />
         <Folder Include="Api\" />
         <Folder Include="Api\CardApi\" />
@@ -39,6 +41,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.App" />
+  
     </ItemGroup>
 
     <ItemGroup>
@@ -49,5 +52,13 @@
       <Content Remove="wwwroot\Plugins\LoadingPlugIn\jquery.loading.js" />
       <Content Remove="wwwroot\Plugins\LoadingPlugIn\jquery.loading.min.css" />
       <Content Remove="wwwroot\Plugins\LoadingPlugIn\jquery.loading.min.js" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\jkanban\index.html" />
+      <None Include="wwwroot\jkanban\jkanban.css" />
+      <None Include="wwwroot\jkanban\jkanban.js" />
+      <None Include="wwwroot\jkanban\jkanban.min.css" />
+      <None Include="wwwroot\jkanban\jkanban.min.js" />
     </ItemGroup>
 </Project>

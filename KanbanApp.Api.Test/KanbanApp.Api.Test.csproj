@@ -25,8 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\Board\CreateBoard\" />
-    <Folder Include="UseCases\Board\DeleteBoard\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

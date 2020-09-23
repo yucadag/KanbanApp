@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using MongoDB.Driver;
-
-namespace MongoDbHelper
+﻿namespace MongoDbHelper
 {
     /*
     public class MongoRepository<TEntity, TIdentifier> : IRepository<TEntity, TIdentifier> where TEntity : class, IEntity<TIdentifier>

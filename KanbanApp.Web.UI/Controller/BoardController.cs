@@ -1,10 +1,7 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using KanbanApp.Domain.Entities;
 using KanbanApp.Web.UI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using KanbanApp.Web.UI.View;
-using System;
+using System.Collections.Generic;
 
 namespace KanbanApp.Web.UI
 {
@@ -51,6 +48,13 @@ namespace KanbanApp.Web.UI
         }
 
         public IActionResult LTETest()
+        {
+
+            return View();
+        }
+
+
+        public IActionResult LTETestJKanban()
         {
 
             return View();

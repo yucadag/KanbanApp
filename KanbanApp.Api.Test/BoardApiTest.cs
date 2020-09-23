@@ -1,14 +1,6 @@
-﻿using Newtonsoft.Json.Linq;
-using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Text;
-using Xunit;
-
-namespace KanbanApp.Api.Test
+﻿namespace KanbanApp.Api.Test
 {
-  public  class BoardApiTest
+    public class BoardApiTest
     {
         //[Fact]
         //public void AddBoard()

@@ -1,4 +1,3 @@
-using KanbanApp.Domain;
 using KanbanApp.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -28,9 +27,9 @@ namespace KanbanApp.Data.Concrete.EntityFramework
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-    //        modelBuilder.Entity<Board>()
-    //.Property(b => b.BoardId)
-    //.ValueGeneratedOnAdd();
+            //        modelBuilder.Entity<Board>()
+            //.Property(b => b.BoardId)
+            //.ValueGeneratedOnAdd();
 
 
         }

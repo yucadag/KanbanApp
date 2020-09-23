@@ -1,14 +1,14 @@
-using System.Collections.Generic;
 using KanbanApp.Core;
+using System.Collections.Generic;
 
 namespace KanbanApp.Domain.Entities
 {
-    public class Card:IEntity
+    public class Card : IEntity
     {
         public Card()
         {
-            CardTasks=new List<CardTask>();
-            AttachmentList=new List<CardAttachment>();
+            CardTasks = new List<CardTask>();
+            AttachmentList = new List<CardAttachment>();
             AssignUserList = new List<User>();
             TagList = new List<Tag>();
         }
@@ -17,7 +17,7 @@ namespace KanbanApp.Domain.Entities
         public string SwimLaneId { get; set; }
         public string CardId { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; } 
+        public string Description { get; set; }
         public Priority CardPriority { get; set; }
         public CardType Type { get; set; }
         public int CardPosition { get; set; }

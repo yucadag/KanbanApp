@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using KanbanApp.Domain.Entities;
+﻿using KanbanApp.Api.Models.SwimLanes.Input;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.DTO.Core;
-using KanbanApp.Services.DTO.Input.SwimLaneServiceInput;
 using KanbanApp.Services.DTO.OutPut.SwimLaneServiceOutput;
-using Microsoft.AspNetCore.Http;
+using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
+using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
+using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Controllers
 {
@@ -36,103 +35,94 @@ namespace KanbanApp.Api.Controllers
         /// <param name="swimLaneId"></param>
         /// <returns></returns>
         [HttpGet("Get/{swimLaneId}")]
-        public ActionResult<Board> Get(string swimLaneId)
+        public ActionResult<GetSwimlaneDetailCommandResult> Get(string swimLaneId)
         {
-            ServiceResult<SwimLaneGetOutPut> result = _swimLaneService.Get(swimLaneId);
-            if (result.Success)
+            GetSwimlaneDetailCommand command = new GetSwimlaneDetailCommand();
+
+            Task<GetSwimlaneDetailCommandResult> result = _swimLaneService.Get(command);
+            if (result.Result.ResultObject.Success)
             {
                 return Ok(result);
             }
             else
             {
-                return BadRequest(result.ServiceMessageList);
+                return BadRequest(result);
             }
         }
+
+
+        ///// <summary>
+        ///// 
+        ///// </summary>
+        ///// <param name="input"></param>
+        ///// <returns></returns>
+        //[Route("Add")]
+        //[HttpPost]
+        //public ActionResult<ServiceResult<SwimLaneAddOutPut>> Add(SwimLaneAddInput input)
+        //{
+        //    CreateSwimlaneCommand command = new CreateSwimlaneCommand();
+        //    command.BoardId = input.BoardId;
+        //    command.SwimLaneId = input.SwimLaneId;
+        //    command.Name = input.Name;
+        //    Task<CreateSwimlaneCommandResult> result = _swimLaneService.Add(command);
+        //    if (result.Result.ResultObject.Success)
+        //    {
+        //        return Ok(result);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(result);
+        //    }
+        //}
+
 
         /// <summary>
         /// 
         /// </summary>
-        /// <returns></returns>
-        [Route("GetList")]
-        [HttpGet]
-        public ActionResult<ServiceResult<List<SwimLaneGetListOutPut>>> GetList()
-        {
-            //BoardGetListFilterInput input
-            // Expression<Func<BoardGetListFilterInput, bool>> projectFilter;
-
-            ServiceResult<List<SwimLaneGetListOutPut>> result = new ServiceResult<List<SwimLaneGetListOutPut>>();
-            result = _swimLaneService.GetList();
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            else
-            {
-                return BadRequest(result.ServiceMessageList);
-            }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        [Route("Add")]
-        [HttpPost]
-        public ActionResult<ServiceResult<SwimLaneAddOutPut>> Add(SwimLaneAddInput input)
-        {
-
-            ServiceResult<SwimLaneAddOutPut> result = _swimLaneService.Add(input);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            else
-            {
-                return BadRequest(result.ServiceMessageList);
-            }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        [Route("Update")]
-        [HttpPatch]
-        public ActionResult<ServiceResult<SwimLaneUpdateOutPut>> Update(SwimLaneUpdateInput input)
-        {
-            ServiceResult<SwimLaneUpdateOutPut> result = _swimLaneService.Update(input);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            else
-            {
-                return BadRequest(result.ServiceMessageList);
-            }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
+        /// <param name="boardId"></param>
         /// <param name="swimLaneId"></param>
         /// <returns></returns>
-        [HttpGet("GetSwimLaneCards/{swimLaneId}")]
-        public ActionResult<GetSwimLaneCardsOutPut> GetSwimLaneCards(string swimLaneId)
+        [HttpGet("GetSwimLaneCards/{boardId}/{swimLaneId}")]
+        public ActionResult<GetSwimLaneCardsOutPut> GetSwimLaneCards(string boardId, string swimLaneId)
         {
-            ServiceResult<GetSwimLaneCardsOutPut> result = _swimLaneService.GetSwimLaneCards(swimLaneId);
+            GetSwimLaneCardsCommand command = new GetSwimLaneCardsCommand(boardId, swimLaneId);
+            Task<GetSwimLaneCardsCommandResult> result = _swimLaneService.GetBoardSwimLanes(command);
 
-            if (result.Success)
+            if (result.Result.ResultObject.Success)
             {
                 return Ok(result);
             }
             else
             {
-                return BadRequest(result.ServiceMessageList);
+                return BadRequest(result);
             }
-
-
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        [Route("Move")]
+        [HttpPatch]
+        public ActionResult<MoveSwimlaneCommandResult> Move(SwimLaneMoveInput input)
+        {
+            MoveSwimlaneCommand command = new MoveSwimlaneCommand();
+            command.BoardId = input.BoardId;
+            command.SwimLaneId = input.SwimLaneId;
+            command.Name = input.Name;
+            command.Position = input.Position;
+            Task<MoveSwimlaneCommandResult> result = _swimLaneService.Move(command);
+            if (result.Result.ResultObject.Success)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
+        }
+
+
     }
 }

@@ -1,0 +1,1 @@
+C:\TFSProjects\KanbanApp\.sonarqube\out\9

@@ -2,7 +2,7 @@ using KanbanApp.Core;
 
 namespace KanbanApp.Domain.Entities
 {
-    public class Setting:IEntity
+    public class Setting : IEntity
     {
         public string SettingId { get; set; }
         public string SettingsName { get; set; }
@@ -12,7 +12,7 @@ namespace KanbanApp.Domain.Entities
             StringType
 
         }
-       
+
         public string Value { get; set; }
     }
 }

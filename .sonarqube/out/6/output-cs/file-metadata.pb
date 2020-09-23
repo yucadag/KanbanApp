@@ -1,0 +1,9 @@
+^
+UC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfBoardRepository.csutf-8]
+TC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardRepository.csutf-8a
+XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfSwimLaneRepository.csutf-8Y
+PC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfUnitOfWork.csutf-8Z
+QC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\KanbanContext.csutf-8[
+PC:\TFSProjects\KanbanApp\KanbanApp.Data\Migrations\KanbanContextModelSnapshot.csutf-8\
+QC:\Users\myuca\AppData\Local\Temp\.NETStandard,Version=v2.0.AssemblyAttributes.csutf-8j
+_C:\TFSProjects\KanbanApp\KanbanApp.Data\obj\Debug\netstandard2.0\KanbanApp.Data.AssemblyInfo.csutf-8
