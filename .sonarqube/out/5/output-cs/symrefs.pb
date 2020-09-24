@@ -1,29 +1,29 @@
 Ä
 BC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IBoardRepository.cs
 
- %
+		 %
 
- (
+ (
 
-0 7
+0 7
 
- 3
+ 3
 
-; Bg
+; Bg
 AC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardRepository.cs
 
-		 $
+ $
 
- /
+		 /
 
-7 =k
+		7 =k
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ISwimLaneRepository.cs
 
-		 (
+ (
 
- #
+		 #
 
-+ 5±
+		+ 5±
 ;C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Board.cs
 
  
@@ -133,7 +133,7 @@ DC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardWeightSize.cs
 
  "
 
-		 
+		 
 
  
 
@@ -160,18 +160,16 @@ DC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardWeightSize.cs
  'ô
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLaneSetting.cs
 
-  
+  
 
-
-
- 
- ! 
+ 
+ !		 
 
- '
+ '
 
- %
+ %
 
- _
+ _
 9C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Tag.cs
 
  
@@ -181,18 +179,18 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLaneSetting.cs
  ê
 :C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\User.cs
 
- 
+ 
+
+ 
+
+ 
+
+		 
 
 
 
- 
+ 
 
- 
+ 
 
- 
-
- 
-
- 
-
- $
+ $

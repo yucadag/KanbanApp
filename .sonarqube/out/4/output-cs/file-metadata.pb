@@ -1,7 +1,4 @@
-e
-\C:\TFSProjects\KanbanApp\KanbanApp.Core\DataAccess\EntityFramework\EfEntityRepositoryBase.csutf-8P
-GC:\TFSProjects\KanbanApp\KanbanApp.Core\DataAccess\IEntityRepository.csutf-8J
-AC:\TFSProjects\KanbanApp\KanbanApp.Core\DataAccess\IUnitOfWork.csutf-8;
-2C:\TFSProjects\KanbanApp\KanbanApp.Core\IEntity.csutf-8\
-QC:\Users\myuca\AppData\Local\Temp\.NETStandard,Version=v2.0.AssemblyAttributes.csutf-8j
-_C:\TFSProjects\KanbanApp\KanbanApp.Core\obj\Debug\netstandard2.0\KanbanApp.Core.AssemblyInfo.csutf-8
+K
+BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.csutf-8\
+QC:\Users\myuca\AppData\Local\Temp\.NETStandard,Version=v2.0.AssemblyAttributes.csutf-8|
+qC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\obj\Debug\netstandard2.0\KanbanApp.Domain.Shared.AssemblyInfo.csutf-8

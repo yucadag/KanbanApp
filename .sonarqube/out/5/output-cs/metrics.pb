@@ -1,9 +1,12 @@
-V
-BC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IBoardRepository.csr	S
-AC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardRepository.csr	
-W
-EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ISwimLaneRepository.csr	
-_
+T
+BC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IBoardRepository.csr	
+Q
+AC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardRepository.csr
+	
+U
+EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ISwimLaneRepository.csr
+	
+_
 ;C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Board.cs 8r	
 ‚
 j
@@ -25,10 +28,10 @@ R
 `
 >C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLane.cs 8r	
 ‚
-g
-EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLaneSetting.cs 	8	r	
-‚L
+d
+EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLaneSetting.cs 	8	r	
+‚	L
 9C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Tag.cs 8r		
-T
-:C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\User.cs 8r	
-
+Q
+:C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\User.cs 8r	
+

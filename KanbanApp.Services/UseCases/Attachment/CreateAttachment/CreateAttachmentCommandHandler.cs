@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using KanbanApp.Services.Exceptions;
 using MediatR;
-using Microsoft.Extensions.Logging;
 
 namespace KanbanApp.Services.UseCases.Attachment.CreateAttachment
 {

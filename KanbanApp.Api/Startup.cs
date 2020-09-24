@@ -37,8 +37,6 @@ namespace KanbanApp.Api
                 options.JsonSerializerOptions.MaxDepth = 64;  // or however deep you need
             });
 
-            //MvcOptions.EnableEndpointRouting = false
-            var optionsBuilder = new DbContextOptionsBuilder<KanbanContext>();
             services.AddDbContext<KanbanContext>(option => option.UseSqlServer(@"Data Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial Catalog=Kanban;Integrated Security=True", b => b.MigrationsAssembly("KanbanApp.Api")));
 
             services.AddScoped<IRequestHandler<GetBoardSwimLanesCommand, GetBoardSwimLanesCommandResult>, GetBoardSwimLanesCommandHandler>();
@@ -50,10 +48,8 @@ namespace KanbanApp.Api
 
             services.AddMediatR(typeof(Startup));
             services.AddScoped<IMediator, Mediator>();
-            //services.AddTransient<SingleInstanceFactory>(sp => t => sp.GetService(t));
-            //services.AddTransient<MultiInstanceFactory>(sp => t => sp.GetServices(t));
-            //services.AddMediatorHandlers(typeof(Startup).GetTypeInfo().Assembly);
-            //services.AddScoped<DbContext, KanbanContext>();
+         
+   
             services.AddTransient<IBoardRepository, EfBoardRepository>();
             services.AddTransient<IBoardService, BoardService>();
 
@@ -67,13 +63,6 @@ namespace KanbanApp.Api
             {
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
             });
-
-            //services.AddSwaggerGen(g =>
-            //{
-
-
-            //    g.IncludeXmlComments(Path.ChangeExtension(typeof(Startup).Assembly.Location, ".xml"));
-            //});
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
@@ -130,13 +119,6 @@ namespace KanbanApp.Api
             app.UseStaticFiles();
             app.UseRouting();
 
-
-            //app.UseSwagger();
-            //app.UseSwaggerUI(s =>
-            //{
-            //    s.SwaggerEndpoint("/swagger/v2/swagger.json", "Kanban API");
-
-            //});
         }
     }
 }

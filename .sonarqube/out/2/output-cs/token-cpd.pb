@@ -1,7 +1,7 @@
 …
 9C:\TFSProjects\KanbanApp\MongoDbHelper\MongoRepository.cs
-	namespace 	
-MongoDbHelper
+	namespace 	
+MongoDbHelper
  
-{ 
-}FF 
+{ 
+}BB 

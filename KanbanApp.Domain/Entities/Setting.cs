@@ -6,7 +6,7 @@ namespace KanbanApp.Domain.Entities
     {
         public string SettingId { get; set; }
         public string SettingsName { get; set; }
-        enum ValueType
+        public enum ValueType
         {
             DecimalType,
             StringType

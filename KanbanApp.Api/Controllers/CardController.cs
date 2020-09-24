@@ -128,6 +128,11 @@ namespace KanbanApp.Api.Controllers
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [Route("MoveCard")]
         [HttpPost]
         public ActionResult<MoveCardCommandResult> MoveCard(MoveCardCommand command)
@@ -147,6 +152,11 @@ namespace KanbanApp.Api.Controllers
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [Route("CreateCard")]
         [HttpPost]
         public ActionResult<CreateCardCommandResult> CreateCard(CreateCardCommand command)

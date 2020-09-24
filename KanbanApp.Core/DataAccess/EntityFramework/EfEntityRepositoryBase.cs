@@ -19,7 +19,7 @@ namespace KanbanApp.Core.DataAccess.EntityFramework
             _context = context;
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> filter)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
         {
 
             return _context.Set<TEntity>().SingleOrDefault(filter);

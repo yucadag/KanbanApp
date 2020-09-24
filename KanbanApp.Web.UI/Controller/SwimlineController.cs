@@ -39,12 +39,7 @@ namespace KanbanApp.Web.UI
                 SwimLaneId = Guid.NewGuid().ToString(),
                 Name = "Yapildi",
                 Cards = new List<Card>() { new Card() { CardId = Guid.NewGuid().ToString(), Name = "Card Name 5", Description = "Aciklama 5" }, new Card() { CardId = Guid.NewGuid().ToString(), Name = "Card Name 6", Description = "Aciklama 6" } }
-            });
-
-
-            //   model.SwimLaneList.Add(new SwimLane() {  BoardId = 5, Name = "Isler"});
-            //   model.SwimLaneList.Add(new SwimLane() {  BoardId = 5, Name = "Isler"});
-
+            });     
 
             return View(model);
         }

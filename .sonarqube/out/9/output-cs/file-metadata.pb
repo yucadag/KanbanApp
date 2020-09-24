@@ -1,13 +1,4 @@
-N
-EC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\BoardController.csutf-8M
-DC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\CardController.csutf-8Q
-HC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\SwimLaneController.csutf-8O
-FC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\ValuesController.csutf-8]
-TC:\TFSProjects\KanbanApp\KanbanApp.Api\Migrations\20200118123321_MyFirstMigration.csutf-8h
-]C:\TFSProjects\KanbanApp\KanbanApp.Api\Migrations\20200118123321_MyFirstMigration.Designer.csutf-8Z
-OC:\TFSProjects\KanbanApp\KanbanApp.Api\Migrations\KanbanContextModelSnapshot.csutf-8:
-1C:\TFSProjects\KanbanApp\KanbanApp.Api\Program.csutf-8:
-1C:\TFSProjects\KanbanApp\KanbanApp.Api\Startup.csutf-8[
-PC:\Users\myuca\AppData\Local\Temp\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8z
-oC:\TFSProjects\KanbanApp\KanbanApp.Api\obj\Debug\netcoreapp3.1\KanbanApp.Api.MvcApplicationPartsAssemblyInfo.csutf-8g
-\C:\TFSProjects\KanbanApp\KanbanApp.Api\obj\Debug\netcoreapp3.1\KanbanApp.Api.AssemblyInfo.csutf-8
+C
+:C:\TFSProjects\KanbanApp\KanbanApp.Services.Test\Class1.csutf-8[
+PC:\Users\myuca\AppData\Local\Temp\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8{
+pC:\TFSProjects\KanbanApp\KanbanApp.Services.Test\obj\Debug\netcoreapp3.1\KanbanApp.Services.Test.AssemblyInfo.csutf-8
