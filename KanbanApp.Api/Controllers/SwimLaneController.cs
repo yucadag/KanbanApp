@@ -2,6 +2,7 @@
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.DTO.Core;
 using KanbanApp.Services.DTO.OutPut.SwimLaneServiceOutput;
+using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
 using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
@@ -50,29 +51,29 @@ namespace KanbanApp.Api.Controllers
         }
 
 
-        ///// <summary>
-        ///// 
-        ///// </summary>
-        ///// <param name="input"></param>
-        ///// <returns></returns>
-        //[Route("Add")]
-        //[HttpPost]
-        //public ActionResult<ServiceResult<SwimLaneAddOutPut>> Add(SwimLaneAddInput input)
-        //{
-        //    CreateSwimlaneCommand command = new CreateSwimlaneCommand();
-        //    command.BoardId = input.BoardId;
-        //    command.SwimLaneId = input.SwimLaneId;
-        //    command.Name = input.Name;
-        //    Task<CreateSwimlaneCommandResult> result = _swimLaneService.Add(command);
-        //    if (result.Result.ResultObject.Success)
-        //    {
-        //        return Ok(result);
-        //    }
-        //    else
-        //    {
-        //        return BadRequest(result);
-        //    }
-        //}
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        [Route("Add")]
+        [HttpPost]
+        public ActionResult<CreateSwimlaneCommandResult> Add(SwimLaneAddInput input)
+        {
+            CreateSwimlaneCommand command = new CreateSwimlaneCommand();
+            command.BoardId = input.BoardId;
+            command.SwimLaneId = input.SwimLaneId;
+            command.Name = input.Name;
+            Task<CreateSwimlaneCommandResult> result = _swimLaneService.Add(command);
+            if (result.Result.ResultObject.Success)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
+        }
 
 
         /// <summary>
