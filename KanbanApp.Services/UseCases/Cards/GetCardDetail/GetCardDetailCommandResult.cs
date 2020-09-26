@@ -1,11 +1,8 @@
 ﻿using KanbanApp.Services.DTO.Core;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace KanbanApp.Services.UseCases.Cards.GetCardDetail
 {
- 
+
     public class GetCardDetailCommandResult
     {
         public ServiceResult<GetCardDetailCommandResultItem> ResultObject { get; set; }

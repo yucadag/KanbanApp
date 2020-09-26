@@ -11,12 +11,17 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
         <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
+        <CodeAnalysisRuleSet>..\.sonarlint\kanbanappcsharp.ruleset</CodeAnalysisRuleSet>
     </PropertyGroup>
 
     <ItemGroup>
       <Compile Remove="Mapping\**" />
       <EmbeddedResource Remove="Mapping\**" />
       <None Remove="Mapping\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="..\.sonarlint\kanbanapp\CSharp\SonarLint.xml" Link="SonarLint.xml" />
     </ItemGroup>
 
     <ItemGroup>

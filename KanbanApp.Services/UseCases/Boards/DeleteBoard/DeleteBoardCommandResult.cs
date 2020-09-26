@@ -7,5 +7,5 @@ namespace KanbanApp.Services.UseCases.Boards.DeleteBoard
         public ServiceResult<bool> ResultObject { get; set; }
     }
 
-   
+
 }

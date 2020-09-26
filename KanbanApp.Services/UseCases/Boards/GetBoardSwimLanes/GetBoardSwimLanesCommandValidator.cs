@@ -1,11 +1,8 @@
 ﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes
 {
-   public class GetBoardSwimLanesCommandValidator : AbstractValidator<GetBoardSwimLanesCommand>
+    public class GetBoardSwimLanesCommandValidator : AbstractValidator<GetBoardSwimLanesCommand>
     {
         public GetBoardSwimLanesCommandValidator()
         {

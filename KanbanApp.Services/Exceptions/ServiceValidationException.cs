@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Runtime.Serialization;
 
 namespace KanbanApp.Services.Exceptions
 {
-  public   class ServiceValidationException:Exception
+    [Serializable]
+    public class ServiceValidationException : Exception
     {
         public ServiceValidationException(string message) : base(message)
         {

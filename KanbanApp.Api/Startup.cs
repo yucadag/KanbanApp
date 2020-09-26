@@ -48,8 +48,8 @@ namespace KanbanApp.Api
 
             services.AddMediatR(typeof(Startup));
             services.AddScoped<IMediator, Mediator>();
-         
-   
+
+
             services.AddTransient<IBoardRepository, EfBoardRepository>();
             services.AddTransient<IBoardService, BoardService>();
 

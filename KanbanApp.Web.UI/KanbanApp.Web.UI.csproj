@@ -12,6 +12,8 @@
       <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <StartupObject></StartupObject>
+        <CodeAnalysisRuleSet>..\.sonarlint\kanbanappcsharp.ruleset</CodeAnalysisRuleSet>
+        <SonarQubeExclude>True</SonarQubeExclude>
     </PropertyGroup>
 
     <ItemGroup>
@@ -52,6 +54,10 @@
       <Content Remove="wwwroot\Plugins\LoadingPlugIn\jquery.loading.js" />
       <Content Remove="wwwroot\Plugins\LoadingPlugIn\jquery.loading.min.css" />
       <Content Remove="wwwroot\Plugins\LoadingPlugIn\jquery.loading.min.js" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="..\.sonarlint\kanbanapp\CSharp\SonarLint.xml" Link="SonarLint.xml" />
     </ItemGroup>
 
     <ItemGroup>

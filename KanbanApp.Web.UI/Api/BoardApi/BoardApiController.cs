@@ -7,6 +7,9 @@ using System.Collections.Generic;
 
 namespace KanbanApp.Web.UI.Api.BoardApi
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [Route("api/[controller]")]
     public class BoardApiController : Controller
     {

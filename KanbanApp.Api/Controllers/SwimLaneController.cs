@@ -1,6 +1,5 @@
 ﻿using KanbanApp.Api.Models.SwimLanes.Input;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.DTO.Core;
 using KanbanApp.Services.DTO.OutPut.SwimLaneServiceOutput;
 using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
@@ -37,8 +36,10 @@ namespace KanbanApp.Api.Controllers
         [HttpGet("Get/{swimLaneId}")]
         public ActionResult<GetSwimlaneDetailCommandResult> Get(string swimLaneId)
         {
-            GetSwimlaneDetailCommand command = new GetSwimlaneDetailCommand();
-
+            GetSwimlaneDetailCommand command = new GetSwimlaneDetailCommand
+            {
+                SwimLaneId = swimLaneId
+            };
             Task<GetSwimlaneDetailCommandResult> result = _swimLaneService.Get(command);
             if (result.Result.ResultObject.Success)
             {
@@ -60,10 +61,12 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<CreateSwimlaneCommandResult> Add(SwimLaneAddInput input)
         {
-            CreateSwimlaneCommand command = new CreateSwimlaneCommand();
-            command.BoardId = input.BoardId;
-            command.SwimLaneId = input.SwimLaneId;
-            command.Name = input.Name;
+            CreateSwimlaneCommand command = new CreateSwimlaneCommand
+            {
+                BoardId = input.BoardId,
+                SwimLaneId = input.SwimLaneId,
+                Name = input.Name
+            };
             Task<CreateSwimlaneCommandResult> result = _swimLaneService.Add(command);
             if (result.Result.ResultObject.Success)
             {
@@ -107,11 +110,13 @@ namespace KanbanApp.Api.Controllers
         [HttpPatch]
         public ActionResult<MoveSwimlaneCommandResult> Move(SwimLaneMoveInput input)
         {
-            MoveSwimlaneCommand command = new MoveSwimlaneCommand();
-            command.BoardId = input.BoardId;
-            command.SwimLaneId = input.SwimLaneId;
-            command.Name = input.Name;
-            command.Position = input.Position;
+            MoveSwimlaneCommand command = new MoveSwimlaneCommand
+            {
+                BoardId = input.BoardId,
+                SwimLaneId = input.SwimLaneId,
+                Name = input.Name,
+                Position = input.Position
+            };
             Task<MoveSwimlaneCommandResult> result = _swimLaneService.Move(command);
             if (result.Result.ResultObject.Success)
             {

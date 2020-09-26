@@ -32,15 +32,7 @@ namespace KanbanApp.Services.UseCases.Cards.CreateCard
 
                 if (!validationResult.IsValid)
                 {
-
-                    Card card = new Card();
-                    card.BoardId = request.BoardId;
-                    card.SwimLaneId = request.SwimLaneId;
-                    card.CardId = request.CardId;
-                    card.Name = request.Name;
-                    card.Description = request.Description;
-                    card = _cardRepository.Add(card);
-
+                    _cardRepository.Add(new Card() { BoardId = request.BoardId, SwimLaneId = request.SwimLaneId, CardId = request.CardId, Name = request.Name, Description = request.Description });
 
                     result.ResultObject.Success = true;
                 }

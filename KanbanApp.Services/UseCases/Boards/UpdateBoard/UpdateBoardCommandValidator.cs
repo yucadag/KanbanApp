@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FluentValidation;
+﻿using FluentValidation;
 
 namespace KanbanApp.Services.UseCases.Boards.UpdateBoard
 {
-   public  class UpdateBoardCommandValidator : AbstractValidator<UpdateBoardCommand>
+    public class UpdateBoardCommandValidator : AbstractValidator<UpdateBoardCommand>
     {
         public UpdateBoardCommandValidator()
         {

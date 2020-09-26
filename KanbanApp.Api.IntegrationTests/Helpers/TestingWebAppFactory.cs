@@ -4,9 +4,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 namespace KanbanApp.Api.IntegrationTests.Helpers
 {
     public class TestingWebAppFactory<T> : WebApplicationFactory<Startup>

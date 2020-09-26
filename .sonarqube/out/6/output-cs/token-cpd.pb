@@ -117,8 +117,8 @@ UC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfBoardReposit
 )X Y
 ;Y Z
 } 	
-}QQ 
-}RR ƒ
+} 
+} ƒ
 TC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardRepository.cs
 	namespace 	
 	KanbanApp
@@ -200,8 +200,8 @@ TC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardReposito
 )Q R
 ;R S
 } 	
-} 
-} ï
+} 
+} ï
 XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfSwimLaneRepository.cs
 	namespace 	
 	KanbanApp
@@ -351,7 +351,7 @@ PC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfUnitOfWork.c
 ;, -
 } 	
 } 
-} ñ
+} ¥
 QC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\KanbanContext.cs
 	namespace 	
 	KanbanApp
@@ -466,16 +466,6 @@ QC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\KanbanContext.
 ;& '
 set( +
 ;+ ,
-}- .
-	protected 
-override 
-void 
-OnModelCreating  /
-(/ 0
-ModelBuilder0 <
-modelBuilder= I
-)I J
-{ 	
-}## 	
-}%% 
-}&& 
+}- .
+} 
+} 

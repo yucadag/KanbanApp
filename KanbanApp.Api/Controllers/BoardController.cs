@@ -1,6 +1,5 @@
 using KanbanApp.Api.Models.Boards.Input;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.DTO.Core;
 using KanbanApp.Services.UseCases.Boards.CreateBoard;
 using KanbanApp.Services.UseCases.Boards.DeleteBoard;
 using KanbanApp.Services.UseCases.Boards.GetBoardDetail;
@@ -12,6 +11,9 @@ using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class BoardController : ControllerBase
@@ -100,10 +102,12 @@ namespace KanbanApp.Api.Controllers
         [HttpPatch]
         public ActionResult<UpdateBoardCommandResult> Update(BoardUpdateInput input)
         {
-            UpdateBoardCommand command = new UpdateBoardCommand();
-            command.BoardId = input.BoardId;
-            command.Name = input.Name;
-            command.Description= input.Description; 
+            UpdateBoardCommand command = new UpdateBoardCommand
+            {
+                BoardId = input.BoardId,
+                Name = input.Name,
+                Description = input.Description
+            };
 
             Task<UpdateBoardCommandResult> result = _boardService.Update(command);
             if (result.Result.ResultObject.Success)
@@ -127,7 +131,7 @@ namespace KanbanApp.Api.Controllers
         public ActionResult<DeleteBoardCommandResult> Delete(BoardDeleteInput input)
         {
             DeleteBoardCommand command = new DeleteBoardCommand(input.BoardId);
- 
+
             Task<DeleteBoardCommandResult> result = _boardService.Delete(command);
             if (result.Result.ResultObject.Success)
             {

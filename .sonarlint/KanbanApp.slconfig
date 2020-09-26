@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://localhost:9000/",
+  "Organization": null,
+  "ProjectKey": "KanbanApp",
+  "ProjectName": "KanbanApp",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AXS8fbi6pjm7Qtp9gYW8",
+      "ProfileTimestamp": "2020-09-23T19:43:10Z"
+    }
+  }
+}

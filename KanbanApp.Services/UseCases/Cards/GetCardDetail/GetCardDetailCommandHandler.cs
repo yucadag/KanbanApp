@@ -4,14 +4,12 @@ using KanbanApp.Services.DTO.Core;
 using MediatR;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.UseCases.Cards.GetCardDetail
 {
- 
+
 
     public class GetCardDetailCommandHandler : IRequestHandler<GetCardDetailCommand, GetCardDetailCommandResult>
     {
@@ -30,7 +28,7 @@ namespace KanbanApp.Services.UseCases.Cards.GetCardDetail
             result.ResultObject.Success = false;
             result.ResultObject.ServiceMessageList = new List<ServiceMessage>();
             result.ResultObject.Data = new GetCardDetailCommandResultItem();
- 
+
 
             try
             {

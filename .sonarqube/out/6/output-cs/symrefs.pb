@@ -48,7 +48,7 @@ PC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfUnitOfWork.c
 
 * 1 "
 
- 'í
+ 'Õ
 QC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\KanbanContext.cs
 
  
@@ -68,8 +68,4 @@ QC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\KanbanContext.
 
  (
 
-  
-
-  /
-
-= I
+  

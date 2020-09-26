@@ -13,7 +13,6 @@ using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Concrete
@@ -84,7 +83,7 @@ namespace KanbanApp.Services.Concrete
             return result;
         }
 
-      
+
         public Task<UpdateCardCommandResult> Update(UpdateCardCommand command)
         {
             Task<UpdateCardCommandResult> result;

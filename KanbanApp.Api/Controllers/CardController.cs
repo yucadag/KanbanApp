@@ -1,9 +1,12 @@
-﻿using KanbanApp.Services.Abstract;
+﻿using KanbanApp.Api.Models.Cards;
+using KanbanApp.Services.Abstract;
 using KanbanApp.Services.DTO.Core;
 
 using KanbanApp.Services.DTO.OutPut.CardServiceOutput;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
+using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
+using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -25,88 +28,59 @@ namespace KanbanApp.Api.Controllers
 
         }
 
-        ///// <summary>
-        ///// 
-        ///// </summary>
-        ///// <param name="cardId"></param>
-        ///// <returns></returns>
-        //[HttpGet("Get/{cardId}")]
-        //public ActionResult<CardGetOutPut> Get(string cardId)
-        //{
-        //    ServiceResult<CardGetOutPut> result = _cardService.Get(cardId);
-        //    if (result.Success)
-        //    {
-        //        return Ok(result);
-        //    }
-        //    else
-        //    {
-        //        return BadRequest(result.ServiceMessageList);
-        //    }
-        //}
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        [Route("Get")]
+        [HttpPost]
+        public ActionResult<GetCardDetailCommandResult> Get(CardGetInput input)
+        {
+            GetCardDetailCommand command = new GetCardDetailCommand
+            {
+                CardId = input.CardId
+            };
+            Task<GetCardDetailCommandResult> result = _cardService.Get(command);
 
-        ///// <summary>
-        ///// 
-        ///// </summary>
-        ///// <returns></returns>
-        //[Route("GetList")]
-        //[HttpGet]
-        //public ActionResult<ServiceResult<List<CardGetListOutPut>>> GetList()
-        //{
-        //    //BoardGetListFilterInput input
-        //    // Expression<Func<BoardGetListFilterInput, bool>> projectFilter;
+            if (result.Result.ResultObject.Success)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
+        }
 
-        //    ServiceResult<List<CardGetListOutPut>> result = new ServiceResult<List<CardGetListOutPut>>();
-        //    result = _cardService.GetList(null);
-        //    if (result.Success)
-        //    {
-        //        return Ok(result);
-        //    }
-        //    else
-        //    {
-        //        return BadRequest(result.ServiceMessageList);
-        //    }
-        //}
 
-        ///// <summary>
-        ///// 
-        ///// </summary>
-        ///// <param name="input"></param>
-        ///// <returns></returns>
-        //[Route("Add")]
-        //[HttpPost]
-        //public ActionResult<ServiceResult<CardAddOutPut>> Add(CardAddInput input)
-        //{
 
-        //    ServiceResult<CardAddOutPut> result = _cardService.CreateCard()
-        //    if (result.Success)
-        //    {
-        //        return Ok(result);
-        //    }
-        //    else
-        //    {
-        //        return BadRequest(result.ServiceMessageList);
-        //    }
-        //}
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        [Route("Update")]
+        [HttpPatch]
+        public ActionResult<UpdateCardCommandResult> Update(CardUpdateInput input)
+        {
+            UpdateCardCommand command = new UpdateCardCommand
+            {
+                CardId = input.CardId,
+                Name = input.Name,
+                Description = input.Description
+            };
+            Task<UpdateCardCommandResult> result = _cardService.Update(command);
 
-        ///// <summary>
-        ///// 
-        ///// </summary>
-        ///// <param name="input"></param>
-        ///// <returns></returns>
-        //[Route("Update")]
-        //[HttpPatch]
-        //public ActionResult<ServiceResult<CardUpdateOutPut>> Update(CardUpdateInput input)
-        //{
-        //    ServiceResult<CardUpdateOutPut> result = _cardService.Update(input);
-        //    if (result.Success)
-        //    {
-        //        return Ok(result);
-        //    }
-        //    else
-        //    {
-        //        return BadRequest(result.ServiceMessageList);
-        //    }
-        //}
+            if (result.Result.ResultObject.Success)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
+        }
 
         /// <summary>
         /// 
@@ -161,9 +135,7 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<CreateCardCommandResult> CreateCard(CreateCardCommand command)
         {
-            CreateCardCommand _command = new CreateCardCommand();
-            _command = command;
-            Task<CreateCardCommandResult> result = _cardService.CreateCard(_command);
+            Task<CreateCardCommandResult> result = _cardService.CreateCard(command);
 
             if (result.Result.ResultObject.Success)
             {
@@ -173,8 +145,6 @@ namespace KanbanApp.Api.Controllers
             {
                 return BadRequest(result);
             }
-
-
         }
     }
 }

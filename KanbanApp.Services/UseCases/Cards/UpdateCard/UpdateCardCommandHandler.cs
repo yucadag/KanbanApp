@@ -28,16 +28,13 @@ namespace KanbanApp.Services.UseCases.Cards.UpdateCard
 
             try
             {
-                Card card = new Card();
-                card = _cardRepository.Get(x => x.CardId == request.CardId && x.BoardId == request.BoardId && x.SwimLaneId == request.SwimLaneId);
+                Card card = _cardRepository.Get(x => x.CardId == request.CardId && x.BoardId == request.BoardId && x.SwimLaneId == request.SwimLaneId);
                 card.BoardId = request.BoardId;
                 card.SwimLaneId = request.SwimLaneId;
                 card.CardId = request.CardId;
                 card.Name = request.Name;
                 card.Description = request.Description;
                 _cardRepository.Update(card);
-
-
 
                 result.ResultObject.Success = true;
             }

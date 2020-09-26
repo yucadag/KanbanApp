@@ -24,15 +24,5 @@ namespace KanbanApp.Data.Concrete.EntityFramework
         public DbSet<CardType> CardTypes { get; set; }
         public DbSet<User> Users { get; set; }
 
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            //        modelBuilder.Entity<Board>()
-            //.Property(b => b.BoardId)
-            //.ValueGeneratedOnAdd();
-
-
-        }
-
     }
 }

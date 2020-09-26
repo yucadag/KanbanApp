@@ -19,7 +19,5 @@ namespace KanbanApp.Data.Concrete.EntityFramework
         {
             return context.CardAttachments.Where(x => x.CardId == CardId).ToList();
         }
-
-
     }
 }

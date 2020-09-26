@@ -1,8 +1,8 @@
-﻿using System;
+﻿using KanbanApp.Services.Exceptions;
+using MediatR;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
-using KanbanApp.Services.Exceptions;
-using MediatR;
 
 namespace KanbanApp.Services.UseCases.Attachment.CreateAttachment
 {

@@ -1,23 +1,17 @@
 using KanbanApp.Api.IntegrationTests.Helpers;
-using Microsoft.AspNetCore.TestHost;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.AspNetCore.TestHost;
-
-using System;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Xunit;
-using System.Net.Http.Json;
-using System.Collections.Generic;
-using KanbanApp.Api.Models.Boards.Input;
 using KanbanApp.Api.IntegrationTests.Helpers.Serialization;
-using KanbanApp.Services.DTO.Core;
+using KanbanApp.Api.Models.Boards.Input;
 using KanbanApp.Services.UseCases.Boards.CreateBoard;
-using Shouldly;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Shouldly;
+using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Xunit;
 
 namespace KanbanApp.Api.IntegrationTests.Controllers
 {
@@ -45,7 +39,7 @@ namespace KanbanApp.Api.IntegrationTests.Controllers
                 BoardId = "247234",
                 Name = "BoardTest",
                 Description = "Açýklama",
-                OwnerId ="MYUCADAG"
+                OwnerId = "MYUCADAG"
             };
             var response = await _client.PostAsJsonAsync("Board/Add", boardAddInputModel, JsonSerializerHelper.DefaultSerialisationOptions);
 
@@ -74,7 +68,7 @@ namespace KanbanApp.Api.IntegrationTests.Controllers
             //}
 
             response.StatusCode.ShouldBe(HttpStatusCode.BadRequest);
-          
+
         }
 
         public static IEnumerable<object[]> GetInvalidInputs()

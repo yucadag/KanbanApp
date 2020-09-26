@@ -15,7 +15,7 @@ namespace KanbanApp.Services.PipelineBehaviors
         {
             _validators = validators;
         }
-        public  Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
+        public Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
             var validationFailures = _validators
             .Select(validator => validator.Validate(request))

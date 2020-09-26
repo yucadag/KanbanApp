@@ -1,14 +1,12 @@
-﻿using System;
+﻿using KanbanApp.Domain.Data;
+using KanbanApp.Domain.Entities;
+using KanbanApp.Services.DTO.Core;
+using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using KanbanApp.Domain.Data;
-using KanbanApp.Domain.Entities;
-using KanbanApp.Services.DTO.Core;
-using KanbanApp.Services.Exceptions;
-using MediatR;
-using Microsoft.Extensions.Logging;
 
 namespace KanbanApp.Services.UseCases.Cards.GetAttachmentList
 {

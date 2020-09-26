@@ -4,13 +4,12 @@ using KanbanApp.Services.DTO.Core;
 using MediatR;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.UseCases.Cards.DeleteCard
 {
-  public class DeleteCardCommandHandler : IRequestHandler<DeleteCardCommand, DeleteCardCommandResult>
+    public class DeleteCardCommandHandler : IRequestHandler<DeleteCardCommand, DeleteCardCommandResult>
     {
         private readonly ICardRepository _cardRepository;
 
@@ -62,6 +61,6 @@ namespace KanbanApp.Services.UseCases.Cards.DeleteCard
             return result;
         }
     }
-    
-    
+
+
 }

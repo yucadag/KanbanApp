@@ -34,14 +34,6 @@ namespace KanbanApp.Services.UseCases.Cards.MoveCard
                 Card card = _cardRepository.Get(p => p.CardId == request.CardId);
                 card.SwimLaneId = request.SwimLaneId;
                 _cardRepository.Update(card);
-                //.GetBoardSwimLanes(request.BoardId);
-                //result.ResultObject.Data = boardList.Select(x => new GetBoardSwimLanesCommandResultItem()
-                //{
-                //    SwimLaneId = x.SwimLaneId,
-                //    BoardId = x.BoardId,
-                //    Name = x.Name,
-                //    Position = x.Position
-                //}).ToList();
 
                 result.ResultObject.Success = true;
             }

@@ -3,7 +3,6 @@ using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
 using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Abstract

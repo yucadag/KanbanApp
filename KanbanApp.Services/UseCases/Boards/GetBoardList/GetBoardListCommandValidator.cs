@@ -1,7 +1,4 @@
 ﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace KanbanApp.Services.UseCases.Boards.GetBoardList
 {
@@ -9,7 +6,7 @@ namespace KanbanApp.Services.UseCases.Boards.GetBoardList
     {
         public GetBoardListCommandValidator()
         {
-            RuleFor(x => x.BoardId).NotEmpty().WithMessage("Board Id boş olamaz.");           
+            RuleFor(x => x.BoardId).NotEmpty().WithMessage("Board Id boş olamaz.");
         }
     }
 

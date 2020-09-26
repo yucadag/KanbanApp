@@ -6,8 +6,12 @@ GC:\TFSProjects\KanbanApp\KanbanApp.Api\Extensions\MediatorExtensions.csutf-8]
 TC:\TFSProjects\KanbanApp\KanbanApp.Api\Migrations\20200118123321_MyFirstMigration.csutf-8h
 ]C:\TFSProjects\KanbanApp\KanbanApp.Api\Migrations\20200118123321_MyFirstMigration.Designer.csutf-8Z
 OC:\TFSProjects\KanbanApp\KanbanApp.Api\Migrations\KanbanContextModelSnapshot.csutf-8T
-KC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Boards\Input\BoardAddInput.csutf-8T
-KC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Boards\Input\BoardGetInput.csutf-8Z
+KC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Boards\Input\BoardAddInput.csutf-8W
+NC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Boards\Input\BoardDeleteInput.csutf-8T
+KC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Boards\Input\BoardGetInput.csutf-8W
+NC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Boards\Input\BoardUpdateInput.csutf-8L
+CC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Cards\CardGetInput.csutf-8O
+FC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\Cards\CardUpdateInput.csutf-8Z
 QC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\SwimLanes\Input\SwimLaneAddInput.csutf-8[
 RC:\TFSProjects\KanbanApp\KanbanApp.Api\Models\SwimLanes\Input\SwimLaneMoveInput.csutf-8:
 1C:\TFSProjects\KanbanApp\KanbanApp.Api\Program.csutf-8:
