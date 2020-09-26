@@ -1,14 +1,11 @@
 ﻿using KanbanApp.Api.Models.Cards;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.DTO.Core;
-
-using KanbanApp.Services.DTO.OutPut.CardServiceOutput;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
+using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
 using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
 using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Controllers
@@ -88,17 +85,21 @@ namespace KanbanApp.Api.Controllers
         /// <param name="cardId"></param>
         /// <returns></returns>
         [HttpGet("GetCardAttachments/{cardId}")]
-        public ActionResult<List<CardAttachmentsGetOutPut>> GetCardAttachments(string cardId)
+        public ActionResult<GetAttachmentListCommandResult> GetAttachmentList(string cardId)
         {
-            ServiceResult<List<CardAttachmentsGetOutPut>> result = _cardService.GetCardAttachments(cardId);
+            GetAttachmentListCommand command = new GetAttachmentListCommand
+            {
+                CardId = cardId,               
+            };
+            Task<GetAttachmentListCommandResult> result = _cardService.GetAttachmentList(command);
 
-            if (result.Success)
+            if (result.Result.ResultObject.Success)
             {
                 return Ok(result);
             }
             else
             {
-                return BadRequest(result.ServiceMessageList);
+                return BadRequest(result);
             }
         }
 

@@ -1,18 +1,12 @@
 ﻿using KanbanApp.Domain.Data;
-using KanbanApp.Domain.Entities;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.DTO.Core;
-
-using KanbanApp.Services.DTO.OutPut.CardServiceOutput;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
 using KanbanApp.Services.UseCases.Cards.DeleteCard;
+using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
 using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
 using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Concrete
@@ -47,38 +41,11 @@ namespace KanbanApp.Services.Concrete
             return result;
         }
 
-        public ServiceResult<List<CardAttachmentsGetOutPut>> GetCardAttachments(string cardId)
+        public Task<GetAttachmentListCommandResult> GetAttachmentList(GetAttachmentListCommand command)
         {
-            ServiceResult<List<CardAttachmentsGetOutPut>> result = new ServiceResult<List<CardAttachmentsGetOutPut>>();
-            result.Success = false;
-            result.ServiceMessageList = new List<ServiceMessage>();
-            result.Data = new List<CardAttachmentsGetOutPut>();
+            Task<GetAttachmentListCommandResult> result;
 
-            try
-            {
-                List<CardAttachment> cardList = _cardRepository.GetCardAttachments(cardId);
-                result.Data = cardList.Select(x => new CardAttachmentsGetOutPut()
-                {
-                    //do your variable mapping here 
-                    CardId = x.CardId,
-                    CardAttachmentId = x.CardAttachmentId,
-                    AttachmentName = x.AttachmentName,
-                    AttachmentDownloadLink = x.AttachmentDownloadLink
-
-                }).ToList();
-
-                result.Success = true;
-            }
-            catch (Exception ex)
-            {
-                result.ServiceMessageList.Add(new ServiceMessage()
-                {
-                    ServiceMessageType = eServiceMessageType.Error,
-                    UserFriendlyText = "An error occured",
-                    LogText = "CardService.GetCardAttachments() method error message: " + ex.Message,
-                    SystemException = ex
-                });
-            }
+            result = _mediator.Send(command);
 
             return result;
         }

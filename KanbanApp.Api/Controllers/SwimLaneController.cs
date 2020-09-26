@@ -86,7 +86,7 @@ namespace KanbanApp.Api.Controllers
         /// <param name="swimLaneId"></param>
         /// <returns></returns>
         [HttpGet("GetSwimLaneCards/{boardId}/{swimLaneId}")]
-        public ActionResult<GetSwimLaneCardsOutPut> GetSwimLaneCards(string boardId, string swimLaneId)
+        public ActionResult<GetSwimLaneCardsCommandResult> GetSwimLaneCards(string boardId, string swimLaneId)
         {
             GetSwimLaneCardsCommand command = new GetSwimLaneCardsCommand(boardId, swimLaneId);
             Task<GetSwimLaneCardsCommandResult> result = _swimLaneService.GetBoardSwimLanes(command);
