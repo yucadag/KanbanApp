@@ -13,10 +13,10 @@ namespace KanbanApp.Services.UseCases.Attachment.CreateAttachment
         {
         }
 
-        public async Task<CreateAttachmentCommandResult> Handle(CreateAttachmentCommand command, CancellationToken cancellationToken)
+        public async Task<CreateAttachmentCommandResult> Handle(CreateAttachmentCommand request, CancellationToken cancellationToken)
         {
             var validator = new CreateAttachmentCommandValidator();
-            var result = validator.Validate(command);
+            var result = validator.Validate(request);
 
             if (!result.IsValid)
             {

@@ -1,14 +1,16 @@
-^
+Y
+JC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IAttachmentService.csr	
+^
 EC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IBoardService.csr	
-_
-DC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ICardService.csr	
-]
+]
+DC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ICardService.csr	
+]
 HC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ISwimLaneService.csr	
 ™
 DC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\BoardService.cs 8r9	
- !#%&()+-/0123578:;<>@ACDEGIJLM‚#%-/57>@GIÉ
-CC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\CardService.cs 8j>rX	
- !"$&')*+-/02345679:;<=?@ABDFGHIJKLMNOPQSTWXY[]^`abdfgijkmopqrx‚$&-/567;<?@ABFJLNS[]dfmo‰
+ !#%&()+-/0123578:;<>@ACDEGIJLM‚#%-/57>@GI˜
+CC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\CardService.cs 8r9	
+!"#%'(*+,.014568:;=>?ACDFGHJLMNO‚%'.08:ACJL‰
 GC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\SwimLaneService.cs 8r*	
 !#%&'(*,-./135789‚	!#*,35c
 FC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceMessage.cs 
@@ -16,14 +18,9 @@ FC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceMessage.cs
 r	
 m
 EC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceResult.cs 	8	r	
-‚x
-dC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\CardServiceOutput\CardAttachmentsGetOutPut.cs 8r
-	
-y
-fC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\SwimLaneServiceOutput\GetSwimLaneCardsOutPut.cs 8r	
-m
-TC:\TFSProjects\KanbanApp\KanbanApp.Services\Exceptions\ServiceValidationException.cs 8r	
-Ž
+‚l
+TC:\TFSProjects\KanbanApp\KanbanApp.Services\Exceptions\ServiceValidationException.cs 8r	
+Ž
 TC:\TFSProjects\KanbanApp\KanbanApp.Services\PipelineBehaviors\ValidationBehaviour.cs 8r 	
  !"#x‚	 x
 kC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Attachment\CreateAttachment\CreateAttachmentCommand.csr	Ÿ

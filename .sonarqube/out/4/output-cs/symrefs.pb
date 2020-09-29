@@ -1,4 +1,10 @@
-I
-;C:\TFSProjects\KanbanApp\KanbanApp.Api.Test\BoardApiTest.cs
+t
+BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.cs
 
- 
+ 
+
+ 
+
+ 
+
+ 

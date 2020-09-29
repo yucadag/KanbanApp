@@ -632,483 +632,8 @@ BadRequest
 ¶¶ 	
 }
 ®® 
-}©© Å;
+}©© ∂<
 DC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\CardController.cs
-	namespace 	
-	KanbanApp
- 
-. 
-Api 
-. 
-Controllers #
-{ 
-[ 
-Route 
-
-(
- 
-$str 
-) 
-] 
-[ 
-ApiController 
-] 
-public 
-
-class 
-CardController 
-:  !
-ControllerBase" 0
-{ 
-private 
-readonly 
-ICardService %
-_cardService& 2
-;2 3
-public 
-CardController 
-( 
-ICardService *
-_service+ 3
-)3 4
-{ 	
-_cardService 
-= 
-_service #
-;# $
-} 	
-[$$ 	
-Route$$	 
-($$ 
-$str$$ 
-)$$ 
-]$$ 
-[%% 	
-HttpPost%%	 
-]%% 
-public&& 
-ActionResult&& 
-<&& &
-GetCardDetailCommandResult&& 6
->&&6 7
-Get&&8 ;
-(&&; <
-CardGetInput&&< H
-input&&I N
-)&&N O
-{'' 	 
-GetCardDetailCommand((  
-command((! (
-=(() *
-new((+ . 
-GetCardDetailCommand((/ C
-{)) 
-CardId** 
-=** 
-input** 
-.** 
-CardId** %
-}++ 
-;++ 
-Task,, 
-<,, &
-GetCardDetailCommandResult,, +
->,,+ ,
-result,,- 3
-=,,4 5
-_cardService,,6 B
-.,,B C
-Get,,C F
-(,,F G
-command,,G N
-),,N O
-;,,O P
-if.. 
-(.. 
-result.. 
-... 
-Result.. 
-... 
-ResultObject.. *
-...* +
-Success..+ 2
-)..2 3
-{// 
-return00 
-Ok00 
-(00 
-result00  
-)00  !
-;00! "
-}11 
-else22 
-{33 
-return44 
-
-BadRequest44 !
-(44! "
-result44" (
-)44( )
-;44) *
-}55 
-}66 	
-[?? 	
-Route??	 
-(?? 
-$str?? 
-)?? 
-]?? 
-[@@ 	
-	HttpPatch@@	 
-]@@ 
-publicAA 
-ActionResultAA 
-<AA #
-UpdateCardCommandResultAA 3
->AA3 4
-UpdateAA5 ;
-(AA; <
-CardUpdateInputAA< K
-inputAAL Q
-)AAQ R
-{BB 	
-UpdateCardCommandCC 
-commandCC %
-=CC& '
-newCC( +
-UpdateCardCommandCC, =
-{DD 
-CardIdEE 
-=EE 
-inputEE 
-.EE 
-CardIdEE %
-,EE% &
-NameFF 
-=FF 
-inputFF 
-.FF 
-NameFF !
-,FF! "
-DescriptionGG 
-=GG 
-inputGG #
-.GG# $
-DescriptionGG$ /
-}HH 
-;HH 
-TaskII 
-<II #
-UpdateCardCommandResultII (
->II( )
-resultII* 0
-=II1 2
-_cardServiceII3 ?
-.II? @
-UpdateII@ F
-(IIF G
-commandIIG N
-)IIN O
-;IIO P
-ifKK 
-(KK 
-resultKK 
-.KK 
-ResultKK 
-.KK 
-ResultObjectKK *
-.KK* +
-SuccessKK+ 2
-)KK2 3
-{LL 
-returnMM 
-OkMM 
-(MM 
-resultMM  
-)MM  !
-;MM! "
-}NN 
-elseOO 
-{PP 
-returnQQ 
-
-BadRequestQQ !
-(QQ! "
-resultQQ" (
-)QQ( )
-;QQ) *
-}RR 
-}SS 	
-[ZZ 	
-HttpGetZZ	 
-(ZZ 
-$strZZ .
-)ZZ. /
-]ZZ/ 0
-public[[ 
-ActionResult[[ 
-<[[ 
-List[[  
-<[[  !$
-CardAttachmentsGetOutPut[[! 9
->[[9 :
->[[: ;
-GetCardAttachments[[< N
-([[N O
-string[[O U
-cardId[[V \
-)[[\ ]
-{\\ 	
-ServiceResult]] 
-<]] 
-List]] 
-<]] $
-CardAttachmentsGetOutPut]] 7
->]]7 8
->]]8 9
-result]]: @
-=]]A B
-_cardService]]C O
-.]]O P
-GetCardAttachments]]P b
-(]]b c
-cardId]]c i
-)]]i j
-;]]j k
-if__ 
-(__ 
-result__ 
-.__ 
-Success__ 
-)__ 
-{`` 
-returnaa 
-Okaa 
-(aa 
-resultaa  
-)aa  !
-;aa! "
-}bb 
-elsecc 
-{dd 
-returnee 
-
-BadRequestee !
-(ee! "
-resultee" (
-.ee( )
-ServiceMessageListee) ;
-)ee; <
-;ee< =
-}ff 
-}gg 	
-[nn 	
-Routenn	 
-(nn 
-$strnn 
-)nn 
-]nn 
-[oo 	
-HttpPostoo	 
-]oo 
-publicpp 
-ActionResultpp 
-<pp !
-MoveCardCommandResultpp 1
->pp1 2
-MoveCardpp3 ;
-(pp; <
-MoveCardCommandpp< K
-commandppL S
-)ppS T
-{qq 	
-MoveCardCommandrr 
-_commandrr $
-=rr% &
-newrr' *
-MoveCardCommandrr+ :
-(rr: ;
-commandrr; B
-.rrB C
-CardIdrrC I
-,rrI J
-commandrrK R
-.rrR S
-
-SwimLaneIdrrS ]
-)rr] ^
-;rr^ _
-Taskss 
-<ss !
-MoveCardCommandResultss &
->ss& '
-resultss( .
-=ss/ 0
-_cardServicess1 =
-.ss= >
-MoveCardss> F
-(ssF G
-_commandssG O
-)ssO P
-;ssP Q
-ifuu 
-(uu 
-resultuu 
-.uu 
-Resultuu 
-.uu 
-ResultObjectuu *
-.uu* +
-Successuu+ 2
-)uu2 3
-{vv 
-returnww 
-Okww 
-(ww 
-resultww  
-)ww  !
-;ww! "
-}xx 
-elseyy 
-{zz 
-return{{ 
-
-BadRequest{{ !
-({{! "
-result{{" (
-){{( )
-;{{) *
-}|| 
-} 	
-[
-ÜÜ 	
-Route
-ÜÜ	 
-(
-ÜÜ 
-$str
-ÜÜ 
-)
-ÜÜ 
-]
-ÜÜ 
-[
-áá 	
-HttpPost
-áá	 
-]
-áá 
-public
-àà 
-ActionResult
-àà 
-<
-àà %
-CreateCardCommandResult
-àà 3
->
-àà3 4
-
-CreateCard
-àà5 ?
-(
-àà? @
-CreateCardCommand
-àà@ Q
-command
-ààR Y
-)
-ààY Z
-{
-ââ 	
-Task
-ää 
-<
-ää %
-CreateCardCommandResult
-ää (
->
-ää( )
-result
-ää* 0
-=
-ää1 2
-_cardService
-ää3 ?
-.
-ää? @
-
-CreateCard
-ää@ J
-(
-ääJ K
-command
-ääK R
-)
-ääR S
-;
-ääS T
-if
-åå 
-(
-åå 
-result
-åå 
-.
-åå 
-Result
-åå 
-.
-åå 
-ResultObject
-åå *
-.
-åå* +
-Success
-åå+ 2
-)
-åå2 3
-{
-çç 
-return
-éé 
-Ok
-éé 
-(
-éé 
-result
-éé  
-)
-éé  !
-;
-éé! "
-}
-èè 
-else
-êê 
-{
-ëë 
-return
-íí 
-
-BadRequest
-íí !
-(
-íí! "
-result
-íí" (
-)
-íí( )
-;
-íí) *
-}
-ìì 
-}
-îî 	
-}
-ïï 
-}ññ ü5
-HC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\SwimLaneController.cs
 	namespace 	
 	KanbanApp
  
@@ -1117,378 +642,873 @@ HC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\SwimLaneController.cs
 . 
 Controllers #
 { 
-[ 
-Route 
+[ 
+Route 
 
-(
+(
  
-$str 
-) 
-] 
-[ 
-ApiController 
-] 
-public 
+$str 
+) 
+] 
+[ 
+ApiController 
+] 
+public 
 
-class 
-SwimLaneController #
-:$ %
-ControllerBase& 4
-{ 
-private 
-readonly 
-ISwimLaneService )
-_swimLaneService* :
-;: ;
-public 
-SwimLaneController !
-(! "
-ISwimLaneService" 2
-service3 :
-): ;
-{ 	
-_swimLaneService 
-= 
-service &
-;& '
-} 	
-[$$ 	
-HttpGet$$	 
-($$ 
-$str$$ #
-)$$# $
-]$$$ %
-public%% 
-ActionResult%% 
-<%% *
-GetSwimlaneDetailCommandResult%% :
->%%: ;
-Get%%< ?
-(%%? @
-string%%@ F
+class 
+CardController 
+:  !
+ControllerBase" 0
+{ 
+private 
+readonly 
+ICardService %
+_cardService& 2
+;2 3
+public 
+CardController 
+( 
+ICardService *
+_service+ 3
+)3 4
+{ 	
+_cardService 
+= 
+_service #
+;# $
+} 	
+[!! 	
+Route!!	 
+(!! 
+$str!! 
+)!! 
+]!! 
+["" 	
+HttpPost""	 
+]"" 
+public## 
+ActionResult## 
+<## &
+GetCardDetailCommandResult## 6
+>##6 7
+Get##8 ;
+(##; <
+CardGetInput##< H
+input##I N
+)##N O
+{$$ 	 
+GetCardDetailCommand%%  
+command%%! (
+=%%) *
+new%%+ . 
+GetCardDetailCommand%%/ C
+{&& 
+CardId'' 
+='' 
+input'' 
+.'' 
+CardId'' %
+}(( 
+;(( 
+Task)) 
+<)) &
+GetCardDetailCommandResult)) +
+>))+ ,
+result))- 3
+=))4 5
+_cardService))6 B
+.))B C
+Get))C F
+())F G
+command))G N
+)))N O
+;))O P
+if++ 
+(++ 
+result++ 
+.++ 
+Result++ 
+.++ 
+ResultObject++ *
+.++* +
+Success+++ 2
+)++2 3
+{,, 
+return-- 
+Ok-- 
+(-- 
+result--  
+)--  !
+;--! "
+}.. 
+else// 
+{00 
+return11 
 
-swimLaneId%%G Q
-)%%Q R
-{&& 	$
-GetSwimlaneDetailCommand'' $
-command''% ,
-=''- .
-new''/ 2$
-GetSwimlaneDetailCommand''3 K
-{(( 
-
-SwimLaneId)) 
-=)) 
-
-swimLaneId)) '
-}** 
-;** 
-Task++ 
-<++ *
-GetSwimlaneDetailCommandResult++ /
->++/ 0
-result++1 7
-=++8 9
-_swimLaneService++: J
-.++J K
-Get++K N
-(++N O
-command++O V
-)++V W
-;++W X
-if,, 
-(,, 
-result,, 
-.,, 
-Result,, 
-.,, 
-ResultObject,, *
-.,,* +
-Success,,+ 2
-),,2 3
-{-- 
-return.. 
-Ok.. 
-(.. 
-result..  
-)..  !
-;..! "
-}// 
-else00 
-{11 
-return22 
-
-BadRequest22 !
-(22! "
-result22" (
-)22( )
-;22) *
-}33 
-}44 	
+BadRequest11 !
+(11! "
+result11" (
+)11( )
+;11) *
+}22 
+}33 	
 [<< 	
 Route<<	 
 (<< 
-$str<< 
-)<< 
-]<< 
-[== 	
-HttpPost==	 
-]== 
+$str<< 
+)<< 
+]<< 
+[== 	
+	HttpPatch==	 
+]== 
 public>> 
 ActionResult>> 
-<>> '
-CreateSwimlaneCommandResult>> 7
->>>7 8
-Add>>9 <
-(>>< =
-SwimLaneAddInput>>= M
-input>>N S
-)>>S T
-{?? 	!
-CreateSwimlaneCommand@@ !
-command@@" )
-=@@* +
-new@@, /!
-CreateSwimlaneCommand@@0 E
-{AA 
-BoardIdBB 
-=BB 
-inputBB 
-.BB  
-BoardIdBB  '
-,BB' (
-
-SwimLaneIdCC 
-=CC 
-inputCC "
-.CC" #
-
-SwimLaneIdCC# -
-,CC- .
-NameDD 
-=DD 
-inputDD 
-.DD 
-NameDD !
+<>> #
+UpdateCardCommandResult>> 3
+>>>3 4
+Update>>5 ;
+(>>; <
+CardUpdateInput>>< K
+input>>L Q
+)>>Q R
+{?? 	
+UpdateCardCommand@@ 
+command@@ %
+=@@& '
+new@@( +
+UpdateCardCommand@@, =
+{AA 
+CardIdBB 
+=BB 
+inputBB 
+.BB 
+CardIdBB %
+,BB% &
+NameCC 
+=CC 
+inputCC 
+.CC 
+NameCC !
+,CC! "
+DescriptionDD 
+=DD 
+inputDD #
+.DD# $
+DescriptionDD$ /
 }EE 
 ;EE 
 TaskFF 
-<FF '
-CreateSwimlaneCommandResultFF ,
->FF, -
-resultFF. 4
-=FF5 6
-_swimLaneServiceFF7 G
-.FFG H
-AddFFH K
-(FFK L
-commandFFL S
-)FFS T
-;FFT U
-ifGG 
-(GG 
-resultGG 
-.GG 
-ResultGG 
-.GG 
-ResultObjectGG *
-.GG* +
-SuccessGG+ 2
-)GG2 3
-{HH 
-returnII 
-OkII 
-(II 
-resultII  
-)II  !
-;II! "
-}JJ 
-elseKK 
-{LL 
-returnMM 
+<FF #
+UpdateCardCommandResultFF (
+>FF( )
+resultFF* 0
+=FF1 2
+_cardServiceFF3 ?
+.FF? @
+UpdateFF@ F
+(FFF G
+commandFFG N
+)FFN O
+;FFO P
+ifHH 
+(HH 
+resultHH 
+.HH 
+ResultHH 
+.HH 
+ResultObjectHH *
+.HH* +
+SuccessHH+ 2
+)HH2 3
+{II 
+returnJJ 
+OkJJ 
+(JJ 
+resultJJ  
+)JJ  !
+;JJ! "
+}KK 
+elseLL 
+{MM 
+returnNN 
 
-BadRequestMM !
-(MM! "
-resultMM" (
-)MM( )
-;MM) *
-}NN 
-}OO 	
-[XX 	
-HttpGetXX	 
-(XX 
-$strXX :
-)XX: ;
-]XX; <
-publicYY 
-ActionResultYY 
-<YY "
-GetSwimLaneCardsOutPutYY 2
->YY2 3
-GetSwimLaneCardsYY4 D
-(YYD E
-stringYYE K
-boardIdYYL S
-,YYS T
-stringYYU [
+BadRequestNN !
+(NN! "
+resultNN" (
+)NN( )
+;NN) *
+}OO 
+}PP 	
+[WW 	
+HttpGetWW	 
+(WW 
+$strWW .
+)WW. /
+]WW/ 0
+publicXX 
+ActionResultXX 
+<XX *
+GetAttachmentListCommandResultXX :
+>XX: ;
+GetAttachmentListXX< M
+(XXM N
+stringXXN T
+cardIdXXU [
+)XX[ \
+{YY 	$
+GetAttachmentListCommandZZ $
+commandZZ% ,
+=ZZ- .
+newZZ/ 2$
+GetAttachmentListCommandZZ3 K
+{[[ 
+CardId\\ 
+=\\ 
+cardId\\ 
+,\\  
+}]] 
+;]] 
+Task^^ 
+<^^ *
+GetAttachmentListCommandResult^^ /
+>^^/ 0
+result^^1 7
+=^^8 9
+_cardService^^: F
+.^^F G
+GetAttachmentList^^G X
+(^^X Y
+command^^Y `
+)^^` a
+;^^a b
+if`` 
+(`` 
+result`` 
+.`` 
+Result`` 
+.`` 
+ResultObject`` *
+.``* +
+Success``+ 2
+)``2 3
+{aa 
+returnbb 
+Okbb 
+(bb 
+resultbb  
+)bb  !
+;bb! "
+}cc 
+elsedd 
+{ee 
+returnff 
 
-swimLaneIdYY\ f
-)YYf g
-{ZZ 	#
-GetSwimLaneCardsCommand[[ #
-command[[$ +
-=[[, -
-new[[. 1#
-GetSwimLaneCardsCommand[[2 I
-([[I J
-boardId[[J Q
-,[[Q R
+BadRequestff !
+(ff! "
+resultff" (
+)ff( )
+;ff) *
+}gg 
+}hh 	
+[oo 	
+Routeoo	 
+(oo 
+$stroo 
+)oo 
+]oo 
+[pp 	
+HttpPostpp	 
+]pp 
+publicqq 
+ActionResultqq 
+<qq !
+MoveCardCommandResultqq 1
+>qq1 2
+MoveCardqq3 ;
+(qq; <
+MoveCardCommandqq< K
+commandqqL S
+)qqS T
+{rr 	
+MoveCardCommandss 
+_commandss $
+=ss% &
+newss' *
+MoveCardCommandss+ :
+(ss: ;
+commandss; B
+.ssB C
+CardIdssC I
+,ssI J
+commandssK R
+.ssR S
 
-swimLaneId[[S ]
-)[[] ^
-;[[^ _
-Task\\ 
-<\\ )
-GetSwimLaneCardsCommandResult\\ .
->\\. /
-result\\0 6
-=\\7 8
-_swimLaneService\\9 I
-.\\I J
-GetBoardSwimLanes\\J [
-(\\[ \
-command\\\ c
-)\\c d
-;\\d e
-if^^ 
-(^^ 
-result^^ 
-.^^ 
-Result^^ 
-.^^ 
-ResultObject^^ *
-.^^* +
-Success^^+ 2
-)^^2 3
-{__ 
-return`` 
-Ok`` 
-(`` 
-result``  
-)``  !
-;``! "
-}aa 
-elsebb 
-{cc 
-returndd 
+SwimLaneIdssS ]
+)ss] ^
+;ss^ _
+Tasktt 
+<tt !
+MoveCardCommandResulttt &
+>tt& '
+resulttt( .
+=tt/ 0
+_cardServicett1 =
+.tt= >
+MoveCardtt> F
+(ttF G
+_commandttG O
+)ttO P
+;ttP Q
+ifvv 
+(vv 
+resultvv 
+.vv 
+Resultvv 
+.vv 
+ResultObjectvv *
+.vv* +
+Successvv+ 2
+)vv2 3
+{ww 
+returnxx 
+Okxx 
+(xx 
+resultxx  
+)xx  !
+;xx! "
+}yy 
+elsezz 
+{{{ 
+return|| 
 
-BadRequestdd !
-(dd! "
-resultdd" (
-)dd( )
-;dd) *
-}ee 
-}ff 	
-[mm 	
-Routemm	 
-(mm 
-$strmm 
-)mm 
-]mm 
-[nn 	
-	HttpPatchnn	 
-]nn 
-publicoo 
-ActionResultoo 
-<oo %
-MoveSwimlaneCommandResultoo 5
->oo5 6
-Moveoo7 ;
-(oo; <
-SwimLaneMoveInputoo< M
-inputooN S
-)ooS T
-{pp 	
-MoveSwimlaneCommandqq 
-commandqq  '
-=qq( )
-newqq* -
-MoveSwimlaneCommandqq. A
-{rr 
-BoardIdss 
-=ss 
-inputss 
-.ss  
-BoardIdss  '
-,ss' (
-
-SwimLaneIdtt 
-=tt 
-inputtt "
-.tt" #
-
-SwimLaneIdtt# -
-,tt- .
-Nameuu 
-=uu 
-inputuu 
-.uu 
-Nameuu !
-,uu! "
-Positionvv 
-=vv 
-inputvv  
-.vv  !
-Positionvv! )
-}ww 
-;ww 
-Taskxx 
-<xx %
-MoveSwimlaneCommandResultxx *
->xx* +
-resultxx, 2
-=xx3 4
-_swimLaneServicexx5 E
-.xxE F
-MovexxF J
-(xxJ K
-commandxxK R
-)xxR S
-;xxS T
-ifyy 
-(yy 
-resultyy 
-.yy 
-Resultyy 
-.yy 
-ResultObjectyy *
-.yy* +
-Successyy+ 2
-)yy2 3
-{zz 
-return{{ 
-Ok{{ 
-({{ 
-result{{  
-){{  !
-;{{! "
-}|| 
-else}} 
-{~~ 
-return 
-
-BadRequest !
-(! "
-result" (
-)( )
-;) *
+BadRequest|| !
+(||! "
+result||" (
+)||( )
+;||) *
+}}} 
 }
-ÄÄ 
+ÄÄ 	
+[
+áá 	
+Route
+áá	 
+(
+áá 
+$str
+áá 
+)
+áá 
+]
+áá 
+[
+àà 	
+HttpPost
+àà	 
+]
+àà 
+public
+ââ 
+ActionResult
+ââ 
+<
+ââ %
+CreateCardCommandResult
+ââ 3
+>
+ââ3 4
+
+CreateCard
+ââ5 ?
+(
+ââ? @
+CreateCardCommand
+ââ@ Q
+command
+ââR Y
+)
+ââY Z
+{
+ää 	
+Task
+ãã 
+<
+ãã %
+CreateCardCommandResult
+ãã (
+>
+ãã( )
+result
+ãã* 0
+=
+ãã1 2
+_cardService
+ãã3 ?
+.
+ãã? @
+
+CreateCard
+ãã@ J
+(
+ããJ K
+command
+ããK R
+)
+ããR S
+;
+ããS T
+if
+çç 
+(
+çç 
+result
+çç 
+.
+çç 
+Result
+çç 
+.
+çç 
+ResultObject
+çç *
+.
+çç* +
+Success
+çç+ 2
+)
+çç2 3
+{
+éé 
+return
+èè 
+Ok
+èè 
+(
+èè 
+result
+èè  
+)
+èè  !
+;
+èè! "
 }
-ÅÅ 	
+êê 
+else
+ëë 
+{
+íí 
+return
+ìì 
+
+BadRequest
+ìì !
+(
+ìì! "
+result
+ìì" (
+)
+ìì( )
+;
+ìì) *
 }
-ÑÑ 
-}ÖÖ œ
+îî 
+}
+ïï 	
+}
+ññ 
+}óó §5
+HC:\TFSProjects\KanbanApp\KanbanApp.Api\Controllers\SwimLaneController.cs
+	namespace
+
+ 	
+	KanbanApp
+
+
+ 
+.
+
+ 
+Api
+
+ 
+.
+
+ 
+Controllers
+
+ #
+{ 
+[ 
+Route 
+
+(
+ 
+$str 
+) 
+] 
+[ 
+ApiController 
+] 
+public 
+
+class 
+SwimLaneController #
+:$ %
+ControllerBase& 4
+{ 
+private 
+readonly 
+ISwimLaneService )
+_swimLaneService* :
+;: ;
+public 
+SwimLaneController !
+(! "
+ISwimLaneService" 2
+service3 :
+): ;
+{ 	
+_swimLaneService 
+= 
+service &
+;& '
+} 	
+[## 	
+HttpGet##	 
+(## 
+$str## #
+)### $
+]##$ %
+public$$ 
+ActionResult$$ 
+<$$ *
+GetSwimlaneDetailCommandResult$$ :
+>$$: ;
+Get$$< ?
+($$? @
+string$$@ F
+
+swimLaneId$$G Q
+)$$Q R
+{%% 	$
+GetSwimlaneDetailCommand&& $
+command&&% ,
+=&&- .
+new&&/ 2$
+GetSwimlaneDetailCommand&&3 K
+{'' 
+
+SwimLaneId(( 
+=(( 
+
+swimLaneId(( '
+})) 
+;)) 
+Task** 
+<** *
+GetSwimlaneDetailCommandResult** /
+>**/ 0
+result**1 7
+=**8 9
+_swimLaneService**: J
+.**J K
+Get**K N
+(**N O
+command**O V
+)**V W
+;**W X
+if++ 
+(++ 
+result++ 
+.++ 
+Result++ 
+.++ 
+ResultObject++ *
+.++* +
+Success+++ 2
+)++2 3
+{,, 
+return-- 
+Ok-- 
+(-- 
+result--  
+)--  !
+;--! "
+}.. 
+else// 
+{00 
+return11 
+
+BadRequest11 !
+(11! "
+result11" (
+)11( )
+;11) *
+}22 
+}33 	
+[;; 	
+Route;;	 
+(;; 
+$str;; 
+);; 
+];; 
+[<< 	
+HttpPost<<	 
+]<< 
+public== 
+ActionResult== 
+<== '
+CreateSwimlaneCommandResult== 7
+>==7 8
+Add==9 <
+(==< =
+SwimLaneAddInput=== M
+input==N S
+)==S T
+{>> 	!
+CreateSwimlaneCommand?? !
+command??" )
+=??* +
+new??, /!
+CreateSwimlaneCommand??0 E
+{@@ 
+BoardIdAA 
+=AA 
+inputAA 
+.AA  
+BoardIdAA  '
+,AA' (
+
+SwimLaneIdBB 
+=BB 
+inputBB "
+.BB" #
+
+SwimLaneIdBB# -
+,BB- .
+NameCC 
+=CC 
+inputCC 
+.CC 
+NameCC !
+}DD 
+;DD 
+TaskEE 
+<EE '
+CreateSwimlaneCommandResultEE ,
+>EE, -
+resultEE. 4
+=EE5 6
+_swimLaneServiceEE7 G
+.EEG H
+AddEEH K
+(EEK L
+commandEEL S
+)EES T
+;EET U
+ifFF 
+(FF 
+resultFF 
+.FF 
+ResultFF 
+.FF 
+ResultObjectFF *
+.FF* +
+SuccessFF+ 2
+)FF2 3
+{GG 
+returnHH 
+OkHH 
+(HH 
+resultHH  
+)HH  !
+;HH! "
+}II 
+elseJJ 
+{KK 
+returnLL 
+
+BadRequestLL !
+(LL! "
+resultLL" (
+)LL( )
+;LL) *
+}MM 
+}NN 	
+[WW 	
+HttpGetWW	 
+(WW 
+$strWW :
+)WW: ;
+]WW; <
+publicXX 
+ActionResultXX 
+<XX )
+GetSwimLaneCardsCommandResultXX 9
+>XX9 :
+GetSwimLaneCardsXX; K
+(XXK L
+stringXXL R
+boardIdXXS Z
+,XXZ [
+stringXX\ b
+
+swimLaneIdXXc m
+)XXm n
+{YY 	#
+GetSwimLaneCardsCommandZZ #
+commandZZ$ +
+=ZZ, -
+newZZ. 1#
+GetSwimLaneCardsCommandZZ2 I
+(ZZI J
+boardIdZZJ Q
+,ZZQ R
+
+swimLaneIdZZS ]
+)ZZ] ^
+;ZZ^ _
+Task[[ 
+<[[ )
+GetSwimLaneCardsCommandResult[[ .
+>[[. /
+result[[0 6
+=[[7 8
+_swimLaneService[[9 I
+.[[I J
+GetBoardSwimLanes[[J [
+([[[ \
+command[[\ c
+)[[c d
+;[[d e
+if]] 
+(]] 
+result]] 
+.]] 
+Result]] 
+.]] 
+ResultObject]] *
+.]]* +
+Success]]+ 2
+)]]2 3
+{^^ 
+return__ 
+Ok__ 
+(__ 
+result__  
+)__  !
+;__! "
+}`` 
+elseaa 
+{bb 
+returncc 
+
+BadRequestcc !
+(cc! "
+resultcc" (
+)cc( )
+;cc) *
+}dd 
+}ee 	
+[ll 	
+Routell	 
+(ll 
+$strll 
+)ll 
+]ll 
+[mm 	
+	HttpPatchmm	 
+]mm 
+publicnn 
+ActionResultnn 
+<nn %
+MoveSwimlaneCommandResultnn 5
+>nn5 6
+Movenn7 ;
+(nn; <
+SwimLaneMoveInputnn< M
+inputnnN S
+)nnS T
+{oo 	
+MoveSwimlaneCommandpp 
+commandpp  '
+=pp( )
+newpp* -
+MoveSwimlaneCommandpp. A
+{qq 
+BoardIdrr 
+=rr 
+inputrr 
+.rr  
+BoardIdrr  '
+,rr' (
+
+SwimLaneIdss 
+=ss 
+inputss "
+.ss" #
+
+SwimLaneIdss# -
+,ss- .
+Namett 
+=tt 
+inputtt 
+.tt 
+Namett !
+,tt! "
+Positionuu 
+=uu 
+inputuu  
+.uu  !
+Positionuu! )
+}vv 
+;vv 
+Taskww 
+<ww %
+MoveSwimlaneCommandResultww *
+>ww* +
+resultww, 2
+=ww3 4
+_swimLaneServiceww5 E
+.wwE F
+MovewwF J
+(wwJ K
+commandwwK R
+)wwR S
+;wwS T
+ifxx 
+(xx 
+resultxx 
+.xx 
+Resultxx 
+.xx 
+ResultObjectxx *
+.xx* +
+Successxx+ 2
+)xx2 3
+{yy 
+returnzz 
+Okzz 
+(zz 
+resultzz  
+)zz  !
+;zz! "
+}{{ 
+else|| 
+{}} 
+return~~ 
+
+BadRequest~~ !
+(~~! "
+result~~" (
+)~~( )
+;~~) *
+} 
+}
+ÄÄ 	
+}
+ÉÉ 
+}ÑÑ œ
 GC:\TFSProjects\KanbanApp\KanbanApp.Api\Extensions\MediatorExtensions.cs
 	namespace 	
 	KanbanApp

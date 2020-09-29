@@ -1,4 +1,11 @@
-ã
+p
+JC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IAttachmentService.cs
+
+ &
+
+, <
+
+U \ã
 EC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IBoardService.cs
 
  "
@@ -28,31 +35,31 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IBoardService.cs
 X _â
 DC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ICardService.cs
 
- !
+ !
 
-& ,
+& ,
 
-? F
+? F
 
-& ,
+& ,
 
-? F
+? F
 
-) ,
+) ,
 
-B I
+B I
 
-6 H
+- >
 
-P V
+X _
 
-$ ,
+$ ,
 
-= D
+= D
 
-& 0
+& 0
 
-C J¶
+C J¶
 HC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ISwimLaneService.cs
 
 
@@ -106,43 +113,38 @@ DC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\BoardService.cs
 
 CC4 E
 CC_ fGG$ +
-EE1 7GG II ™
+EE1 7GG II Ñ
 CC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\CardService.cs
 
- F
-# , $$ -- [[ dd mm 
-) 8 ;;0 ?
+ P
+# ,  %% .. 88 AA JJ 
 
- 
-+ 9 ,
-E M  
+ 
+% -  
 
-  - 3
-  F M$$$ +
-""* 0$$ && 
+- 3
+F M$ +
+* 0  
 
-))0 3
-))I P--$ +
-++- 3-- // 
+!!0 3
+!!I P%%$ +
+##- 3%% '' 
 
-22= O
-22W ];;S YP
-44: @55 66 77 << FF JJ SS 
-;;% -<< &2
-<<. /?? @@' (AA% &BB- .
-HH NNZ \OO& (
+**4 E
+**_ f..$ +
+,,1 7.. 00 
 
-WW- 3
-WWF M[[$ +
-YY* 0[[ ]] 
+44- 3
+44F M88$ +
+66* 088 :: 
 
-``+ 3
-``D Kdd$ +
-bb( .dd ff 
+==+ 3
+==D KAA$ +
+??( .AA CC 
 
-ii- 7
-iiJ Qmm$ +
-kk* 0mm oo ½
+FF- 7
+FFJ QJJ$ +
+HH* 0JJ LL ½
 GC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\SwimLaneService.cs
 
   <
@@ -207,33 +209,17 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceResult.cs
 . /3 4
 
 $ 9
-. /3 4¢
-dC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\CardServiceOutput\CardAttachmentsGetOutPut.cs
-
- )
-
- 
-
- &
-
- $
-
- ,€
-fC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\SwimLaneServiceOutput\GetSwimLaneCardsOutPut.cs
-
- '
-
- "¼
+. /3 4¼
 TC:\TFSProjects\KanbanApp\KanbanApp.Services\Exceptions\ServiceValidationException.cs
 
- +
+ +
 
-		 )
-		1 8		A H
+ )
+1 8A H
 
- )
-1 8[ b
-D Rd rÔ
+ )
+1 8[ b
+D Rd rÔ
 TC:\TFSProjects\KanbanApp\KanbanApp.Services\PipelineBehaviors\ValidationBehaviour.cs
 
  $<

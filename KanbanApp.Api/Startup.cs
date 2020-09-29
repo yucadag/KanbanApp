@@ -4,6 +4,7 @@ using KanbanApp.Services.Abstract;
 using KanbanApp.Services.Concrete;
 using KanbanApp.Services.UseCases.Boards.CreateBoard;
 using KanbanApp.Services.UseCases.Boards.GetBoardDetail;
+using KanbanApp.Services.UseCases.Boards.GetBoardList;
 using KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
@@ -34,7 +35,7 @@ namespace KanbanApp.Api
         {
             services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options =>
             {
-                options.JsonSerializerOptions.MaxDepth = 64;  // or however deep you need
+                options.JsonSerializerOptions.MaxDepth = 1000;  // or however deep you need
             });
 
             services.AddDbContext<KanbanContext>(option => option.UseSqlServer(@"Data Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial Catalog=Kanban;Integrated Security=True", b => b.MigrationsAssembly("KanbanApp.Api")));
@@ -45,6 +46,7 @@ namespace KanbanApp.Api
             services.AddScoped<IRequestHandler<CreateCardCommand, CreateCardCommandResult>, CreateCardCommandHandler>();
             services.AddScoped<IRequestHandler<CreateBoardCommand, CreateBoardCommandResult>, CreateBoardCommandHandler>();
             services.AddScoped<IRequestHandler<GetBoardDetailCommand, GetBoardDetailCommandResult>, GetBoardDetailCommandHandler>();
+            services.AddScoped<IRequestHandler<GetBoardListCommand, GetBoardListCommandResult>, GetBoardListCommandHandler>();
 
             services.AddMediatR(typeof(Startup));
             services.AddScoped<IMediator, Mediator>();

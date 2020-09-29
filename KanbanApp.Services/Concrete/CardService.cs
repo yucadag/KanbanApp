@@ -1,5 +1,4 @@
-﻿using KanbanApp.Domain.Data;
-using KanbanApp.Services.Abstract;
+﻿using KanbanApp.Services.Abstract;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
 using KanbanApp.Services.UseCases.Cards.DeleteCard;
 using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
@@ -14,11 +13,9 @@ namespace KanbanApp.Services.Concrete
     public class CardService : ICardService
     {
         private readonly IMediator _mediator;
-        private readonly ICardRepository _cardRepository;
 
-        public CardService(ICardRepository cardRepository, IMediator mediator)
+        public CardService(IMediator mediator)
         {
-            _cardRepository = cardRepository;
             _mediator = mediator;
         }
 

@@ -1,4 +1,5 @@
-N
+S
+JC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IAttachmentService.csutf-8N
 EC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IBoardService.csutf-8M
 DC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ICardService.csutf-8Q
 HC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ISwimLaneService.csutf-8M
@@ -6,9 +7,7 @@ DC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\BoardService.csutf-8L
 CC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\CardService.csutf-8P
 GC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\SwimLaneService.csutf-8O
 FC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceMessage.csutf-8N
-EC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceResult.csutf-8m
-dC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\CardServiceOutput\CardAttachmentsGetOutPut.csutf-8o
-fC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\SwimLaneServiceOutput\GetSwimLaneCardsOutPut.csutf-8]
+EC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceResult.csutf-8]
 TC:\TFSProjects\KanbanApp\KanbanApp.Services\Exceptions\ServiceValidationException.csutf-8]
 TC:\TFSProjects\KanbanApp\KanbanApp.Services\PipelineBehaviors\ValidationBehaviour.csutf-8t
 kC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Attachment\CreateAttachment\CreateAttachmentCommand.csutf-8{

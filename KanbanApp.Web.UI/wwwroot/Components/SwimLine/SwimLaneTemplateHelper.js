@@ -120,37 +120,160 @@ function initialize1() {
 }
 
 
+function initialize3() {
+
+
+    ApplyDragula();
+
+    //dragula([
+
+    //  //  document.getElementById('Backlog'),
+    // //   document.getElementById('Done'),
+    // //   document.getElementById('Test')
+
+
+
+    //       document.getElementById('Backlog'),
+    //    document.getElementById('Done'),
+    //    document.getElementById('Test')
+
+
+
+
+    //    // document.getElementById('Backlog'),
+    //    //document.querySelector('Todo'),
+    //    // document.querySelector('Test')
+    //   // $('#Backlog'), $('#Done'), $('#Test')
+    //    //document.querySelector('#Backlog'),
+    //    //document.querySelector('#Todo'),
+    //    //document.querySelector('#Test')
+
+    //    //$('"' + "#" + '"'+Result.result.resultObject.data[0].swimLaneId),
+    //    //$('"' + "#" + '"'+Result.result.resultObject.data[1].swimLaneId),
+    //    //$('"' + "#" + '"'+Result.result.resultObject.data[2].swimLaneId)
+    //]);
+}
+
+function ApplyDragula() {
+
+    var Result;
+
+    var settings = {
+        "url": "https://localhost:5002/api/Board/GetBoardSwimLanes/1",
+        "method": "GET",
+        "timeout": 0,
+        "async": false
+    };
+
+    $.ajax(settings).done(function (response) {
+        Result = response;
+        
+        var drake = dragula({});
+        drake.containers.push(document.getElementById(response.result.resultObject.data[0].swimLaneId));
+        drake.containers.push(document.getElementById(response.result.resultObject.data[1].swimLaneId));
+        drake.containers.push(document.getElementById(response.result.resultObject.data[2].swimLaneId));
+
+        //dragula([
+
+
+        //    document.getElementById(response.result.resultObject.data[0].swimLaneId),
+        //    document.getElementById(response.result.resultObject.data[1].swimLaneId),
+        //    document.getElementById(response.result.resultObject.data[2].swimLaneId)
+
+
+        //    // document.getElementById('Backlog'),
+        //    //document.querySelector('Todo'),
+        //    // document.querySelector('Test')
+        //    //$('Backlog'), $('Todo'), $('Test')
+        //    //document.querySelector('#Backlog'),
+        //    //document.querySelector('#Todo'),
+        //    //document.querySelector('#Test')
+
+        //    //$('"' + "#" + '"'+Result.result.resultObject.data[0].swimLaneId),
+        //    //$('"' + "#" + '"'+Result.result.resultObject.data[1].swimLaneId),
+        //    //$('"' + "#" + '"'+Result.result.resultObject.data[2].swimLaneId)
+        //]);
+    });
+}
+
+
 function initialize2() {
 
-    dragula([
-        //document.querySelector('#todo'),
-        //document.querySelector('#test'),
-        //document.querySelector('#done')
+    var Result;
 
-        document.querySelector('#SwimLanes1'),
-        document.querySelector('#SwimLanes2'),
-        document.querySelector('#SwimLanes3')
-    ])
-        .on('drag', function (el) {
-            el.className = el.className.replace(' ex-moved', '');
-            $body = $("body");
-            $body.addClass("loading");
-        })
-        .on('drop', function (el, target) {
-            el.className += ' ex-moved';
-            console.log(target.id);
-            var SwimLaneId = target.id;
-            var CardId = el.id;
+    var settings = {
+        "url": "https://localhost:5002/api/Board/GetBoardSwimLanes/1",
+        "method": "GET",
+        "timeout": 0,
+        "async": false
+    };
 
-        })
-        .on('over', function (el, container) {
-            container.className += ' ex-over';
-        })
-        .on('out', function (el, container) {
-         //   container.className = container.className.replace(' ex-over', '');
-            console.log('ex-over');
-            $body = $("body");
-            $body.removeClass("loading");
-        });
+    $.ajax(settings).done(function (response) {
+        Result = response;
+        var drake = dragula({});
+        
+
+        for (var i = 0; i < response.result.resultObject.data.length; i++) {
+            if (i == 0) {
+
+                SwimLaneTest($("#SwimLanes1"), response.result.resultObject.data[0].swimLaneId, response.result.resultObject.data[0].name, response.result.resultObject.data[0].swimLaneId);
+                drake.containers.push(document.getElementById(response.result.resultObject.data[0].swimLaneId));
+            }
+            if (i == 1) {
+                SwimLaneTest($("#SwimLanes2"), response.result.resultObject.data[1].swimLaneId, response.result.resultObject.data[1].name, response.result.resultObject.data[1].swimLaneId);
+                drake.containers.push(document.getElementById(response.result.resultObject.data[1].swimLaneId));
+            }
+            if (i == 2) {
+                SwimLaneTest($("#SwimLanes3"), response.result.resultObject.data[2].swimLaneId, response.result.resultObject.data[2].name, response.result.resultObject.data[2].swimLaneId);
+                drake.containers.push(document.getElementById(response.result.resultObject.data[2].swimLaneId));
+            }
+        }
+       // ApplyDragula();
+
+//        dragula([
+
+
+//            document.getElementById(response.result.resultObject.data[0].swimLaneId),
+//            document.getElementById(response.result.resultObject.data[1].swimLaneId),
+//            document.getElementById(response.result.resultObject.data[2].swimLaneId)
+//           // document.getElementById('Backlog'),
+//           //document.querySelector('Todo'),
+//           // document.querySelector('Test')
+////$('Backlog'), $('Todo'), $('Test')
+//            //document.querySelector('#Backlog'),
+//            //document.querySelector('#Todo'),
+//            //document.querySelector('#Test')
+
+//            //$('"' + "#" + '"'+Result.result.resultObject.data[0].swimLaneId),
+//            //$('"' + "#" + '"'+Result.result.resultObject.data[1].swimLaneId),
+//            //$('"' + "#" + '"'+Result.result.resultObject.data[2].swimLaneId)
+//        ]);
+    });
+   
+        //.on('drag', function (el) {
+        //    el.className = el.className.replace(' ex-moved', '');
+        //    $body = $("body");
+        //    $body.addClass("loading");
+        //})
+        //.on('drop', function (el, target) {
+        //    el.className += ' ex-moved';
+        //    console.log(target.id);
+        //    var SwimLaneId = target.id;
+        //    var CardId = el.id;
+
+        //})
+        //.on('over', function (el, container) {
+        //    container.className += ' ex-over';
+        //})
+        //.on('out', function (el, container) {
+        // //   container.className = container.className.replace(' ex-over', '');
+        //    console.log('ex-over');
+        //    $body = $("body");
+        //    $body.removeClass("loading");
+        //});
+
+
+
+    ApplyDragula();
 
 }

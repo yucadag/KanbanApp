@@ -1,9 +1,11 @@
-﻿namespace KanbanApp.Api.Models.Boards.Input
+﻿using KanbanApp.Api.Models.BaseModels;
+
+namespace KanbanApp.Api.Models.Boards.Input
 {
     /// <summary>
     /// 
     /// </summary>
-    public class BoardAddInput
+    public class BoardAddInput:BaseInput
     {
         /// <summary>
         /// 

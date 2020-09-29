@@ -4,7 +4,6 @@ using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
 using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
 using KanbanApp.Services.UseCases.Cards.UpdateCard;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Abstract

@@ -1,4 +1,32 @@
-ù
+•
+JC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IAttachmentService.cs
+	namespace 	
+	KanbanApp
+ 
+. 
+Services 
+. 
+Abstract %
+{ 
+public 	
+	interface
+ 
+IAttachmentService &
+{ 
+Task 
+< )
+CreateAttachmentCommandResult *
+>* +
+CreateAttachment, <
+(< =#
+CreateAttachmentCommand= T
+commandU \
+)\ ]
+;] ^
+}
+
+ 
+} ù
 EC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IBoardService.cs
 	namespace		 	
 	KanbanApp		
@@ -76,87 +104,86 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\IBoardService.cs
 )_ `
 ;` a
 } 
-} ¥
+} ì
 DC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ICardService.cs
-	namespace 	
-	KanbanApp
+	namespace		 	
+	KanbanApp		
  
-. 
-Services 
-. 
-Abstract %
-{ 
-public 
+.		 
+Services		 
+.		 
+Abstract		 %
+{
+
+ 
+public 
 
-	interface 
-ICardService !
-{ 
+	interface 
+ICardService !
+{ 
+Task 
+< #
+UpdateCardCommandResult $
+>$ %
+Update& ,
+(, -
+UpdateCardCommand- >
+command? F
+)F G
+;G H
+Task 
+< #
+DeleteCardCommandResult $
+>$ %
+Delete& ,
+(, -
+DeleteCardCommand- >
+command? F
+)F G
+;G H
+Task 
+< &
+GetCardDetailCommandResult '
+>' (
+Get) ,
+(, - 
+GetCardDetailCommand- A
+commandB I
+)I J
+;J K
 Task 
-< #
-UpdateCardCommandResult $
->$ %
-Update& ,
-(, -
-UpdateCardCommand- >
-command? F
-)F G
-;G H
+< *
+GetAttachmentListCommandResult +
+>+ ,
+GetAttachmentList- >
+(> ?$
+GetAttachmentListCommand? W
+commandX _
+)_ `
+;` a
 Task 
-< #
-DeleteCardCommandResult $
->$ %
-Delete& ,
-(, -
-DeleteCardCommand- >
-command? F
-)F G
-;G H
+< !
+MoveCardCommandResult "
+>" #
+MoveCard$ ,
+(, -
+MoveCardCommand- <
+command= D
+)D E
+;E F
 Task 
-< &
-GetCardDetailCommandResult '
->' (
-Get) ,
-(, - 
-GetCardDetailCommand- A
-commandB I
-)I J
-;J K
-ServiceResult 
-< 
-List 
-< $
-CardAttachmentsGetOutPut 3
->3 4
->4 5
-GetCardAttachments6 H
-(H I
-stringI O
-cardIdP V
-)V W
-;W X
-Task 
-< !
-MoveCardCommandResult "
->" #
-MoveCard$ ,
-(, -
-MoveCardCommand- <
-command= D
-)D E
-;E F
-Task 
-< #
-CreateCardCommandResult $
->$ %
+< #
+CreateCardCommandResult $
+>$ %
 
-CreateCard& 0
-(0 1
-CreateCardCommand1 B
-commandC J
-)J K
-;K L
-} 
-} í	
+CreateCard& 0
+(0 1
+CreateCardCommand1 B
+commandC J
+)J K
+;K L
+} 
+} í	
 HC:\TFSProjects\KanbanApp\KanbanApp.Services\Abstract\ISwimLaneService.cs
 	namespace 	
 	KanbanApp
@@ -436,382 +463,223 @@ DC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\BoardService.cs
 ;II 
 }JJ 	
 }LL 
-}MM Æ7
+}MM ° 
 CC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\CardService.cs
-	namespace 	
-	KanbanApp
+	namespace 	
+	KanbanApp
  
-. 
-Services 
-. 
-Concrete %
-{ 
-public 
+. 
+Services 
+. 
+Concrete %
+{ 
+public 
 
-class 
-CardService 
-: 
-ICardService +
-{ 
-private 
-readonly 
-	IMediator "
-	_mediator# ,
-;, -
-private 
-readonly 
-ICardRepository (
-_cardRepository) 8
-;8 9
-public 
-CardService 
-( 
-ICardRepository *
-cardRepository+ 9
-,9 :
-	IMediator; D
-mediatorE M
-)M N
-{ 	
-_cardRepository 
-= 
-cardRepository ,
-;, -
-	_mediator 
-= 
-mediator  
-;  !
-} 	
-public   
-Task   
-<   #
-DeleteCardCommandResult   +
->  + ,
-Delete  - 3
-(  3 4
-DeleteCardCommand  4 E
-command  F M
-)  M N
-{!! 	
-Task"" 
-<"" #
-DeleteCardCommandResult"" (
->""( )
-result""* 0
-;""0 1
-result$$ 
-=$$ 
-	_mediator$$ 
-.$$ 
-Send$$ #
-($$# $
-command$$$ +
-)$$+ ,
-;$$, -
-return&& 
-result&& 
-;&& 
-}'' 	
-public)) 
-Task)) 
-<)) &
-GetCardDetailCommandResult)) .
->)). /
-Get))0 3
-())3 4 
-GetCardDetailCommand))4 H
-command))I P
-)))P Q
-{** 	
-Task++ 
-<++ &
-GetCardDetailCommandResult++ +
->+++ ,
-result++- 3
-;++3 4
-result-- 
-=-- 
-	_mediator-- 
-.-- 
-Send-- #
-(--# $
-command--$ +
-)--+ ,
-;--, -
-return// 
-result// 
-;// 
-}00 	
-public22 
-ServiceResult22 
-<22 
-List22 !
-<22! "$
-CardAttachmentsGetOutPut22" :
->22: ;
->22; <
-GetCardAttachments22= O
-(22O P
-string22P V
-cardId22W ]
-)22] ^
-{33 	
-ServiceResult44 
-<44 
-List44 
-<44 $
-CardAttachmentsGetOutPut44 7
->447 8
->448 9
-result44: @
-=44A B
-new44C F
-ServiceResult44G T
-<44T U
-List44U Y
-<44Y Z$
-CardAttachmentsGetOutPut44Z r
->44r s
->44s t
-(44t u
-)44u v
-;44v w
-result55 
-.55 
-Success55 
-=55 
-false55 "
-;55" #
-result66 
-.66 
-ServiceMessageList66 %
-=66& '
-new66( +
-List66, 0
-<660 1
-ServiceMessage661 ?
->66? @
-(66@ A
-)66A B
-;66B C
-result77 
-.77 
-Data77 
-=77 
-new77 
-List77 "
-<77" #$
-CardAttachmentsGetOutPut77# ;
->77; <
-(77< =
-)77= >
-;77> ?
-try99 
-{:: 
-List;; 
-<;; 
-CardAttachment;; #
->;;# $
-cardList;;% -
-=;;. /
-_cardRepository;;0 ?
-.;;? @
-GetCardAttachments;;@ R
-(;;R S
-cardId;;S Y
-);;Y Z
-;;;Z [
-result<< 
-.<< 
-Data<< 
-=<< 
-cardList<< &
-.<<& '
-Select<<' -
-(<<- .
-x<<. /
-=><<0 2
-new<<3 6$
-CardAttachmentsGetOutPut<<7 O
-(<<O P
-)<<P Q
-{== 
-CardId?? 
-=?? 
-x?? 
-.?? 
-CardId?? %
-,??% &
-CardAttachmentId@@ $
-=@@% &
-x@@' (
-.@@( )
-CardAttachmentId@@) 9
-,@@9 :
-AttachmentNameAA "
-=AA# $
-xAA% &
-.AA& '
-AttachmentNameAA' 5
-,AA5 6"
-AttachmentDownloadLinkBB *
-=BB+ ,
-xBB- .
-.BB. /"
-AttachmentDownloadLinkBB/ E
-}DD 
-)DD 
-.DD 
-ToListDD 
-(DD 
-)DD 
-;DD 
-resultFF 
-.FF 
-SuccessFF 
-=FF  
-trueFF! %
-;FF% &
-}GG 
-catchHH 
-(HH 
-	ExceptionHH 
-exHH 
-)HH  
-{II 
-resultJJ 
-.JJ 
-ServiceMessageListJJ )
-.JJ) *
-AddJJ* -
-(JJ- .
-newJJ. 1
-ServiceMessageJJ2 @
-(JJ@ A
-)JJA B
-{KK 
-ServiceMessageTypeLL &
-=LL' (
-eServiceMessageTypeLL) <
-.LL< =
-ErrorLL= B
-,LLB C
-UserFriendlyTextMM $
-=MM% &
-$strMM' 9
-,MM9 :
-LogTextNN 
-=NN 
-$strNN W
-+NNX Y
-exNNZ \
-.NN\ ]
-MessageNN] d
-,NNd e
-SystemExceptionOO #
-=OO$ %
-exOO& (
-}PP 
-)PP 
-;PP 
-}QQ 
-returnSS 
-resultSS 
-;SS 
-}TT 	
-publicWW 
-TaskWW 
-<WW #
-UpdateCardCommandResultWW +
->WW+ ,
-UpdateWW- 3
-(WW3 4
-UpdateCardCommandWW4 E
-commandWWF M
-)WWM N
-{XX 	
-TaskYY 
-<YY #
-UpdateCardCommandResultYY (
->YY( )
-resultYY* 0
-;YY0 1
-result[[ 
-=[[ 
-	_mediator[[ 
-.[[ 
-Send[[ #
-([[# $
-command[[$ +
-)[[+ ,
-;[[, -
-return]] 
-result]] 
-;]] 
-}^^ 	
-public`` 
-Task`` 
-<`` !
-MoveCardCommandResult`` )
->``) *
-MoveCard``+ 3
-(``3 4
-MoveCardCommand``4 C
-command``D K
-)``K L
-{aa 	
-Taskbb 
-<bb !
-MoveCardCommandResultbb &
->bb& '
-resultbb( .
-;bb. /
-resultdd 
-=dd 
-	_mediatordd 
-.dd 
-Senddd #
-(dd# $
-commanddd$ +
-)dd+ ,
-;dd, -
-returnff 
-resultff 
-;ff 
-}gg 	
-publicii 
-Taskii 
-<ii #
-CreateCardCommandResultii +
->ii+ ,
+class 
+CardService 
+: 
+ICardService +
+{ 
+private 
+readonly 
+	IMediator "
+	_mediator# ,
+;, -
+public 
+CardService 
+( 
+	IMediator $
+mediator% -
+)- .
+{ 	
+	_mediator 
+= 
+mediator  
+;  !
+} 	
+public 
+Task 
+< #
+DeleteCardCommandResult +
+>+ ,
+Delete- 3
+(3 4
+DeleteCardCommand4 E
+commandF M
+)M N
+{ 	
+Task 
+< #
+DeleteCardCommandResult (
+>( )
+result* 0
+;0 1
+result 
+= 
+	_mediator 
+. 
+Send #
+(# $
+command$ +
+)+ ,
+;, -
+return 
+result 
+; 
+} 	
+public!! 
+Task!! 
+<!! &
+GetCardDetailCommandResult!! .
+>!!. /
+Get!!0 3
+(!!3 4 
+GetCardDetailCommand!!4 H
+command!!I P
+)!!P Q
+{"" 	
+Task## 
+<## &
+GetCardDetailCommandResult## +
+>##+ ,
+result##- 3
+;##3 4
+result%% 
+=%% 
+	_mediator%% 
+.%% 
+Send%% #
+(%%# $
+command%%$ +
+)%%+ ,
+;%%, -
+return'' 
+result'' 
+;'' 
+}(( 	
+public** 
+Task** 
+<** *
+GetAttachmentListCommandResult** 2
+>**2 3
+GetAttachmentList**4 E
+(**E F$
+GetAttachmentListCommand**F ^
+command**_ f
+)**f g
+{++ 	
+Task,, 
+<,, *
+GetAttachmentListCommandResult,, /
+>,,/ 0
+result,,1 7
+;,,7 8
+result.. 
+=.. 
+	_mediator.. 
+... 
+Send.. #
+(..# $
+command..$ +
+)..+ ,
+;.., -
+return00 
+result00 
+;00 
+}11 	
+public44 
+Task44 
+<44 #
+UpdateCardCommandResult44 +
+>44+ ,
+Update44- 3
+(443 4
+UpdateCardCommand444 E
+command44F M
+)44M N
+{55 	
+Task66 
+<66 #
+UpdateCardCommandResult66 (
+>66( )
+result66* 0
+;660 1
+result88 
+=88 
+	_mediator88 
+.88 
+Send88 #
+(88# $
+command88$ +
+)88+ ,
+;88, -
+return:: 
+result:: 
+;:: 
+};; 	
+public== 
+Task== 
+<== !
+MoveCardCommandResult== )
+>==) *
+MoveCard==+ 3
+(==3 4
+MoveCardCommand==4 C
+command==D K
+)==K L
+{>> 	
+Task?? 
+<?? !
+MoveCardCommandResult?? &
+>??& '
+result??( .
+;??. /
+resultAA 
+=AA 
+	_mediatorAA 
+.AA 
+SendAA #
+(AA# $
+commandAA$ +
+)AA+ ,
+;AA, -
+returnCC 
+resultCC 
+;CC 
+}DD 	
+publicFF 
+TaskFF 
+<FF #
+CreateCardCommandResultFF +
+>FF+ ,
 
-CreateCardii- 7
-(ii7 8
-CreateCardCommandii8 I
-commandiiJ Q
-)iiQ R
-{jj 	
-Taskkk 
-<kk #
-CreateCardCommandResultkk (
->kk( )
-resultkk* 0
-;kk0 1
-resultmm 
-=mm 
-	_mediatormm 
-.mm 
-Sendmm #
-(mm# $
-commandmm$ +
-)mm+ ,
-;mm, -
-returnoo 
-resultoo 
-;oo 
-}pp 	
-}qq 
-}rr ’
+CreateCardFF- 7
+(FF7 8
+CreateCardCommandFF8 I
+commandFFJ Q
+)FFQ R
+{GG 	
+TaskHH 
+<HH #
+CreateCardCommandResultHH (
+>HH( )
+resultHH* 0
+;HH0 1
+resultJJ 
+=JJ 
+	_mediatorJJ 
+.JJ 
+SendJJ #
+(JJ# $
+commandJJ$ +
+)JJ+ ,
+;JJ, -
+returnLL 
+resultLL 
+;LL 
+}MM 	
+}NN 
+}OO ’
 GC:\TFSProjects\KanbanApp\KanbanApp.Services\Concrete\SwimLaneService.cs
 	namespace		 	
 	KanbanApp		
@@ -1211,158 +1079,62 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\Core\ServiceResult.cs
 ;g h
 } 	
 } 
-} è	
-dC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\CardServiceOutput\CardAttachmentsGetOutPut.cs
-	namespace 	
-	KanbanApp
+} ä
+TC:\TFSProjects\KanbanApp\KanbanApp.Services\Exceptions\ServiceValidationException.cs
+	namespace 	
+	KanbanApp
  
-. 
-Services 
-. 
-DTO  
-.  !
-OutPut! '
-.' (
-CardServiceOutput( 9
-{ 
-public 
-
-class $
-CardAttachmentsGetOutPut )
-{ 
-public 
-string 
-CardId 
-{ 
-get "
-;" #
-internal$ ,
-set- 0
-;0 1
-}2 3
-public 
-string 
-CardAttachmentId &
-{' (
-get) ,
-;, -
-internal. 6
-set7 :
-;: ;
-}< =
-public 
-string 
-AttachmentName $
-{% &
-get' *
-;* +
-internal, 4
-set5 8
-;8 9
-}: ;
-public 
-string "
-AttachmentDownloadLink ,
-{- .
-get/ 2
-;2 3
-internal4 <
-set= @
-;@ A
-}B C
-}		 
-}
-
- ˚
-fC:\TFSProjects\KanbanApp\KanbanApp.Services\DTO\OutPut\SwimLaneServiceOutput\GetSwimLaneCardsOutPut.cs
-	namespace 	
-	KanbanApp
- 
-. 
-Services 
-. 
-DTO  
-.  !
-OutPut! '
-.' (!
-SwimLaneServiceOutput( =
-{ 
+. 
+Services 
+. 
+
+Exceptions '
+{ 
+[ 
+Serializable 
+] 
 public 
 
-class "
-GetSwimLaneCardsOutPut '
+class &
+ServiceValidationException +
+:, -
+	Exception. 7
 { 
-public 
-List 
-< 
-Card 
-> 
-CardList "
-{# $
-get% (
-;( )
-set* -
-;- .
-}/ 0
+public &
+ServiceValidationException )
+() *
+string* 0
+message1 8
+)8 9
+:: ;
+base< @
+(@ A
+messageA H
+)H I
+{		 	
 }
 
- 
-} ä
-TC:\TFSProjects\KanbanApp\KanbanApp.Services\Exceptions\ServiceValidationException.cs
-	namespace 	
-	KanbanApp
- 
-. 
-Services 
-. 
-
-Exceptions '
-{ 
-[ 
-Serializable 
-] 
-public 
-
-class &
-ServiceValidationException +
-:, -
-	Exception. 7
-{ 
-public		 &
-ServiceValidationException		 )
-(		) *
-string		* 0
-message		1 8
-)		8 9
-:		: ;
-base		< @
-(		@ A
-message		A H
-)		H I
-{
-
- 	
-} 	
-public &
-ServiceValidationException )
-() *
-string* 0
-message1 8
-,8 9
-	Exception: C
-innerExceptionD R
-)R S
-:T U
-baseV Z
-(Z [
-message[ b
-,b c
-innerExceptiond r
-)r s
-{ 	
-} 	
-} 
-} —
+ 	
+public &
+ServiceValidationException )
+() *
+string* 0
+message1 8
+,8 9
+	Exception: C
+innerExceptionD R
+)R S
+:T U
+baseV Z
+(Z [
+message[ b
+,b c
+innerExceptiond r
+)r s
+{ 	
+} 	
+} 
+} —
 TC:\TFSProjects\KanbanApp\KanbanApp.Services\PipelineBehaviors\ValidationBehaviour.cs
 	namespace		 	
 	KanbanApp		

@@ -14,7 +14,7 @@ namespace KanbanApp.Services.Concrete
     public class BoardService : IBoardService
     {
         private readonly IMediator _mediator;
-        public BoardService(IBoardRepository boardRepository, IMediator mediator)
+        public BoardService(IMediator mediator)
         {
             _mediator = mediator;
         }

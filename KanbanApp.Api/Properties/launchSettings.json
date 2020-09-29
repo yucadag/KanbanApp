@@ -30,6 +30,13 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "https://localhost:5002;http://localhost:5003"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/Board/GetBoardSwimLanes/1",
+      "publishAllPorts": true,
+      "useSSL": true
     }
   }
 }

@@ -1,5 +1,3 @@
-Ÿ
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.cs
- 
- 	 
-   
+U
+9C:\TFSProjects\KanbanApp\MongoDbHelper\MongoRepository.cs
+ 	A 

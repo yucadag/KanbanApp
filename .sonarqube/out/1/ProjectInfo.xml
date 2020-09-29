@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>KanbanApp.Infrastructure</ProjectName>
+  <ProjectName>MongoDbHelper</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>1b1f6a0c-eca7-4a4d-9245-0485267d813d</ProjectGuid>
-  <FullPath>C:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\KanbanApp.Infrastructure.csproj</FullPath>
+  <ProjectGuid>38d48c03-2e54-4112-ac30-07a830bb92db</ProjectGuid>
+  <FullPath>C:\TFSProjects\KanbanApp\MongoDbHelper\MongoDbHelper.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\TFSProjects\KanbanApp\.sonarqube\out\1\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePath">C:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\bin\Debug\netstandard2.0\KanbanApp.Infrastructure.dll.RoslynCA.json|C:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\bin\Debug\netstandard2.0\KanbanApp.Infrastructure.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\TFSProjects\KanbanApp\MongoDbHelper\bin\Debug\netstandard2.0\MongoDbHelper.dll.RoslynCA.json|C:\TFSProjects\KanbanApp\MongoDbHelper\bin\Debug\netstandard2.0\MongoDbHelper.dll.RoslynCA.json</Property>
     <Property Name="sonar.cs.analyzer.projectOutPath">C:\TFSProjects\KanbanApp\.sonarqube\out\1</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>

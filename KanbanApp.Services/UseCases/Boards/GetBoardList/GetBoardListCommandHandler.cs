@@ -38,7 +38,7 @@ namespace KanbanApp.Services.UseCases.Boards.GetBoardList
                 if (validationResult.IsValid)
                 {
 
-                    List<Board> boardList = _boardRepository.GetList(x => x.BoardId == request.BoardId);
+                    List<Board> boardList = _boardRepository.GetList();
                     result.ResultObject.Data = boardList.Select(x => new GetBoardListCommandResultItem()
                     {
                         BoardId = x.BoardId,

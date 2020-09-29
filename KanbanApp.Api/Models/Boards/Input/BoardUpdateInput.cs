@@ -1,6 +1,8 @@
-﻿namespace KanbanApp.Api.Models.Boards.Input
+﻿using KanbanApp.Api.Models.BaseModels;
+
+namespace KanbanApp.Api.Models.Boards.Input
 {
-    public class BoardUpdateInput
+    public class BoardUpdateInput : BaseInput
     {
         public string BoardId { get; set; }
         public string Name { get; set; }

@@ -1,6 +1,5 @@
 ﻿using KanbanApp.Api.Models.SwimLanes.Input;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.DTO.OutPut.SwimLaneServiceOutput;
 using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
