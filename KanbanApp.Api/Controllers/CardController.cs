@@ -1,4 +1,5 @@
-﻿using KanbanApp.Api.Models.Cards;
+﻿using KanbanApp.Api.Models.Cards.Input;
+using KanbanApp.Api.Models.Cards.Output;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
 using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
@@ -32,8 +33,10 @@ namespace KanbanApp.Api.Controllers
         /// <returns></returns>
         [Route("Get")]
         [HttpPost]
-        public ActionResult<GetCardDetailCommandResult> Get(CardGetInput input)
+        public ActionResult<GetCardOutput> Get(CardGetInput input)
         {
+            GetCardOutput returnValue = new GetCardOutput();
+
             GetCardDetailCommand command = new GetCardDetailCommand
             {
                 CardId = input.CardId
@@ -42,11 +45,18 @@ namespace KanbanApp.Api.Controllers
 
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                returnValue.BoardId = result.Result.ResultObject.Data.BoardId;
+                returnValue.SwimLaneId = result.Result.ResultObject.Data.SwimLaneId;
+                returnValue.CardId = result.Result.ResultObject.Data.CardId;
+                returnValue.Name = result.Result.ResultObject.Data.Name;
+                returnValue.Description = result.Result.ResultObject.Data.Description;
+                returnValue.Position = result.Result.ResultObject.Data.Position;
+
+                return Ok(returnValue);
             }
             else
             {
-                return BadRequest(result);
+                return BadRequest(returnValue);
             }
         }
 
@@ -123,8 +133,6 @@ namespace KanbanApp.Api.Controllers
             {
                 return BadRequest(result);
             }
-
-
         }
 
         /// <summary>

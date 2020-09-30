@@ -1,4 +1,4 @@
-﻿namespace KanbanApp.Api.Models.Cards
+﻿namespace KanbanApp.Api.Models.Cards.Input
 {
     public class CardUpdateInput
     {

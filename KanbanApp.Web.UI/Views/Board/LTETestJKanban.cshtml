@@ -56,6 +56,7 @@
             <div class="modal-body">
                 <div id="BoardId" BoardId="1"></div>
                 <div id="SwimLaneId" SwimLaneId="2"></div>
+                <div id="CardId" CardId="2"></div>
                 <div class="row">
                     <div class="col-7 col-sm-9">
                         <div class="tab-content" id="vert-tabs-right-tabContent">
@@ -65,7 +66,7 @@
                                         <!-- text input -->
                                         <div class="form-group">
                                             <label>Card Name</label>
-                                            <input type="text" id="CardName" class="form-control" placeholder="Enter ...">
+                                            <input type="text" id="CardName" class="form-control" placeholder="">
                                         </div>
                                     </div>
 
@@ -285,6 +286,7 @@
 <!-- /.modal-dialog bitiş-->
 <script src="~/Plugins/handlebars/handlebars.min-v4.7.2.js"></script>
 <script src="~/Components/SwimLine/SwimLaneTemplateHelper.js"></script>
+<link href="https://bevacqua.github.io/dragula/dist/dragula.css" rel="stylesheet" type="text/css">
 <style type="text/css">
     .card .ex-moved {
         background-color: #e74c3c;
@@ -334,7 +336,8 @@ body.loading .LoadingModal {
 
    
     $(document).ready(function () {
-              ApplyDragula();
+        ApplyDragula();
+        BindCardEdit();
     //initialize1();
            
     });

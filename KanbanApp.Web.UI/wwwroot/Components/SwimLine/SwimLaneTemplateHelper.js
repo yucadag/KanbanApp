@@ -169,6 +169,19 @@ function ApplyDragula() {
         Result = response;
         
         var drake = dragula({});
+
+        //    .on('drag', function (el) {
+        //   // el.className = el.className.replace(' ex-moved', '');
+        //    $body = $("body");
+        //    $body.addClass("loading");
+        //}).on('out', function (el, container) {
+        // //   container.className = container.className.replace(' ex-over', '');
+        // //   console.log('ex-over');
+        //    $body = $("body");
+        //    $body.removeClass("loading");
+        //});
+
+
         drake.containers.push(document.getElementById(response.result.resultObject.data[0].swimLaneId));
         drake.containers.push(document.getElementById(response.result.resultObject.data[1].swimLaneId));
         drake.containers.push(document.getElementById(response.result.resultObject.data[2].swimLaneId));
@@ -276,4 +289,42 @@ function initialize2() {
 
     ApplyDragula();
 
+}
+
+
+function BindCardEdit() {
+    $('[id^=CardEdit_]').click(function () {
+
+        var Card = GetCardInfo($(this).attr("CardId"));
+
+        $('#CardId').text($(this).attr("CardId"));
+        //$('#CardName').val(Card.name);
+        //$('#CardDescription').val(Card.description);
+        
+        $('#modal-lg').modal('show');
+
+       
+    });
+
+}
+
+
+function GetCardInfo(CardId) {
+
+    var settings = {
+        "url": "https://localhost:5002/api/Card/Get",
+        "method": "POST",
+        "timeout": 0,
+        "async": false,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "data": JSON.stringify({ "cardId": CardId }),
+    };
+
+    $.ajax(settings).done(function (response) {
+        $('#CardName').val(response.name);
+        $('#CardDescription').val(response.description);
+        return response;
+    });
 }

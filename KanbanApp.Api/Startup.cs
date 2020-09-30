@@ -7,6 +7,7 @@ using KanbanApp.Services.UseCases.Boards.GetBoardDetail;
 using KanbanApp.Services.UseCases.Boards.GetBoardList;
 using KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
+using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using MediatR;
@@ -47,6 +48,10 @@ namespace KanbanApp.Api
             services.AddScoped<IRequestHandler<CreateBoardCommand, CreateBoardCommandResult>, CreateBoardCommandHandler>();
             services.AddScoped<IRequestHandler<GetBoardDetailCommand, GetBoardDetailCommandResult>, GetBoardDetailCommandHandler>();
             services.AddScoped<IRequestHandler<GetBoardListCommand, GetBoardListCommandResult>, GetBoardListCommandHandler>();
+
+
+
+            services.AddScoped<IRequestHandler<GetCardDetailCommand, GetCardDetailCommandResult>, GetCardDetailCommandHandler>();
 
             services.AddMediatR(typeof(Startup));
             services.AddScoped<IMediator, Mediator>();
@@ -103,7 +108,7 @@ namespace KanbanApp.Api
             }
 
             app.UseCors(builder =>
-                  builder.AllowAnyOrigin().AllowAnyMethod()
+                  builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
                   );
 
 
