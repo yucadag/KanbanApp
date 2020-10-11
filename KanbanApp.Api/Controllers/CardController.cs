@@ -7,6 +7,7 @@ using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
 using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Controllers
@@ -99,7 +100,7 @@ namespace KanbanApp.Api.Controllers
         {
             GetAttachmentListCommand command = new GetAttachmentListCommand
             {
-                CardId = cardId,               
+                CardId = cardId,
             };
             Task<GetAttachmentListCommandResult> result = _cardService.GetAttachmentList(command);
 
@@ -144,6 +145,7 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<CreateCardCommandResult> CreateCard(CreateCardCommand command)
         {
+            command.CardId = Guid.NewGuid().ToString();
             Task<CreateCardCommandResult> result = _cardService.CreateCard(command);
 
             if (result.Result.ResultObject.Success)

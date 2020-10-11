@@ -30,14 +30,17 @@ namespace KanbanApp.Services.UseCases.Cards.CreateCard
                 var validator = new CreateCardCommandValidator();
                 var validationResult = validator.Validate(request);
 
-                if (!validationResult.IsValid)
+                if (validationResult.IsValid)
                 {
                     _cardRepository.Add(new Card() { BoardId = request.BoardId, SwimLaneId = request.SwimLaneId, CardId = request.CardId, Name = request.Name, Description = request.Description });
-
                     result.ResultObject.Success = true;
                 }
                 else
                 {
+                    foreach (var item in validationResult.Errors)
+                    {
+                        result.ResultObject.ServiceMessageList.Add(new ServiceMessage() { ServiceMessageType=eServiceMessageType.Error, UserFriendlyText=item.ErrorMessage });
+                    } 
                     result.ResultObject.Success = false;
                 }
             }

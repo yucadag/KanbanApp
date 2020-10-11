@@ -1,16 +1,20 @@
 ﻿var SwimLaneService = (function () {
 
-    var GetSwimLaneCards = function (SwimLaneId) {
+    var GetSwimLaneCards = function (BoardId,SwimLaneId) {
+        var Result;
+
         var settings = {
-            "url": "https://localhost:44321//api/SwimLane/GetSwimLaneCards/" + SwimLaneId,
+            "url": "https://localhost:5002/api/SwimLane/GetSwimLaneCards/" + BoardId + "/" + SwimLaneId,
             "method": "GET",
             "timeout": 0,
+            "async":false
         };
 
         $.ajax(settings).done(function (response) {
-            console.log(response);
+            Result=response;
         });
 
+        return Result;
     };
 
     var Save = function (Card) {
@@ -49,7 +53,7 @@
 
 
     return {
-        CardGetByCardId: GetByCardId,
+        SwimLaneCards: GetSwimLaneCards,      
         CardSave: Save,
         CardDelete: Delete,
         CardMoveDifferentColumn: MoveDifferentColumn,

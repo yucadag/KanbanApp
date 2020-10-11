@@ -1,53 +1,104 @@
-﻿var CardService = (function(){
+﻿var CardService = (function () {
 
-     var GetByCardId = function(CardId){
-          //document.getElementById(containerID).classList.remove("modal_show");
-          //removeModalCover(containerID);
-     };
+    var GetByCardId = function (CardId) {
 
-     var Save = function(Card){
-         var settings = {
-             "url": "https://localhost:44321//api/Card/Add",
-             "method": "POST",
-             "timeout": 0,
-             "headers": {
-                 "Content-Type": "application/json"
-             },
-             "data": JSON.stringify({ "boardId": "1", "swimLaneId": "3", "name": "Önyüz tasarımları yapılacak 4", "description": "Önyüz tasarımları yapılacak bitirilecek 4", "priorityId": "1", "cardWeightSizeId": "5", "cardTypeId": "TASK", "estimateHours": "5" }),
-         };
 
-         $.ajax(settings).done(function (response) {
-             
-             console.log(response);
-         });
+        var Card = { CardId: "", Name: "", Description: "" };
 
-       //  Alert(Card.Name);
-         
-          };
-          
-     var Delete = function (CardId){
-      document.body.removeChild(document.getElementById(modalCoverID   + "_cover"));
-     };
+        var settings = {
+            "url": "https://localhost:5002/api/Card/Get",
+            "method": "POST",
+            "timeout": 0,
+            "async": false,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify({ "cardId": CardId }),
+        };
 
-     var MoveDifferentColumn = function (NewColumnId) {
-          //createModalCover(containerID);
-          //document.getElementById(containerID).classList.add("modal_show");
-     };
+        $.ajax(settings).done(function (response) {
+            Card.CardId = CardId;
+            Card.Name = response.name;
+            Card.Description = response.description;
+        });
 
-     var ChangeVerticalOrder = function (containerID) {
-          //document.getElementById(containerID).classList.remove("modal_show");
-          //removeModalCover(containerID);
-     };
+        return Card;
+    };
+
+    var Save = function (Card) {
+
+
+        var settings = {
+            "url": "https://localhost:5002/api/Card/CreateCard",
+            "method": "POST",
+            "timeout": 0,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify(Card),
+        };
+
+        $.ajax(settings).done(function (response) {
+
+            console.log(response);
+        });
+
+
+    };
+
+    var Update = function (Card) {
+
+        var settings = {
+            "url": "https://localhost:5002/api/Card/Update",
+            "method": "PATCH",
+            "timeout": 0,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify(Card),
+        };
+
+        $.ajax(settings).done(function (response) {
+            console.log(response);
+        });
+
+    };
+
+    var Delete = function (CardId) {
+        document.body.removeChild(document.getElementById(modalCoverID + "_cover"));
+    };
+
+    var MoveDifferentColumn = function (SwimLaneId, CardId) {
+        var settings = {
+            "url": "https://localhost:5002/api/Card/MoveCard",
+            "method": "POST",
+            "timeout": 0,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify({ "swimLaneId": SwimLaneId, "cardId": CardId }),
+        };
+
+        $.ajax(settings).done(function (response) {
+            console.log(response);
+        });
+    };
+
+    var ChangeVerticalOrder = function (containerID) {
+        //document.getElementById(containerID).classList.remove("modal_show");
+        //removeModalCover(containerID);
+    };
 
 
     return {
-         CardGetByCardId:GetByCardId,
-         CardSave: Save,
-         CardDelete: Delete,
-         CardMoveDifferentColumn: MoveDifferentColumn,
-         CardChangeVerticalOrder:ChangeVerticalOrder
-        
+        CardGetByCardId: GetByCardId,
+        CardSave: Save,
+        CardUpdate: Update,
+        CardDelete: Delete,
+        CardMoveDifferentColumn: MoveDifferentColumn,
+        CardChangeVerticalOrder: ChangeVerticalOrder
 
-     }
+
+    }
 })();
 

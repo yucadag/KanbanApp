@@ -64,11 +64,12 @@ namespace KanbanApp.Api.Controllers
 
         public static BoardGetOutput GetBoardListCommandResultItemToBoardGetOutput(GetBoardListCommandResultItem input)
         {
-            return new BoardGetOutput() { 
-             BoardId=input.BoardId,
-             Name=input.Name,
-             Description=input.Description
-             
+            return new BoardGetOutput()
+            {
+                BoardId = input.BoardId,
+                Name = input.Name,
+                Description = input.Description
+
             };
         }
 
@@ -180,19 +181,37 @@ namespace KanbanApp.Api.Controllers
         /// <param name="boardId"></param>
         /// <returns></returns>
         [HttpGet("GetBoardSwimLanes/{boardId}")]
-        public ActionResult<GetBoardSwimLanesCommandResult> GetBoardSwimLanes(string boardId)
+        public ActionResult<List<BoardSwimlanesOutput>> GetBoardSwimLanes(string boardId)
         {
+            List<BoardSwimlanesOutput> returnValue = new List<BoardSwimlanesOutput>();
+
             GetBoardSwimLanesCommand command = new GetBoardSwimLanesCommand(boardId);
             Task<GetBoardSwimLanesCommandResult> result = _boardService.GetBoardSwimLanes(command);
 
+            returnValue = result.Result.ResultObject.Data.ConvertAll<BoardSwimlanesOutput>(new Converter<GetBoardSwimLanesCommandResultItem, BoardSwimlanesOutput>(GetBoardSwimLanesCommandResultItemToBoardSwimlanesOutput));
+
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                returnValue[0].IsSuccess = true;
+                return Ok(returnValue);
             }
             else
             {
                 return BadRequest(result);
             }
+        }
+
+
+        public static BoardSwimlanesOutput GetBoardSwimLanesCommandResultItemToBoardSwimlanesOutput(GetBoardSwimLanesCommandResultItem input)
+        {
+            return new BoardSwimlanesOutput()
+            {
+                BoardId = input.BoardId,
+                Name = input.Name,
+                SwimLaneId = input.SwimLaneId
+
+
+            };
         }
 
     }

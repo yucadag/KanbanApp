@@ -1,4 +1,3 @@
-using KanbanApp.Domain.Data;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.UseCases.Boards.CreateBoard;
 using KanbanApp.Services.UseCases.Boards.DeleteBoard;

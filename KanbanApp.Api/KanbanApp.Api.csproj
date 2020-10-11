@@ -30,7 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\SwimLanes\Output\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

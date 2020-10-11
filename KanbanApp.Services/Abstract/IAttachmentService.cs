@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Abstract
 {
-   public interface IAttachmentService
+    public interface IAttachmentService
     {
         Task<CreateAttachmentCommandResult> CreateAttachment(CreateAttachmentCommand command);
 

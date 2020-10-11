@@ -1,16 +1,6 @@
 using KanbanApp.Api.IntegrationTests.Helpers;
-using KanbanApp.Api.IntegrationTests.Helpers.Serialization;
-using KanbanApp.Api.Models.Boards.Input;
-using KanbanApp.Services.UseCases.Boards.CreateBoard;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Shouldly;
 using System;
-using System.Collections.Generic;
-using System.Net;
 using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace KanbanApp.Api.IntegrationTests.Controllers

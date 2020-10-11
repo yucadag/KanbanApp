@@ -1,4 +1,4 @@
-’
+§
 UC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfBoardRepository.cs
 	namespace		 	
 	KanbanApp		
@@ -74,11 +74,20 @@ UC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfBoardReposit
 ==: <
 boardId= D
 )D E
-.E F
-ToListF L
-(L M
-)M N
-;N O
+.E F
+OrderByF M
+(M N
+xN O
+=>P R
+xS T
+.T U
+PositionU ]
+)] ^
+.^ _
+ToList_ e
+(e f
+)f g
+;g h
 } 	
 public 
 async 

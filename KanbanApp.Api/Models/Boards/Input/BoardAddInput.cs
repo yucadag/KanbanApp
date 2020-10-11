@@ -5,7 +5,7 @@ namespace KanbanApp.Api.Models.Boards.Input
     /// <summary>
     /// 
     /// </summary>
-    public class BoardAddInput:BaseInput
+    public class BoardAddInput : BaseInput
     {
         /// <summary>
         /// 

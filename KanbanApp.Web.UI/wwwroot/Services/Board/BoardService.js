@@ -150,6 +150,8 @@ var BoardService = (function () {
 
     var GetByBoardId = function (BoardId) {
 
+        var SwimlineList;
+
         var settings = {
             "url": "https://localhost:44321/api/Board/Get/" + BoardId,
             "method": "GET",
@@ -157,9 +159,10 @@ var BoardService = (function () {
         };
 
         $.ajax(settings).done(function (response) {
-            return response;
+            SwimlineList= response;
         });
 
+        return SwimlineList;
     };
 
     var Save = function (Card) {
@@ -181,19 +184,23 @@ var BoardService = (function () {
 
     var GetBoardSwimLanesByBoardId = function (BoardId) {
 
+        var SwimlineList;
+
         var settings = {
-            "url": "https://localhost:44321/api/Board/GetBoardSwimLanes/" + BoardId,
+            "url": "https://localhost:5002/api/Board/GetBoardSwimLanes/" + BoardId,
             "method": "GET",
             "timeout": 0,
+            "async": false
         };
 
         $.ajax(settings).done(function (response) {
             if (response.success == true) {
                 console.log(response);
             }
-
-            return response;
+            SwimlineList= response;
         });
+
+        return SwimlineList;
 
     };
 

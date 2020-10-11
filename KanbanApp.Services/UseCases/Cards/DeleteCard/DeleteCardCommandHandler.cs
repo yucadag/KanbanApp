@@ -30,7 +30,7 @@ namespace KanbanApp.Services.UseCases.Cards.DeleteCard
                 var validator = new DeleteCardCommandValidator();
                 var validationResult = validator.Validate(request);
 
-                if (!validationResult.IsValid)
+                if (validationResult.IsValid)
                 {
 
                     Card card = new Card();

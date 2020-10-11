@@ -19,7 +19,7 @@ namespace KanbanApp.Data.Concrete.EntityFramework
 
         public List<SwimLane> GetBoardSwimLanes(string boardId)
         {
-            return context.SwimLanes.Where(x => x.BoardId == boardId).ToList();
+            return context.SwimLanes.Where(x => x.BoardId == boardId).OrderBy(x => x.Position).ToList();
         }
 
         public async Task<List<SwimLane>> GetBoardSwimLanesAsync(string boardId)

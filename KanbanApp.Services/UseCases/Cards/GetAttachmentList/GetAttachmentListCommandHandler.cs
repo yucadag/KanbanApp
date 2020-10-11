@@ -31,7 +31,7 @@ namespace KanbanApp.Services.UseCases.Cards.GetAttachmentList
                 var validator = new GetAttachmentListCommandValidator();
                 var validationResult = validator.Validate(request);
 
-                if (!validationResult.IsValid)
+                if (validationResult.IsValid)
                 {
 
                     List<CardAttachment> cardAttachmentList = _cardRepository.GetCardAttachments(request.CardId);

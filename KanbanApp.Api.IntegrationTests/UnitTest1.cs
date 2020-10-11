@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace KanbanApp.Api.IntegrationTests
 {
     public class UnitTest1

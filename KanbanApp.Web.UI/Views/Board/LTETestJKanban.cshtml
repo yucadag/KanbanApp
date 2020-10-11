@@ -3,17 +3,22 @@
 }
 
 
+<div id="BoardContent" class="row">
+
+</div>
 
 
 
 
+@*<div id="SwimLanes1" class="col-md-4"></div>
+    <div id="SwimLanes2" class="col-md-4"></div>
+    <div id="SwimLanes3" class="col-md-4"></div>*@
+@*<button onclick="initialize3()">Click me</button>*@
+<script src="~/Services/Card/CardService.js"></script>
+<script src="~/Services/SwimLine/SwimLineService.js"></script>
+<script src="~/Services/Board/BoardService.js"></script>
 
 
-
-<div id="SwimLanes1" class="col-md-4"></div>
-<div id="SwimLanes2" class="col-md-4"></div>
-<div id="SwimLanes3" class="col-md-4"></div>
-<button onclick="initialize3()">Click me</button>
 @*<style src="~/jkanban/jkanban.css" type="text/css"></style>
     <script src="~/Services/Card/CardService.js"></script>
     <script src="~/Services/Board/BoardService.js"></script>*@
@@ -41,7 +46,6 @@
 
 @*<script src="~/AdminLTE3/plugins/jquery/jquery.min.js"></script>*@
 
-@*<script src="~/Services/Board/BoardService.js"></script>*@
 
 <!-- /.modal-dialog başlangıç -->
 <div class="modal fade" id="modal-lg" style="display: none;" aria-hidden="true">
@@ -54,9 +58,8 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div id="BoardId" BoardId="1"></div>
-                <div id="SwimLaneId" SwimLaneId="2"></div>
-                <div id="CardId" CardId="2"></div>
+                <div id="CardKeys" BoardId="" SwimLaneId="" CardId=""></div>
+
                 <div class="row">
                     <div class="col-7 col-sm-9">
                         <div class="tab-content" id="vert-tabs-right-tabContent">
@@ -69,10 +72,7 @@
                                             <input type="text" id="CardName" class="form-control" placeholder="">
                                         </div>
                                     </div>
-
                                 </div>
-
-
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <!-- textarea -->
@@ -81,9 +81,7 @@
                                             <textarea class="form-control" id="CardDescription" rows="3" placeholder="Enter ..."></textarea>
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
@@ -99,9 +97,7 @@
                                             </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="2" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cr4q-container"><span class="select2-selection__rendered" id="select2-cr4q-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
@@ -117,9 +113,7 @@
                                             </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="2" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-cr4q-container"><span class="select2-selection__rendered" id="select2-cr4q-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <!-- text input -->
@@ -128,9 +122,7 @@
                                             <input type="text" class="form-control" placeholder="Enter ...">
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <!-- text input -->
@@ -139,12 +131,9 @@
                                             <input type="text" class="form-control" placeholder="Enter ...">
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
                             <div class="tab-pane fade" id="vert-tabs-right-profile" role="tabpanel" aria-labelledby="vert-tabs-right-profile-tab">
-
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <!-- text input -->
@@ -153,23 +142,17 @@
                                             <input type="text" class="form-control" placeholder="Enter ...">
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="row">
                                     <div class="col-sm-12">
-
                                         <div class="custom-file">
                                             <input type="file" class="custom-file-input" id="customFile">
                                             <label class="custom-file-label" for="customFile">Choose file</label>
                                         </div>
-
                                     </div>
                                 </div>
-
                                 <div class="row">
                                     <div class="col-sm-12">
-
                                         <div class="card">
                                             <div class="card-header">
                                                 <h3 class="card-title">Bordered Table</h3>
@@ -240,12 +223,8 @@
                                                 </ul>
                                             </div>
                                         </div>
-
-
                                     </div>
-
                                 </div>
-
                             </div>
                             <div class="tab-pane fade" id="vert-tabs-right-messages" role="tabpanel" aria-labelledby="vert-tabs-right-messages-tab">
                                 Morbi turpis dolor, vulputate vitae felis non, tincidunt congue mauris. Phasellus volutpat augue id mi placerat mollis. Vivamus faucibus eu massa eget condimentum. Fusce nec hendrerit sem, ac tristique nulla. Integer vestibulum orci odio. Cras nec augue ipsum. Suspendisse ut velit condimentum, mattis urna a, malesuada nunc. Curabitur eleifend facilisis velit finibus tristique. Nam vulputate, eros non luctus efficitur, ipsum odio volutpat massa, sit amet sollicitudin est libero sed ipsum. Nulla lacinia, ex vitae gravida fermentum, lectus ipsum gravida arcu, id fermentum metus arcu vel metus. Curabitur eget sem eu risus tincidunt eleifend ac ornare magna.
@@ -264,11 +243,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
             </div>
             <div class="modal-footer justify-content-between">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -297,36 +271,32 @@
     }
 
     /* Start by setting display:none to make this hidden.
-   Then we position it in relation to the viewport window
-   with position:fixed. Width, height, top and left speak
-   for themselves. Background we set to 80% white with
-   our animation centered, and no-repeating */
-.LoadingModal {
-    display:    none;
-    position:   fixed;
-    z-index:    1000;
-    top:        0;
-    left:       0;
-    height:     100%;
-    width:      100%;
-    background: rgba( 255, 255, 255, .8 ) 
-                url('../images/ajax-loader.gif') 
-                50% 50% 
-                no-repeat;
-}
+        Then we position it in relation to the viewport window
+        with position:fixed. Width, height, top and left speak
+        for themselves. Background we set to 80% white with
+        our animation centered, and no-repeating */
+    .LoadingModal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba( 255, 255, 255, .8 ) url('../images/ajax-loader.gif') 50% 50% no-repeat;
+    }
 
-/* When the body has the loading class, we turn
-   the scrollbar off with overflow:hidden */
-body.loading .LoadingModal {
-    overflow: hidden;   
-}
+    /* When the body has the loading class, we turn
+        the scrollbar off with overflow:hidden */
+    body.loading .LoadingModal {
+        overflow: hidden;
+    }
 
-/* Anytime the body has the loading class, our
-   modal element will be visible */
-body.loading .LoadingModal {
-    display: block;
-}
-
+    /* Anytime the body has the loading class, our
+        modal element will be visible */
+    body.loading .LoadingModal {
+        display: block;
+    }
 </style>
 
 
@@ -334,14 +304,14 @@ body.loading .LoadingModal {
 
 
 
-   
+
     $(document).ready(function () {
-        ApplyDragula();
+        ApplyDragula(BoardService.BoardSwimLanesByBoardId(1));
         BindCardEdit();
-    //initialize1();
-           
+        BindCardAdd();
+
     });
 
-     initialize2();
+    initialize();
 
 </script>

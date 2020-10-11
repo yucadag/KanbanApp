@@ -1,6 +1,4 @@
-g
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.cs
+I
+;C:\TFSProjects\KanbanApp\KanbanApp.Api.Test\BoardApiTest.cs
 
- 
-
- 
+ 

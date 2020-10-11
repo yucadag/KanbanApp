@@ -1,10 +1,13 @@
 ﻿using KanbanApp.Api.Models.SwimLanes.Input;
+using KanbanApp.Api.Models.SwimLanes.Output;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
 using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Controllers
@@ -85,19 +88,35 @@ namespace KanbanApp.Api.Controllers
         /// <param name="swimLaneId"></param>
         /// <returns></returns>
         [HttpGet("GetSwimLaneCards/{boardId}/{swimLaneId}")]
-        public ActionResult<GetSwimLaneCardsCommandResult> GetSwimLaneCards(string boardId, string swimLaneId)
+        public ActionResult<List<SwimlaneCardsOutput>> GetSwimLaneCards(string boardId, string swimLaneId)
         {
             GetSwimLaneCardsCommand command = new GetSwimLaneCardsCommand(boardId, swimLaneId);
             Task<GetSwimLaneCardsCommandResult> result = _swimLaneService.GetBoardSwimLanes(command);
+            List<SwimlaneCardsOutput> returnValue = new List<SwimlaneCardsOutput>();
+
+            returnValue = result.Result.ResultObject.Data.ConvertAll<SwimlaneCardsOutput>(new Converter<GetSwimLaneCardsCommandResultItem, SwimlaneCardsOutput>(GetSwimLaneCardsCommandResultItemToSwimlaneCardsOutput));
 
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+
+                return Ok(returnValue);
             }
             else
             {
-                return BadRequest(result);
+                return BadRequest(returnValue);
             }
+        }
+
+        public static SwimlaneCardsOutput GetSwimLaneCardsCommandResultItemToSwimlaneCardsOutput(GetSwimLaneCardsCommandResultItem input)
+        {
+            return new SwimlaneCardsOutput()
+            {
+                BoardId = input.BoardId,
+                Name = input.Name,
+                SwimLaneId = input.SwimLaneId,
+                CardId = input.CardId,
+                Description = input.Description
+            };
         }
 
         /// <summary>
