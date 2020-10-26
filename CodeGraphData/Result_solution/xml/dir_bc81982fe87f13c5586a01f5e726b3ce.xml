@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bc81982fe87f13c5586a01f5e726b3ce" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Domain</compoundname>
+    <innerdir refid="dir_3532e7ddfafe56870db4a50783c0fc6f">C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data</innerdir>
+    <innerdir refid="dir_9c71c28e0e791f72906b074e904fc204">C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/"/>
+  </compounddef>
+</doxygen>

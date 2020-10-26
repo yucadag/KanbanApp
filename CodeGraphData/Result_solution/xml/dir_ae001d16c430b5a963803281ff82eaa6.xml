@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ae001d16c430b5a963803281ff82eaa6" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail</compoundname>
+    <innerfile refid="_get_swimlane_detail_command_8cs">GetSwimlaneDetailCommand.cs</innerfile>
+    <innerfile refid="_get_swimlane_detail_command_handler_8cs">GetSwimlaneDetailCommandHandler.cs</innerfile>
+    <innerfile refid="_get_swimlane_detail_command_result_8cs">GetSwimlaneDetailCommandResult.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/"/>
+  </compounddef>
+</doxygen>

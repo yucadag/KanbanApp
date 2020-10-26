@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; GetAttachmentListCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_1a4dc7735191f8319b11eae5a0ce1e0dba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommand.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommand.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="264">
+        <label>IRequest&lt; GetAttachmentListCommandResult &gt;</label>
+      </node>
+      <node id="263">
+        <label>KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command"/>
+        <childnode refid="264" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="266">
+        <label>IRequest&lt; GetAttachmentListCommandResult &gt;</label>
+      </node>
+      <node id="265">
+        <label>KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommand.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_1a4dc7735191f8319b11eae5a0ce1e0dba" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommand</scope><name>CardId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

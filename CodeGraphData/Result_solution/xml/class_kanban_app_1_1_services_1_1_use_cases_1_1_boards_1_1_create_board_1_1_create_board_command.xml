@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; CreateBoardCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1ad1750ff3421733975935e13688738b94" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommand.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1a1394133911324ec01a68dcd1b2fd08d6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommand.OwnerId</definition>
+        <argsstring></argsstring>
+        <name>OwnerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1adfd4e7d070844d58670142929e589368" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommand.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1a97c83041c38b9ae7601e422f74080a68" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommand.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1a40231fc8d657a22650e581c87b58a578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommand.CreateBoardCommand</definition>
+        <argsstring>(string boardId, string ownerId, string name, string description)</argsstring>
+        <name>CreateBoardCommand</name>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ownerId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" bodystart="7" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="138">
+        <label>IRequest&lt; CreateBoardCommandResult &gt;</label>
+      </node>
+      <node id="137">
+        <label>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="140">
+        <label>IRequest&lt; CreateBoardCommandResult &gt;</label>
+      </node>
+      <node id="139">
+        <label>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommand.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1ad1750ff3421733975935e13688738b94" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommand</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1a40231fc8d657a22650e581c87b58a578" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommand</scope><name>CreateBoardCommand</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1a97c83041c38b9ae7601e422f74080a68" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommand</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1adfd4e7d070844d58670142929e589368" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommand</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_1a1394133911324ec01a68dcd1b2fd08d6" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommand</scope><name>OwnerId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

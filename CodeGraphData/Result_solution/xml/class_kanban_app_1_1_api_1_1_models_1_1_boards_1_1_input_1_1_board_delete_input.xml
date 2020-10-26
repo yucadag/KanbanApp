@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Boards::Input::BoardDeleteInput</compoundname>
+    <basecompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.BaseModels.BaseInput</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input_1a1521a3b1dca34c07a83bb2ed6c914e6c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardDeleteInput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardDeleteInput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardDeleteInput.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a3ff78154533aa2ee4a9e2d71dec8d7cc" compoundref="_kanban_app_8_api_2_controllers_2_board_controller_8cs" startline="162" endline="175">KanbanApp.Api.Controllers.BoardController.Delete</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardDeleteInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="54">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardDeleteInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardDeleteInput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardDeleteInput.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input_1a1521a3b1dca34c07a83bb2ed6c914e6c" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardDeleteInput</scope><name>BoardId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; GetCardDetailCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_1a7f09aa8c58f570e974bd0928b4abaddb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommand.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommand.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="335">
+        <label>KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command"/>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>IRequest&lt; GetCardDetailCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="337">
+        <label>KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command"/>
+        <childnode refid="338" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>IRequest&lt; GetCardDetailCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommand.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_1a7f09aa8c58f570e974bd0928b4abaddb" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommand</scope><name>CardId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

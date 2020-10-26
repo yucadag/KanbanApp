@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Cards::Input::CardGetInput</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input_1acd7a36d8d4b039bbe04853f0af03eb39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Input.CardGetInput.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardGetInput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardGetInput.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardGetInput.cs" line="5" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardGetInput.cs" bodystart="4" bodyend="7"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input_1acd7a36d8d4b039bbe04853f0af03eb39" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Input::CardGetInput</scope><name>CardId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

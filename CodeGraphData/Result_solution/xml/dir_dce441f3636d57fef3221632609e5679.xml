@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_dce441f3636d57fef3221632609e5679" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment</compoundname>
+    <innerfile refid="_create_attachment_command_8cs">CreateAttachmentCommand.cs</innerfile>
+    <innerfile refid="_create_attachment_command_handler_8cs">CreateAttachmentCommandHandler.cs</innerfile>
+    <innerfile refid="_create_attachment_command_result_8cs">CreateAttachmentCommandResult.cs</innerfile>
+    <innerfile refid="_create_attachment_command_validator_8cs">CreateAttachmentCommandValidator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/"/>
+  </compounddef>
+</doxygen>

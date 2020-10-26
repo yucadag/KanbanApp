@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1ad6f65325d4ee60ce3624456697c9c653" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1ad88939856e3902744954587f55a2092c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a564cd9a74bff3b306ddede54e7e6a69f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1ad8985f31f6418f42ece1a7382f46cfdb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.PriorityId</definition>
+        <argsstring></argsstring>
+        <name>PriorityId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a573cb466398a905758331d314d9f4744" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.CardTypeId</definition>
+        <argsstring></argsstring>
+        <name>CardTypeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a885215046565703571bb2dd0d9eccfed" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.OrderId</definition>
+        <argsstring></argsstring>
+        <name>OrderId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a1e1cc94010e799c9300bb6347f72226f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task" kindref="compound">CardTask</ref> &gt;</type>
+        <definition>List&lt;CardTask&gt; KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.CardTasks</definition>
+        <argsstring></argsstring>
+        <name>CardTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a4bc346070e19d491cb366b53507c0fe0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" kindref="compound">CardAttachment</ref> &gt;</type>
+        <definition>List&lt;CardAttachment&gt; KanbanApp.Web.UI.ViewModels.CardViewModels.NewCardViewModel.AttachmentList</definition>
+        <argsstring></argsstring>
+        <name>AttachmentList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a4bc346070e19d491cb366b53507c0fe0" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>AttachmentList</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1ad6f65325d4ee60ce3624456697c9c653" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a1e1cc94010e799c9300bb6347f72226f" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>CardTasks</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a573cb466398a905758331d314d9f4744" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>CardTypeId</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a564cd9a74bff3b306ddede54e7e6a69f" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1ad88939856e3902744954587f55a2092c" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1a885215046565703571bb2dd0d9eccfed" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>OrderId</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model_1ad8985f31f6418f42ece1a7382f46cfdb" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</scope><name>PriorityId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

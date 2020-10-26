@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5a16a574583c8117ab9f01cf57fd4b7b" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards</compoundname>
+    <innerdir refid="dir_cd215883e07242e0cd95a9843987d882">C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input</innerdir>
+    <innerdir refid="dir_2dbbc9588f0673018ddb534a27d2ef06">C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/"/>
+  </compounddef>
+</doxygen>

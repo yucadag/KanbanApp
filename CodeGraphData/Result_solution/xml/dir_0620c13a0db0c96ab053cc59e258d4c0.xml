@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0620c13a0db0c96ab053cc59e258d4c0" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Infrastructure</compoundname>
+    <innerdir refid="dir_27d8fad6e107f10a6783dbe1f7a60906">C:/TFSProjects/KanbanApp/KanbanApp.Infrastructure/Logging</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Infrastructure/"/>
+  </compounddef>
+</doxygen>

@@ -2,6 +2,9 @@
 
 namespace KanbanApp.Api.Models.Boards.Output
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class BoardSwimlanesOutput : BaseOutput
     {
 

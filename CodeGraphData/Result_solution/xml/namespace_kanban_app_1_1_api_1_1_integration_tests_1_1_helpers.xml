@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers" kind="namespace">
+    <compoundname>KanbanApp::Api::IntegrationTests::Helpers</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_testing_web_app_factory_3_01_t_01_4" prot="public">KanbanApp::Api::IntegrationTests::Helpers::TestingWebAppFactory&lt; T &gt;</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization">KanbanApp::Api::IntegrationTests::Helpers::Serialization</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandResultItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1aad43ee64909e35fe8e26510ee3d5e8c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommandResultItem.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1ab566011841fe1f4906bd12242e376990" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommandResultItem.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1ae8c44b99b123446a7a468a231196f4f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommandResultItem.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1aad43ee64909e35fe8e26510ee3d5e8c9" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandResultItem</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1ae8c44b99b123446a7a468a231196f4f9" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandResultItem</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1ab566011841fe1f4906bd12242e376990" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandResultItem</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_update_card_validator_8cs" kind="file">
+    <compoundname>UpdateCardValidator.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_validator" prot="public">KanbanApp::Services::UseCases::Cards::UpdateCard::UpdateCardValidator</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card">KanbanApp::Services::UseCases::Cards::UpdateCard</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.UseCases.Cards.UpdateCard</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_validator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_validator" kindref="compound">UpdateCardValidator</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardValidator.cs"/>
+  </compounddef>
+</doxygen>

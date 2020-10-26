@@ -85,9 +85,9 @@ fC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Boards\UpdateBoard\UpdateB
 ZC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommand.cs 
 8
 r	
-´
-aC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommandHandler.cs 8r4
-!"#%&'()*+,-./012345789:x‚!#%).027y
+º
+aC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommandHandler.cs 8r8
+!"#$%&'()*+,-./012345678:;<=x‚!#$(*,135:y
 `C:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommandResult.cs 
 8
 r

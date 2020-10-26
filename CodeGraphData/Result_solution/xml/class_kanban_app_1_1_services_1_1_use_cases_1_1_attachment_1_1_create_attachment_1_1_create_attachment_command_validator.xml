@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_validator" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandValidator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractValidator&lt; CreateAttachmentCommand &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_validator_1afd13cfa7c9b587ef82449a1b01e7ae19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommandValidator.CreateAttachmentCommandValidator</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAttachmentCommandValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandValidator.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandValidator.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="134">
+        <label>AbstractValidator&lt; CreateAttachmentCommand &gt;</label>
+      </node>
+      <node id="133">
+        <label>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_validator"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>AbstractValidator&lt; CreateAttachmentCommand &gt;</label>
+      </node>
+      <node id="135">
+        <label>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_validator"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandValidator.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandValidator.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_validator_1afd13cfa7c9b587ef82449a1b01e7ae19" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandValidator</scope><name>CreateAttachmentCommandValidator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

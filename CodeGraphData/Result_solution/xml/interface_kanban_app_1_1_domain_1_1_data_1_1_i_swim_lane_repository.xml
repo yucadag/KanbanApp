@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kind="interface" prot="public">
+    <compoundname>KanbanApp::Domain::Data::ISwimLaneRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntityRepository&lt; SwimLane &gt;</basecompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_swim_lane_repository" prot="public" virt="non-virtual">KanbanApp.Data.Concrete.EntityFramework.EfSwimLaneRepository</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository_1a56386433eed09ce89ba2709810a814a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card" kindref="compound">Card</ref> &gt;</type>
+        <definition>List&lt;Card&gt; KanbanApp.Domain.Data.ISwimLaneRepository.GetSwimLaneCards</definition>
+        <argsstring>(string SwimLaneId)</argsstring>
+        <name>GetSwimLaneCards</name>
+        <reimplementedby refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_swim_lane_repository_1a60ec72d3a91ffbdc8e45eba7207a2629">GetSwimLaneCards</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>SwimLaneId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/ISwimLaneRepository.cs" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="422">
+        <label>IEntityRepository&lt; SwimLane &gt;</label>
+      </node>
+      <node id="423">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfSwimLaneRepository</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_swim_lane_repository"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>KanbanApp.Domain.Data.ISwimLaneRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository"/>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="425">
+        <label>IEntityRepository&lt; SwimLane &gt;</label>
+      </node>
+      <node id="424">
+        <label>KanbanApp.Domain.Data.ISwimLaneRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/ISwimLaneRepository.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/ISwimLaneRepository.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository_1a56386433eed09ce89ba2709810a814a8" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Data::ISwimLaneRepository</scope><name>GetSwimLaneCards</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

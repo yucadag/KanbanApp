@@ -25,6 +25,10 @@
       <Folder Include="Exceptions" />
       <Folder Include="Infrastructure\" />
     </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\.editorconfig" Link=".editorconfig" />
+    </ItemGroup>
   
 
 </Project>

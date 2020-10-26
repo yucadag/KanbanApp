@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output" kind="namespace">
+    <compoundname>KanbanApp::Api::Models::SwimLanes::Output</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output" prot="public">KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

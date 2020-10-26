@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d1f0827b3cf41afc414c38a6f91aca9b" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller</compoundname>
+    <innerfile refid="_kanban_app_8_web_8_u_i_2_controller_2_board_controller_8cs">BoardController.cs</innerfile>
+    <innerfile refid="_kanban_app_8_web_8_u_i_2_controller_2_card_controller_8cs">CardController.cs</innerfile>
+    <innerfile refid="_home_controller_8cs">HomeController.cs</innerfile>
+    <innerfile refid="_samples_controller_8cs">SamplesController.cs</innerfile>
+    <innerfile refid="_swimline_controller_8cs">SwimlineController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_49dbadb135c8246c6a4b44fa05be62d6" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output</compoundname>
+    <innerfile refid="_board_add_output_8cs">BoardAddOutput.cs</innerfile>
+    <innerfile refid="_board_get_list_output_8cs">BoardGetListOutput.cs</innerfile>
+    <innerfile refid="_board_get_output_8cs">BoardGetOutput.cs</innerfile>
+    <innerfile refid="_board_swimlanes_output_8cs">BoardSwimlanesOutput.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/"/>
+  </compounddef>
+</doxygen>

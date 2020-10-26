@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Cards::Output::GetCardOutput</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1add3b8f047954219bc391d6d3abbf212c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Output.GetCardOutput.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" line="5" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1aca994de56b85e0f59694d1bb7ead15cf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Output.GetCardOutput.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a6d1962070bcd519aad7c7f26bbbc0d81" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Output.GetCardOutput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a483ec17e277e39bd2d7e2ddf97a5247b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Output.GetCardOutput.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a04d25ba9104fb22872d71e1a25204a50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Output.GetCardOutput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a39ac27cf69a660386b03fa2c26018434" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Api.Models.Cards.Output.GetCardOutput.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" line="4" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a6d1962070bcd519aad7c7f26bbbc0d81" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Output::GetCardOutput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1aca994de56b85e0f59694d1bb7ead15cf" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Output::GetCardOutput</scope><name>CardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1add3b8f047954219bc391d6d3abbf212c" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Output::GetCardOutput</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a04d25ba9104fb22872d71e1a25204a50" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Output::GetCardOutput</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a39ac27cf69a660386b03fa2c26018434" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Output::GetCardOutput</scope><name>Position</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a483ec17e277e39bd2d7e2ddf97a5247b" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Output::GetCardOutput</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

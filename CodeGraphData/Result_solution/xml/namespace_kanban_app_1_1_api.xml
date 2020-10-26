@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_api" kind="namespace">
+    <compoundname>KanbanApp::Api</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_program" prot="public">KanbanApp::Api::Program</innerclass>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_startup" prot="public">KanbanApp::Api::Startup</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_controllers">KanbanApp::Api::Controllers</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_extensions">KanbanApp::Api::Extensions</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_integration_tests">KanbanApp::Api::IntegrationTests</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_migrations">KanbanApp::Api::Migrations</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models">KanbanApp::Api::Models</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_test">KanbanApp::Api::Test</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

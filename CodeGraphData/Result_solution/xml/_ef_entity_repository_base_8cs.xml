@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_ef_entity_repository_base_8cs" kind="file">
+    <compoundname>EfEntityRepositoryBase.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4" prot="public">KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework">KanbanApp::Core::DataAccess::EntityFramework</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_entity_framework_core">Microsoft::EntityFrameworkCore</innernamespace>
+    <innernamespace refid="namespace_system_1_1_linq">System::Linq</innernamespace>
+    <innernamespace refid="namespace_system_1_1_linq_1_1_expressions">System::Linq::Expressions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.EntityFrameworkCore;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq.Expressions;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespace_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Core.DataAccess.EntityFramework</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">EfEntityRepositoryBase&lt;TEntity&gt;<sp/>:<sp/>IEntityRepository&lt;TEntity&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>where<sp/>TEntity<sp/>:<sp/>class,<sp/><ref refid="interface_kanban_app_1_1_core_1_1_i_entity" kindref="compound">IEntity</ref>,<sp/>new()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a482cf001ccdd97af10b3e8b53a7125c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>DbContext<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a482cf001ccdd97af10b3e8b53a7125c1" kindref="member">_context</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a38acaae3b0a471bcc9719ca99197927a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a38acaae3b0a471bcc9719ca99197927a" kindref="member">EfEntityRepositoryBase</ref>(DbContext<sp/>context)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_context<sp/>=<sp/>context;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a76344e9abf4808a09f44bd529b8e9e3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TEntity<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a76344e9abf4808a09f44bd529b8e9e3a" kindref="member">Get</ref>(Expression&lt;Func&lt;TEntity,<sp/>bool&gt;&gt;<sp/>filter<sp/>=<sp/>null)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_context.Set&lt;TEntity&gt;().SingleOrDefault(filter);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab7fde1e4eb797c7e64152b56cb99772c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;TEntity&gt;<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab7fde1e4eb797c7e64152b56cb99772c" kindref="member">GetList</ref>(Expression&lt;Func&lt;TEntity,<sp/>bool&gt;&gt;<sp/>filter<sp/>=<sp/>null)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>filter<sp/>==<sp/>null</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?<sp/>_context.Set&lt;TEntity&gt;().ToList()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>_context.Set&lt;TEntity&gt;().Where(filter).ToList();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a6c14bcaa67ddd02951e4c88bc984234c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TEntity<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a6c14bcaa67ddd02951e4c88bc984234c" kindref="member">Add</ref>(TEntity<sp/>entity)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>addedEntity<sp/>=<sp/>_context.Entry(entity);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addedEntity.State<sp/>=<sp/>EntityState.Added;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_context.SaveChanges();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>entity;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aa0f002e0f289715e86bfad12f4bd9628" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aa0f002e0f289715e86bfad12f4bd9628" kindref="member">Update</ref>(TEntity<sp/>entity)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>updatedEntity<sp/>=<sp/>_context.Entry(entity);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>updatedEntity.State<sp/>=<sp/>EntityState.Modified;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_context.SaveChanges();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2ee2139bc7a8e17f7ae78fe8e2c70cd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2ee2139bc7a8e17f7ae78fe8e2c70cd7" kindref="member">Delete</ref>(TEntity<sp/>entity)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>deleteEntity<sp/>=<sp/>_context.Entry(entity);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>deleteEntity.State<sp/>=<sp/>EntityState.Deleted;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_context.SaveChanges();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab9f4199cb93dcb54c1465412bf337b22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;TEntity&gt;<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab9f4199cb93dcb54c1465412bf337b22" kindref="member">GetAsync</ref>(Expression&lt;Func&lt;TEntity,<sp/>bool&gt;&gt;<sp/>filter<sp/>=<sp/>null)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>await<sp/>_context.Set&lt;TEntity&gt;().SingleOrDefaultAsync(filter);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a7f9559b8fa447e4c412a74066888ae44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task&lt;List&lt;TEntity&gt;&gt;<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a7f9559b8fa447e4c412a74066888ae44" kindref="member">GetListAsync</ref>(Expression&lt;Func&lt;TEntity,<sp/>bool&gt;&gt;<sp/>filter<sp/>=<sp/>null)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2f8ba535580cbab58ea7f5bc9957cbb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task&lt;TEntity&gt;<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2f8ba535580cbab58ea7f5bc9957cbb4" kindref="member">AddAsync</ref>(TEntity<sp/>entity)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aecbb4e5c02cc3a7dcee399fd5e5863e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aecbb4e5c02cc3a7dcee399fd5e5863e7" kindref="member">UpdateAsync</ref>(TEntity<sp/>entity)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a73c8523ec34b19f5b9487b2123569e74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a73c8523ec34b19f5b9487b2123569e74" kindref="member">DeleteAsync</ref>(TEntity<sp/>entity)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs"/>
+  </compounddef>
+</doxygen>

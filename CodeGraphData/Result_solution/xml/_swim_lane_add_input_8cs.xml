@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_swim_lane_add_input_8cs" kind="file">
+    <compoundname>SwimLaneAddInput.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_add_input" prot="public">KanbanApp::Api::Models::SwimLanes::Input::SwimLaneAddInput</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input">KanbanApp::Api::Models::SwimLanes::Input</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Api.Models.SwimLanes.Input</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_add_input" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_add_input" kindref="compound">SwimLaneAddInput</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_add_input_1a25d242151d33dd3e992a4acb0e0eb23c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>BoardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="6" refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_add_input_1ac553e66f000177610504a6d697aa4d89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Name<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="7" refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_add_input_1a0ebb337ae5fbb376fe2c14473635ac1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>SwimLaneId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneAddInput.cs"/>
+  </compounddef>
+</doxygen>

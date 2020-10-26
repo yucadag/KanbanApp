@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_move_card_command_8cs" kind="file">
+    <compoundname>MoveCardCommand.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command" prot="public">KanbanApp::Services::UseCases::Cards::MoveCard::MoveCardCommand</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card">KanbanApp::Services::UseCases::Cards::MoveCard</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MediatR;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.UseCases.Cards.MoveCard</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>sealed<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command" kindref="compound">MoveCardCommand</ref><sp/>:<sp/>IRequest&lt;MoveCardCommandResult&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1aa947d0de0850431f1630a8030fc73586" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1aa947d0de0850431f1630a8030fc73586" kindref="member">MoveCardCommand</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1a2111bf8b07176df5cde8d739599ca6c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1a2111bf8b07176df5cde8d739599ca6c4" kindref="member">MoveCardCommand</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>cardId,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>swimLaneId)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CardId<sp/>=<sp/>cardId;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SwimLaneId<sp/>=<sp/>swimLaneId;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1afdefd41be0fecf9991fe59256f706497" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>SwimLaneId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="18" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1a653c826609c72353904964d462947d3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>CardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs"/>
+  </compounddef>
+</doxygen>

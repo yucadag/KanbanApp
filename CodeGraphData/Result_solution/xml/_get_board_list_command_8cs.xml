@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_get_board_list_command_8cs" kind="file">
+    <compoundname>GetBoardListCommand.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command" prot="public">KanbanApp::Services::UseCases::Boards::GetBoardList::GetBoardListCommand</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list">KanbanApp::Services::UseCases::Boards::GetBoardList</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MediatR;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.UseCases.Boards.GetBoardList</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>sealed<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command" kindref="compound">GetBoardListCommand</ref><sp/>:<sp/>IRequest&lt;GetBoardListCommandResult&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_1a64d27ff8a2437661a1c2475a5f7c4719" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>BoardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommand.cs"/>
+  </compounddef>
+</doxygen>

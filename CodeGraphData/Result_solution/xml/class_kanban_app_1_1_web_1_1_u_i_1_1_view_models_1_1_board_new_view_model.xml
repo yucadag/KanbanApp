@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_new_view_model" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::ViewModels::BoardNewViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_new_view_model_1a65f1f5211c8107e74b9fd9b1633d4cd7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Web.UI.ViewModels.BoardNewViewModel.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardNewViewModel.cs" line="5" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardNewViewModel.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_new_view_model_1aa5707813a2d467054e6fcf4307195204" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Web.UI.ViewModels.BoardNewViewModel.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardNewViewModel.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardNewViewModel.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardNewViewModel.cs" line="4" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardNewViewModel.cs" bodystart="3" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_new_view_model_1aa5707813a2d467054e6fcf4307195204" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::BoardNewViewModel</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_new_view_model_1a65f1f5211c8107e74b9fd9b1633d4cd7" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::BoardNewViewModel</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

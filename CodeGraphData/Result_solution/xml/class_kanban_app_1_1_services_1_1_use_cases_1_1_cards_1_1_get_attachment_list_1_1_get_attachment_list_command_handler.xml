@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; GetAttachmentListCommand, GetAttachmentListCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler_1a8aa042aa47b78396fa2870766c60430a" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+        <definition>readonly ICardRepository KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandHandler._cardRepository</definition>
+        <argsstring></argsstring>
+        <name>_cardRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler_1a890c999a05b6e5f4bdfe9b0855d9b42a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandHandler.GetAttachmentListCommandHandler</definition>
+        <argsstring>(ICardRepository cardRepository)</argsstring>
+        <name>GetAttachmentListCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+          <declname>cardRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler_1aaf22c02d3f0c5c0e1ec1a68884cf70d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result" kindref="compound">GetAttachmentListCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;GetAttachmentListCommandResult&gt; KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandHandler.Handle</definition>
+        <argsstring>(GetAttachmentListCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command" kindref="compound">GetAttachmentListCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" bodystart="21" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="268">
+        <label>IRequestHandler&lt; GetAttachmentListCommand, GetAttachmentListCommandResult &gt;</label>
+      </node>
+      <node id="267">
+        <label>KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="271">
+        <label>KanbanApp.Domain.Data.ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="272">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+      <node id="270">
+        <label>IRequestHandler&lt; GetAttachmentListCommand, GetAttachmentListCommandResult &gt;</label>
+      </node>
+      <node id="269">
+        <label>KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+        <childnode refid="271" relation="usage">
+          <edgelabel>_cardRepository</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandHandler.cs" bodystart="13" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler_1a8aa042aa47b78396fa2870766c60430a" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandHandler</scope><name>_cardRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler_1a890c999a05b6e5f4bdfe9b0855d9b42a" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandHandler</scope><name>GetAttachmentListCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler_1aaf22c02d3f0c5c0e1ec1a68884cf70d4" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

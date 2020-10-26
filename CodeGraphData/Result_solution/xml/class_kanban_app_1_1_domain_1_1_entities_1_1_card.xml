@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_card" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::Card</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_core_1_1_i_entity" prot="public" virt="non-virtual">KanbanApp.Core.IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1ae8fb0a3e0c88dca38f3bcc86eef9bb64" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Card.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a4a7a585ddc1056610180df2308ebd528" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Card.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a6649b32b17d99f63262057390af9a155" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Card.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a11b0a4582349929a15678dac214090fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Card.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="19" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a4093986b7dcdbdc496cafadb060dd956" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Card.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="20" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a345e8755c46b359bee954567aed15a62" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority" kindref="compound">Priority</ref></type>
+        <definition>Priority KanbanApp.Domain.Entities.Card.CardPriority</definition>
+        <argsstring></argsstring>
+        <name>CardPriority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1ae02dcb86a3cc7547064a7344972aae6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_type" kindref="compound">CardType</ref></type>
+        <definition>CardType KanbanApp.Domain.Entities.Card.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="22" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a7ec1c47094206195494a86639734393d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Domain.Entities.Card.CardPosition</definition>
+        <argsstring></argsstring>
+        <name>CardPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="23" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a26d19d67fb27e315bc30c5e228602dc1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task" kindref="compound">CardTask</ref> &gt;</type>
+        <definition>List&lt;CardTask&gt; KanbanApp.Domain.Entities.Card.CardTasks</definition>
+        <argsstring></argsstring>
+        <name>CardTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="24" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1af2104e37e4c3655e412f7218d1d3552c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size" kindref="compound">CardWeightSize</ref></type>
+        <definition>CardWeightSize KanbanApp.Domain.Entities.Card.CardWeightSize</definition>
+        <argsstring></argsstring>
+        <name>CardWeightSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="25" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a54c18316fb0470e9d1d7b1f6a8b64ad1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>List&lt;User&gt; KanbanApp.Domain.Entities.Card.AssignUserList</definition>
+        <argsstring></argsstring>
+        <name>AssignUserList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="26" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1adc6519e1456ad106acd180c9823bdd8a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" kindref="compound">CardAttachment</ref> &gt;</type>
+        <definition>List&lt;CardAttachment&gt; KanbanApp.Domain.Entities.Card.AttachmentList</definition>
+        <argsstring></argsstring>
+        <name>AttachmentList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="27" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a5ad0f343fb46bbe6d26721aa0b25fade" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Domain.Entities.Card.EstimateHours</definition>
+        <argsstring></argsstring>
+        <name>EstimateHours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="28" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1afdad15e9e9789ca7e2baa9afc775c071" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag" kindref="compound">Tag</ref> &gt;</type>
+        <definition>List&lt;Tag&gt; KanbanApp.Domain.Entities.Card.TagList</definition>
+        <argsstring></argsstring>
+        <name>TagList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="29" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a8f4240a608ac08d61198b8f643cea215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Domain.Entities.Card.Card</definition>
+        <argsstring>()</argsstring>
+        <name>Card</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="8" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>KanbanApp.Domain.Entities.Card</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>KanbanApp.Domain.Entities.Card</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Card.cs" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a54c18316fb0470e9d1d7b1f6a8b64ad1" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>AssignUserList</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1adc6519e1456ad106acd180c9823bdd8a" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>AttachmentList</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1ae8fb0a3e0c88dca38f3bcc86eef9bb64" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a8f4240a608ac08d61198b8f643cea215" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>Card</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a6649b32b17d99f63262057390af9a155" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>CardId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a7ec1c47094206195494a86639734393d" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>CardPosition</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a345e8755c46b359bee954567aed15a62" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>CardPriority</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a26d19d67fb27e315bc30c5e228602dc1" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>CardTasks</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1af2104e37e4c3655e412f7218d1d3552c" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>CardWeightSize</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a4093986b7dcdbdc496cafadb060dd956" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a5ad0f343fb46bbe6d26721aa0b25fade" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>EstimateHours</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a11b0a4582349929a15678dac214090fa" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a4a7a585ddc1056610180df2308ebd528" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>SwimLaneId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1afdad15e9e9789ca7e2baa9afc775c071" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>TagList</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1ae02dcb86a3cc7547064a7344972aae6d" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Card</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::SwimLaneSetting</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_core_1_1_i_entity" prot="public" virt="non-virtual">KanbanApp.Core.IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a2959300381a2e68ca6a527f70946b829" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.SwimLaneSetting.SwimLaneSettingId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneSettingId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a222635d255f765903c9e7b470e073c9e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.SwimLaneSetting.HeaderColor</definition>
+        <argsstring></argsstring>
+        <name>HeaderColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a43404e8b1a6b122743f501022d55d27d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.SwimLaneSetting.BackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>BackgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a500092d2451a54ad7a94c591ef546394" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Domain.Entities.SwimLaneSetting.MaxCardCount</definition>
+        <argsstring></argsstring>
+        <name>MaxCardCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1afd091d8c3d9da28523844ca8395e7d16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Domain.Entities.SwimLaneSetting.SwimLaneSetting</definition>
+        <argsstring>()</argsstring>
+        <name>SwimLaneSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="539">
+        <label>KanbanApp.Domain.Entities.SwimLaneSetting</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting"/>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="541">
+        <label>KanbanApp.Domain.Entities.SwimLaneSetting</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting"/>
+        <childnode refid="542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="542">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/SwimLaneSetting.cs" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a43404e8b1a6b122743f501022d55d27d" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::SwimLaneSetting</scope><name>BackgroundColor</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a222635d255f765903c9e7b470e073c9e" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::SwimLaneSetting</scope><name>HeaderColor</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a500092d2451a54ad7a94c591ef546394" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::SwimLaneSetting</scope><name>MaxCardCount</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1afd091d8c3d9da28523844ca8395e7d16" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::SwimLaneSetting</scope><name>SwimLaneSetting</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a2959300381a2e68ca6a527f70946b829" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::SwimLaneSetting</scope><name>SwimLaneSettingId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

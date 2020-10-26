@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_create_attachment_command_handler_8cs" kind="file">
+    <compoundname>CreateAttachmentCommandHandler.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler" prot="public">KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandHandler</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment">KanbanApp::Services::UseCases::Attachment::CreateAttachment</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.Exceptions;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MediatR;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.UseCases.Attachment.CreateAttachment</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler" kindref="compound">CreateAttachmentCommandHandler</ref><sp/>:<sp/>IRequestHandler&lt;CreateAttachmentCommand,<sp/>CreateAttachmentCommandResult&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1ae6a05db3a224a9874fb7b11a0d8fae90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1ae6a05db3a224a9874fb7b11a0d8fae90" kindref="member">CreateAttachmentCommandHandler</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1a0c4673f760353a13d8bf085ecff1d1cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;CreateAttachmentCommandResult&gt;<sp/><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1a0c4673f760353a13d8bf085ecff1d1cb" kindref="member">Handle</ref>(<ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command" kindref="compound">CreateAttachmentCommand</ref><sp/>request,<sp/>CancellationToken<sp/>cancellationToken)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>validator<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_validator" kindref="compound">CreateAttachmentCommandValidator</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>validator.Validate(request);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!result.IsValid)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception" kindref="compound">ServiceValidationException</ref>(result.ToString());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandHandler.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; DeleteCardCommand, DeleteCardCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler_1ad345aa6a68a5815e35561862448dd087" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+        <definition>readonly ICardRepository KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandHandler._cardRepository</definition>
+        <argsstring></argsstring>
+        <name>_cardRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler_1a33c0b0ae36ea553c889f922b049eeeb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandHandler.DeleteCardCommandHandler</definition>
+        <argsstring>(ICardRepository cardRepository)</argsstring>
+        <name>DeleteCardCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+          <declname>cardRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler_1aa54192804de5471455de224f5ecd9434" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_result" kindref="compound">DeleteCardCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;DeleteCardCommandResult&gt; KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandHandler.Handle</definition>
+        <argsstring>(DeleteCardCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command" kindref="compound">DeleteCardCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" line="20" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" bodystart="20" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="207">
+        <label>KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>IRequestHandler&lt; DeleteCardCommand, DeleteCardCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="211">
+        <label>KanbanApp.Domain.Data.ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+      <node id="209">
+        <label>KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>_cardRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="210">
+        <label>IRequestHandler&lt; DeleteCardCommand, DeleteCardCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandHandler.cs" bodystart="12" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler_1ad345aa6a68a5815e35561862448dd087" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandHandler</scope><name>_cardRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler_1a33c0b0ae36ea553c889f922b049eeeb7" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandHandler</scope><name>DeleteCardCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler_1aa54192804de5471455de224f5ecd9434" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::CreateCard::CreateCardCommandResultItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1a1ff8c1f58de1d274e775895150c7176b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.CreateCard.CreateCardCommandResultItem.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1abf515ea6bf45bb068129244df79f4c73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.CreateCard.CreateCardCommandResultItem.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1a50d2d60c75e841719eb929d02dbdb354" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.CreateCard.CreateCardCommandResultItem.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1aa2a82fc5f2aa60baa1239f998b591c7e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Services.UseCases.Cards.CreateCard.CreateCardCommandResultItem.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandResult.cs" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1a1ff8c1f58de1d274e775895150c7176b" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::CreateCard::CreateCardCommandResultItem</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1a50d2d60c75e841719eb929d02dbdb354" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::CreateCard::CreateCardCommandResultItem</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1aa2a82fc5f2aa60baa1239f998b591c7e" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::CreateCard::CreateCardCommandResultItem</scope><name>Position</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result_item_1abf515ea6bf45bb068129244df79f4c73" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::CreateCard::CreateCardCommandResultItem</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

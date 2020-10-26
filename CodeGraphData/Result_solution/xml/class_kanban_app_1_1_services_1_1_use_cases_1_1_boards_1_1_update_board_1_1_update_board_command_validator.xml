@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command_validator" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::UpdateBoard::UpdateBoardCommandValidator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractValidator&lt; UpdateBoardCommand &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command_validator_1a861fc73578afe02b77d89748d6306c9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.UpdateBoard.UpdateBoardCommandValidator.UpdateBoardCommandValidator</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateBoardCommandValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/UpdateBoard/UpdateBoardCommandValidator.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/UpdateBoard/UpdateBoardCommandValidator.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="578">
+        <label>AbstractValidator&lt; UpdateBoardCommand &gt;</label>
+      </node>
+      <node id="577">
+        <label>KanbanApp.Services.UseCases.Boards.UpdateBoard.UpdateBoardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command_validator"/>
+        <childnode refid="578" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="580">
+        <label>AbstractValidator&lt; UpdateBoardCommand &gt;</label>
+      </node>
+      <node id="579">
+        <label>KanbanApp.Services.UseCases.Boards.UpdateBoard.UpdateBoardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command_validator"/>
+        <childnode refid="580" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/UpdateBoard/UpdateBoardCommandValidator.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/UpdateBoard/UpdateBoardCommandValidator.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command_validator_1a861fc73578afe02b77d89748d6306c9e" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::UpdateBoard::UpdateBoardCommandValidator</scope><name>UpdateBoardCommandValidator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

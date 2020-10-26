@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::PipelineBehaviors::ValidationBehaviour&lt; TRequest, TResponse &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IPipelineBehavior&lt; TRequest, TResponse &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>TRequest</type>
+      </param>
+      <param>
+        <type>TResponse</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a09edaec2482e0cffc918c3ea62dc1a65" prot="private" static="no" mutable="no">
+        <type>readonly IEnumerable&lt; IValidator&lt; TRequest &gt; &gt;</type>
+        <definition>readonly IEnumerable&lt;IValidator&lt;TRequest&gt; &gt; KanbanApp.Services.PipelineBehaviors.ValidationBehaviour&lt; TRequest, TResponse &gt;._validators</definition>
+        <argsstring></argsstring>
+        <name>_validators</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a221675f7b78e6fec0ee2f53afdac14d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.PipelineBehaviors.ValidationBehaviour&lt; TRequest, TResponse &gt;.ValidationBehaviour</definition>
+        <argsstring>(IEnumerable&lt; IValidator&lt; TRequest &gt;&gt; validators)</argsstring>
+        <name>ValidationBehaviour</name>
+        <param>
+          <type>IEnumerable&lt; IValidator&lt; TRequest &gt;&gt;</type>
+          <declname>validators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a318d9582c099811f2bf6279857f0cabc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; TResponse &gt;</type>
+        <definition>Task&lt;TResponse&gt; KanbanApp.Services.PipelineBehaviors.ValidationBehaviour&lt; TRequest, TResponse &gt;.Handle</definition>
+        <argsstring>(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate&lt; TResponse &gt; next)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type>TRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <param>
+          <type>RequestHandlerDelegate&lt; TResponse &gt;</type>
+          <declname>next</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" bodystart="18" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="601">
+        <label>KanbanApp.Services.PipelineBehaviors.ValidationBehaviour&lt; TRequest, TResponse &gt;</label>
+        <link refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4"/>
+        <childnode refid="602" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="602">
+        <label>IPipelineBehavior&lt; TRequest, TResponse &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="603">
+        <label>KanbanApp.Services.PipelineBehaviors.ValidationBehaviour&lt; TRequest, TResponse &gt;</label>
+        <link refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4"/>
+        <childnode refid="604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="604">
+        <label>IPipelineBehavior&lt; TRequest, TResponse &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs" bodystart="11" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a09edaec2482e0cffc918c3ea62dc1a65" prot="private" virt="non-virtual"><scope>KanbanApp::Services::PipelineBehaviors::ValidationBehaviour&lt; TRequest, TResponse &gt;</scope><name>_validators</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a318d9582c099811f2bf6279857f0cabc" prot="public" virt="non-virtual"><scope>KanbanApp::Services::PipelineBehaviors::ValidationBehaviour&lt; TRequest, TResponse &gt;</scope><name>Handle</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a221675f7b78e6fec0ee2f53afdac14d3" prot="public" virt="non-virtual"><scope>KanbanApp::Services::PipelineBehaviors::ValidationBehaviour&lt; TRequest, TResponse &gt;</scope><name>ValidationBehaviour</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Boards::Input::BoardAddInput</compoundname>
+    <basecompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.BaseModels.BaseInput</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1aaa327fbeb23fc2b37a698dbce467309e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardAddInput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1aae5466a7d5e1289d2d8f40cdc4865e23" compoundref="_kanban_app_8_api_2_controllers_2_board_controller_8cs" startline="105" endline="125">KanbanApp.Api.Controllers.BoardController.Add</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1a7efa99f1b61ce81c2458ce52a06e604f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardAddInput.OwnerId</definition>
+        <argsstring></argsstring>
+        <name>OwnerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1a119eef9628f5199dca25d1f3e31c0f22" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardAddInput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1aae5466a7d5e1289d2d8f40cdc4865e23" compoundref="_kanban_app_8_api_2_controllers_2_board_controller_8cs" startline="105" endline="125">KanbanApp.Api.Controllers.BoardController.Add</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1ab3eee8fae45b88af50f1c74daa7fbd51" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardAddInput.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" line="25" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1aae5466a7d5e1289d2d8f40cdc4865e23" compoundref="_kanban_app_8_api_2_controllers_2_board_controller_8cs" startline="105" endline="125">KanbanApp.Api.Controllers.BoardController.Add</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="26">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+      <node id="25">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardAddInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+      <node id="27">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardAddInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" bodystart="8" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1aaa327fbeb23fc2b37a698dbce467309e" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardAddInput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1ab3eee8fae45b88af50f1c74daa7fbd51" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardAddInput</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1a119eef9628f5199dca25d1f3e31c0f22" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardAddInput</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1a7efa99f1b61ce81c2458ce52a06e604f" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardAddInput</scope><name>OwnerId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

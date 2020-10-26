@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work" kind="interface" prot="public">
+    <compoundname>KanbanApp::Core::DataAccess::IUnitOfWork</compoundname>
+    <derivedcompoundref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work" prot="public" virt="non-virtual">KanbanApp.Data.Concrete.EntityFramework.EfUnitOfWork</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work_1a17217d3e5093bf2e0a1e3483e3d93995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task KanbanApp.Core.DataAccess.IUnitOfWork.CompleteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>CompleteAsync</name>
+        <reimplementedby refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1acdd6e17353e2fd9a66fbb1f719653951">CompleteAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/IUnitOfWork.cs" line="7" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="429">
+        <label>KanbanApp.Core.DataAccess.IUnitOfWork</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work"/>
+      </node>
+      <node id="430">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfUnitOfWork</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/IUnitOfWork.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/IUnitOfWork.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work_1a17217d3e5093bf2e0a1e3483e3d93995" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::IUnitOfWork</scope><name>CompleteAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c59f6f342496ce7d0921a16b3645b54a" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/MongoDbHelper</compoundname>
+    <innerfile refid="_mongo_repository_8cs">MongoRepository.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/MongoDbHelper/"/>
+  </compounddef>
+</doxygen>

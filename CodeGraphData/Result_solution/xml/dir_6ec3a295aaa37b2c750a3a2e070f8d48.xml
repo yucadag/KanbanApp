@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6ec3a295aaa37b2c750a3a2e070f8d48" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api.Test</compoundname>
+    <innerfile refid="_board_api_test_8cs">BoardApiTest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.Test/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; CreateAttachmentCommandResult &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="123">
+        <label>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>IRequest&lt; CreateAttachmentCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="125">
+        <label>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>IRequest&lt; CreateAttachmentCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommand.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

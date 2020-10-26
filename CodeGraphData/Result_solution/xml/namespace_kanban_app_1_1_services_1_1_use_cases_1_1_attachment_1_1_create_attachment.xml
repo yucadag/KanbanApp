@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases::Attachment::CreateAttachment</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command" prot="public">KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommand</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler" prot="public">KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandHandler</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_result" prot="public">KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandResult</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_validator" prot="public">KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandValidator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommand.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

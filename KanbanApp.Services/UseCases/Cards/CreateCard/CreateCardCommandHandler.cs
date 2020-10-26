@@ -19,8 +19,10 @@ namespace KanbanApp.Services.UseCases.Cards.CreateCard
         }
         public async Task<CreateCardCommandResult> Handle(CreateCardCommand request, CancellationToken cancellationToken)
         {
-            CreateCardCommandResult result = new CreateCardCommandResult();
-            result.ResultObject = new ServiceResult<CreateCardCommandResultItem>();
+            CreateCardCommandResult result = new CreateCardCommandResult
+            {
+                ResultObject = new ServiceResult<CreateCardCommandResultItem>()
+            };
             result.ResultObject.Success = false;
             result.ResultObject.ServiceMessageList = new List<ServiceMessage>();
             result.ResultObject.Data = new CreateCardCommandResultItem();
@@ -32,8 +34,17 @@ namespace KanbanApp.Services.UseCases.Cards.CreateCard
 
                 if (validationResult.IsValid)
                 {
-                    _cardRepository.Add(new Card() { BoardId = request.BoardId, SwimLaneId = request.SwimLaneId, CardId = request.CardId, Name = request.Name, Description = request.Description });
+                    _cardRepository.Add(new Card() { BoardId = request.BoardId, SwimLaneId = request.SwimLaneId, CardId = request.CardId, Name = request.Name, Description = request.Description, CardPriority=new Priority() { PriorityId=request.PriorityId } });
                     result.ResultObject.Success = true;
+                    result.ResultObject.Data = new CreateCardCommandResultItem
+                    {
+                        BoardId = request.BoardId,
+                        SwimLaneId = request.SwimLaneId,
+                        CardId = request.CardId,
+                        Name = request.Name,
+                        Description = request.Description
+
+                    };
                 }
                 else
                 {

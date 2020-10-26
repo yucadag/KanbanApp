@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; MoveSwimlaneCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1a01d1ce65cdd962938b24c59dd6d4ce34" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommand.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1ad8cfedab6b400ffbe2d4d3046c0571aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommand.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1abd1fcdc866864b3c3057394619f5153b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommand.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1a615c5ae29a837f3f205c22eda517b027" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommand.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="465">
+        <label>IRequest&lt; MoveSwimlaneCommandResult &gt;</label>
+      </node>
+      <node id="464">
+        <label>KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command"/>
+        <childnode refid="465" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="467">
+        <label>IRequest&lt; MoveSwimlaneCommandResult &gt;</label>
+      </node>
+      <node id="466">
+        <label>KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command"/>
+        <childnode refid="467" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommand.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1a01d1ce65cdd962938b24c59dd6d4ce34" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommand</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1ad8cfedab6b400ffbe2d4d3046c0571aa" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommand</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1a615c5ae29a837f3f205c22eda517b027" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommand</scope><name>Position</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_1abd1fcdc866864b3c3057394619f5153b" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommand</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

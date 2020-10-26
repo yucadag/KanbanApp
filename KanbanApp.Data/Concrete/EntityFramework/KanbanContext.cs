@@ -11,18 +11,19 @@ namespace KanbanApp.Data.Concrete.EntityFramework
         //    optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial Catalog=Kanban;Integrated Security=True");
         //}
 
-        public KanbanContext(DbContextOptions options)
-: base(options)
+        public KanbanContext(DbContextOptions options): base(options)
         {
         }
 
         public DbSet<Board> Boards { get; set; }
         public DbSet<SwimLane> SwimLanes { get; set; }
-        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Setting> Settings { get; set; }       
         public DbSet<Card> Cards { get; set; }
+        public DbSet<CardTask> CardTask { get; set; }
         public DbSet<CardAttachment> CardAttachments { get; set; }
         public DbSet<CardType> CardTypes { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Priority> Priority { get; set; }
 
     }
 }

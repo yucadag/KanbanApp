@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::BaseModels::BaseOutput</compoundname>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Output.BoardAddOutput</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Output.BoardGetListOutput</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Output.BoardGetOutput</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_swimlanes_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Output.BoardSwimlanesOutput</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1aec034ee7cbda2757187ff063d2d0088d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool KanbanApp.Api.Models.BaseModels.BaseOutput.IsSuccess</definition>
+        <argsstring></argsstring>
+        <name>IsSuccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseOutput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseOutput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1ac2f32fb8100a9f9bfeb5dbfb4bc859b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; KanbanApp.Api.Models.BaseModels.BaseOutput.MessageList</definition>
+        <argsstring></argsstring>
+        <name>MessageList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseOutput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseOutput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>KanbanApp.Api.Models.BaseModels.BaseOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output"/>
+      </node>
+      <node id="17">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardGetOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_output"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardGetListOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardAddOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardSwimlanesOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_swimlanes_output"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseOutput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseOutput.cs" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1aec034ee7cbda2757187ff063d2d0088d" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::BaseModels::BaseOutput</scope><name>IsSuccess</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1ac2f32fb8100a9f9bfeb5dbfb4bc859b7" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::BaseModels::BaseOutput</scope><name>MessageList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

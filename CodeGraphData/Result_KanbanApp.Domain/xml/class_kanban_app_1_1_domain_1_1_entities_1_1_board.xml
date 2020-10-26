@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::Board</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a5e09e8d3e64a59f613297e619b088e88" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Board.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a062f609d66bc48943a9411cd4732056c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Board.OwnerId</definition>
+        <argsstring></argsstring>
+        <name>OwnerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1aa6e35a924635a5a0ba964ea1ddba89a9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Board.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a96ced0871b9d7dae426810445fa80fd9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Board.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a2afc7d0830fd6f46679ab224ecc8939c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting" kindref="compound">Setting</ref> &gt;</type>
+        <definition>List&lt;Setting&gt; KanbanApp.Domain.Entities.Board.BoardSettings</definition>
+        <argsstring></argsstring>
+        <name>BoardSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a213dd86ebd993ec81d84a6f20c64d6c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" kindref="compound">SwimLane</ref> &gt;</type>
+        <definition>List&lt;SwimLane&gt; KanbanApp.Domain.Entities.Board.SwimLanes</definition>
+        <argsstring></argsstring>
+        <name>SwimLanes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a3e7e619b2bf69533594232a5898ad9f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Domain.Entities.Board.Board</definition>
+        <argsstring>()</argsstring>
+        <name>Board</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>KanbanApp.Domain.Entities.Board</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IEntity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>KanbanApp.Domain.Entities.Board</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IEntity</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a3e7e619b2bf69533594232a5898ad9f6" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Board</scope><name>Board</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a5e09e8d3e64a59f613297e619b088e88" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Board</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a2afc7d0830fd6f46679ab224ecc8939c" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Board</scope><name>BoardSettings</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a96ced0871b9d7dae426810445fa80fd9" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Board</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1aa6e35a924635a5a0ba964ea1ddba89a9" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Board</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a062f609d66bc48943a9411cd4732056c" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Board</scope><name>OwnerId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a213dd86ebd993ec81d84a6f20c64d6c0" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Board</scope><name>SwimLanes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

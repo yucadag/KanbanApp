@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases::Cards</compoundname>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card">KanbanApp::Services::UseCases::Cards::CreateCard</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card">KanbanApp::Services::UseCases::Cards::DeleteCard</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list">KanbanApp::Services::UseCases::Cards::GetAttachmentList</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail">KanbanApp::Services::UseCases::Cards::GetCardDetail</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_tasks">KanbanApp::Services::UseCases::Cards::GetCardTasks</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card">KanbanApp::Services::UseCases::Cards::MoveCard</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card">KanbanApp::Services::UseCases::Cards::UpdateCard</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

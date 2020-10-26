@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_swimline_view_model" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::ViewModels::SwimlineViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_swimline_view_model_1af7f2f07b56a13364b4d8b816045078a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref></type>
+        <definition>Board KanbanApp.Web.UI.ViewModels.SwimlineViewModel.BoardItem</definition>
+        <argsstring></argsstring>
+        <name>BoardItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/SwimlineViewModel.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/SwimlineViewModel.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_swimline_view_model_1a0357dbf1900dc75b699c1ea341fb5a6a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" kindref="compound">SwimLane</ref> &gt;</type>
+        <definition>List&lt;SwimLane&gt; KanbanApp.Web.UI.ViewModels.SwimlineViewModel.SwimLaneList</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/SwimlineViewModel.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/SwimlineViewModel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/SwimlineViewModel.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/SwimlineViewModel.cs" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_swimline_view_model_1af7f2f07b56a13364b4d8b816045078a6" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::SwimlineViewModel</scope><name>BoardItem</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_swimline_view_model_1a0357dbf1900dc75b699c1ea341fb5a6a" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::SwimlineViewModel</scope><name>SwimLaneList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

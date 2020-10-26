@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_validator" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommandValidator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractValidator&lt; CreateBoardCommand &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_validator_1ad7cd945635c2fc51762598c8ab8af0b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandValidator.CreateBoardCommandValidator</definition>
+        <argsstring>()</argsstring>
+        <name>CreateBoardCommandValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandValidator.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandValidator.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="152">
+        <label>AbstractValidator&lt; CreateBoardCommand &gt;</label>
+      </node>
+      <node id="151">
+        <label>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_validator"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="154">
+        <label>AbstractValidator&lt; CreateBoardCommand &gt;</label>
+      </node>
+      <node id="153">
+        <label>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_validator"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandValidator.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandValidator.cs" bodystart="5" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_validator_1ad7cd945635c2fc51762598c8ab8af0b9" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommandValidator</scope><name>CreateBoardCommandValidator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

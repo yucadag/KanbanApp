@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; GetSwimLaneCardsCommand, GetSwimLaneCardsCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler_1ad454faf37786572db47401ca30328e0c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kindref="compound">ISwimLaneRepository</ref></type>
+        <definition>readonly ISwimLaneRepository KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandHandler._swimLaneRepository</definition>
+        <argsstring></argsstring>
+        <name>_swimLaneRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler_1abd611dfb27ed342a07647704aaf206a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandHandler.GetSwimLaneCardsCommandHandler</definition>
+        <argsstring>(ISwimLaneRepository swimLaneRepository)</argsstring>
+        <name>GetSwimLaneCardsCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kindref="compound">ISwimLaneRepository</ref></type>
+          <declname>swimLaneRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler_1a5326eaf882e92e668c2dd7dff61ed4df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result" kindref="compound">GetSwimLaneCardsCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;GetSwimLaneCardsCommandResult&gt; KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandHandler.Handle</definition>
+        <argsstring>(GetSwimLaneCardsCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command" kindref="compound">GetSwimLaneCardsCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" line="22" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" bodystart="22" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="358">
+        <label>IRequestHandler&lt; GetSwimLaneCardsCommand, GetSwimLaneCardsCommandResult &gt;</label>
+      </node>
+      <node id="357">
+        <label>KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="360">
+        <label>IRequestHandler&lt; GetSwimLaneCardsCommand, GetSwimLaneCardsCommandResult &gt;</label>
+      </node>
+      <node id="359">
+        <label>KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler"/>
+        <childnode refid="360" relation="public-inheritance">
+        </childnode>
+        <childnode refid="361" relation="usage">
+          <edgelabel>_swimLaneRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="362">
+        <label>IEntityRepository&lt; SwimLane &gt;</label>
+      </node>
+      <node id="361">
+        <label>KanbanApp.Domain.Data.ISwimLaneRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandHandler.cs" bodystart="13" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler_1ad454faf37786572db47401ca30328e0c" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandHandler</scope><name>_swimLaneRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler_1abd611dfb27ed342a07647704aaf206a9" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandHandler</scope><name>GetSwimLaneCardsCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler_1a5326eaf882e92e668c2dd7dff61ed4df" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

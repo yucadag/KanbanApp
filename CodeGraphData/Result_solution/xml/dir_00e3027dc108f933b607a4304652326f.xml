@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_00e3027dc108f933b607a4304652326f" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api</compoundname>
+    <innerdir refid="dir_8068a9bef7071a4abaee106c84ad63ff">C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers</innerdir>
+    <innerdir refid="dir_b212739cc48eb332af716990c0d4982e">C:/TFSProjects/KanbanApp/KanbanApp.Api/Extensions</innerdir>
+    <innerdir refid="dir_f4e193d066965e2b5367424fbc452032">C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations</innerdir>
+    <innerdir refid="dir_50d633aa7935a764204190ef3adeb7c3">C:/TFSProjects/KanbanApp/KanbanApp.Api/Models</innerdir>
+    <innerfile refid="_kanban_app_8_api_2_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_kanban_app_8_api_2_startup_8cs">Startup.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/"/>
+  </compounddef>
+</doxygen>

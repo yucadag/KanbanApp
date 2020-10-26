@@ -10,6 +10,9 @@ namespace KanbanApp.Services.UseCases.Cards.CreateCard
         public string CardId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public int CardTypeId { get; set; }
+        public int PriorityId { get; set; }
+
 
     }
 }

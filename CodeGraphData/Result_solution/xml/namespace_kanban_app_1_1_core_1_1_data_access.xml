@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_core_1_1_data_access" kind="namespace">
+    <compoundname>KanbanApp::Core::DataAccess</compoundname>
+    <innerclass refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4" prot="public">KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;</innerclass>
+    <innerclass refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work" prot="public">KanbanApp::Core::DataAccess::IUnitOfWork</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework">KanbanApp::Core::DataAccess::EntityFramework</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

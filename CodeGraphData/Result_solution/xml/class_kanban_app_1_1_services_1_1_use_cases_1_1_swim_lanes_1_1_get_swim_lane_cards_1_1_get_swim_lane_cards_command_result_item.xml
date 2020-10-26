@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResultItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1ade242dc178311005a9dba7a335ad82f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandResultItem.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1a4a1659da19a75e920a0bbc51f162aa13" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandResultItem.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1af186982c01ae1f6af0c42d9a3c9bfb37" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandResultItem.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1ad2b87baf321df2fbf91d81116dde068a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandResultItem.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1aee9fb309fc4843aab20834f8b158dfa2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards.GetSwimLaneCardsCommandResultItem.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommandResult.cs" bodystart="11" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1ade242dc178311005a9dba7a335ad82f9" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResultItem</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1af186982c01ae1f6af0c42d9a3c9bfb37" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResultItem</scope><name>CardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1aee9fb309fc4843aab20834f8b158dfa2" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResultItem</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1ad2b87baf321df2fbf91d81116dde068a" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResultItem</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item_1a4a1659da19a75e920a0bbc51f162aa13" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResultItem</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

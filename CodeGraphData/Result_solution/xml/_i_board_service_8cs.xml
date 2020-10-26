@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_board_service_8cs" kind="file">
+    <compoundname>IBoardService.cs</compoundname>
+    <innerclass refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service" prot="public">KanbanApp::Services::Abstract::IBoardService</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_abstract">KanbanApp::Services::Abstract</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.UseCases.Boards.CreateBoard;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.UseCases.Boards.DeleteBoard;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.UseCases.Boards.GetBoardDetail;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.UseCases.Boards.GetBoardList;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.UseCases.Boards.UpdateBoard;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.Abstract</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service" kindref="compound">IBoardService</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;GetBoardListCommandResult&gt;<sp/>GetList(<ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command" kindref="compound">GetBoardListCommand</ref><sp/>command);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;CreateBoardCommandResult&gt;<sp/>Add(<ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command" kindref="compound">CreateBoardCommand</ref><sp/>command);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;UpdateBoardCommandResult&gt;<sp/>Update(<ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command" kindref="compound">UpdateBoardCommand</ref><sp/>command);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;DeleteBoardCommandResult&gt;<sp/>Delete(<ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command" kindref="compound">DeleteBoardCommand</ref><sp/>command);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;GetBoardDetailCommandResult&gt;<sp/>Get(<ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command" kindref="compound">GetBoardDetailCommand</ref><sp/>command);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;GetBoardSwimLanesCommandResult&gt;<sp/>GetBoardSwimLanes(<ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command" kindref="compound">GetBoardSwimLanesCommand</ref><sp/>command);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/IBoardService.cs"/>
+  </compounddef>
+</doxygen>

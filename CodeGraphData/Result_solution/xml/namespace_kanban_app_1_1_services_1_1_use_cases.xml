@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases</compoundname>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_attachment">KanbanApp::Services::UseCases::Attachment</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards">KanbanApp::Services::UseCases::Boards</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards">KanbanApp::Services::UseCases::Cards</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes">KanbanApp::Services::UseCases::SwimLanes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -28,7 +28,6 @@
         <Folder Include="wwwroot\Services\" />
         <Folder Include="wwwroot\Services\Card\" />
         <Folder Include="wwwroot\Services\SwimLine\" />
-        <Folder Include="wwwroot\Components\Card\" />
         <Folder Include="wwwroot\Components\Board\" />
         <Folder Include="wwwroot\Components\Attachment\" />
         <Folder Include="Api\" />
@@ -39,11 +38,6 @@
         <Folder Include="wwwroot\Services\Board\" />
         <Folder Include="wwwroot\Views\Card\" />
         <Folder Include="wwwroot\Views\SwimLane\" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.App" />
-  
     </ItemGroup>
 
     <ItemGroup>

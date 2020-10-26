@@ -115,7 +115,8 @@ namespace KanbanApp.Api.Controllers
                 Name = input.Name,
                 SwimLaneId = input.SwimLaneId,
                 CardId = input.CardId,
-                Description = input.Description
+                Description = input.Description,
+                PriorityColor=input.PriorityColor
             };
         }
 

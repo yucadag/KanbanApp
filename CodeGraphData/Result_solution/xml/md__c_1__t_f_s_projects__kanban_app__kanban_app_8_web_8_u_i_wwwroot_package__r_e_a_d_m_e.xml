@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="md__c_1__t_f_s_projects__kanban_app__kanban_app_8_web_8_u_i_wwwroot_package__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C:_TFSProjects_KanbanApp_KanbanApp.Web.UI_wwwroot_package_README</compoundname>
+    <title>Anypoint API Console</title>
+    <detaileddescription>
+<para>This project&apos;s only purpose is to provide a fixed version of the <ulink url="https://github.com/advanced-rest-client/anypoint-api-console">Anypoint API console</ulink>, under /anypoint-api-console npm package.</para><para>Build is made by a fork of <ulink url="https://github.com/advanced-rest-client/lc-api-console">lc-api-console</ulink> included in the builder folder. It uses rollup to generate a build with the contents of builder/components/</para><para>This project uses Valkyr node strategy, once it&apos;s built on jenkins, a new fixed version of the console will be released (check on github release tab to get the last stable version). Patch version is automatically updated every time a master build is made. To change a minor or major version, you will need to modify valkyr.yaml</para><para>In order to relase a Prereleases/Beta version use a build/... branch </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

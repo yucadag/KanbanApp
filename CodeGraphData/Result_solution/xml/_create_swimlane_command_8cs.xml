@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_create_swimlane_command_8cs" kind="file">
+    <compoundname>CreateSwimlaneCommand.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command" prot="public">KanbanApp::Services::UseCases::SwimLanes::CreateSwimlane::CreateSwimlaneCommand</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane">KanbanApp::Services::UseCases::SwimLanes::CreateSwimlane</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MediatR;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command" kindref="compound">CreateSwimlaneCommand</ref><sp/>:<sp/>IRequest&lt;CreateSwimlaneCommandResult&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1adabddb48ee4fda1d7925bcb8b175f758" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>BoardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="8" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1acef8794eaebb985e1e0f8cd924ef70d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Name<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="9" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1a4e72f30ed71dcf93ab1dbb27ef5f4633" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>SwimLaneId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs"/>
+  </compounddef>
+</doxygen>

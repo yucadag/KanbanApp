@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8df40b7fb62d37800d940cd0f31281df" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards</compoundname>
+    <innerdir refid="dir_65c58d3413ed97e2394deaa3b842130d">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard</innerdir>
+    <innerdir refid="dir_e183f36341123086211bdd71848732f3">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard</innerdir>
+    <innerdir refid="dir_c68a02f9f24b9751fd2e9dba0f734dee">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList</innerdir>
+    <innerdir refid="dir_d8daaa3a49e6e1be153d7f0716dee4d1">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail</innerdir>
+    <innerdir refid="dir_43618e0519c9e79b4ef4ece6b6c1a191">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardTasks</innerdir>
+    <innerdir refid="dir_63e816448105a53a092159d385b7a012">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard</innerdir>
+    <innerdir refid="dir_e7dbfecb41f9e5b8e2aab19f235c9eff">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/"/>
+  </compounddef>
+</doxygen>

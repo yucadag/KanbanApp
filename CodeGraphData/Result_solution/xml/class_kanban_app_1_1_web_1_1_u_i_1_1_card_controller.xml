@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::CardController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller_1adcb4f5e7b83dfe92180f7f7745c1a6b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.CardController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller_1a780486b87a0fa63e1a729e1f30769dac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.CardController.New</definition>
+        <argsstring>()</argsstring>
+        <name>New</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller_1a34d7a37e83e52250bfe92bdab97d2958" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.CardController.Update</definition>
+        <argsstring>(decimal CardId)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>decimal</type>
+          <declname>CardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="96">
+        <label>KanbanApp.Web.UI.CardController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="98">
+        <label>KanbanApp.Web.UI.CardController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/CardController.cs" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller_1adcb4f5e7b83dfe92180f7f7745c1a6b5" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::CardController</scope><name>Index</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller_1a780486b87a0fa63e1a729e1f30769dac" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::CardController</scope><name>New</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller_1a34d7a37e83e52250bfe92bdab97d2958" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::CardController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

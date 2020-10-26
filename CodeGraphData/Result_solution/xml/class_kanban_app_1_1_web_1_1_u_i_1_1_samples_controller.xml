@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_samples_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::SamplesController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_samples_controller_1a6f9b66be37a655e7d68daec7646a0026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.SamplesController.PartialModal</definition>
+        <argsstring>()</argsstring>
+        <name>PartialModal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/SamplesController.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/SamplesController.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="498">
+        <label>KanbanApp.Web.UI.SamplesController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_samples_controller"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="499">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="500">
+        <label>KanbanApp.Web.UI.SamplesController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_samples_controller"/>
+        <childnode refid="501" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="501">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/SamplesController.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/SamplesController.cs" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_samples_controller_1a6f9b66be37a655e7d68daec7646a0026" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::SamplesController</scope><name>PartialModal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

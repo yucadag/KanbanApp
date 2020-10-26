@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::GetBoardSwimLanes::GetBoardSwimLanesCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; GetBoardSwimLanesCommand, GetBoardSwimLanesCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler_1aff4ccb019866d6e43e32d9cd26037fe8" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kindref="compound">IBoardRepository</ref></type>
+        <definition>readonly IBoardRepository KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes.GetBoardSwimLanesCommandHandler._boardRepository</definition>
+        <argsstring></argsstring>
+        <name>_boardRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler_1af341e53166199a15f55da5771c63e9fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes.GetBoardSwimLanesCommandHandler.GetBoardSwimLanesCommandHandler</definition>
+        <argsstring>(IBoardRepository boardRepository)</argsstring>
+        <name>GetBoardSwimLanesCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kindref="compound">IBoardRepository</ref></type>
+          <declname>boardRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler_1a0e5e5498d33a835d686e156d251ae011" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_result" kindref="compound">GetBoardSwimLanesCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;GetBoardSwimLanesCommandResult&gt; KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes.GetBoardSwimLanesCommandHandler.Handle</definition>
+        <argsstring>(GetBoardSwimLanesCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command" kindref="compound">GetBoardSwimLanesCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" line="23" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" bodystart="23" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="322">
+        <label>IRequestHandler&lt; GetBoardSwimLanesCommand, GetBoardSwimLanesCommandResult &gt;</label>
+      </node>
+      <node id="321">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes.GetBoardSwimLanesCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler"/>
+        <childnode refid="322" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="324">
+        <label>IRequestHandler&lt; GetBoardSwimLanesCommand, GetBoardSwimLanesCommandResult &gt;</label>
+      </node>
+      <node id="326">
+        <label>IEntityRepository&lt; Board &gt;</label>
+      </node>
+      <node id="325">
+        <label>KanbanApp.Domain.Data.IBoardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository"/>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes.GetBoardSwimLanesCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>_boardRepository</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardSwimLanes/GetBoardSwimLanesCommandHandler.cs" bodystart="13" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler_1aff4ccb019866d6e43e32d9cd26037fe8" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardSwimLanes::GetBoardSwimLanesCommandHandler</scope><name>_boardRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler_1af341e53166199a15f55da5771c63e9fa" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardSwimLanes::GetBoardSwimLanesCommandHandler</scope><name>GetBoardSwimLanesCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_handler_1a0e5e5498d33a835d686e156d251ae011" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardSwimLanes::GetBoardSwimLanesCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

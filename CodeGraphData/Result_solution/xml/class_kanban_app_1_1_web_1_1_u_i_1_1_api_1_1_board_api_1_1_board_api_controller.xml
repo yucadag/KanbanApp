@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::Api::BoardApi::BoardApiController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a95eb6cac47687e154249a2cf51289ba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_view_model" kindref="compound">BoardViewModel</ref></type>
+        <definition>BoardViewModel KanbanApp.Web.UI.Api.BoardApi.BoardApiController.GetAllBoards</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllBoards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" bodystart="18" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a2de351f5787760f5cb612f72a7b5f441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref></type>
+        <definition>Board KanbanApp.Web.UI.Api.BoardApi.BoardApiController.Get</definition>
+        <argsstring>(string id)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" line="43" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" bodystart="43" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a0548082766de120e5c37b1d2e82c2cc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Web.UI.Api.BoardApi.BoardApiController.Post</definition>
+        <argsstring>([FromBody]string value)</argsstring>
+        <name>Post</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" line="74" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a3d6e18f0de6879ae119558c0b17e4fe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Web.UI.Api.BoardApi.BoardApiController.Put</definition>
+        <argsstring>(int id, [FromBody]string value)</argsstring>
+        <name>Put</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" line="80" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a0bad938c6aed792685f48738ae82899c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Web.UI.Api.BoardApi.BoardApiController.Delete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" line="86" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" bodystart="86" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>Controller</label>
+      </node>
+      <node id="33">
+        <label>KanbanApp.Web.UI.Api.BoardApi.BoardApiController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>Controller</label>
+      </node>
+      <node id="35">
+        <label>KanbanApp.Web.UI.Api.BoardApi.BoardApiController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi/BoardApiController.cs" bodystart="14" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a0bad938c6aed792685f48738ae82899c" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::BoardApi::BoardApiController</scope><name>Delete</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a2de351f5787760f5cb612f72a7b5f441" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::BoardApi::BoardApiController</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a95eb6cac47687e154249a2cf51289ba4" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::BoardApi::BoardApiController</scope><name>GetAllBoards</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a0548082766de120e5c37b1d2e82c2cc7" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::BoardApi::BoardApiController</scope><name>Post</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_board_api_1_1_board_api_controller_1a3d6e18f0de6879ae119558c0b17e4fe9" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::BoardApi::BoardApiController</scope><name>Put</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases::Cards::DeleteCard</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command" prot="public">KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommand</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_handler" prot="public">KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandHandler</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_result" prot="public">KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandResult</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_result_item" prot="public">KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandResultItem</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_validator" prot="public">KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandValidator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommand.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

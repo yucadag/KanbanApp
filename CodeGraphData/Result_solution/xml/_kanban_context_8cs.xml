@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_kanban_context_8cs" kind="file">
+    <compoundname>KanbanContext.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" prot="public">KanbanApp::Data::Concrete::EntityFramework::KanbanContext</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework">KanbanApp::Data::Concrete::EntityFramework</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Domain.Entities;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.EntityFrameworkCore;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Data.Concrete.EntityFramework</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref><sp/>:<sp/>DbContext</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//protected<sp/>override<sp/>void<sp/>OnConfiguring(DbContextOptionsBuilder<sp/>optionsBuilder)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>optionsBuilder.UseSqlServer(@&quot;Data<sp/>Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial<sp/>Catalog=Kanban;Integrated<sp/>Security=True&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1a6182e02007465d6110a069bdcd0a23ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1a6182e02007465d6110a069bdcd0a23ca" kindref="member">KanbanContext</ref>(DbContextOptions<sp/>options)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">:<sp/>base(options)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1adaf3110a39f356a34fb32c71a095fde0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DbSet&lt;Board&gt;<sp/>Boards<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="20" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1ab1fee3d4fc7f6d66aab68d3d54fab7f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DbSet&lt;SwimLane&gt;<sp/>SwimLanes<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="21" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1a1286aa1e90903d57bf393b9bf3c6f29c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DbSet&lt;Setting&gt;<sp/>Settings<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1a98fdeec1a01e43453c14ddafa0ad8485" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DbSet&lt;Card&gt;<sp/>Cards<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="23" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1a9b522efe655e4bc1345233ef568f32bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DbSet&lt;CardAttachment&gt;<sp/>CardAttachments<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="24" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1aba97b3041c04e2aee0dda26741a09d75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DbSet&lt;CardType&gt;<sp/>CardTypes<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="25" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context_1ab877adab70976859e786e2a10e523316" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DbSet&lt;User&gt;<sp/>Users<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/KanbanContext.cs"/>
+  </compounddef>
+</doxygen>

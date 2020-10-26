@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service" kind="interface" prot="public">
+    <compoundname>KanbanApp::Services::Abstract::ICardService</compoundname>
+    <derivedcompoundref refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service" prot="public" virt="non-virtual">KanbanApp.Services.Concrete.CardService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1a80f2560c89fbcacff1677acedbfabef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_result" kindref="compound">UpdateCardCommandResult</ref> &gt;</type>
+        <definition>Task&lt;UpdateCardCommandResult&gt; KanbanApp.Services.Abstract.ICardService.Update</definition>
+        <argsstring>(UpdateCardCommand command)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service_1a1bb47d0d819a3993cc42c67f33fd1a84">Update</reimplementedby>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command" kindref="compound">UpdateCardCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1adf51b93ac08f3335e90bbeac9e4d16a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_result" kindref="compound">DeleteCardCommandResult</ref> &gt;</type>
+        <definition>Task&lt;DeleteCardCommandResult&gt; KanbanApp.Services.Abstract.ICardService.Delete</definition>
+        <argsstring>(DeleteCardCommand command)</argsstring>
+        <name>Delete</name>
+        <reimplementedby refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service_1a6c8cf6339c67abb6908e87ea02e17f94">Delete</reimplementedby>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command" kindref="compound">DeleteCardCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1ac2d719efe01c19deaf75e332736567bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result" kindref="compound">GetCardDetailCommandResult</ref> &gt;</type>
+        <definition>Task&lt;GetCardDetailCommandResult&gt; KanbanApp.Services.Abstract.ICardService.Get</definition>
+        <argsstring>(GetCardDetailCommand command)</argsstring>
+        <name>Get</name>
+        <reimplementedby refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service_1a846cbbd8726e150a1f37ffe644787860">Get</reimplementedby>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command" kindref="compound">GetCardDetailCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1ab9ef715686a589774982c53641e82e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result" kindref="compound">GetAttachmentListCommandResult</ref> &gt;</type>
+        <definition>Task&lt;GetAttachmentListCommandResult&gt; KanbanApp.Services.Abstract.ICardService.GetAttachmentList</definition>
+        <argsstring>(GetAttachmentListCommand command)</argsstring>
+        <name>GetAttachmentList</name>
+        <reimplementedby refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service_1a868eb2bc69f69d694fefd9762b26d559">GetAttachmentList</reimplementedby>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command" kindref="compound">GetAttachmentListCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1a523afef26acbac3aa0fd1c30b43552ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_result" kindref="compound">MoveCardCommandResult</ref> &gt;</type>
+        <definition>Task&lt;MoveCardCommandResult&gt; KanbanApp.Services.Abstract.ICardService.MoveCard</definition>
+        <argsstring>(MoveCardCommand command)</argsstring>
+        <name>MoveCard</name>
+        <reimplementedby refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service_1a57976b95d9f1e0595a63cb9a6d7f8329">MoveCard</reimplementedby>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command" kindref="compound">MoveCardCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1adafaeeac516baba5a6a3cbbffc6e864b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_result" kindref="compound">CreateCardCommandResult</ref> &gt;</type>
+        <definition>Task&lt;CreateCardCommandResult&gt; KanbanApp.Services.Abstract.ICardService.CreateCard</definition>
+        <argsstring>(CreateCardCommand command)</argsstring>
+        <name>CreateCard</name>
+        <reimplementedby refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service_1acc7d8cc398eb62fa3f2169240d7bd757">CreateCard</reimplementedby>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command" kindref="compound">CreateCardCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="400">
+        <label>KanbanApp.Services.Abstract.ICardService</label>
+        <link refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service"/>
+      </node>
+      <node id="401">
+        <label>KanbanApp.Services.Concrete.CardService</label>
+        <link refid="class_kanban_app_1_1_services_1_1_concrete_1_1_card_service"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/ICardService.cs" bodystart="11" bodyend="21"/>
+    <listofallmembers>
+      <member refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1adafaeeac516baba5a6a3cbbffc6e864b" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Abstract::ICardService</scope><name>CreateCard</name></member>
+      <member refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1adf51b93ac08f3335e90bbeac9e4d16a3" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Abstract::ICardService</scope><name>Delete</name></member>
+      <member refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1ac2d719efe01c19deaf75e332736567bb" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Abstract::ICardService</scope><name>Get</name></member>
+      <member refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1ab9ef715686a589774982c53641e82e87" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Abstract::ICardService</scope><name>GetAttachmentList</name></member>
+      <member refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1a523afef26acbac3aa0fd1c30b43552ae" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Abstract::ICardService</scope><name>MoveCard</name></member>
+      <member refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_card_service_1a80f2560c89fbcacff1677acedbfabef8" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Abstract::ICardService</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d1f04b7625942a11e238b40aa3f34ebf" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels</compoundname>
+    <innerdir refid="dir_797b14a3ed94e077cb5047e6527fcff6">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels</innerdir>
+    <innerfile refid="_board_new_view_model_8cs">BoardNewViewModel.cs</innerfile>
+    <innerfile refid="_board_view_model_8cs">BoardViewModel.cs</innerfile>
+    <innerfile refid="_swimline_view_model_8cs">SwimlineViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/"/>
+  </compounddef>
+</doxygen>

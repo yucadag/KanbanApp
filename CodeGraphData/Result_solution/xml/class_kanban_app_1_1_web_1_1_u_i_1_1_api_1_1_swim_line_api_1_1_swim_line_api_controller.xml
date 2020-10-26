@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::Api::SwimLineApi::SwimLineApiController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1ae8aa38550ae932929cdcac50eb9241d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt;string&gt; KanbanApp.Web.UI.Api.SwimLineApi.SwimLineApiController.Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1a5bfceefc16e4e48f5b2bfa69433dca18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string KanbanApp.Web.UI.Api.SwimLineApi.SwimLineApiController.Get</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" line="20" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1a07833baf9dd8c3f64234a4b3e4969d84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Web.UI.Api.SwimLineApi.SwimLineApiController.Post</definition>
+        <argsstring>([FromBody]string value)</argsstring>
+        <name>Post</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" line="27" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1a3b520a0c974c0571767795fcb7de523a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Web.UI.Api.SwimLineApi.SwimLineApiController.Put</definition>
+        <argsstring>(int id, [FromBody]string value)</argsstring>
+        <name>Put</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" line="33" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1aa6e98f1560c3899304e1997d7bab49c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Web.UI.Api.SwimLineApi.SwimLineApiController.Delete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" line="39" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" bodystart="39" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="543">
+        <label>KanbanApp.Web.UI.Api.SwimLineApi.SwimLineApiController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller"/>
+        <childnode refid="544" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="544">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="545">
+        <label>KanbanApp.Web.UI.Api.SwimLineApi.SwimLineApiController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller"/>
+        <childnode refid="546" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="546">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi/SwimLineApiController.cs" bodystart="9" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1aa6e98f1560c3899304e1997d7bab49c8" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::SwimLineApi::SwimLineApiController</scope><name>Delete</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1ae8aa38550ae932929cdcac50eb9241d2" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::SwimLineApi::SwimLineApiController</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1a5bfceefc16e4e48f5b2bfa69433dca18" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::SwimLineApi::SwimLineApiController</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1a07833baf9dd8c3f64234a4b3e4969d84" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::SwimLineApi::SwimLineApiController</scope><name>Post</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_api_1_1_swim_line_api_1_1_swim_line_api_controller_1a3b520a0c974c0571767795fcb7de523a" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::Api::SwimLineApi::SwimLineApiController</scope><name>Put</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

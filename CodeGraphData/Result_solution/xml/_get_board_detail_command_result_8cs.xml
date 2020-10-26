@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_get_board_detail_command_result_8cs" kind="file">
+    <compoundname>GetBoardDetailCommandResult.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result" prot="public">KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandResult</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item" prot="public">KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandResultItem</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail">KanbanApp::Services::UseCases::Boards::GetBoardDetail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.DTO.Core;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.UseCases.Boards.GetBoardDetail</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result" kindref="compound">GetBoardDetailCommandResult</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_1a5b60d29a919fe954c7bc3bd7de973ca5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ServiceResult&lt;GetBoardDetailCommandResultItem&gt;<sp/>ResultObject<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item" kindref="compound">GetBoardDetailCommandResultItem</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1aad43ee64909e35fe8e26510ee3d5e8c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>BoardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1ab566011841fe1f4906bd12242e376990" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Name<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="14" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result_item_1ae8c44b99b123446a7a468a231196f4f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Description<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandResult.cs"/>
+  </compounddef>
+</doxygen>

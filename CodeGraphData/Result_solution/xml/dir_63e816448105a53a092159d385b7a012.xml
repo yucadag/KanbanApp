@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_63e816448105a53a092159d385b7a012" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard</compoundname>
+    <innerfile refid="_move_card_command_8cs">MoveCardCommand.cs</innerfile>
+    <innerfile refid="_move_card_command_handler_8cs">MoveCardCommandHandler.cs</innerfile>
+    <innerfile refid="_move_card_command_result_8cs">MoveCardCommandResult.cs</innerfile>
+    <innerfile refid="_move_card_validator_8cs">MoveCardValidator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/"/>
+  </compounddef>
+</doxygen>

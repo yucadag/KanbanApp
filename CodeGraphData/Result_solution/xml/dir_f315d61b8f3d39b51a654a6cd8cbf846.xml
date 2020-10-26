@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f315d61b8f3d39b51a654a6cd8cbf846" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework</compoundname>
+    <innerfile refid="_ef_board_repository_8cs">EfBoardRepository.cs</innerfile>
+    <innerfile refid="_ef_card_repository_8cs">EfCardRepository.cs</innerfile>
+    <innerfile refid="_ef_swim_lane_repository_8cs">EfSwimLaneRepository.cs</innerfile>
+    <innerfile refid="_ef_unit_of_work_8cs">EfUnitOfWork.cs</innerfile>
+    <innerfile refid="_kanban_context_8cs">KanbanContext.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/"/>
+  </compounddef>
+</doxygen>

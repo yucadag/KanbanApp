@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Boards::Output::BoardGetListOutput</compoundname>
+    <basecompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.BaseModels.BaseOutput</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1a415fa62703e8a83d186555f55df31fa9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Output.BoardGetListOutput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1ab328e45bfffcea18b55b4ec26b9f4879" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Output.BoardGetListOutput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1aaf3913b23ef81ae735541dde653ae7ab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Output.BoardGetListOutput.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="61">
+        <label>BaseOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output"/>
+      </node>
+      <node id="60">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardGetListOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>BaseOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output"/>
+      </node>
+      <node id="62">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardGetListOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1a415fa62703e8a83d186555f55df31fa9" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardGetListOutput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1aaf3913b23ef81ae735541dde653ae7ab" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardGetListOutput</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1aec034ee7cbda2757187ff063d2d0088d" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardGetListOutput</scope><name>IsSuccess</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1ac2f32fb8100a9f9bfeb5dbfb4bc859b7" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardGetListOutput</scope><name>MessageList</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1ab328e45bfffcea18b55b4ec26b9f4879" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardGetListOutput</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

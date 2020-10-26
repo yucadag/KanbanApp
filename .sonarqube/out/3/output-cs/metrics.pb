@@ -1,2 +1,2 @@
-[
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.csr	
+O
+BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.csr		

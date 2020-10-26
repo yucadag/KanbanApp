@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c68a02f9f24b9751fd2e9dba0f734dee" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList</compoundname>
+    <innerfile refid="_get_attachment_list_command_8cs">GetAttachmentListCommand.cs</innerfile>
+    <innerfile refid="_get_attachment_list_command_handler_8cs">GetAttachmentListCommandHandler.cs</innerfile>
+    <innerfile refid="_get_attachment_list_command_result_8cs">GetAttachmentListCommandResult.cs</innerfile>
+    <innerfile refid="_get_attachment_list_command_validator_8cs">GetAttachmentListCommandValidator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/"/>
+  </compounddef>
+</doxygen>

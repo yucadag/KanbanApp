@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_ef_unit_of_work_8cs" kind="file">
+    <compoundname>EfUnitOfWork.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work" prot="public">KanbanApp::Data::Concrete::EntityFramework::EfUnitOfWork</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework">KanbanApp::Data::Concrete::EntityFramework</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Core.DataAccess;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Data.Concrete.EntityFramework</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work" kindref="compound">EfUnitOfWork</ref><sp/>:<sp/><ref refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work" kindref="compound">IUnitOfWork</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a0d4a9bfbb54ede2853640c2e7438e718" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref><sp/><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a0d4a9bfbb54ede2853640c2e7438e718" kindref="member">context</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a24a461a30ab7608d4b22c5a07958b41c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a24a461a30ab7608d4b22c5a07958b41c" kindref="member">EfUnitOfWork</ref>(<ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref><sp/>context)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.context<sp/>=<sp/>context;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1acdd6e17353e2fd9a66fbb1f719653951" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task<sp/><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1acdd6e17353e2fd9a66fbb1f719653951" kindref="member">CompleteAsync</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>await<sp/>context.SaveChangesAsync();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs"/>
+  </compounddef>
+</doxygen>

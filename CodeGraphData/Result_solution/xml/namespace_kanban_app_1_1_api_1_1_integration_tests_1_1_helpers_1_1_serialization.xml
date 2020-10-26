@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization" kind="namespace">
+    <compoundname>KanbanApp::Api::IntegrationTests::Helpers::Serialization</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization_1_1_json_serializer_helper" prot="public">KanbanApp::Api::IntegrationTests::Helpers::Serialization::JsonSerializerHelper</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization/JsonSerializerHelper.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

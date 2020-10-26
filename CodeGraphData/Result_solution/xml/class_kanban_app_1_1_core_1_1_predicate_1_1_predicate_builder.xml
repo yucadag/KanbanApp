@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder" kind="class" prot="public">
+    <compoundname>KanbanApp::Core::Predicate::PredicateBuilder</compoundname>
+    <innerclass refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder" prot="private">KanbanApp::Core::Predicate::PredicateBuilder::ParameterRebinder</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a5baf5c7d8752269f9bcf34c3ccfe971d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression&lt; Func&lt; T, bool &gt; &gt;</type>
+        <definition>static Expression&lt;Func&lt;T, bool&gt; &gt; KanbanApp.Core.Predicate.PredicateBuilder.True&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>True&lt; T &gt;</name>
+        <briefdescription>
+<para>Creates a predicate that evaluates to true. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a82ca2ed3e48a84703b28477828dadc68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression&lt; Func&lt; T, bool &gt; &gt;</type>
+        <definition>static Expression&lt;Func&lt;T, bool&gt; &gt; KanbanApp.Core.Predicate.PredicateBuilder.False&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>False&lt; T &gt;</name>
+        <briefdescription>
+<para>Creates a predicate that evaluates to false. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a1a00c0f632979bd0ee6412b55560a2f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression&lt; Func&lt; T, bool &gt; &gt;</type>
+        <definition>static Expression&lt;Func&lt;T, bool&gt; &gt; KanbanApp.Core.Predicate.PredicateBuilder.Create&lt; T &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate)</argsstring>
+        <name>Create&lt; T &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+<para>Creates a predicate expression from the specified lambda expression. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="26" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a115b9a135dea66664eec78f9e053f3a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression&lt; Func&lt; T, bool &gt; &gt;</type>
+        <definition>static Expression&lt;Func&lt;T, bool&gt; &gt; KanbanApp.Core.Predicate.PredicateBuilder.And&lt; T &gt;</definition>
+        <argsstring>(this Expression&lt; Func&lt; T, bool &gt;&gt; first, Expression&lt; Func&lt; T, bool &gt;&gt; second)</argsstring>
+        <name>And&lt; T &gt;</name>
+        <param>
+          <type>this Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>Combines the first predicate with the second using the logical &quot;and&quot;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="31" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1ad5480fcce7f82112211a65a0719bec75" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression&lt; Func&lt; T, bool &gt; &gt;</type>
+        <definition>static Expression&lt;Func&lt;T, bool&gt; &gt; KanbanApp.Core.Predicate.PredicateBuilder.Or&lt; T &gt;</definition>
+        <argsstring>(this Expression&lt; Func&lt; T, bool &gt;&gt; first, Expression&lt; Func&lt; T, bool &gt;&gt; second)</argsstring>
+        <name>Or&lt; T &gt;</name>
+        <param>
+          <type>this Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>Combines the first predicate with the second using the logical &quot;or&quot;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="39" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a6ba0b9a7af11c2b3f06b716adeb490cf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression&lt; Func&lt; T, bool &gt; &gt;</type>
+        <definition>static Expression&lt;Func&lt;T, bool&gt; &gt; KanbanApp.Core.Predicate.PredicateBuilder.Not&lt; T &gt;</definition>
+        <argsstring>(this Expression&lt; Func&lt; T, bool &gt;&gt; expression)</argsstring>
+        <name>Not&lt; T &gt;</name>
+        <param>
+          <type>this Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+<para>Negates the predicate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="47" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a64fc47038deec3bd68c2236b49c1ea88" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression&lt; T &gt;</type>
+        <definition>static Expression&lt;T&gt; KanbanApp.Core.Predicate.PredicateBuilder.Compose&lt; T &gt;</definition>
+        <argsstring>(this Expression&lt; T &gt; first, Expression&lt; T &gt; second, Func&lt; Expression, Expression, Expression &gt; merge)</argsstring>
+        <name>Compose&lt; T &gt;</name>
+        <param>
+          <type>this Expression&lt; T &gt;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Expression&lt; T &gt;</type>
+          <declname>second</declname>
+        </param>
+        <param>
+          <type>Func&lt; Expression, Expression, Expression &gt;</type>
+          <declname>merge</declname>
+        </param>
+        <briefdescription>
+<para>Combines the first expression with the second using the specified merge function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="47" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="56" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Enables the efficient, dynamic composition of query predicates. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="11" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a115b9a135dea66664eec78f9e053f3a0" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder</scope><name>And&lt; T &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a64fc47038deec3bd68c2236b49c1ea88" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder</scope><name>Compose&lt; T &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a1a00c0f632979bd0ee6412b55560a2f9" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder</scope><name>Create&lt; T &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a82ca2ed3e48a84703b28477828dadc68" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder</scope><name>False&lt; T &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a6ba0b9a7af11c2b3f06b716adeb490cf" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder</scope><name>Not&lt; T &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1ad5480fcce7f82112211a65a0719bec75" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder</scope><name>Or&lt; T &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1a5baf5c7d8752269f9bcf34c3ccfe971d" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder</scope><name>True&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

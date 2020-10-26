@@ -552,7 +552,7 @@ ZC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCar
 
  
 
- !È
+ !ô
 aC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommandHandler.cs
 
  0
@@ -566,11 +566,13 @@ aC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCar
 ##‘ ˜
 ##­ ´
 
-g xZ
-$ *    %% )) .. 77 
- ' 0
- $!! %
-,, 22Z \33& (À
+g xd
+$ *    $$ ** ,, 11 :: 
+ ' 0
+ $!! $(() 9
+((! %
+**™ 
+// 55Z \66& (À
 `C:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommandResult.cs
 
  (
@@ -618,7 +620,7 @@ aC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\DeleteCard\DeleteCar
 g xZ
 $ *    ++ // 44 == 
  ' 0
- $!! %
+ $!! $
 $$ && ((+ /
 22 88Z \99& (À
 `C:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\DeleteCard\DeleteCardCommandResult.cs
@@ -661,7 +663,7 @@ oC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\GetAttachmentList\Ge
 	u †Z
 + 1    && 00 55 >> 
    ' 0
-   $"" %
+   $"" $
 %%) ;&&/ A2
 &&I J((! "))) ***+ ,++1 2
 33 99Y [::& (Î

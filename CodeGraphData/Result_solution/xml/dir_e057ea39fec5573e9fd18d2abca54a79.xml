@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e057ea39fec5573e9fd18d2abca54a79" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes</compoundname>
+    <innerdir refid="dir_a24b27d78b77905198da87bcf4b58889">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane</innerdir>
+    <innerdir refid="dir_154efd1d9ceef54e35add66254bd7c70">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards</innerdir>
+    <innerdir refid="dir_ae001d16c430b5a963803281ff82eaa6">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail</innerdir>
+    <innerdir refid="dir_93369b74f8862a006ec79d424b9dad82">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/"/>
+  </compounddef>
+</doxygen>

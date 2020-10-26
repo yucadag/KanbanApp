@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_tag" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::Tag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_tag_1abac30eaa4b400a44dee80858ae127225" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Tag.TagId</definition>
+        <argsstring></argsstring>
+        <name>TagId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Tag.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Tag.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_tag_1a7bce8b0b4eb0407bf357740532291b20" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Tag.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Tag.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Tag.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>KanbanApp.Domain.Entities.Tag</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>IEntity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>KanbanApp.Domain.Entities.Tag</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>IEntity</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Tag.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Tag.cs" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag_1a7bce8b0b4eb0407bf357740532291b20" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Tag</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag_1abac30eaa4b400a44dee80858ae127225" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Tag</scope><name>TagId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

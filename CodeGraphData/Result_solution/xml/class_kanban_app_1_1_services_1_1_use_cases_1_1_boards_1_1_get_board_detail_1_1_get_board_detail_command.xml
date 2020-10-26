@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; GetBoardDetailCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_1a9e3e18489665fe43991cca3cc6afa345" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommand.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommand.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommand.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_1a92cd5783d038970a73c2c9a2c313da9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommand.GetBoardDetailCommand</definition>
+        <argsstring>(string boardId)</argsstring>
+        <name>GetBoardDetailCommand</name>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommand.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommand.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="281">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>IRequest&lt; GetBoardDetailCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="283">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command"/>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>IRequest&lt; GetBoardDetailCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommand.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_1a9e3e18489665fe43991cca3cc6afa345" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommand</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_1a92cd5783d038970a73c2c9a2c313da9e" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommand</scope><name>GetBoardDetailCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

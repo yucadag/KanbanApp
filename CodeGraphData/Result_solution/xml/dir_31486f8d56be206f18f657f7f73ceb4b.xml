@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_31486f8d56be206f18f657f7f73ceb4b" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Core</compoundname>
+    <innerdir refid="dir_4388921801429cb85b452ce2373e434f">C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess</innerdir>
+    <innerdir refid="dir_3bc0695d7ce358f3fe0bd156e07ddeeb">C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate</innerdir>
+    <innerdir refid="dir_5fadc36a5749f7d3e86135bc223ea9ba">C:/TFSProjects/KanbanApp/KanbanApp.Core/Result</innerdir>
+    <innerfile refid="_i_entity_8cs">IEntity.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/"/>
+  </compounddef>
+</doxygen>

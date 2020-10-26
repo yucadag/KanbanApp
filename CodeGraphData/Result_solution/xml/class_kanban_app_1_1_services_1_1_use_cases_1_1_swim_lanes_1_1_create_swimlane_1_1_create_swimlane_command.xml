@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::CreateSwimlane::CreateSwimlaneCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; CreateSwimlaneCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1adabddb48ee4fda1d7925bcb8b175f758" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane.CreateSwimlaneCommand.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1acef8794eaebb985e1e0f8cd924ef70d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane.CreateSwimlaneCommand.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1a4e72f30ed71dcf93ab1dbb27ef5f4633" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane.CreateSwimlaneCommand.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="174">
+        <label>IRequest&lt; CreateSwimlaneCommandResult &gt;</label>
+      </node>
+      <node id="173">
+        <label>KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane.CreateSwimlaneCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="176">
+        <label>IRequest&lt; CreateSwimlaneCommandResult &gt;</label>
+      </node>
+      <node id="175">
+        <label>KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane.CreateSwimlaneCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/CreateSwimlane/CreateSwimlaneCommand.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1adabddb48ee4fda1d7925bcb8b175f758" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::CreateSwimlane::CreateSwimlaneCommand</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1acef8794eaebb985e1e0f8cd924ef70d5" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::CreateSwimlane::CreateSwimlaneCommand</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_1a4e72f30ed71dcf93ab1dbb27ef5f4633" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::CreateSwimlane::CreateSwimlaneCommand</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

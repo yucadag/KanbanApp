@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::UpdateCard::UpdateCardCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; UpdateCardCommand, UpdateCardCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler_1a1ae1b465509918fc55f554cfa3bbfba1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+        <definition>readonly ICardRepository KanbanApp.Services.UseCases.Cards.UpdateCard.UpdateCardCommandHandler._cardRepository</definition>
+        <argsstring></argsstring>
+        <name>_cardRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler_1a8c01839b80268b8c61c571f25cc87502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.UpdateCard.UpdateCardCommandHandler.UpdateCardCommandHandler</definition>
+        <argsstring>(ICardRepository cardRepository)</argsstring>
+        <name>UpdateCardCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+          <declname>cardRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler_1afbee34d414765ee321c5d4cc05cfc37e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_result" kindref="compound">UpdateCardCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;UpdateCardCommandResult&gt; KanbanApp.Services.UseCases.Cards.UpdateCard.UpdateCardCommandHandler.Handle</definition>
+        <argsstring>(UpdateCardCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command" kindref="compound">UpdateCardCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" bodystart="21" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="585">
+        <label>KanbanApp.Services.UseCases.Cards.UpdateCard.UpdateCardCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler"/>
+        <childnode refid="586" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="586">
+        <label>IRequestHandler&lt; UpdateCardCommand, UpdateCardCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="589">
+        <label>KanbanApp.Domain.Data.ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="590" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="590">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+      <node id="587">
+        <label>KanbanApp.Services.UseCases.Cards.UpdateCard.UpdateCardCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler"/>
+        <childnode refid="588" relation="public-inheritance">
+        </childnode>
+        <childnode refid="589" relation="usage">
+          <edgelabel>_cardRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="588">
+        <label>IRequestHandler&lt; UpdateCardCommand, UpdateCardCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/UpdateCard/UpdateCardCommandHandler.cs" bodystart="12" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler_1a1ae1b465509918fc55f554cfa3bbfba1" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::UpdateCard::UpdateCardCommandHandler</scope><name>_cardRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler_1afbee34d414765ee321c5d4cc05cfc37e" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::UpdateCard::UpdateCardCommandHandler</scope><name>Handle</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_update_card_1_1_update_card_command_handler_1a8c01839b80268b8c61c571f25cc87502" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::UpdateCard::UpdateCardCommandHandler</scope><name>UpdateCardCommandHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

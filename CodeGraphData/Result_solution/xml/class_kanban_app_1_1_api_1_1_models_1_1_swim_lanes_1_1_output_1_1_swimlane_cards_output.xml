@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</compoundname>
+    <basecompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.BaseModels.BaseOutput</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1a4b36840b4a087048444cf60ceb6f8194" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1a0fed95d5f65404738d682d0215d9c7ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1ab00d2c1efffa2cc9886f33e0dc245bbe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1a9d6a2e460488153ade1b4268546141b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1af07ff1159dbebf2fb073d77420811104" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="524">
+        <label>KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output"/>
+        <childnode refid="525" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="525">
+        <label>BaseOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="526">
+        <label>KanbanApp.Api.Models.SwimLanes.Output.SwimlaneCardsOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output"/>
+        <childnode refid="527" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="527">
+        <label>BaseOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output/SwimlaneCardsOutput.cs" bodystart="5" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1a4b36840b4a087048444cf60ceb6f8194" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1ab00d2c1efffa2cc9886f33e0dc245bbe" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</scope><name>CardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1af07ff1159dbebf2fb073d77420811104" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1aec034ee7cbda2757187ff063d2d0088d" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</scope><name>IsSuccess</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1ac2f32fb8100a9f9bfeb5dbfb4bc859b7" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</scope><name>MessageList</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1a9d6a2e460488153ade1b4268546141b1" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output_1a0fed95d5f65404738d682d0215d9c7ee" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Output::SwimlaneCardsOutput</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

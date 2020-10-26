@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_domain_1_1_shared" kind="namespace">
+    <compoundname>KanbanApp::Domain::Shared</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_kanban_app_1_1_domain_1_1_shared_1af27ce7feac1f1207a2fe3d1f4c9a4900" prot="public" static="no">
+        <name>ECardTaskState</name>
+        <enumvalue id="namespace_kanban_app_1_1_domain_1_1_shared_1af27ce7feac1f1207a2fe3d1f4c9a4900a2d13df6f8b5e4c5af9f87e0dc39df69d" prot="public">
+          <name>Pending</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_kanban_app_1_1_domain_1_1_shared_1af27ce7feac1f1207a2fe3d1f4c9a4900a12d868c18cb29bf58f02b504be9033fd" prot="public">
+          <name>InProgress</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_kanban_app_1_1_domain_1_1_shared_1af27ce7feac1f1207a2fe3d1f4c9a4900a07ca5050e697392c9ed47e6453f1453f" prot="public">
+          <name>Completed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain.Shared/ECardTaskState.cs" line="4" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain.Shared/ECardTaskState.cs" bodystart="3" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain.Shared/ECardTaskState.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

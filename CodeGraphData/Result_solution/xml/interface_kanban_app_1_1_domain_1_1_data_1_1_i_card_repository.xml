@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kind="interface" prot="public">
+    <compoundname>KanbanApp::Domain::Data::ICardRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntityRepository&lt; Card &gt;</basecompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository" prot="public" virt="non-virtual">KanbanApp.Data.Concrete.EntityFramework.EfCardRepository</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository_1a1719c77af6719d4adc86695a7de3812d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" kindref="compound">CardAttachment</ref> &gt;</type>
+        <definition>List&lt;CardAttachment&gt; KanbanApp.Domain.Data.ICardRepository.GetCardAttachments</definition>
+        <argsstring>(string CardId)</argsstring>
+        <name>GetCardAttachments</name>
+        <reimplementedby refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository_1a5d4a2321d285334d0e5b52afd99e932e">GetCardAttachments</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>CardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/ICardRepository.cs" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="395">
+        <label>KanbanApp.Domain.Data.ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+      <node id="397">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfCardRepository</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="398">
+        <label>KanbanApp.Domain.Data.ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="399" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/ICardRepository.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/ICardRepository.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository_1a1719c77af6719d4adc86695a7de3812d" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Data::ICardRepository</scope><name>GetCardAttachments</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

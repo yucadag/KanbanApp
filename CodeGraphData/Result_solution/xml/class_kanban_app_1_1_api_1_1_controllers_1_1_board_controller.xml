@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Controllers::BoardController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a428768677ece5813317f24018372de36" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service" kindref="compound">IBoardService</ref></type>
+        <definition>readonly IBoardService KanbanApp.Api.Controllers.BoardController._boardService</definition>
+        <argsstring></argsstring>
+        <name>_boardService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="24" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1af8eab87c5e26b46ae92e6a4a5865145e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Api.Controllers.BoardController.BoardController</definition>
+        <argsstring>(IBoardService _service)</argsstring>
+        <name>BoardController</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service" kindref="compound">IBoardService</ref></type>
+          <declname>_service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_service</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="29" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1acd43f6f78ca2f96ab72ac51de30011b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; <ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_output" kindref="compound">BoardGetOutput</ref> &gt;</type>
+        <definition>ActionResult&lt;BoardGetOutput&gt; KanbanApp.Api.Controllers.BoardController.Get</definition>
+        <argsstring>(BoardGetInput input)</argsstring>
+        <name>Get</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input" kindref="compound">BoardGetInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="41" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="41" bodyend="63"/>
+        <references refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input_1aac58c7ba269c3a1a2e77b90ee4cd4b21" compoundref="_board_get_input_8cs" startline="7">KanbanApp.Api.Models.Boards.Input.BoardGetInput.BoardId</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1afe2972af723b0b9aae9da663afdac9ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; List&lt; <ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_output" kindref="compound">BoardGetOutput</ref> &gt; &gt;</type>
+        <definition>ActionResult&lt;List&lt;BoardGetOutput&gt; &gt; KanbanApp.Api.Controllers.BoardController.GetList</definition>
+        <argsstring>()</argsstring>
+        <name>GetList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="82" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="82" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1aae5466a7d5e1289d2d8f40cdc4865e23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; <ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output" kindref="compound">BoardAddOutput</ref> &gt;</type>
+        <definition>ActionResult&lt;BoardAddOutput&gt; KanbanApp.Api.Controllers.BoardController.Add</definition>
+        <argsstring>(BoardAddInput input)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input" kindref="compound">BoardAddInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="105" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="105" bodyend="125"/>
+        <references refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1aaa327fbeb23fc2b37a698dbce467309e" compoundref="_board_add_input_8cs" startline="13">KanbanApp.Api.Models.Boards.Input.BoardAddInput.BoardId</references>
+        <references refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1ab3eee8fae45b88af50f1c74daa7fbd51" compoundref="_board_add_input_8cs" startline="25">KanbanApp.Api.Models.Boards.Input.BoardAddInput.Description</references>
+        <references refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input_1a119eef9628f5199dca25d1f3e31c0f22" compoundref="_board_add_input_8cs" startline="21">KanbanApp.Api.Models.Boards.Input.BoardAddInput.Name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a062b5c30607e9c53f6385c27f2f51d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command_result" kindref="compound">UpdateBoardCommandResult</ref> &gt;</type>
+        <definition>ActionResult&lt;UpdateBoardCommandResult&gt; KanbanApp.Api.Controllers.BoardController.Update</definition>
+        <argsstring>(BoardUpdateInput input)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input" kindref="compound">BoardUpdateInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="134" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="134" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a3ff78154533aa2ee4a9e2d71dec8d7cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_result" kindref="compound">DeleteBoardCommandResult</ref> &gt;</type>
+        <definition>ActionResult&lt;DeleteBoardCommandResult&gt; KanbanApp.Api.Controllers.BoardController.Delete</definition>
+        <argsstring>(BoardDeleteInput input)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input" kindref="compound">BoardDeleteInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="162" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="162" bodyend="175"/>
+        <references refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input_1a1521a3b1dca34c07a83bb2ed6c914e6c" compoundref="_board_delete_input_8cs" startline="7">KanbanApp.Api.Models.Boards.Input.BoardDeleteInput.BoardId</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1ae6890334e453a450a709a0df70341f4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; List&lt; <ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_swimlanes_output" kindref="compound">BoardSwimlanesOutput</ref> &gt; &gt;</type>
+        <definition>ActionResult&lt;List&lt;BoardSwimlanesOutput&gt; &gt; KanbanApp.Api.Controllers.BoardController.GetBoardSwimLanes</definition>
+        <argsstring>(string boardId)</argsstring>
+        <name>GetBoardSwimLanes</name>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boardId</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="184" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="184" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a813749c1037a5c5db14e567928314cac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_output" kindref="compound">BoardGetOutput</ref></type>
+        <definition>static BoardGetOutput KanbanApp.Api.Controllers.BoardController.GetBoardListCommandResultItemToBoardGetOutput</definition>
+        <argsstring>(GetBoardListCommandResultItem input)</argsstring>
+        <name>GetBoardListCommandResultItemToBoardGetOutput</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_result_item" kindref="compound">GetBoardListCommandResultItem</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="65" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="65" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1ad706add2cb8e1a59358c0bfd361b5921" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_swimlanes_output" kindref="compound">BoardSwimlanesOutput</ref></type>
+        <definition>static BoardSwimlanesOutput KanbanApp.Api.Controllers.BoardController.GetBoardSwimLanesCommandResultItemToBoardSwimlanesOutput</definition>
+        <argsstring>(GetBoardSwimLanesCommandResultItem input)</argsstring>
+        <name>GetBoardSwimLanesCommandResultItemToBoardSwimlanesOutput</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_result_item" kindref="compound">GetBoardSwimLanesCommandResultItem</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="205" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="205" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>KanbanApp.Api.Controllers.BoardController</label>
+        <link refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>ControllerBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>KanbanApp.Api.Controllers.BoardController</label>
+        <link refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>_boardService</edgelabel>
+        </childnode>
+      </node>
+      <node id="46">
+        <label>ControllerBase</label>
+      </node>
+      <node id="47">
+        <label>KanbanApp.Services.Abstract.IBoardService</label>
+        <link refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" line="23" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/BoardController.cs" bodystart="22" bodyend="217"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a428768677ece5813317f24018372de36" prot="private" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>_boardService</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1aae5466a7d5e1289d2d8f40cdc4865e23" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>Add</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1af8eab87c5e26b46ae92e6a4a5865145e" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>BoardController</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a3ff78154533aa2ee4a9e2d71dec8d7cc" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>Delete</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1acd43f6f78ca2f96ab72ac51de30011b4" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a813749c1037a5c5db14e567928314cac" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>GetBoardListCommandResultItemToBoardGetOutput</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1ae6890334e453a450a709a0df70341f4d" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>GetBoardSwimLanes</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1ad706add2cb8e1a59358c0bfd361b5921" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>GetBoardSwimLanesCommandResultItemToBoardSwimlanesOutput</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1afe2972af723b0b9aae9da663afdac9ed" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>GetList</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1a062b5c30607e9c53f6385c27f2f51d29" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::BoardController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_validator" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandValidator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractValidator&lt; DeleteCardCommand &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_validator_1a4eb950e99be2f6e793c69059b76b87f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandValidator.DeleteCardCommandValidator</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteCardCommandValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandValidator.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandValidator.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="218">
+        <label>AbstractValidator&lt; DeleteCardCommand &gt;</label>
+      </node>
+      <node id="217">
+        <label>KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_validator"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="220">
+        <label>AbstractValidator&lt; DeleteCardCommand &gt;</label>
+      </node>
+      <node id="219">
+        <label>KanbanApp.Services.UseCases.Cards.DeleteCard.DeleteCardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_validator"/>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandValidator.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/DeleteCard/DeleteCardCommandValidator.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_delete_card_1_1_delete_card_command_validator_1a4eb950e99be2f6e793c69059b76b87f3" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::DeleteCard::DeleteCardCommandValidator</scope><name>DeleteCardCommandValidator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

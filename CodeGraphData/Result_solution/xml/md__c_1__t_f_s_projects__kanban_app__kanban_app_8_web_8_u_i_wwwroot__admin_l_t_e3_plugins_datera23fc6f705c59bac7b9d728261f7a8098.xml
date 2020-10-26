@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="md__c_1__t_f_s_projects__kanban_app__kanban_app_8_web_8_u_i_wwwroot__admin_l_t_e3_plugins_datera23fc6f705c59bac7b9d728261f7a8098" kind="page">
+    <compoundname>md_C:_TFSProjects_KanbanApp_KanbanApp.Web.UI_wwwroot_AdminLTE3_plugins_daterangepicker_example_browserify_README</compoundname>
+    <title>Browserify example</title>
+    <detaileddescription>
+<para>Two steps need to be done for this to work</para><para>In the project root <verbatim>npm install
+</verbatim></para><para>In this folder <verbatim>../../node_modules/.bin/browserify main.js -o bundle.js</verbatim> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework" kind="namespace">
+    <compoundname>KanbanApp::Data::Concrete::EntityFramework</compoundname>
+    <innerclass refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository" prot="public">KanbanApp::Data::Concrete::EntityFramework::EfBoardRepository</innerclass>
+    <innerclass refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository" prot="public">KanbanApp::Data::Concrete::EntityFramework::EfCardRepository</innerclass>
+    <innerclass refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_swim_lane_repository" prot="public">KanbanApp::Data::Concrete::EntityFramework::EfSwimLaneRepository</innerclass>
+    <innerclass refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work" prot="public">KanbanApp::Data::Concrete::EntityFramework::EfUnitOfWork</innerclass>
+    <innerclass refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" prot="public">KanbanApp::Data::Concrete::EntityFramework::KanbanContext</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

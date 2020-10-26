@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::Concrete::SwimLaneService</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service" prot="public" virt="non-virtual">KanbanApp.Services.Abstract.ISwimLaneService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a34ecc07a82e2475121ff4e0f63f764b6" prot="private" static="no" mutable="no">
+        <type>readonly IMediator</type>
+        <definition>readonly IMediator KanbanApp.Services.Concrete.SwimLaneService._mediator</definition>
+        <argsstring></argsstring>
+        <name>_mediator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1aa4581798a6a1f6070ad72d885931b808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.Concrete.SwimLaneService.SwimLaneService</definition>
+        <argsstring>(IMediator mediator)</argsstring>
+        <name>SwimLaneService</name>
+        <param>
+          <type>IMediator</type>
+          <declname>mediator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1ab323f79a544cc5da5cb55358bfa76c4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_result" kindref="compound">CreateSwimlaneCommandResult</ref> &gt;</type>
+        <definition>Task&lt;CreateSwimlaneCommandResult&gt; KanbanApp.Services.Concrete.SwimLaneService.Add</definition>
+        <argsstring>(CreateSwimlaneCommand command)</argsstring>
+        <name>Add</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service_1a0021795c226326098f1cf7dac790f3b8">Add</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command" kindref="compound">CreateSwimlaneCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" line="20" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" bodystart="20" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a93cebfc7f010c6e13b3bcdaff7506e68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result" kindref="compound">GetSwimlaneDetailCommandResult</ref> &gt;</type>
+        <definition>Task&lt;GetSwimlaneDetailCommandResult&gt; KanbanApp.Services.Concrete.SwimLaneService.Get</definition>
+        <argsstring>(GetSwimlaneDetailCommand command)</argsstring>
+        <name>Get</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service_1a68c4d3da3c2cbe9689cabe90bf92e136">Get</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command" kindref="compound">GetSwimlaneDetailCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" line="29" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a1daabcbe7e6efded3efbd3fd8817eb55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result" kindref="compound">GetSwimLaneCardsCommandResult</ref> &gt;</type>
+        <definition>Task&lt;GetSwimLaneCardsCommandResult&gt; KanbanApp.Services.Concrete.SwimLaneService.GetBoardSwimLanes</definition>
+        <argsstring>(GetSwimLaneCardsCommand command)</argsstring>
+        <name>GetBoardSwimLanes</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service_1aeaecd0f07afa811ae25aa8f79e208d38">GetBoardSwimLanes</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command" kindref="compound">GetSwimLaneCardsCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" line="38" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a534779807ff81912bd3700240989662f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_result" kindref="compound">MoveSwimlaneCommandResult</ref> &gt;</type>
+        <definition>Task&lt;MoveSwimlaneCommandResult&gt; KanbanApp.Services.Concrete.SwimLaneService.Move</definition>
+        <argsstring>(MoveSwimlaneCommand command)</argsstring>
+        <name>Move</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service_1a6b1ff8f789afedbd827ec83b50b4d72c">Move</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command" kindref="compound">MoveSwimlaneCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" line="46" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" bodystart="46" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="536">
+        <label>ISwimLaneService</label>
+        <link refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service"/>
+      </node>
+      <node id="535">
+        <label>KanbanApp.Services.Concrete.SwimLaneService</label>
+        <link refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="538">
+        <label>ISwimLaneService</label>
+        <link refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service"/>
+      </node>
+      <node id="537">
+        <label>KanbanApp.Services.Concrete.SwimLaneService</label>
+        <link refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service"/>
+        <childnode refid="538" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/SwimLaneService.cs" bodystart="11" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a34ecc07a82e2475121ff4e0f63f764b6" prot="private" virt="non-virtual"><scope>KanbanApp::Services::Concrete::SwimLaneService</scope><name>_mediator</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1ab323f79a544cc5da5cb55358bfa76c4e" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::SwimLaneService</scope><name>Add</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a93cebfc7f010c6e13b3bcdaff7506e68" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::SwimLaneService</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a1daabcbe7e6efded3efbd3fd8817eb55" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::SwimLaneService</scope><name>GetBoardSwimLanes</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1a534779807ff81912bd3700240989662f" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::SwimLaneService</scope><name>Move</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_swim_lane_service_1aa4581798a6a1f6070ad72d885931b808" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::SwimLaneService</scope><name>SwimLaneService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

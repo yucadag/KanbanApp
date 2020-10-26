@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b575fa3940ba89200b865a54de10cfa6" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers</compoundname>
+    <innerdir refid="dir_67f6abd1addfffd8869db66cd9cc2567">C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization</innerdir>
+    <innerfile refid="_testing_web_app_factory_8cs">TestingWebAppFactory.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/"/>
+  </compounddef>
+</doxygen>

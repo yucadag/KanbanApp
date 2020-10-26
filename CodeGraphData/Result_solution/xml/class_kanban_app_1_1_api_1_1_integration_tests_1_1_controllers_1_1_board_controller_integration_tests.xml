@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::IntegrationTests::Controllers::BoardControllerIntegrationTests</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IClassFixture&lt; TestingWebAppFactory&lt; Startup &gt;&gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests_1a3595895e50be7422d8f95c496bddeee4" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient KanbanApp.Api.IntegrationTests.Controllers.BoardControllerIntegrationTests._client</definition>
+        <argsstring></argsstring>
+        <name>_client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests_1a9fd79f2c498457c6d12261c099e8fd5f" prot="private" static="no" mutable="no">
+        <type>readonly TestingWebAppFactory&lt; <ref refid="class_kanban_app_1_1_api_1_1_startup" kindref="compound">Startup</ref> &gt;</type>
+        <definition>readonly TestingWebAppFactory&lt;Startup&gt; KanbanApp.Api.IntegrationTests.Controllers.BoardControllerIntegrationTests._factory</definition>
+        <argsstring></argsstring>
+        <name>_factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests_1a3777db5aaf2f1937789702a6c473243c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Api.IntegrationTests.Controllers.BoardControllerIntegrationTests.BoardControllerIntegrationTests</definition>
+        <argsstring>(TestingWebAppFactory&lt; Startup &gt; factory)</argsstring>
+        <name>BoardControllerIntegrationTests</name>
+        <param>
+          <type>TestingWebAppFactory&lt; <ref refid="class_kanban_app_1_1_api_1_1_startup" kindref="compound">Startup</ref> &gt;</type>
+          <declname>factory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="49">
+        <label>IClassFixture&lt; TestingWebAppFactory&lt; Startup &gt;&gt;</label>
+      </node>
+      <node id="48">
+        <label>KanbanApp.Api.IntegrationTests.Controllers.BoardControllerIntegrationTests</label>
+        <link refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="51">
+        <label>IClassFixture&lt; TestingWebAppFactory&lt; Startup &gt;&gt;</label>
+      </node>
+      <node id="50">
+        <label>KanbanApp.Api.IntegrationTests.Controllers.BoardControllerIntegrationTests</label>
+        <link refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/BoardControllerIntegrationTests.cs" bodystart="8" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests_1a3595895e50be7422d8f95c496bddeee4" prot="private" virt="non-virtual"><scope>KanbanApp::Api::IntegrationTests::Controllers::BoardControllerIntegrationTests</scope><name>_client</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests_1a9fd79f2c498457c6d12261c099e8fd5f" prot="private" virt="non-virtual"><scope>KanbanApp::Api::IntegrationTests::Controllers::BoardControllerIntegrationTests</scope><name>_factory</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_controllers_1_1_board_controller_integration_tests_1a3777db5aaf2f1937789702a6c473243c" prot="public" virt="non-virtual"><scope>KanbanApp::Api::IntegrationTests::Controllers::BoardControllerIntegrationTests</scope><name>BoardControllerIntegrationTests</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

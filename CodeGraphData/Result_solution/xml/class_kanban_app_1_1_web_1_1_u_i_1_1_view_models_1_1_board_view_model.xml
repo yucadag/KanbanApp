@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_view_model" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::ViewModels::BoardViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_view_model_1a7b6a7236efb70bf7ae9217ea3c5df964" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref> &gt;</type>
+        <definition>List&lt;Board&gt; KanbanApp.Web.UI.ViewModels.BoardViewModel.BoardList</definition>
+        <argsstring></argsstring>
+        <name>BoardList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardViewModel.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardViewModel.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardViewModel.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/BoardViewModel.cs" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_view_model_1a7b6a7236efb70bf7ae9217ea3c5df964" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::ViewModels::BoardViewModel</scope><name>BoardList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

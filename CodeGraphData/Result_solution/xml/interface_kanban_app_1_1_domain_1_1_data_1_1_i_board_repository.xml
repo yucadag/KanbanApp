@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kind="interface" prot="public">
+    <compoundname>KanbanApp::Domain::Data::IBoardRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntityRepository&lt; Board &gt;</basecompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository" prot="public" virt="non-virtual">KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1a46c72ccc994d0d728a48471571f07d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" kindref="compound">SwimLane</ref> &gt;</type>
+        <definition>List&lt;SwimLane&gt; KanbanApp.Domain.Data.IBoardRepository.GetBoardSwimLanes</definition>
+        <argsstring>(string boardId)</argsstring>
+        <name>GetBoardSwimLanes</name>
+        <reimplementedby refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a1ca09e370e96121ff1ea542d72ce1506">GetBoardSwimLanes</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/IBoardRepository.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1af5e1edc343fd332954eecaa23c6deb16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" kindref="compound">SwimLane</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;SwimLane&gt; &gt; KanbanApp.Domain.Data.IBoardRepository.GetBoardSwimLanesAsync</definition>
+        <argsstring>(string boardId)</argsstring>
+        <name>GetBoardSwimLanesAsync</name>
+        <reimplementedby refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a81c68559edbac965c5bf6fa95d06e2ff">GetBoardSwimLanesAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/IBoardRepository.cs" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="388">
+        <label>IEntityRepository&lt; Board &gt;</label>
+      </node>
+      <node id="387">
+        <label>KanbanApp.Domain.Data.IBoardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository"/>
+        <childnode refid="388" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository"/>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="391">
+        <label>IEntityRepository&lt; Board &gt;</label>
+      </node>
+      <node id="390">
+        <label>KanbanApp.Domain.Data.IBoardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository"/>
+        <childnode refid="391" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/IBoardRepository.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data/IBoardRepository.cs" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1a46c72ccc994d0d728a48471571f07d22" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Data::IBoardRepository</scope><name>GetBoardSwimLanes</name></member>
+      <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1af5e1edc343fd332954eecaa23c6deb16" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Data::IBoardRepository</scope><name>GetBoardSwimLanesAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

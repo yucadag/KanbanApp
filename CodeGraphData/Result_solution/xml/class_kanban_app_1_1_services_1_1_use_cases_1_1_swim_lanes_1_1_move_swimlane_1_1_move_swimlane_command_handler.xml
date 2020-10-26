@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; MoveSwimlaneCommand, MoveSwimlaneCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler_1a167b4e0e9154683c35e43e61059787ab" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kindref="compound">ISwimLaneRepository</ref></type>
+        <definition>readonly ISwimLaneRepository KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommandHandler._swimLaneRepository</definition>
+        <argsstring></argsstring>
+        <name>_swimLaneRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler_1a665861c1b6c4f3e4d4bb8366e85190cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommandHandler.MoveSwimlaneCommandHandler</definition>
+        <argsstring>(ISwimLaneRepository swimLaneRepository)</argsstring>
+        <name>MoveSwimlaneCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kindref="compound">ISwimLaneRepository</ref></type>
+          <declname>swimLaneRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler_1a56d06e4fdcea2812990db3967d5dfeb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_result" kindref="compound">MoveSwimlaneCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;MoveSwimlaneCommandResult&gt; KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommandHandler.Handle</definition>
+        <argsstring>(MoveSwimlaneCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command" kindref="compound">MoveSwimlaneCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" line="24" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" bodystart="24" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="468">
+        <label>KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler"/>
+        <childnode refid="469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>IRequestHandler&lt; MoveSwimlaneCommand, MoveSwimlaneCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="470">
+        <label>KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane.MoveSwimlaneCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler"/>
+        <childnode refid="471" relation="public-inheritance">
+        </childnode>
+        <childnode refid="472" relation="usage">
+          <edgelabel>_swimLaneRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="471">
+        <label>IRequestHandler&lt; MoveSwimlaneCommand, MoveSwimlaneCommandResult &gt;</label>
+      </node>
+      <node id="473">
+        <label>IEntityRepository&lt; SwimLane &gt;</label>
+      </node>
+      <node id="472">
+        <label>KanbanApp.Domain.Data.ISwimLaneRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository"/>
+        <childnode refid="473" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/MoveSwimlane/MoveSwimlaneCommandHandler.cs" bodystart="14" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler_1a167b4e0e9154683c35e43e61059787ab" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommandHandler</scope><name>_swimLaneRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler_1a56d06e4fdcea2812990db3967d5dfeb1" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommandHandler</scope><name>Handle</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_handler_1a665861c1b6c4f3e4d4bb8366e85190cd" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::MoveSwimlane::MoveSwimlaneCommandHandler</scope><name>MoveSwimlaneCommandHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

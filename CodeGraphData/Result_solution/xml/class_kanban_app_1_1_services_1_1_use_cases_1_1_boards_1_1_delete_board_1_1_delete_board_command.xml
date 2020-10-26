@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::DeleteBoard::DeleteBoardCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; DeleteBoardCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_1a4c7760e5cc4c2d9f54419995e131b4e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Boards.DeleteBoard.DeleteBoardCommand.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/DeleteBoard/DeleteBoardCommand.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/DeleteBoard/DeleteBoardCommand.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_1af416d743a3c1a14686b704eb11e08915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.DeleteBoard.DeleteBoardCommand.DeleteBoardCommand</definition>
+        <argsstring>(string boardId)</argsstring>
+        <name>DeleteBoardCommand</name>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/DeleteBoard/DeleteBoardCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/DeleteBoard/DeleteBoardCommand.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="187">
+        <label>KanbanApp.Services.UseCases.Boards.DeleteBoard.DeleteBoardCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>IRequest&lt; DeleteBoardCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="189">
+        <label>KanbanApp.Services.UseCases.Boards.DeleteBoard.DeleteBoardCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>IRequest&lt; DeleteBoardCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/DeleteBoard/DeleteBoardCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/DeleteBoard/DeleteBoardCommand.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_1a4c7760e5cc4c2d9f54419995e131b4e2" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::DeleteBoard::DeleteBoardCommand</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_1af416d743a3c1a14686b704eb11e08915" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::DeleteBoard::DeleteBoardCommand</scope><name>DeleteBoardCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

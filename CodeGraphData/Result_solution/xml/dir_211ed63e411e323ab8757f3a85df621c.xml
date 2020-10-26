@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_211ed63e411e323ab8757f3a85df621c" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList</compoundname>
+    <innerfile refid="_get_board_list_command_8cs">GetBoardListCommand.cs</innerfile>
+    <innerfile refid="_get_board_list_command_handler_8cs">GetBoardListCommandHandler.cs</innerfile>
+    <innerfile refid="_get_board_list_command_result_8cs">GetBoardListCommandResult.cs</innerfile>
+    <innerfile refid="_get_board_list_command_validator_8cs">GetBoardListCommandValidator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/"/>
+  </compounddef>
+</doxygen>

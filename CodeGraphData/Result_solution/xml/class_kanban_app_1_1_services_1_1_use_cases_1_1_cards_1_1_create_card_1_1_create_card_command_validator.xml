@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_validator" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::CreateCard::CreateCardCommandValidator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractValidator&lt; CreateCardCommand &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_validator_1a62f3dda918597459bc0967de3aae5e6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.CreateCard.CreateCardCommandValidator.CreateCardCommandValidator</definition>
+        <argsstring>()</argsstring>
+        <name>CreateCardCommandValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandValidator.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandValidator.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="169">
+        <label>KanbanApp.Services.UseCases.Cards.CreateCard.CreateCardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_validator"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>AbstractValidator&lt; CreateCardCommand &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="171">
+        <label>KanbanApp.Services.UseCases.Cards.CreateCard.CreateCardCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_validator"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>AbstractValidator&lt; CreateCardCommand &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandValidator.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/CreateCard/CreateCardCommandValidator.cs" bodystart="5" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_create_card_1_1_create_card_command_validator_1a62f3dda918597459bc0967de3aae5e6a" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::CreateCard::CreateCardCommandValidator</scope><name>CreateCardCommandValidator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

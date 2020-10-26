@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository" kind="class" prot="public">
+    <compoundname>KanbanApp::Data::Concrete::EntityFramework::EfCardRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EfEntityRepositoryBase&lt; Card &gt;</basecompoundref>
+    <basecompoundref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" prot="public" virt="non-virtual">KanbanApp.Domain.Data.ICardRepository</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository_1aad4ec34c52ab029924d3ca64f0ed5165" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref></type>
+        <definition>readonly KanbanContext KanbanApp.Data.Concrete.EntityFramework.EfCardRepository.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository_1a280ee6a3b562fcf742f26857ceaddd05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Data.Concrete.EntityFramework.EfCardRepository.EfCardRepository</definition>
+        <argsstring>(KanbanContext context)</argsstring>
+        <name>EfCardRepository</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository_1a5d4a2321d285334d0e5b52afd99e932e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" kindref="compound">CardAttachment</ref> &gt;</type>
+        <definition>List&lt;CardAttachment&gt; KanbanApp.Data.Concrete.EntityFramework.EfCardRepository.GetCardAttachments</definition>
+        <argsstring>(string CardId)</argsstring>
+        <name>GetCardAttachments</name>
+        <reimplements refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository_1a1719c77af6719d4adc86695a7de3812d">GetCardAttachments</reimplements>
+        <param>
+          <type>string</type>
+          <declname>CardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="234">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+      <node id="233">
+        <label>ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfCardRepository</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>EfEntityRepositoryBase&lt; Card &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="238">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+      <node id="240">
+        <label>DbContext</label>
+      </node>
+      <node id="237">
+        <label>ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfCardRepository</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+        <childnode refid="239" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="236">
+        <label>EfEntityRepositoryBase&lt; Card &gt;</label>
+      </node>
+      <node id="239">
+        <label>KanbanApp.Data.Concrete.EntityFramework.KanbanContext</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfCardRepository.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository_1aad4ec34c52ab029924d3ca64f0ed5165" prot="private" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfCardRepository</scope><name>context</name></member>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository_1a280ee6a3b562fcf742f26857ceaddd05" prot="public" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfCardRepository</scope><name>EfCardRepository</name></member>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_card_repository_1a5d4a2321d285334d0e5b52afd99e932e" prot="public" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfCardRepository</scope><name>GetCardAttachments</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

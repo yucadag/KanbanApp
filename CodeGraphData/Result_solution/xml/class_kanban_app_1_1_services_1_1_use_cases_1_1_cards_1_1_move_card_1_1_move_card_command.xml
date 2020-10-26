@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::MoveCard::MoveCardCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; MoveCardCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1afdefd41be0fecf9991fe59256f706497" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.MoveCard.MoveCardCommand.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_kanban_app_1_1_api_1_1_controllers_1_1_card_controller_1a935d6b6d4a8b4d67689e2d0edf8eb58b" compoundref="_kanban_app_8_api_2_controllers_2_card_controller_8cs" startline="124" endline="137">KanbanApp.Api.Controllers.CardController.MoveCard</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1a653c826609c72353904964d462947d3d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.MoveCard.MoveCardCommand.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_kanban_app_1_1_api_1_1_controllers_1_1_card_controller_1a935d6b6d4a8b4d67689e2d0edf8eb58b" compoundref="_kanban_app_8_api_2_controllers_2_card_controller_8cs" startline="124" endline="137">KanbanApp.Api.Controllers.CardController.MoveCard</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1aa947d0de0850431f1630a8030fc73586" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.MoveCard.MoveCardCommand.MoveCardCommand</definition>
+        <argsstring>()</argsstring>
+        <name>MoveCardCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1a2111bf8b07176df5cde8d739599ca6c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.MoveCard.MoveCardCommand.MoveCardCommand</definition>
+        <argsstring>(string cardId, string swimLaneId)</argsstring>
+        <name>MoveCardCommand</name>
+        <param>
+          <type>string</type>
+          <declname>cardId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>swimLaneId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="448">
+        <label>KanbanApp.Services.UseCases.Cards.MoveCard.MoveCardCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command"/>
+        <childnode refid="449" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>IRequest&lt; MoveCardCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="450">
+        <label>KanbanApp.Services.UseCases.Cards.MoveCard.MoveCardCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="451">
+        <label>IRequest&lt; MoveCardCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/MoveCard/MoveCardCommand.cs" bodystart="5" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1a653c826609c72353904964d462947d3d" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::MoveCard::MoveCardCommand</scope><name>CardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1aa947d0de0850431f1630a8030fc73586" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::MoveCard::MoveCardCommand</scope><name>MoveCardCommand</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1a2111bf8b07176df5cde8d739599ca6c4" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::MoveCard::MoveCardCommand</scope><name>MoveCardCommand</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_move_card_1_1_move_card_command_1afdefd41be0fecf9991fe59256f706497" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::MoveCard::MoveCardCommand</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

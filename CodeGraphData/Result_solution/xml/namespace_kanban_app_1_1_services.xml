@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services" kind="namespace">
+    <compoundname>KanbanApp::Services</compoundname>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_abstract">KanbanApp::Services::Abstract</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_concrete">KanbanApp::Services::Concrete</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_d_t_o">KanbanApp::Services::DTO</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_exceptions">KanbanApp::Services::Exceptions</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_pipeline_behaviors">KanbanApp::Services::PipelineBehaviors</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases">KanbanApp::Services::UseCases</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

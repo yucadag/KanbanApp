@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_user" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::User</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_core_1_1_i_entity" prot="public" virt="non-virtual">KanbanApp.Core.IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a84a9ed53e0dc61458749aead23b098c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.User.UserId</definition>
+        <argsstring></argsstring>
+        <name>UserId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a71f9ad4397f0ffac2ab175a613b761e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.User.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1ad4cebb48e41711d5c5f6e668a0dff02e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.User.EMail</definition>
+        <argsstring></argsstring>
+        <name>EMail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1aab745832f8b924e35c8006960e2bad11" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.User.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a71dab654212eeeb7685e2fec833a1ce1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.User.Surname</definition>
+        <argsstring></argsstring>
+        <name>Surname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a134cc863525d81dcfb91d8242e2ade4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.User.ProfilePicture</definition>
+        <argsstring></argsstring>
+        <name>ProfilePicture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="597">
+        <label>KanbanApp.Domain.Entities.User</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user"/>
+        <childnode refid="598" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="598">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="599">
+        <label>KanbanApp.Domain.Entities.User</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user"/>
+        <childnode refid="600" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="600">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/User.cs" bodystart="5" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1ad4cebb48e41711d5c5f6e668a0dff02e" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::User</scope><name>EMail</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1aab745832f8b924e35c8006960e2bad11" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::User</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a134cc863525d81dcfb91d8242e2ade4d" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::User</scope><name>ProfilePicture</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a71dab654212eeeb7685e2fec833a1ce1" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::User</scope><name>Surname</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a84a9ed53e0dc61458749aead23b098c3" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::User</scope><name>UserId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a71f9ad4397f0ffac2ab175a613b761e6" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::User</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

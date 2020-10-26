@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository" kind="class" prot="public">
+    <compoundname>KanbanApp::Data::Concrete::EntityFramework::EfBoardRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EfEntityRepositoryBase&lt; Board &gt;</basecompoundref>
+    <basecompoundref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" prot="public" virt="non-virtual">KanbanApp.Domain.Data.IBoardRepository</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1aee6f633d77b00ff73a42611085a83d07" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref></type>
+        <definition>readonly KanbanContext KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a19375fff526262140b1af80c00bc7f90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository.EfBoardRepository</definition>
+        <argsstring>(KanbanContext context)</argsstring>
+        <name>EfBoardRepository</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a1ca09e370e96121ff1ea542d72ce1506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" kindref="compound">SwimLane</ref> &gt;</type>
+        <definition>List&lt;SwimLane&gt; KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository.GetBoardSwimLanes</definition>
+        <argsstring>(string boardId)</argsstring>
+        <name>GetBoardSwimLanes</name>
+        <reimplements refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1a46c72ccc994d0d728a48471571f07d22">GetBoardSwimLanes</reimplements>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" line="20" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a81c68559edbac965c5bf6fa95d06e2ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; <ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" kindref="compound">SwimLane</ref> &gt; &gt;</type>
+        <definition>async Task&lt;List&lt;SwimLane&gt; &gt; KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository.GetBoardSwimLanesAsync</definition>
+        <argsstring>(string boardId)</argsstring>
+        <name>GetBoardSwimLanesAsync</name>
+        <reimplements refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1af5e1edc343fd332954eecaa23c6deb16">GetBoardSwimLanesAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" line="25" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="224">
+        <label>IEntityRepository&lt; Board &gt;</label>
+      </node>
+      <node id="222">
+        <label>EfEntityRepositoryBase&lt; Board &gt;</label>
+      </node>
+      <node id="223">
+        <label>IBoardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository"/>
+        <childnode refid="222" relation="public-inheritance">
+        </childnode>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="228">
+        <label>IEntityRepository&lt; Board &gt;</label>
+      </node>
+      <node id="230">
+        <label>DbContext</label>
+      </node>
+      <node id="226">
+        <label>EfEntityRepositoryBase&lt; Board &gt;</label>
+      </node>
+      <node id="227">
+        <label>IBoardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository"/>
+        <childnode refid="228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfBoardRepository</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+        <childnode refid="229" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="229">
+        <label>KanbanApp.Data.Concrete.EntityFramework.KanbanContext</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfBoardRepository.cs" bodystart="11" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1aee6f633d77b00ff73a42611085a83d07" prot="private" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfBoardRepository</scope><name>context</name></member>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a19375fff526262140b1af80c00bc7f90" prot="public" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfBoardRepository</scope><name>EfBoardRepository</name></member>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a1ca09e370e96121ff1ea542d72ce1506" prot="public" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfBoardRepository</scope><name>GetBoardSwimLanes</name></member>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_board_repository_1a81c68559edbac965c5bf6fa95d06e2ff" prot="public" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfBoardRepository</scope><name>GetBoardSwimLanesAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_web_1_1_u_i" kind="namespace">
+    <compoundname>KanbanApp::Web::UI</compoundname>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller" prot="public">KanbanApp::Web::UI::BoardController</innerclass>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_card_controller" prot="public">KanbanApp::Web::UI::CardController</innerclass>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_home_controller" prot="public">KanbanApp::Web::UI::HomeController</innerclass>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_samples_controller" prot="public">KanbanApp::Web::UI::SamplesController</innerclass>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_swimline_controller" prot="public">KanbanApp::Web::UI::SwimlineController</innerclass>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_program" prot="public">KanbanApp::Web::UI::Program</innerclass>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_startup" prot="public">KanbanApp::Web::UI::Startup</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_web_1_1_u_i_1_1_api">KanbanApp::Web::UI::Api</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_web_1_1_u_i_1_1_view">KanbanApp::Web::UI::View</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_web_1_1_u_i_1_1_view_models">KanbanApp::Web::UI::ViewModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,23 +1,7 @@
-’
-BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.cs
-	namespace 	
-	KanbanApp
- 
-. 
-Domain 
-. 
-Shared !
-{ 
-public 
-
-enum 
-ECardTaskState 
-{ 
-Pending 
-, 
-
-InProgress 
-, 
-	Completed 
-} 
-}		 
+…
+9C:\TFSProjects\KanbanApp\MongoDbHelper\MongoRepository.cs
+	namespace 	
+MongoDbHelper
+ 
+{ 
+}BB 

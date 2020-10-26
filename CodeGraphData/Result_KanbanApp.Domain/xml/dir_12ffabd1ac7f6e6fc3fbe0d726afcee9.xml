@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_12ffabd1ac7f6e6fc3fbe0d726afcee9" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities</compoundname>
+    <innerfile refid="_board_8cs">Board.cs</innerfile>
+    <innerfile refid="_card_8cs">Card.cs</innerfile>
+    <innerfile refid="_card_attachment_8cs">CardAttachment.cs</innerfile>
+    <innerfile refid="_card_task_8cs">CardTask.cs</innerfile>
+    <innerfile refid="_card_type_8cs">CardType.cs</innerfile>
+    <innerfile refid="_card_weight_size_8cs">CardWeightSize.cs</innerfile>
+    <innerfile refid="_priority_8cs">Priority.cs</innerfile>
+    <innerfile refid="_setting_8cs">Setting.cs</innerfile>
+    <innerfile refid="_swim_lane_8cs">SwimLane.cs</innerfile>
+    <innerfile refid="_swim_lane_setting_8cs">SwimLaneSetting.cs</innerfile>
+    <innerfile refid="_tag_8cs">Tag.cs</innerfile>
+    <innerfile refid="_user_8cs">User.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/"/>
+  </compounddef>
+</doxygen>

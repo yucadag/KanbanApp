@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandResultItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a67792587aed8e7a345ee1c31c0d9a779" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandResultItem.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a527f6b5088c5a54f196ddd34e627fa54" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandResultItem.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1ad148803a79f2dadec4f693b01e0f24fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandResultItem.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a26f02d1483c5a4cf09014b3d288329b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandResultItem.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1ad217b38d3a01d79938d94ea8954ddbe4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandResultItem.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a788e6c59a5f7e054e272992bd09b8732" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandResultItem.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandResult.cs" bodystart="11" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1ad148803a79f2dadec4f693b01e0f24fe" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandResultItem</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a527f6b5088c5a54f196ddd34e627fa54" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandResultItem</scope><name>CardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a67792587aed8e7a345ee1c31c0d9a779" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandResultItem</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1ad217b38d3a01d79938d94ea8954ddbe4" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandResultItem</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a788e6c59a5f7e054e272992bd09b8732" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandResultItem</scope><name>Position</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result_item_1a26f02d1483c5a4cf09014b3d288329b1" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandResultItem</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

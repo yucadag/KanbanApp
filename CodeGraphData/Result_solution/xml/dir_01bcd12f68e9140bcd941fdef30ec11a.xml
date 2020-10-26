@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_01bcd12f68e9140bcd941fdef30ec11a" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO</compoundname>
+    <innerdir refid="dir_7ae42f5d60ef3bea5db21adfde4e2e39">C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/"/>
+  </compounddef>
+</doxygen>

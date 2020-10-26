@@ -1,4 +1,5 @@
-﻿using KanbanApp.Data.Concrete.EntityFramework;
+﻿using AutoMapper;
+using KanbanApp.Data.Concrete.EntityFramework;
 using KanbanApp.Domain.Data;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.Concrete;
@@ -7,8 +8,11 @@ using KanbanApp.Services.UseCases.Boards.GetBoardDetail;
 using KanbanApp.Services.UseCases.Boards.GetBoardList;
 using KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
+using KanbanApp.Services.UseCases.Cards.DeleteCard;
 using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
+using KanbanApp.Services.UseCases.SelectList;
+using KanbanApp.Services.UseCases.SelectList.GetCardPriority;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -34,10 +38,14 @@ namespace KanbanApp.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options =>
+            services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0).AddJsonOptions(options =>
             {
                 options.JsonSerializerOptions.MaxDepth = 1000;  // or however deep you need
             });
+
+            services.AddMetrics();
+
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddDbContext<KanbanContext>(option => option.UseSqlServer(@"Data Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial Catalog=Kanban;Integrated Security=True", b => b.MigrationsAssembly("KanbanApp.Api")));
 
@@ -45,9 +53,11 @@ namespace KanbanApp.Api
             services.AddScoped<IRequestHandler<GetSwimLaneCardsCommand, GetSwimLaneCardsCommandResult>, GetSwimLaneCardsCommandHandler>();
             services.AddScoped<IRequestHandler<MoveCardCommand, MoveCardCommandResult>, MoveCardCommandHandler>();
             services.AddScoped<IRequestHandler<CreateCardCommand, CreateCardCommandResult>, CreateCardCommandHandler>();
+            services.AddScoped<IRequestHandler<DeleteCardCommand, DeleteCardCommandResult>, DeleteCardCommandHandler>();
             services.AddScoped<IRequestHandler<CreateBoardCommand, CreateBoardCommandResult>, CreateBoardCommandHandler>();
             services.AddScoped<IRequestHandler<GetBoardDetailCommand, GetBoardDetailCommandResult>, GetBoardDetailCommandHandler>();
             services.AddScoped<IRequestHandler<GetBoardListCommand, GetBoardListCommandResult>, GetBoardListCommandHandler>();
+            services.AddScoped<IRequestHandler<GetCardPriorityCommand, GetCardPriorityCommandResult>, GetCardPriorityCommandHandler>();
 
 
 
@@ -65,6 +75,9 @@ namespace KanbanApp.Api
 
             services.AddTransient<ICardRepository, EfCardRepository>();
             services.AddTransient<ICardService, CardService>();
+
+            services.AddTransient<IPriorityRepository, EfPriorityRepository>();
+            services.AddTransient<IPriorityService, PriorityService>();
 
             services.AddCors(c =>
             {
@@ -96,16 +109,11 @@ namespace KanbanApp.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseHsts();
-            }
+
+            app.UseDeveloperExceptionPage();
+
 
             app.UseCors(builder =>
                   builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()

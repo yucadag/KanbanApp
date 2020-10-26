@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f1c2c588abf2309aff143bed549439c3" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input</compoundname>
+    <innerfile refid="_board_add_input_8cs">BoardAddInput.cs</innerfile>
+    <innerfile refid="_board_delete_input_8cs">BoardDeleteInput.cs</innerfile>
+    <innerfile refid="_board_get_input_8cs">BoardGetInput.cs</innerfile>
+    <innerfile refid="_board_update_input_8cs">BoardUpdateInput.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/"/>
+  </compounddef>
+</doxygen>

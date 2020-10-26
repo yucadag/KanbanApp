@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization_1_1_json_serializer_helper" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::IntegrationTests::Helpers::Serialization::JsonSerializerHelper</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization_1_1_json_serializer_helper_1aa81fbae82459d45dcac440fff9be3158" prot="public" static="yes" mutable="no">
+        <type>JsonSerializerOptions</type>
+        <definition>JsonSerializerOptions KanbanApp.Api.IntegrationTests.Helpers.Serialization.JsonSerializerHelper.DefaultSerialisationOptions</definition>
+        <argsstring></argsstring>
+        <name>DefaultSerialisationOptions</name>
+        <initializer>=&gt; new JsonSerializerOptions
+        {
+            IgnoreNullValues = true
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization/JsonSerializerHelper.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization/JsonSerializerHelper.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization_1_1_json_serializer_helper_1a1447e9ac080840a53487de793afc0656" prot="public" static="yes" mutable="no">
+        <type>JsonSerializerOptions</type>
+        <definition>JsonSerializerOptions KanbanApp.Api.IntegrationTests.Helpers.Serialization.JsonSerializerHelper.DefaultDeserialisationOptions</definition>
+        <argsstring></argsstring>
+        <name>DefaultDeserialisationOptions</name>
+        <initializer>=&gt; new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization/JsonSerializerHelper.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization/JsonSerializerHelper.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization/JsonSerializerHelper.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Helpers/Serialization/JsonSerializerHelper.cs" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization_1_1_json_serializer_helper_1a1447e9ac080840a53487de793afc0656" prot="public" virt="non-virtual"><scope>KanbanApp::Api::IntegrationTests::Helpers::Serialization::JsonSerializerHelper</scope><name>DefaultDeserialisationOptions</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_integration_tests_1_1_helpers_1_1_serialization_1_1_json_serializer_helper_1aa81fbae82459d45dcac440fff9be3158" prot="public" virt="non-virtual"><scope>KanbanApp::Api::IntegrationTests::Helpers::Serialization::JsonSerializerHelper</scope><name>DefaultSerialisationOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

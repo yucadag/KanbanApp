@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4" kind="class" prot="public">
+    <compoundname>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>TL</type>
+      </param>
+      <param>
+        <type><ref refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" kindref="member">TR</ref></type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aeeced6de7dfb9439babd8faa43271a73" prot="private" static="no" mutable="no">
+        <type>readonly TL</type>
+        <definition>readonly TL KanbanApp.Core.Result.Either&lt; TL, TR &gt;._left</definition>
+        <argsstring></argsstring>
+        <name>_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a16d108f40c515142a0f4dfef51baf8e0" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" kindref="member">TR</ref></type>
+        <definition>readonly TR KanbanApp.Core.Result.Either&lt; TL, TR &gt;._right</definition>
+        <argsstring></argsstring>
+        <name>_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1accf00f670763a110afd96387cdcf9a8c" prot="private" static="no" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool KanbanApp.Core.Result.Either&lt; TL, TR &gt;._isLeft</definition>
+        <argsstring></argsstring>
+        <name>_isLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aca81fc6d3a3c4922594a482f4c5e333c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Core.Result.Either&lt; TL, TR &gt;.Either</definition>
+        <argsstring>(TL left)</argsstring>
+        <name>Either</name>
+        <param>
+          <type>TL</type>
+          <declname>left</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aacdf4ba39cc0f38bd2b6a899ab6de40b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Core.Result.Either&lt; TL, TR &gt;.Either</definition>
+        <argsstring>(TR right)</argsstring>
+        <name>Either</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" kindref="member">TR</ref></type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="23" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a48e41209d2a9e4a131f2f4c516f8b5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T KanbanApp.Core.Result.Either&lt; TL, TR &gt;.Match&lt; T &gt;</definition>
+        <argsstring>(Func&lt; TL, T &gt; leftFunc, Func&lt; TR, T &gt; rightFunc)</argsstring>
+        <name>Match&lt; T &gt;</name>
+        <param>
+          <type>Func&lt; TL, T &gt;</type>
+          <declname>leftFunc</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" kindref="member">TR</ref>, T &gt;</type>
+          <declname>rightFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="29" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a2ecece9bf013439f339ad7f9984fb08a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Core.Result.Either&lt; TL, TR &gt;.DoRight</definition>
+        <argsstring>(Action&lt; TR &gt; rightAction)</argsstring>
+        <name>DoRight</name>
+        <param>
+          <type>Action&lt; <ref refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" kindref="member">TR</ref> &gt;</type>
+          <declname>rightAction</declname>
+        </param>
+        <briefdescription>
+<para>If right value is assigned, execute an action on it. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rightAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Action to execute.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="44" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="44" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1ace6880449f7f6f6ad7d2f6bb9961eaef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TL</type>
+        <definition>TL KanbanApp.Core.Result.Either&lt; TL, TR &gt;.LeftOrDefault</definition>
+        <argsstring>()</argsstring>
+        <name>LeftOrDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1ac73706bb3ec3cc2273eac9b88a81b336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" kindref="member">TR</ref></type>
+        <definition>TR KanbanApp.Core.Result.Either&lt; TL, TR &gt;.RightOrDefault</definition>
+        <argsstring>()</argsstring>
+        <name>RightOrDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a2ed88382fe6223ed96dfdf2b8bf5533e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit KanbanApp.Core.Result.Either&lt; TL, TR &gt;.operator Either&lt; TL, TR &gt;</definition>
+        <argsstring>(TL left)</argsstring>
+        <name>operator Either&lt; TL, TR &gt;</name>
+        <param>
+          <type>TL</type>
+          <declname>left</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aec638ee92c584e32c94d372d81097875" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit KanbanApp.Core.Result.Either&lt; TL, TR &gt;.operator Either&lt; TL, TR &gt;</definition>
+        <argsstring>(TR right)</argsstring>
+        <name>operator Either&lt; TL, TR &gt;</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" kindref="member">TR</ref></type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit KanbanApp.Core.Result.Either&lt; TL, TR &gt;.TR</definition>
+        <argsstring>(left)</argsstring>
+        <name>TR</name>
+        <param>
+          <type>left</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a4280de4cf2c269ab7f07e633328cfc37" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit KanbanApp.Core.Result.Either&lt; TL, TR &gt;.TR</definition>
+        <argsstring>(right)</argsstring>
+        <name>TR</name>
+        <param>
+          <type>right</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Functional data data to represent a discriminated union of two possible types. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of &quot;Left&quot; item.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TR</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of &quot;Right&quot; item.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/Either.cs" bodystart="11" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1accf00f670763a110afd96387cdcf9a8c" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>_isLeft</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aeeced6de7dfb9439babd8faa43271a73" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>_left</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a16d108f40c515142a0f4dfef51baf8e0" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>_right</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a2ecece9bf013439f339ad7f9984fb08a" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>DoRight</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aca81fc6d3a3c4922594a482f4c5e333c" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>Either</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aacdf4ba39cc0f38bd2b6a899ab6de40b" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>Either</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1ace6880449f7f6f6ad7d2f6bb9961eaef" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>LeftOrDefault</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a48e41209d2a9e4a131f2f4c516f8b5d8" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>Match&lt; T &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a2ed88382fe6223ed96dfdf2b8bf5533e" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>operator Either&lt; TL, TR &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1aec638ee92c584e32c94d372d81097875" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>operator Either&lt; TL, TR &gt;</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1ac73706bb3ec3cc2273eac9b88a81b336" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>RightOrDefault</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a882c248e79d586ca4f91f6d9dcbad930" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>TR</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_result_1_1_either_3_01_t_l_00_01_t_r_01_4_1a4280de4cf2c269ab7f07e633328cfc37" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Result::Either&lt; TL, TR &gt;</scope><name>TR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

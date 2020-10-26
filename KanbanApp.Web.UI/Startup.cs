@@ -14,26 +14,13 @@ namespace KanbanApp.Web.UI
 
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddSession();
-            //services.AddSwaggerGen(g=>{
-            //    g.SwaggerDoc("v2",new Info
-            //    {
-            //        Title="DailyQuote CRUD API",
-            //        Version="2.0",
-            //        Description="Get your friends daily quotes, add something beaty words and more...",
-            //        Contact=new Contact { Name = "Mustafa", Email = "yucadag@gmail.com", Url = "http://www.google.com"}                    
-            //    });
-
-            //    g.IncludeXmlComments(Path.ChangeExtension(typeof(Startup).Assembly.Location, ".xml"));
-            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //if (env.IsDevelopment())
-            //{
+
             app.UseDeveloperExceptionPage();
-            //}
 
             app.UseMvc();
             app.UseDefaultFiles();
@@ -41,12 +28,6 @@ namespace KanbanApp.Web.UI
 
             app.UseSession();
             app.UseMvcWithDefaultRoute();
-
-            //app.UseSwagger();
-            //app.UseSwaggerUI(s=>{
-            //    s.SwaggerEndpoint("/swagger/v2/swagger.json","Daily Quote");
-            //});
-            // app.Run(async (context) => { await context.Response.WriteAsync("Hello World!"); });
         }
     }
 }

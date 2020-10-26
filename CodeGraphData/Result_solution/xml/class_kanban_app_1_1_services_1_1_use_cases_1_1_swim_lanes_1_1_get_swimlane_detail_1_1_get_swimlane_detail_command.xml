@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequest&lt; GetSwimlaneDetailCommandResult &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_1ac402b39a52aee9968bc524bef77100a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommand.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommand.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommand.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="368">
+        <label>IRequest&lt; GetSwimlaneDetailCommandResult &gt;</label>
+      </node>
+      <node id="367">
+        <label>KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="370">
+        <label>IRequest&lt; GetSwimlaneDetailCommandResult &gt;</label>
+      </node>
+      <node id="369">
+        <label>KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommand</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command"/>
+        <childnode refid="370" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommand.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommand.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_1ac402b39a52aee9968bc524bef77100a7" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommand</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

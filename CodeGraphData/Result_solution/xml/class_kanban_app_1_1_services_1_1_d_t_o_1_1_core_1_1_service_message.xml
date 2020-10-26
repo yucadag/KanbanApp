@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::DTO::Core::ServiceMessage</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1ab3f4d657fdc0d89eea9bed2e732e091c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1a7f4f1f0cdb5ccee7c39fb5068aa67f89" kindref="member">eServiceMessageType</ref></type>
+        <definition>eServiceMessageType KanbanApp.Services.DTO.Core.ServiceMessage.ServiceMessageType</definition>
+        <argsstring></argsstring>
+        <name>ServiceMessageType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1af578618bd8b8616b2d7b79d8f7d764e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.DTO.Core.ServiceMessage.UserFriendlyText</definition>
+        <argsstring></argsstring>
+        <name>UserFriendlyText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1a3fac918d2727b5f45c56cb34f3a16ff7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.DTO.Core.ServiceMessage.LogText</definition>
+        <argsstring></argsstring>
+        <name>LogText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1a4bab650ebe3f211dc382a2059a24436f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Exception</type>
+        <definition>Exception KanbanApp.Services.DTO.Core.ServiceMessage.SystemException</definition>
+        <argsstring></argsstring>
+        <name>SystemException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1a166803749412064d3f3c3b3485ff1dd9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; KanbanApp.Services.DTO.Core.ServiceMessage.InputParameterList</definition>
+        <argsstring></argsstring>
+        <name>InputParameterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1a166803749412064d3f3c3b3485ff1dd9" prot="public" virt="non-virtual"><scope>KanbanApp::Services::DTO::Core::ServiceMessage</scope><name>InputParameterList</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1a3fac918d2727b5f45c56cb34f3a16ff7" prot="public" virt="non-virtual"><scope>KanbanApp::Services::DTO::Core::ServiceMessage</scope><name>LogText</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1ab3f4d657fdc0d89eea9bed2e732e091c" prot="public" virt="non-virtual"><scope>KanbanApp::Services::DTO::Core::ServiceMessage</scope><name>ServiceMessageType</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1a4bab650ebe3f211dc382a2059a24436f" prot="public" virt="non-virtual"><scope>KanbanApp::Services::DTO::Core::ServiceMessage</scope><name>SystemException</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message_1af578618bd8b8616b2d7b79d8f7d764e1" prot="public" virt="non-virtual"><scope>KanbanApp::Services::DTO::Core::ServiceMessage</scope><name>UserFriendlyText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

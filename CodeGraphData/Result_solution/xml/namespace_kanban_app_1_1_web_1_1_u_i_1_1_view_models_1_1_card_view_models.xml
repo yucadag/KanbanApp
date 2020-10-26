@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models" kind="namespace">
+    <compoundname>KanbanApp::Web::UI::ViewModels::CardViewModels</compoundname>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_card_view_models_1_1_new_card_view_model" prot="public">KanbanApp::Web::UI::ViewModels::CardViewModels::NewCardViewModel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels/CardViewModels/NewCardViewModel.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

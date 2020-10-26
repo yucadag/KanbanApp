@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7e06655ca42b17d5956f1f652e3accf3" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp</compoundname>
+    <innerdir refid="dir_00e3027dc108f933b607a4304652326f">C:/TFSProjects/KanbanApp/KanbanApp.Api</innerdir>
+    <innerdir refid="dir_0428fb07f5874d43160e034427837408">C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests</innerdir>
+    <innerdir refid="dir_6ec3a295aaa37b2c750a3a2e070f8d48">C:/TFSProjects/KanbanApp/KanbanApp.Api.Test</innerdir>
+    <innerdir refid="dir_31486f8d56be206f18f657f7f73ceb4b">C:/TFSProjects/KanbanApp/KanbanApp.Core</innerdir>
+    <innerdir refid="dir_75c74236c6691637b6a54234bca89f51">C:/TFSProjects/KanbanApp/KanbanApp.Data</innerdir>
+    <innerdir refid="dir_bc81982fe87f13c5586a01f5e726b3ce">C:/TFSProjects/KanbanApp/KanbanApp.Domain</innerdir>
+    <innerdir refid="dir_94bce59ca4791db4d60e77bdf65a8261">C:/TFSProjects/KanbanApp/KanbanApp.Domain.Shared</innerdir>
+    <innerdir refid="dir_0620c13a0db0c96ab053cc59e258d4c0">C:/TFSProjects/KanbanApp/KanbanApp.Infrastructure</innerdir>
+    <innerdir refid="dir_5b0b4b7171b1357863efa33f4f69f43d">C:/TFSProjects/KanbanApp/KanbanApp.Services</innerdir>
+    <innerdir refid="dir_10a36480691dc6bd29d03120c9dd40be">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI</innerdir>
+    <innerdir refid="dir_c59f6f342496ce7d0921a16b3645b54a">C:/TFSProjects/KanbanApp/MongoDbHelper</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/"/>
+  </compounddef>
+</doxygen>

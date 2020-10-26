@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Cards::Input::CardUpdateInput</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1a7722787d18de048093b0a5348eba5761" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Input.CardUpdateInput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" line="5" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1a3e38def326c2dcaba1429e5f5f526d85" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Input.CardUpdateInput.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1af6e2b8d247ec53ae0d8e7853a2e39dba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Input.CardUpdateInput.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1adde18a63c108230facdfaa2d5ac7659b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Input.CardUpdateInput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1a1b33db28f16a6e02723ef574e890cc29" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Cards.Input.CardUpdateInput.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" line="4" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardUpdateInput.cs" bodystart="3" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1a7722787d18de048093b0a5348eba5761" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Input::CardUpdateInput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1af6e2b8d247ec53ae0d8e7853a2e39dba" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Input::CardUpdateInput</scope><name>CardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1a1b33db28f16a6e02723ef574e890cc29" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Input::CardUpdateInput</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1adde18a63c108230facdfaa2d5ac7659b" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Input::CardUpdateInput</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input_1a3e38def326c2dcaba1429e5f5f526d85" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Cards::Input::CardUpdateInput</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

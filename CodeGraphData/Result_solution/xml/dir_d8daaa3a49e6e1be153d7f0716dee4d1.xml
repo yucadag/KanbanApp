@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d8daaa3a49e6e1be153d7f0716dee4d1" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail</compoundname>
+    <innerfile refid="_get_card_detail_command_8cs">GetCardDetailCommand.cs</innerfile>
+    <innerfile refid="_get_card_detail_command_handler_8cs">GetCardDetailCommandHandler.cs</innerfile>
+    <innerfile refid="_get_card_detail_command_result_8cs">GetCardDetailCommandResult.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/"/>
+  </compounddef>
+</doxygen>

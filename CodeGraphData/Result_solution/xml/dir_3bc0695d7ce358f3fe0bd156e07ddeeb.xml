@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3bc0695d7ce358f3fe0bd156e07ddeeb" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate</compoundname>
+    <innerfile refid="_predicate_builder_8cs">PredicateBuilder.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/"/>
+  </compounddef>
+</doxygen>

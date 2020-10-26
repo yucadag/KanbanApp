@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_1_1_shared_1_1___layout" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::View::Shared::_Layout</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PageModel</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_view_1_1_shared_1_1___layout_1a1ecc0a44c1a00ad03aba53e6e8322612" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Web.UI.View.Shared._Layout.OnGet</definition>
+        <argsstring>()</argsstring>
+        <name>OnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Views/Shared/_Layout.cshtml.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Views/Shared/_Layout.cshtml.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PageModel</label>
+      </node>
+      <node id="0">
+        <label>KanbanApp.Web.UI.View.Shared._Layout</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_1_1_shared_1_1___layout"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>PageModel</label>
+      </node>
+      <node id="2">
+        <label>KanbanApp.Web.UI.View.Shared._Layout</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_1_1_shared_1_1___layout"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Views/Shared/_Layout.cshtml.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Views/Shared/_Layout.cshtml.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_1_1_shared_1_1___layout_1a1ecc0a44c1a00ad03aba53e6e8322612" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::View::Shared::_Layout</scope><name>OnGet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

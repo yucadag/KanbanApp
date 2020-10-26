@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_home_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::HomeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_home_controller_1a2380868490664b7e63640472b5eb930c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/HomeController.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/HomeController.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="381">
+        <label>KanbanApp.Web.UI.HomeController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_home_controller"/>
+        <childnode refid="382" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="382">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="383">
+        <label>KanbanApp.Web.UI.HomeController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_home_controller"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/HomeController.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/HomeController.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_home_controller_1a2380868490664b7e63640472b5eb930c" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::HomeController</scope><name>Index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

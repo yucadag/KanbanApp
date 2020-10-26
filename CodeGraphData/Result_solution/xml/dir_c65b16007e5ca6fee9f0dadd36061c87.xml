@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c65b16007e5ca6fee9f0dadd36061c87" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes</compoundname>
+    <innerdir refid="dir_cb02e7ee9536adb608a930bed20313c8">C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input</innerdir>
+    <innerdir refid="dir_4e961d487ef646b3ca465b8fe66befca">C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Output</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/"/>
+  </compounddef>
+</doxygen>

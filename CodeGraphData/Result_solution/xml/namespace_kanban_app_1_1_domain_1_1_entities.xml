@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_domain_1_1_entities" kind="namespace">
+    <compoundname>KanbanApp::Domain::Entities</compoundname>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" prot="public">KanbanApp::Domain::Entities::Board</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card" prot="public">KanbanApp::Domain::Entities::Card</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" prot="public">KanbanApp::Domain::Entities::CardAttachment</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task" prot="public">KanbanApp::Domain::Entities::CardTask</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_type" prot="public">KanbanApp::Domain::Entities::CardType</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size" prot="public">KanbanApp::Domain::Entities::CardWeightSize</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority" prot="public">KanbanApp::Domain::Entities::Priority</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting" prot="public">KanbanApp::Domain::Entities::Setting</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" prot="public">KanbanApp::Domain::Entities::SwimLane</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting" prot="public">KanbanApp::Domain::Entities::SwimLaneSetting</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag" prot="public">KanbanApp::Domain::Entities::Tag</innerclass>
+    <innerclass refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user" prot="public">KanbanApp::Domain::Entities::User</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Board.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

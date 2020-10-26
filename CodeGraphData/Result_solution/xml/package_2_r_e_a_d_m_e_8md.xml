@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="package_2_r_e_a_d_m_e_8md" kind="file">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#<sp/>Anypoint<sp/>API<sp/>Console</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">This<sp/>project</highlight><highlight class="stringliteral">&apos;s<sp/>only<sp/>purpose<sp/>is<sp/>to<sp/>provide<sp/>a<sp/>fixed<sp/>version<sp/>of<sp/>the<sp/>[Anypoint<sp/>API<sp/>console](https://github.com/advanced-rest-client/anypoint-api-console),<sp/>under<sp/>@mulesoft/anypoint-api-console<sp/>npm<sp/>package.</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral">Build<sp/>is<sp/>made<sp/>by<sp/>a<sp/>fork<sp/>of<sp/>[lc-api-console](https://github.com/advanced-rest-client/lc-api-console)<sp/>included<sp/>in<sp/>the<sp/>builder<sp/>folder.<sp/>It<sp/>uses<sp/>rollup<sp/>to<sp/>generate<sp/>a<sp/>build<sp/>with<sp/>the<sp/>contents<sp/>of<sp/>builder/components/</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">This<sp/>project<sp/>uses<sp/>Valkyr<sp/>node<sp/>strategy,<sp/>once<sp/>it&apos;</highlight><highlight class="normal">s<sp/>built<sp/>on<sp/>jenkins,<sp/>a<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>fixed<sp/>version<sp/>of<sp/>the<sp/>console<sp/>will<sp/>be<sp/>released<sp/>(check<sp/>on<sp/>github<sp/>release<sp/>tab<sp/>to<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>the<sp/>last<sp/>stable<sp/>version).</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">Patch<sp/>version<sp/>is<sp/>automatically<sp/>updated<sp/>every<sp/>time<sp/>a<sp/>master<sp/>build<sp/>is<sp/>made.<sp/>To<sp/>change<sp/>a<sp/>minor<sp/>or<sp/>major<sp/>version,<sp/>you<sp/>will<sp/>need<sp/>to<sp/>modify<sp/>valkyr.yaml<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">In<sp/>order<sp/>to<sp/>relase<sp/>a<sp/>Prereleases/Beta<sp/>version<sp/>use<sp/>a<sp/>build/...<sp/>branch</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/wwwroot/package/README.md"/>
+  </compounddef>
+</doxygen>

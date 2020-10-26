@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::SwimLanes::Input::SwimLaneMoveInput</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1a671beb392a358607567e1d3e465361b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Input.SwimLaneMoveInput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1a3b5a1f74a47fc12ed4fce4290ee11683" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Input.SwimLaneMoveInput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1a33d56f133545fb46ade164f462c2d688" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.SwimLanes.Input.SwimLaneMoveInput.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1ab9acba89a9d451b4048e7be02acf47c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Api.Models.SwimLanes.Input.SwimLaneMoveInput.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/SwimLanes/Input/SwimLaneMoveInput.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1a671beb392a358607567e1d3e465361b7" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Input::SwimLaneMoveInput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1a3b5a1f74a47fc12ed4fce4290ee11683" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Input::SwimLaneMoveInput</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1ab9acba89a9d451b4048e7be02acf47c3" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Input::SwimLaneMoveInput</scope><name>Position</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input_1a33d56f133545fb46ade164f462c2d688" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::SwimLanes::Input::SwimLaneMoveInput</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

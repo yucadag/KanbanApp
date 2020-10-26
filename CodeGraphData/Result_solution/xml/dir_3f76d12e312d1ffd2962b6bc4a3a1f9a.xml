@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3f76d12e312d1ffd2962b6bc4a3a1f9a" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api</compoundname>
+    <innerdir refid="dir_40d27e8021e583bfdfaf12b0ec8feb84">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/BoardApi</innerdir>
+    <innerdir refid="dir_d88a3ae967b3f8685c443c1e5a2ac122">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/CardApi</innerdir>
+    <innerdir refid="dir_4f338272e0709d075d6eef8aa5b9fd42">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/SwimLineApi</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api/"/>
+  </compounddef>
+</doxygen>

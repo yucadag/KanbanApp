@@ -1,6 +1,7 @@
 ﻿using KanbanApp.Core.DataAccess.EntityFramework;
 using KanbanApp.Domain.Data;
 using KanbanApp.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -16,7 +17,15 @@ namespace KanbanApp.Data.Concrete.EntityFramework
 
         public List<Card> GetSwimLaneCards(string SwimLaneId)
         {
-            return _context.Cards.Where(x => x.SwimLaneId == SwimLaneId).ToList();
+            return _context.Cards.Include(c=>c.CardPriority).Where(x => x.SwimLaneId == SwimLaneId).ToList();
+
+            //        .Join(_context.Priority, card => card.CardPriority.PriorityId,
+            //priority => priority.PriorityId,
+            //(card, priority) => new
+            //{
+            //    PriorityId = priority.PriorityId,
+            //    Color = priority.Color
+            //}).Where(x => x. == SwimLaneId).ToList();
         }
     }
 }

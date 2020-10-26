@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::BaseModels::BaseInput</compoundname>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Input.BoardAddInput</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Input.BoardDeleteInput</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Input.BoardGetInput</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.Boards.Input.BoardUpdateInput</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardUpdateInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardDeleteInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardGetInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>KanbanApp.Api.Models.BaseModels.BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+      <node id="9">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardAddInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseInput.cs" line="5" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/BaseInput.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

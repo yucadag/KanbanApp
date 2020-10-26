@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_startup" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Startup</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_startup_1a5c49d0fa4eefead424d862544410fd33" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IConfiguration</type>
+        <definition>IConfiguration KanbanApp.Api.Startup.Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" line="32" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_startup_1ad22d870e8326774cf0d9d5679f101dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Api.Startup.Startup</definition>
+        <argsstring>(IConfiguration configuration)</argsstring>
+        <name>Startup</name>
+        <param>
+          <type>IConfiguration</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" line="27" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_startup_1ab7a32c594b34d255f6f3e59ee1dd9523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Api.Startup.ConfigureServices</definition>
+        <argsstring>(IServiceCollection services)</argsstring>
+        <name>ConfigureServices</name>
+        <param>
+          <type>IServiceCollection</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" line="35" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" bodystart="35" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_startup_1a02c107700af87603406ae43025ee75d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Api.Startup.Configure</definition>
+        <argsstring>(IApplicationBuilder app, IHostingEnvironment env)</argsstring>
+        <name>Configure</name>
+        <param>
+          <type>IApplicationBuilder</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>IHostingEnvironment</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" line="99" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" bodystart="99" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" line="26" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Startup.cs" bodystart="25" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_startup_1a5c49d0fa4eefead424d862544410fd33" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Startup</scope><name>Configuration</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_startup_1a02c107700af87603406ae43025ee75d5" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Startup</scope><name>Configure</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_startup_1ab7a32c594b34d255f6f3e59ee1dd9523" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Startup</scope><name>ConfigureServices</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_startup_1ad22d870e8326774cf0d9d5679f101dc8" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Startup</scope><name>Startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

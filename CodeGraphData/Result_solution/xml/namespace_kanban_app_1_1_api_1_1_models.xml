@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_api_1_1_models" kind="namespace">
+    <compoundname>KanbanApp::Api::Models</compoundname>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_base_models">KanbanApp::Api::Models::BaseModels</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_boards">KanbanApp::Api::Models::Boards</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_cards">KanbanApp::Api::Models::Cards</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_swim_lanes">KanbanApp::Api::Models::SwimLanes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

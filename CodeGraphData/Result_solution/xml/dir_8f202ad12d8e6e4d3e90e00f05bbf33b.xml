@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8f202ad12d8e6e4d3e90e00f05bbf33b" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete</compoundname>
+    <innerfile refid="_board_service_8cs">BoardService.cs</innerfile>
+    <innerfile refid="_card_service_8cs">CardService.cs</innerfile>
+    <innerfile refid="_swim_lane_service_8cs">SwimLaneService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/"/>
+  </compounddef>
+</doxygen>

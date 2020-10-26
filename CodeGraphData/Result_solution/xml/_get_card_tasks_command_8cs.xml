@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_get_card_tasks_command_8cs" kind="file">
+    <compoundname>GetCardTasksCommand.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_tasks_1_1_get_card_tasks_command" prot="public">KanbanApp::Services::UseCases::Cards::GetCardTasks::GetCardTasksCommand</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_tasks">KanbanApp::Services::UseCases::Cards::GetCardTasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_tasks" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.UseCases.Cards.GetCardTasks</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_tasks_1_1_get_card_tasks_command" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_tasks_1_1_get_card_tasks_command" kindref="compound">GetCardTasksCommand</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardTasks/GetCardTasksCommand.cs"/>
+  </compounddef>
+</doxygen>

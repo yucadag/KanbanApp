@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ba248665ccc9ad5670f6d06c2f39c837" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Data/Migrations</compoundname>
+    <innerfile refid="_kanban_app_8_data_2_migrations_2_kanban_context_model_snapshot_8cs">KanbanContextModelSnapshot.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Migrations/"/>
+  </compounddef>
+</doxygen>

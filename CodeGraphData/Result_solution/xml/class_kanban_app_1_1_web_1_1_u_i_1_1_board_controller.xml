@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Web::UI::BoardController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a62ca71f3cd4a390b74c122556395d6d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.BoardController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" bodystart="11" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a4fadf3e36322475cdb47cc422e2eb5e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.BoardController.New</definition>
+        <argsstring>()</argsstring>
+        <name>New</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" line="28" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a0c06c9954d70d9a42a3c2d3e26179865" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.BoardController.Update</definition>
+        <argsstring>(string BoardId)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>string</type>
+          <declname>BoardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" line="36" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1aee46744db7bd4c3c1db8021c1e6854e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.BoardController.Deneme</definition>
+        <argsstring>()</argsstring>
+        <name>Deneme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" line="44" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a623d07433b359aac5b48eb3c7f0ce86c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.BoardController.LTETest</definition>
+        <argsstring>()</argsstring>
+        <name>LTETest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" line="50" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a3faf8fc2c168eef1c66a7f0606a37fdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult KanbanApp.Web.UI.BoardController.LTETestJKanban</definition>
+        <argsstring>()</argsstring>
+        <name>LTETestJKanban</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" line="57" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" bodystart="57" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>Controller</label>
+      </node>
+      <node id="39">
+        <label>KanbanApp.Web.UI.BoardController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>Controller</label>
+      </node>
+      <node id="41">
+        <label>KanbanApp.Web.UI.BoardController</label>
+        <link refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs" bodystart="9" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1aee46744db7bd4c3c1db8021c1e6854e4" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::BoardController</scope><name>Deneme</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a62ca71f3cd4a390b74c122556395d6d1" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::BoardController</scope><name>Index</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a623d07433b359aac5b48eb3c7f0ce86c" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::BoardController</scope><name>LTETest</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a3faf8fc2c168eef1c66a7f0606a37fdf" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::BoardController</scope><name>LTETestJKanban</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a4fadf3e36322475cdb47cc422e2eb5e7" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::BoardController</scope><name>New</name></member>
+      <member refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a0c06c9954d70d9a42a3c2d3e26179865" prot="public" virt="non-virtual"><scope>KanbanApp::Web::UI::BoardController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

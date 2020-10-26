@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::CardAttachment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1a42c46ddde6547ac2311bcd4c2e4d9329" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.CardAttachment.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1aae58126cb2a3374cf1d0faa78bf91843" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.CardAttachment.CardAttachmentId</definition>
+        <argsstring></argsstring>
+        <name>CardAttachmentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1acdb26f663f9d95d0d0d8bd55dfba5fc7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.CardAttachment.AttachmentName</definition>
+        <argsstring></argsstring>
+        <name>AttachmentName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1ad4f86e150cc1eb7b7abf3e378efb9abc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.CardAttachment.AttachmentDownloadLink</definition>
+        <argsstring></argsstring>
+        <name>AttachmentDownloadLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" line="11" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>IEntity</label>
+      </node>
+      <node id="8">
+        <label>KanbanApp.Domain.Entities.CardAttachment</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>IEntity</label>
+      </node>
+      <node id="10">
+        <label>KanbanApp.Domain.Entities.CardAttachment</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardAttachment.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1ad4f86e150cc1eb7b7abf3e378efb9abc" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::CardAttachment</scope><name>AttachmentDownloadLink</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1acdb26f663f9d95d0d0d8bd55dfba5fc7" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::CardAttachment</scope><name>AttachmentName</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1aae58126cb2a3374cf1d0faa78bf91843" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::CardAttachment</scope><name>CardAttachmentId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1a42c46ddde6547ac2311bcd4c2e4d9329" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::CardAttachment</scope><name>CardId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

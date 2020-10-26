@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command" prot="public">KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommand</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_handler" prot="public">KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandHandler</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result" prot="public">KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResult</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item" prot="public">KanbanApp::Services::UseCases::SwimLanes::GetSwimLaneCards::GetSwimLaneCardsCommandResultItem</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimLaneCards/GetSwimLaneCardsCommand.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

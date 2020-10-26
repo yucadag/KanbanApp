@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input" kind="namespace">
+    <compoundname>KanbanApp::Api::Models::Cards::Input</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input" prot="public">KanbanApp::Api::Models::Cards::Input::CardGetInput</innerclass>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_update_input" prot="public">KanbanApp::Api::Models::Cards::Input::CardUpdateInput</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardGetInput.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

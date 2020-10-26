@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_94bce59ca4791db4d60e77bdf65a8261" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Domain.Shared</compoundname>
+    <innerfile refid="_e_card_task_state_8cs">ECardTaskState.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain.Shared/"/>
+  </compounddef>
+</doxygen>

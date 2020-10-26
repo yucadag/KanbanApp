@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input" kind="namespace">
+    <compoundname>KanbanApp::Api::Models::Boards::Input</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_add_input" prot="public">KanbanApp::Api::Models::Boards::Input::BoardAddInput</innerclass>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_delete_input" prot="public">KanbanApp::Api::Models::Boards::Input::BoardDeleteInput</innerclass>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input" prot="public">KanbanApp::Api::Models::Boards::Input::BoardGetInput</innerclass>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input" prot="public">KanbanApp::Api::Models::Boards::Input::BoardUpdateInput</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardAddInput.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

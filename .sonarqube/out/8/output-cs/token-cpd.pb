@@ -4496,7 +4496,7 @@ SwimLaneId		  
 ;, -
 }. /
 } 
-} ½'
+} •-
 aC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommandHandler.cs
 	namespace
 
@@ -4660,12 +4660,11 @@ CreateCard
 )A B
 ;B C
 if!! 
-(!! 
-!!! 
-validationResult!! %
-.!!% &
-IsValid!!& -
-)!!- .
+(!! 
+validationResult!! $
+.!!$ %
+IsValid!!% ,
+)!!, -
 {"" 
 _cardRepository## #
 .### $
@@ -4727,77 +4726,126 @@ SwimLaneId##e o
 ##Â Ã
 ;
 ##Ã Ä
-result%% 
-.%% 
-ResultObject%% '
-.%%' (
-Success%%( /
-=%%0 1
-true%%2 6
-;%%6 7
-}&& 
-else'' 
-{(( 
-result)) 
-.)) 
-ResultObject)) '
-.))' (
-Success))( /
-=))0 1
-false))2 7
-;))7 8
-}** 
-}++ 
-catch,, 
-(,, 
-	Exception,, 
-ex,, 
-),,  
-{-- 
-result.. 
-... 
-ResultObject.. #
-...# $
-ServiceMessageList..$ 6
-...6 7
-Add..7 :
-(..: ;
-new..; >
-ServiceMessage..? M
-(..M N
-)..N O
-{// 
-ServiceMessageType00 &
-=00' (
-eServiceMessageType00) <
-.00< =
-Error00= B
-,00B C
-UserFriendlyText11 $
-=11% &
-$str11' 9
-,119 :
-LogText22 
-=22 
-$str22 W
-+22X Y
-ex22Z \
-.22\ ]
-Message22] d
-,22d e
-SystemException33 #
-=33$ %
-ex33& (
-}44 
-)44 
-;44 
-}55 
-return77 
-result77 
-;77 
-}88 	
-}99 
-}:: ë
+result$$ 
+.$$ 
+ResultObject$$ '
+.$$' (
+Success$$( /
+=$$0 1
+true$$2 6
+;$$6 7
+}%% 
+else&& 
+{'' 
+foreach(( 
+((( 
+var((  
+item((! %
+in((& (
+validationResult(() 9
+.((9 :
+Errors((: @
+)((@ A
+{)) 
+result** 
+.** 
+ResultObject** +
+.**+ ,
+ServiceMessageList**, >
+.**> ?
+Add**? B
+(**B C
+new**C F
+ServiceMessage**G U
+(**U V
+)**V W
+{**X Y
+ServiceMessageType**Z l
+=**l m 
+eServiceMessageType	**m €
+.
+**€ 
+Error
+** †
+,
+**† ‡
+UserFriendlyText
+**ˆ ˜
+=
+**˜ ™
+item
+**™ 
+.
+** ž
+ErrorMessage
+**ž ª
+}
+**« ¬
+)
+**¬ ­
+;
+**­ ®
+}++ 
+result,, 
+.,, 
+ResultObject,, '
+.,,' (
+Success,,( /
+=,,0 1
+false,,2 7
+;,,7 8
+}-- 
+}.. 
+catch// 
+(// 
+	Exception// 
+ex// 
+)//  
+{00 
+result11 
+.11 
+ResultObject11 #
+.11# $
+ServiceMessageList11$ 6
+.116 7
+Add117 :
+(11: ;
+new11; >
+ServiceMessage11? M
+(11M N
+)11N O
+{22 
+ServiceMessageType33 &
+=33' (
+eServiceMessageType33) <
+.33< =
+Error33= B
+,33B C
+UserFriendlyText44 $
+=44% &
+$str44' 9
+,449 :
+LogText55 
+=55 
+$str55 W
++55X Y
+ex55Z \
+.55\ ]
+Message55] d
+,55d e
+SystemException66 #
+=66$ %
+ex66& (
+}77 
+)77 
+;77 
+}88 
+return:: 
+result:: 
+;:: 
+};; 	
+}<< 
+}== ë
 
 `C:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\CreateCard\CreateCardCommandResult.cs
 	namespace 	
@@ -5037,7 +5085,7 @@ DeleteCard, 6
 ;' (
 }) *
 } 
-} ·$
+} ¨$
 aC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\DeleteCard\DeleteCardCommandHandler.cs
 	namespace
 
@@ -5200,12 +5248,11 @@ DeleteCard
 )A B
 ;B C
 if!! 
-(!! 
-!!! 
-validationResult!! %
-.!!% &
-IsValid!!& -
-)!!- .
+(!! 
+validationResult!! $
+.!!$ %
+IsValid!!% ,
+)!!, -
 {"" 
 Card$$ 
 card$$ 
@@ -5469,7 +5516,7 @@ hC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\GetAttachmentList\Ge
 ;' (
 }) *
 } 
-}		 ‰+
+}		 ú*
 oC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\GetAttachmentList\GetAttachmentListCommandHandler.cs
 	namespace 	
 	KanbanApp
@@ -5618,12 +5665,11 @@ oC:\TFSProjects\KanbanApp\KanbanApp.Services\UseCases\Cards\GetAttachmentList\Ge
 )  A B
 ;  B C
 if"" 
-("" 
-!"" 
-validationResult"" %
-.""% &
-IsValid""& -
-)""- .
+("" 
+validationResult"" $
+.""$ %
+IsValid""% ,
+)"", -
 {## 
 List%% 
 <%% 

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Boards::Input::BoardUpdateInput</compoundname>
+    <basecompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.BaseModels.BaseInput</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input_1a8841de7a2574dd89fa320475afc13512" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardUpdateInput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input_1aa621b78f416afb0e8c12f0f67f936de2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardUpdateInput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input_1aed4deda4bfd6c28f1d93d4279fdc286c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardUpdateInput.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="78">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardUpdateInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="80">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardUpdateInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardUpdateInput.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input_1a8841de7a2574dd89fa320475afc13512" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardUpdateInput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input_1aed4deda4bfd6c28f1d93d4279fdc286c" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardUpdateInput</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_update_input_1aa621b78f416afb0e8c12f0f67f936de2" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardUpdateInput</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

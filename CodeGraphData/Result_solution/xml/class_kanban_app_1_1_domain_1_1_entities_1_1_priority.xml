@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_priority" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::Priority</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_core_1_1_i_entity" prot="public" virt="non-virtual">KanbanApp.Core.IEntity</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a036bdc454ae819eb5641cdcc2644c462" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Domain.Entities.Priority.PriorityId</definition>
+        <argsstring></argsstring>
+        <name>PriorityId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a80d29517550b370bc30c591d30e06144" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Priority.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a01c516f58ad6a6c57e9c4e24eccdf60c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Priority.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="491">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+      <node id="490">
+        <label>KanbanApp.Domain.Entities.Priority</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority"/>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="493">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+      <node id="492">
+        <label>KanbanApp.Domain.Entities.Priority</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority"/>
+        <childnode refid="493" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Priority.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a01c516f58ad6a6c57e9c4e24eccdf60c" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Priority</scope><name>Color</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a80d29517550b370bc30c591d30e06144" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Priority</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a036bdc454ae819eb5641cdcc2644c462" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Priority</scope><name>PriorityId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

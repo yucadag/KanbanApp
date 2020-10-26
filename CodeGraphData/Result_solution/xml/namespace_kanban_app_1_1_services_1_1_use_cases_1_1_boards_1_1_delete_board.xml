@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases::Boards::DeleteBoard</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command" prot="public">KanbanApp::Services::UseCases::Boards::DeleteBoard::DeleteBoardCommand</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_handler" prot="public">KanbanApp::Services::UseCases::Boards::DeleteBoard::DeleteBoardCommandHandler</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_result" prot="public">KanbanApp::Services::UseCases::Boards::DeleteBoard::DeleteBoardCommandResult</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_validator" prot="public">KanbanApp::Services::UseCases::Boards::DeleteBoard::DeleteBoardCommandValidator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/DeleteBoard/DeleteBoardCommand.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

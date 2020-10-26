@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_board_get_list_output_8cs" kind="file">
+    <compoundname>BoardGetListOutput.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output" prot="public">KanbanApp::Api::Models::Boards::Output::BoardGetListOutput</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output">KanbanApp::Api::Models::Boards::Output</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Api.Models.BaseModels;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Api.Models.Boards.Output</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output" kindref="compound">BoardGetListOutput</ref><sp/>:<sp/><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output" kindref="compound">BaseOutput</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1a415fa62703e8a83d186555f55df31fa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>BoardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="8" refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1ab328e45bfffcea18b55b4ec26b9f4879" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Name<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="9" refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_get_list_output_1aaf3913b23ef81ae735541dde653ae7ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Description<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardGetListOutput.cs"/>
+  </compounddef>
+</doxygen>

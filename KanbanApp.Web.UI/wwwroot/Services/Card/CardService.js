@@ -27,11 +27,12 @@
 
     var Save = function (Card) {
 
-
+        var SavedCard;
         var settings = {
             "url": "https://localhost:5002/api/Card/CreateCard",
             "method": "POST",
             "timeout": 0,
+            "async": false,
             "headers": {
                 "Content-Type": "application/json"
             },
@@ -39,11 +40,11 @@
         };
 
         $.ajax(settings).done(function (response) {
-
-            console.log(response);
+            SavedCard = response;
+           
         });
 
-
+        return SavedCard;
     };
 
     var Update = function (Card) {
@@ -65,7 +66,19 @@
     };
 
     var Delete = function (CardId) {
-        document.body.removeChild(document.getElementById(modalCoverID + "_cover"));
+        var settings = {
+            "url": "https://localhost:5002/api/Card/DeleteCard",
+            "method": "POST",
+            "timeout": 0,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify({ "cardId": CardId }),
+        };
+
+        $.ajax(settings).done(function (response) {
+            console.log(response);
+        });
     };
 
     var MoveDifferentColumn = function (SwimLaneId, CardId) {

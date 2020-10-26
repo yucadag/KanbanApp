@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_kanban_app_1_1_core_1_1_i_entity" kind="interface" prot="public">
+    <compoundname>KanbanApp::Core::IEntity</compoundname>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.Board</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.Card</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.CardAttachment</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.CardTask</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_type" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.CardType</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.Priority</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.Setting</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.SwimLane</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.SwimLaneSetting</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.Tag</derivedcompoundref>
+    <derivedcompoundref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user" prot="public" virt="non-virtual">KanbanApp.Domain.Entities.User</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="403">
+        <label>KanbanApp.Core.IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+      <node id="408">
+        <label>KanbanApp.Domain.Entities.CardType</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_type"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>KanbanApp.Domain.Entities.Board</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>KanbanApp.Domain.Entities.CardTask</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>KanbanApp.Domain.Entities.Tag</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>KanbanApp.Domain.Entities.SwimLaneSetting</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>KanbanApp.Domain.Entities.Card</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>KanbanApp.Domain.Entities.User</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>KanbanApp.Domain.Entities.SwimLane</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>KanbanApp.Domain.Entities.Priority</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>KanbanApp.Domain.Entities.CardAttachment</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>KanbanApp.Domain.Entities.Setting</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/IEntity.cs" line="4" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/IEntity.cs" bodystart="3" bodyend="5"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

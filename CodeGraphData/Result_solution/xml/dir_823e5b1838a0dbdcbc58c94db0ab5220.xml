@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_823e5b1838a0dbdcbc58c94db0ab5220" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/UpdateBoard</compoundname>
+    <innerfile refid="_update_board_command_8cs">UpdateBoardCommand.cs</innerfile>
+    <innerfile refid="_update_board_command_handler_8cs">UpdateBoardCommandHandler.cs</innerfile>
+    <innerfile refid="_update_board_command_result_8cs">UpdateBoardCommandResult.cs</innerfile>
+    <innerfile refid="_update_board_command_validator_8cs">UpdateBoardCommandValidator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/UpdateBoard/"/>
+  </compounddef>
+</doxygen>

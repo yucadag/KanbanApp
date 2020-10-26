@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_af3d502a76b74438a930875de969f28b" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete</compoundname>
+    <innerdir refid="dir_f315d61b8f3d39b51a654a6cd8cbf846">C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/"/>
+  </compounddef>
+</doxygen>

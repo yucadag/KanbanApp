@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Migrations::MyFirstMigration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration_1acbc02565cf97062c3e48f76aa6ee17c3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void KanbanApp.Api.Migrations.MyFirstMigration.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.cs" bodystart="9" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration_1aa0ba9e12b6bb525505f79f0f52aac4f4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void KanbanApp.Api.Migrations.MyFirstMigration.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.cs" line="321" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.cs" bodystart="321" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration_1a478b9a4193d6e90b306f83b124a5f9ca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void KanbanApp.Api.Migrations.MyFirstMigration.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.Designer.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.Designer.cs" bodystart="16" bodyend="325"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="479">
+        <label>Migration</label>
+      </node>
+      <node id="478">
+        <label>KanbanApp.Api.Migrations.MyFirstMigration</label>
+        <link refid="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration"/>
+        <childnode refid="479" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="481">
+        <label>Migration</label>
+      </node>
+      <node id="480">
+        <label>KanbanApp.Api.Migrations.MyFirstMigration</label>
+        <link refid="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Migrations/20200118123321_MyFirstMigration.cs" bodystart="7" bodyend="359"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration_1a478b9a4193d6e90b306f83b124a5f9ca" prot="protected" virt="non-virtual"><scope>KanbanApp::Api::Migrations::MyFirstMigration</scope><name>BuildTargetModel</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration_1aa0ba9e12b6bb525505f79f0f52aac4f4" prot="protected" virt="non-virtual"><scope>KanbanApp::Api::Migrations::MyFirstMigration</scope><name>Down</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_migrations_1_1_my_first_migration_1acbc02565cf97062c3e48f76aa6ee17c3" prot="protected" virt="non-virtual"><scope>KanbanApp::Api::Migrations::MyFirstMigration</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

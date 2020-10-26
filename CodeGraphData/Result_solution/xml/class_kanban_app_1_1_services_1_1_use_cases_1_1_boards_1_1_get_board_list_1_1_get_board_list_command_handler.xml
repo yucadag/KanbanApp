@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::GetBoardList::GetBoardListCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; GetBoardListCommand, GetBoardListCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler_1ab15fe96419b29fdce484f68fdc583033" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kindref="compound">IBoardRepository</ref></type>
+        <definition>readonly IBoardRepository KanbanApp.Services.UseCases.Boards.GetBoardList.GetBoardListCommandHandler._boardRepository</definition>
+        <argsstring></argsstring>
+        <name>_boardRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler_1ace4883ffd27c42cbae9e618db44c4c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.GetBoardList.GetBoardListCommandHandler.GetBoardListCommandHandler</definition>
+        <argsstring>(IBoardRepository boardRepository)</argsstring>
+        <name>GetBoardListCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kindref="compound">IBoardRepository</ref></type>
+          <declname>boardRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler_1a41078281102b0d3d69a6fcaff9a5f299" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_result" kindref="compound">GetBoardListCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;GetBoardListCommandResult&gt; KanbanApp.Services.UseCases.Boards.GetBoardList.GetBoardListCommandHandler.Handle</definition>
+        <argsstring>(GetBoardListCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command" kindref="compound">GetBoardListCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" line="23" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" bodystart="23" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="303">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardList.GetBoardListCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>IRequestHandler&lt; GetBoardListCommand, GetBoardListCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="305">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardList.GetBoardListCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler"/>
+        <childnode refid="306" relation="public-inheritance">
+        </childnode>
+        <childnode refid="307" relation="usage">
+          <edgelabel>_boardRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="308">
+        <label>IEntityRepository&lt; Board &gt;</label>
+      </node>
+      <node id="306">
+        <label>IRequestHandler&lt; GetBoardListCommand, GetBoardListCommandResult &gt;</label>
+      </node>
+      <node id="307">
+        <label>KanbanApp.Domain.Data.IBoardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardList/GetBoardListCommandHandler.cs" bodystart="13" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler_1ab15fe96419b29fdce484f68fdc583033" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardList::GetBoardListCommandHandler</scope><name>_boardRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler_1ace4883ffd27c42cbae9e618db44c4c2d" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardList::GetBoardListCommandHandler</scope><name>GetBoardListCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_handler_1a41078281102b0d3d69a6fcaff9a5f299" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardList::GetBoardListCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

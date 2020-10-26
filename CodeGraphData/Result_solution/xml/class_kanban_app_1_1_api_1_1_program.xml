@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_program" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Program</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_program_1a90ddc7991eb6ab4b7d916decb37e08e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void KanbanApp.Api.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" bodystart="14" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_program_1a9feece644c0a0574703f1dc8140b6737" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IWebHostBuilder</type>
+        <definition>static IWebHostBuilder KanbanApp.Api.Program.CreateWebHostBuilder</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>CreateWebHostBuilder</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_program_1aedf9e79221769db3c9336b3e2fe3b1db" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void KanbanApp.Api.Program.ConfigureLogging</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureLogging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" line="36" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" bodystart="36" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_program_1a0d68a105c4853a808f18e0ab05accb2d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ElasticsearchSinkOptions</type>
+        <definition>static ElasticsearchSinkOptions KanbanApp.Api.Program.ConfigureElasticSink</definition>
+        <argsstring>(IConfigurationRoot configuration, string environment)</argsstring>
+        <name>ConfigureElasticSink</name>
+        <param>
+          <type>IConfigurationRoot</type>
+          <declname>configuration</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>environment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" line="60" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" bodystart="60" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Program.cs" bodystart="12" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_program_1a0d68a105c4853a808f18e0ab05accb2d" prot="private" virt="non-virtual"><scope>KanbanApp::Api::Program</scope><name>ConfigureElasticSink</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_program_1aedf9e79221769db3c9336b3e2fe3b1db" prot="private" virt="non-virtual"><scope>KanbanApp::Api::Program</scope><name>ConfigureLogging</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_program_1a9feece644c0a0574703f1dc8140b6737" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Program</scope><name>CreateWebHostBuilder</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_program_1a90ddc7991eb6ab4b7d916decb37e08e1" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

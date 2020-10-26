@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::Exceptions::ServiceValidationException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception_1ab8cd8b3b29d3b32c406f7bf0278f97cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.Exceptions.ServiceValidationException.ServiceValidationException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ServiceValidationException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions/ServiceValidationException.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions/ServiceValidationException.cs" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception_1aebacb5071ee29db10864a8dc1cc2d205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.Exceptions.ServiceValidationException.ServiceValidationException</definition>
+        <argsstring>(string message, Exception innerException)</argsstring>
+        <name>ServiceValidationException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions/ServiceValidationException.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions/ServiceValidationException.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="506">
+        <label>KanbanApp.Services.Exceptions.ServiceValidationException</label>
+        <link refid="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception"/>
+        <childnode refid="507" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="507">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="508">
+        <label>KanbanApp.Services.Exceptions.ServiceValidationException</label>
+        <link refid="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception"/>
+        <childnode refid="509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions/ServiceValidationException.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions/ServiceValidationException.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception_1ab8cd8b3b29d3b32c406f7bf0278f97cb" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Exceptions::ServiceValidationException</scope><name>ServiceValidationException</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception_1aebacb5071ee29db10864a8dc1cc2d205" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Exceptions::ServiceValidationException</scope><name>ServiceValidationException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

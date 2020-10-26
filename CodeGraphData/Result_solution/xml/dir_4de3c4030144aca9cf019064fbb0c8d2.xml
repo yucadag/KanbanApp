@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4de3c4030144aca9cf019064fbb0c8d2" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases</compoundname>
+    <innerdir refid="dir_e0374707fc6c8102c70da3f5e743a037">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment</innerdir>
+    <innerdir refid="dir_b2b395175bbcdaeb0785c69fbea109f3">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards</innerdir>
+    <innerdir refid="dir_8df40b7fb62d37800d940cd0f31281df">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards</innerdir>
+    <innerdir refid="dir_e057ea39fec5573e9fd18d2abca54a79">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/"/>
+  </compounddef>
+</doxygen>

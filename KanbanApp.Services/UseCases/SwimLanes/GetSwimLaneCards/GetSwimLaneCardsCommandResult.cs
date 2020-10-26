@@ -15,5 +15,6 @@ namespace KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards
         public string CardId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public string PriorityColor { get; set; }
     }
 }

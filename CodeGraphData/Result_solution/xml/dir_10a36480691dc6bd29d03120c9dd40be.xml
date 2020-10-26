@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_10a36480691dc6bd29d03120c9dd40be" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Web.UI</compoundname>
+    <innerdir refid="dir_3f76d12e312d1ffd2962b6bc4a3a1f9a">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Api</innerdir>
+    <innerdir refid="dir_d1f0827b3cf41afc414c38a6f91aca9b">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller</innerdir>
+    <innerdir refid="dir_d1f04b7625942a11e238b40aa3f34ebf">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/ViewModels</innerdir>
+    <innerdir refid="dir_48bd9360238dd8072beeead82ff9b97d">C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Views</innerdir>
+    <innerfile refid="_kanban_app_8_web_8_u_i_2_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_kanban_app_8_web_8_u_i_2_startup_8cs">Startup.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/"/>
+  </compounddef>
+</doxygen>

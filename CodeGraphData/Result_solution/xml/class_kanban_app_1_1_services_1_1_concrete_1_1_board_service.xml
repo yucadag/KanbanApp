@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::Concrete::BoardService</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service" prot="public" virt="non-virtual">KanbanApp.Services.Abstract.IBoardService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1abb8275aa33eb1e5c51388c9aec986cb8" prot="private" static="no" mutable="no">
+        <type>readonly IMediator</type>
+        <definition>readonly IMediator KanbanApp.Services.Concrete.BoardService._mediator</definition>
+        <argsstring></argsstring>
+        <name>_mediator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a6b5e17adbafe49de2757b6faf52e91cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.Concrete.BoardService.BoardService</definition>
+        <argsstring>(IMediator mediator)</argsstring>
+        <name>BoardService</name>
+        <param>
+          <type>IMediator</type>
+          <declname>mediator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a77cd8b90885797b04cff63ab4e70e862" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command_result" kindref="compound">GetBoardListCommandResult</ref> &gt;</type>
+        <definition>Task&lt;GetBoardListCommandResult&gt; KanbanApp.Services.Concrete.BoardService.GetList</definition>
+        <argsstring>(GetBoardListCommand command)</argsstring>
+        <name>GetList</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service_1a1f918d9febd840939de4c2cbd118e80a">GetList</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list_1_1_get_board_list_command" kindref="compound">GetBoardListCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="21" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1aa4a30b1a42cff3fc486174982280da53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_result" kindref="compound">CreateBoardCommandResult</ref> &gt;</type>
+        <definition>Task&lt;CreateBoardCommandResult&gt; KanbanApp.Services.Concrete.BoardService.Add</definition>
+        <argsstring>(CreateBoardCommand command)</argsstring>
+        <name>Add</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service_1af9c3bf9e63979743fc0aa26fbc2937be">Add</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command" kindref="compound">CreateBoardCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="30" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a626b7e77d5cbeedf56c01d7762829314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command_result" kindref="compound">UpdateBoardCommandResult</ref> &gt;</type>
+        <definition>Task&lt;UpdateBoardCommandResult&gt; KanbanApp.Services.Concrete.BoardService.Update</definition>
+        <argsstring>(UpdateBoardCommand command)</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service_1a1065e9c325bbdd437d3bb80777ae7ac5">Update</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board_1_1_update_board_command" kindref="compound">UpdateBoardCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="39" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a4f77e4a231741528126fb28e85837a71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command_result" kindref="compound">DeleteBoardCommandResult</ref> &gt;</type>
+        <definition>Task&lt;DeleteBoardCommandResult&gt; KanbanApp.Services.Concrete.BoardService.Delete</definition>
+        <argsstring>(DeleteBoardCommand command)</argsstring>
+        <name>Delete</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service_1a887acbba760dc59f2cf50e90412bd3ad">Delete</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board_1_1_delete_board_command" kindref="compound">DeleteBoardCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="48" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1af02a771dc09fd925db12f91fe68c0201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_result" kindref="compound">GetBoardDetailCommandResult</ref> &gt;</type>
+        <definition>Task&lt;GetBoardDetailCommandResult&gt; KanbanApp.Services.Concrete.BoardService.Get</definition>
+        <argsstring>(GetBoardDetailCommand command)</argsstring>
+        <name>Get</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service_1a91c22665fbe8de1d7d4079422a185c81">Get</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command" kindref="compound">GetBoardDetailCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="57" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a0b470ffb964201e84eec5f75a8fd49d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command_result" kindref="compound">GetBoardSwimLanesCommandResult</ref> &gt;</type>
+        <definition>Task&lt;GetBoardSwimLanesCommandResult&gt; KanbanApp.Services.Concrete.BoardService.GetBoardSwimLanes</definition>
+        <argsstring>(GetBoardSwimLanesCommand command)</argsstring>
+        <name>GetBoardSwimLanes</name>
+        <reimplements refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service_1adb69f1513a00180791b917a2b1ddc15f">GetBoardSwimLanes</reimplements>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes_1_1_get_board_swim_lanes_command" kindref="compound">GetBoardSwimLanesCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="66" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="66" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="70">
+        <label>KanbanApp.Services.Concrete.BoardService</label>
+        <link refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>IBoardService</label>
+        <link refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>KanbanApp.Services.Concrete.BoardService</label>
+        <link refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>IBoardService</label>
+        <link refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_board_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete/BoardService.cs" bodystart="13" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1abb8275aa33eb1e5c51388c9aec986cb8" prot="private" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>_mediator</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1aa4a30b1a42cff3fc486174982280da53" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>Add</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a6b5e17adbafe49de2757b6faf52e91cc" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>BoardService</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a4f77e4a231741528126fb28e85837a71" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>Delete</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1af02a771dc09fd925db12f91fe68c0201" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a0b470ffb964201e84eec5f75a8fd49d4" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>GetBoardSwimLanes</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a77cd8b90885797b04cff63ab4e70e862" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>GetList</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_concrete_1_1_board_service_1a626b7e77d5cbeedf56c01d7762829314" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Concrete::BoardService</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

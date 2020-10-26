@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_kanban_app_8_web_8_u_i_2_controller_2_board_controller_8cs" kind="file">
+    <compoundname>BoardController.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller" prot="public">KanbanApp::Web::UI::BoardController</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_web_1_1_u_i">KanbanApp::Web::UI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Domain.Entities;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Web.UI.ViewModels;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Mvc;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Web.UI</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller" kindref="compound">BoardController</ref><sp/>:<sp/>Controller</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a62ca71f3cd4a390b74c122556395d6d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IActionResult<sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a62ca71f3cd4a390b74c122556395d6d1" kindref="member">Index</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_view_model" kindref="compound">BoardViewModel</ref><sp/>model<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_view_model" kindref="compound">BoardViewModel</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Board&gt;();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Yapilacak<sp/>Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;2&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;3&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;4&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;5&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;6&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;7&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model.BoardList.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kindref="compound">Board</ref>()<sp/>{<sp/>BoardId<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;8&quot;</highlight><highlight class="normal">,<sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Isler&quot;</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>View(model);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a4fadf3e36322475cdb47cc422e2eb5e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IActionResult<sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a4fadf3e36322475cdb47cc422e2eb5e7" kindref="member">New</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_new_view_model" kindref="compound">BoardNewViewModel</ref><sp/>model<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_view_models_1_1_board_new_view_model" kindref="compound">BoardNewViewModel</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>View(model);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a0c06c9954d70d9a42a3c2d3e26179865" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IActionResult<sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a0c06c9954d70d9a42a3c2d3e26179865" kindref="member">Update</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>BoardId)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>View();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1aee46744db7bd4c3c1db8021c1e6854e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IActionResult<sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1aee46744db7bd4c3c1db8021c1e6854e4" kindref="member">Deneme</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>View();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a623d07433b359aac5b48eb3c7f0ce86c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IActionResult<sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a623d07433b359aac5b48eb3c7f0ce86c" kindref="member">LTETest</ref>()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>View();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a3faf8fc2c168eef1c66a7f0606a37fdf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IActionResult<sp/><ref refid="class_kanban_app_1_1_web_1_1_u_i_1_1_board_controller_1a3faf8fc2c168eef1c66a7f0606a37fdf" kindref="member">LTETestJKanban</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>View();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*[HttpPost]</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public<sp/>async<sp/>Task&lt;ActionResult&lt;TodoItem&gt;&gt;<sp/>PostTodoItem(TodoItem<sp/>item)</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_context.TodoItems.Add(item);</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>await<sp/>_context.SaveChangesAsync();</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"></highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>CreatedAtAction(nameof(GetTodoItem),<sp/>new<sp/>{<sp/>id<sp/>=<sp/>item.Id<sp/>},<sp/>item);</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Controller/BoardController.cs"/>
+  </compounddef>
+</doxygen>

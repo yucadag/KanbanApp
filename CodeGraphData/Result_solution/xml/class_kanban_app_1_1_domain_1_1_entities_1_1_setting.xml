@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_setting" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::Setting</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_core_1_1_i_entity" prot="public" virt="non-virtual">KanbanApp.Core.IEntity</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ad056497283b0155f6254fe7af7627f19" prot="public" static="no">
+        <name>ValueType</name>
+        <enumvalue id="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ad056497283b0155f6254fe7af7627f19a2e5c11fd297ce18996a90478fb22c761" prot="public">
+          <name>DecimalType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ad056497283b0155f6254fe7af7627f19ab900a78030fdadc18121e26865e75791" prot="public">
+          <name>StringType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1a06e44cd5a5f48b3c3dffe866b721e020" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Setting.SettingId</definition>
+        <argsstring></argsstring>
+        <name>SettingId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ac43a552e0fb75c10fed801257c4a52f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Setting.SettingsName</definition>
+        <argsstring></argsstring>
+        <name>SettingsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ac8b1cad29540664795e9fc64b9448fc0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.Setting.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="511">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+      <node id="510">
+        <label>KanbanApp.Domain.Entities.Setting</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting"/>
+        <childnode refid="511" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="513">
+        <label>IEntity</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_i_entity"/>
+      </node>
+      <node id="512">
+        <label>KanbanApp.Domain.Entities.Setting</label>
+        <link refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting"/>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/Setting.cs" bodystart="5" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1a06e44cd5a5f48b3c3dffe866b721e020" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Setting</scope><name>SettingId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ac43a552e0fb75c10fed801257c4a52f5" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Setting</scope><name>SettingsName</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ac8b1cad29540664795e9fc64b9448fc0" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Setting</scope><name>Value</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ad056497283b0155f6254fe7af7627f19" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::Setting</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ec6524e8403bcbd17db6e78dbd884919" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers</compoundname>
+    <innerfile refid="_board_controller_integration_tests_8cs">BoardControllerIntegrationTests.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api.IntegrationTests/Controllers/"/>
+  </compounddef>
+</doxygen>

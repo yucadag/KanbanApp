@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Boards::Output::BoardAddOutput</compoundname>
+    <basecompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output" prot="public" virt="non-virtual">KanbanApp.Api.Models.BaseModels.BaseOutput</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1ae32bb88a94fd9524f3c062d10c97034a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Output.BoardAddOutput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1a2536f9c7a0549d9de03b7ced0c475e3a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Output.BoardAddOutput.OwnerId</definition>
+        <argsstring></argsstring>
+        <name>OwnerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1a9c7ed3c75354912fccc3cdce6a17e8ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Output.BoardAddOutput.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" line="9" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1adf8a3238e6e706b33d353d22bc1359d7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Output.BoardAddOutput.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>BaseOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output"/>
+      </node>
+      <node id="29">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardAddOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>BaseOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output"/>
+      </node>
+      <node id="31">
+        <label>KanbanApp.Api.Models.Boards.Output.BoardAddOutput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Output/BoardAddOutput.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1ae32bb88a94fd9524f3c062d10c97034a" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardAddOutput</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1adf8a3238e6e706b33d353d22bc1359d7" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardAddOutput</scope><name>Description</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1aec034ee7cbda2757187ff063d2d0088d" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardAddOutput</scope><name>IsSuccess</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_output_1ac2f32fb8100a9f9bfeb5dbfb4bc859b7" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardAddOutput</scope><name>MessageList</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1a9c7ed3c75354912fccc3cdce6a17e8ce" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardAddOutput</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_output_1_1_board_add_output_1a2536f9c7a0549d9de03b7ced0c475e3a" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Output::BoardAddOutput</scope><name>OwnerId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

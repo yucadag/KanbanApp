@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandResultItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1af7e9352f656625a924bc2c4fabbe7841" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandResultItem.CardId</definition>
+        <argsstring></argsstring>
+        <name>CardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1abb6e633bc344ebde4ed45a6ceb1c90ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandResultItem.AttachmentName</definition>
+        <argsstring></argsstring>
+        <name>AttachmentName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1a951f16ec0b5c4fb6e249de775eb56aa1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandResultItem.CardAttachmentId</definition>
+        <argsstring></argsstring>
+        <name>CardAttachmentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1a1dacc4e1a218525b37d071689c753b52" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.Cards.GetAttachmentList.GetAttachmentListCommandResultItem.AttachmentDownloadLink</definition>
+        <argsstring></argsstring>
+        <name>AttachmentDownloadLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommandResult.cs" bodystart="11" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1a1dacc4e1a218525b37d071689c753b52" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandResultItem</scope><name>AttachmentDownloadLink</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1abb6e633bc344ebde4ed45a6ceb1c90ef" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandResultItem</scope><name>AttachmentName</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1a951f16ec0b5c4fb6e249de775eb56aa1" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandResultItem</scope><name>CardAttachmentId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item_1af7e9352f656625a924bc2c4fabbe7841" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandResultItem</scope><name>CardId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; GetCardDetailCommand, GetCardDetailCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler_1ab48849aef340374e0234f007b932ef19" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+        <definition>readonly ICardRepository KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandHandler._cardRepository</definition>
+        <argsstring></argsstring>
+        <name>_cardRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler_1a0c3cd4f720e5d766750c74717c7770a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandHandler.GetCardDetailCommandHandler</definition>
+        <argsstring>(ICardRepository cardRepository)</argsstring>
+        <name>GetCardDetailCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kindref="compound">ICardRepository</ref></type>
+          <declname>cardRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" line="18" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler_1ab72100be41436cb51e2923fca4de9507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_result" kindref="compound">GetCardDetailCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;GetCardDetailCommandResult&gt; KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandHandler.Handle</definition>
+        <argsstring>(GetCardDetailCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command" kindref="compound">GetCardDetailCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" line="23" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" bodystart="23" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="339">
+        <label>KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler"/>
+        <childnode refid="340" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>IRequestHandler&lt; GetCardDetailCommand, GetCardDetailCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="343">
+        <label>KanbanApp.Domain.Data.ICardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>IEntityRepository&lt; Card &gt;</label>
+      </node>
+      <node id="341">
+        <label>KanbanApp.Services.UseCases.Cards.GetCardDetail.GetCardDetailCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler"/>
+        <childnode refid="342" relation="public-inheritance">
+        </childnode>
+        <childnode refid="343" relation="usage">
+          <edgelabel>_cardRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="342">
+        <label>IRequestHandler&lt; GetCardDetailCommand, GetCardDetailCommandResult &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetCardDetail/GetCardDetailCommandHandler.cs" bodystart="14" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler_1ab48849aef340374e0234f007b932ef19" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandHandler</scope><name>_cardRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler_1a0c3cd4f720e5d766750c74717c7770a9" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandHandler</scope><name>GetCardDetailCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_card_detail_1_1_get_card_detail_command_handler_1ab72100be41436cb51e2923fca4de9507" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Cards::GetCardDetail::GetCardDetailCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size" kind="class" prot="public">
+    <compoundname>KanbanApp::Domain::Entities::CardWeightSize</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size_1a6c150de18c81c2001d76e20cd8ce9a8b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Domain.Entities.CardWeightSize.CardWeightSizeId</definition>
+        <argsstring></argsstring>
+        <name>CardWeightSizeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardWeightSize.cs" line="5" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardWeightSize.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size_1ac221032a7586d7fe18587722cb02040f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Domain.Entities.CardWeightSize.CardWeightSizeName</definition>
+        <argsstring></argsstring>
+        <name>CardWeightSizeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardWeightSize.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardWeightSize.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardWeightSize.cs" line="4" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities/CardWeightSize.cs" bodystart="3" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size_1a6c150de18c81c2001d76e20cd8ce9a8b" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::CardWeightSize</scope><name>CardWeightSizeId</name></member>
+      <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size_1ac221032a7586d7fe18587722cb02040f" prot="public" virt="non-virtual"><scope>KanbanApp::Domain::Entities::CardWeightSize</scope><name>CardWeightSizeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

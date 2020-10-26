@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_cea4fdd155044434252f84c4bba9f023" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Views/Shared</compoundname>
+    <innerfile refid="___layout_8cshtml_8cs">_Layout.cshtml.cs</innerfile>
+    <innerfile refid="___view_start_8cshtml_8cs">_ViewStart.cshtml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Web.UI/Views/Shared/"/>
+  </compounddef>
+</doxygen>

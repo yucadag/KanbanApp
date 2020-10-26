@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases::Boards</compoundname>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board">KanbanApp::Services::UseCases::Boards::CreateBoard</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_delete_board">KanbanApp::Services::UseCases::Boards::DeleteBoard</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail">KanbanApp::Services::UseCases::Boards::GetBoardDetail</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_list">KanbanApp::Services::UseCases::Boards::GetBoardList</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_swim_lanes">KanbanApp::Services::UseCases::Boards::GetBoardSwimLanes</innernamespace>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_update_board">KanbanApp::Services::UseCases::Boards::UpdateBoard</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

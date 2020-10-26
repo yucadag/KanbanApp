@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work" kind="class" prot="public">
+    <compoundname>KanbanApp::Data::Concrete::EntityFramework::EfUnitOfWork</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work" prot="public" virt="non-virtual">KanbanApp.Core.DataAccess.IUnitOfWork</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a0d4a9bfbb54ede2853640c2e7438e718" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref></type>
+        <definition>readonly KanbanContext KanbanApp.Data.Concrete.EntityFramework.EfUnitOfWork.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" line="8" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a24a461a30ab7608d4b22c5a07958b41c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Data.Concrete.EntityFramework.EfUnitOfWork.EfUnitOfWork</definition>
+        <argsstring>(KanbanContext context)</argsstring>
+        <name>EfUnitOfWork</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context" kindref="compound">KanbanContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1acdd6e17353e2fd9a66fbb1f719653951" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task KanbanApp.Data.Concrete.EntityFramework.EfUnitOfWork.CompleteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>CompleteAsync</name>
+        <reimplements refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work_1a17217d3e5093bf2e0a1e3483e3d93995">CompleteAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="256">
+        <label>IUnitOfWork</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work"/>
+      </node>
+      <node id="255">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfUnitOfWork</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="258">
+        <label>IUnitOfWork</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_unit_of_work"/>
+      </node>
+      <node id="260">
+        <label>DbContext</label>
+      </node>
+      <node id="259">
+        <label>KanbanApp.Data.Concrete.EntityFramework.KanbanContext</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_kanban_context"/>
+        <childnode refid="260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>KanbanApp.Data.Concrete.EntityFramework.EfUnitOfWork</label>
+        <link refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work"/>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Data/Concrete/EntityFramework/EfUnitOfWork.cs" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1acdd6e17353e2fd9a66fbb1f719653951" prot="public" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfUnitOfWork</scope><name>CompleteAsync</name></member>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a0d4a9bfbb54ede2853640c2e7438e718" prot="private" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfUnitOfWork</scope><name>context</name></member>
+      <member refid="class_kanban_app_1_1_data_1_1_concrete_1_1_entity_framework_1_1_ef_unit_of_work_1a24a461a30ab7608d4b22c5a07958b41c" prot="public" virt="non-virtual"><scope>KanbanApp::Data::Concrete::EntityFramework::EfUnitOfWork</scope><name>EfUnitOfWork</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

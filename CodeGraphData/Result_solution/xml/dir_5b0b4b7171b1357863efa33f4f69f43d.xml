@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5b0b4b7171b1357863efa33f4f69f43d" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services</compoundname>
+    <innerdir refid="dir_b0aa30a18dabb14e74e61d5a2856e1c7">C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract</innerdir>
+    <innerdir refid="dir_8f202ad12d8e6e4d3e90e00f05bbf33b">C:/TFSProjects/KanbanApp/KanbanApp.Services/Concrete</innerdir>
+    <innerdir refid="dir_01bcd12f68e9140bcd941fdef30ec11a">C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO</innerdir>
+    <innerdir refid="dir_435b55154ec35390474486b4003638d0">C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions</innerdir>
+    <innerdir refid="dir_1e804b29fdafaba778a037df83cc9ce4">C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors</innerdir>
+    <innerdir refid="dir_4de3c4030144aca9cf019064fbb0c8d2">C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/"/>
+  </compounddef>
+</doxygen>

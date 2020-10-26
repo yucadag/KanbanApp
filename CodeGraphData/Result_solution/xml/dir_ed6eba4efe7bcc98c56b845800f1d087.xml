@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ed6eba4efe7bcc98c56b845800f1d087" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels</compoundname>
+    <innerfile refid="_base_input_8cs">BaseInput.cs</innerfile>
+    <innerfile refid="_base_output_8cs">BaseOutput.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/BaseModels/"/>
+  </compounddef>
+</doxygen>

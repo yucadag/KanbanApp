@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b0aa30a18dabb14e74e61d5a2856e1c7" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract</compoundname>
+    <innerfile refid="_i_attachment_service_8cs">IAttachmentService.cs</innerfile>
+    <innerfile refid="_i_board_service_8cs">IBoardService.cs</innerfile>
+    <innerfile refid="_i_card_service_8cs">ICardService.cs</innerfile>
+    <innerfile refid="_i_swim_lane_service_8cs">ISwimLaneService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/"/>
+  </compounddef>
+</doxygen>

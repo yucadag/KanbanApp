@@ -38,7 +38,8 @@ namespace KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards
                     SwimLaneId = x.SwimLaneId,
                     CardId = x.CardId,
                     Name = x.Name,
-                    Description = x.Description
+                    Description = x.Description,
+                    PriorityColor=x.CardPriority.Color
 
                 }).ToList();
 

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_get_card_output_8cs" kind="file">
+    <compoundname>GetCardOutput.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output" prot="public">KanbanApp::Api::Models::Cards::Output::GetCardOutput</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output">KanbanApp::Api::Models::Cards::Output</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Api.Models.Cards.Output</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output" kindref="compound">GetCardOutput</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1add3b8f047954219bc391d6d3abbf212c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Description<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="6" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1aca994de56b85e0f59694d1bb7ead15cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>CardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="7" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a6d1962070bcd519aad7c7f26bbbc0d81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>BoardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="8" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a483ec17e277e39bd2d7e2ddf97a5247b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>SwimLaneId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="9" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a04d25ba9104fb22872d71e1a25204a50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Name<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="10" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_output_1_1_get_card_output_1a39ac27cf69a660386b03fa2c26018434" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Position<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Output/GetCardOutput.cs"/>
+  </compounddef>
+</doxygen>

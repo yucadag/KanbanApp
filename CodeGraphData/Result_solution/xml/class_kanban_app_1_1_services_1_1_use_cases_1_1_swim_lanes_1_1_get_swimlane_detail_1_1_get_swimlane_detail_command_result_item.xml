@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandResultItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1a61d4f3e9421ffa4b6c1c00b5c4d5b84f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandResultItem.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1a65c4de23120ea1004f13a9b1babd872b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandResultItem.SwimLaneId</definition>
+        <argsstring></argsstring>
+        <name>SwimLaneId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1a5456e0f5a126e31add6218038bf4939e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandResultItem.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1aa66d274c5d5ffce2b292f5f5fded9b63" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandResultItem.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandResult.cs" bodystart="11" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1a61d4f3e9421ffa4b6c1c00b5c4d5b84f" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandResultItem</scope><name>BoardId</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1a5456e0f5a126e31add6218038bf4939e" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandResultItem</scope><name>Name</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1aa66d274c5d5ffce2b292f5f5fded9b63" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandResultItem</scope><name>Position</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result_item_1a65c4de23120ea1004f13a9b1babd872b" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandResultItem</scope><name>SwimLaneId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

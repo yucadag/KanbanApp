@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder" kind="class" prot="private">
+    <compoundname>KanbanApp::Core::Predicate::PredicateBuilder::ParameterRebinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ExpressionVisitor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1a49f93ef488e6449a0613f1be7d81da97" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; ParameterExpression, ParameterExpression &gt;</type>
+        <definition>readonly Dictionary&lt;ParameterExpression, ParameterExpression&gt; KanbanApp.Core.Predicate.PredicateBuilder.ParameterRebinder.map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="72" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1a24a2b7cbdf3aed1268b4b362db68f9bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Core.Predicate.PredicateBuilder.ParameterRebinder.ParameterRebinder</definition>
+        <argsstring>(Dictionary&lt; ParameterExpression, ParameterExpression &gt; map)</argsstring>
+        <name>ParameterRebinder</name>
+        <param>
+          <type>Dictionary&lt; ParameterExpression, ParameterExpression &gt;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="74" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1aeab94edc2005dcc93ad40b24e3129416" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expression</type>
+        <definition>static Expression KanbanApp.Core.Predicate.PredicateBuilder.ParameterRebinder.ReplaceParameters</definition>
+        <argsstring>(Dictionary&lt; ParameterExpression, ParameterExpression &gt; map, Expression exp)</argsstring>
+        <name>ReplaceParameters</name>
+        <param>
+          <type>Dictionary&lt; ParameterExpression, ParameterExpression &gt;</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>Expression</type>
+          <declname>exp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="79" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1a730603710666697ecfd02cedc487990a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Expression</type>
+        <definition>override Expression KanbanApp.Core.Predicate.PredicateBuilder.ParameterRebinder.VisitParameter</definition>
+        <argsstring>(ParameterExpression node)</argsstring>
+        <name>VisitParameter</name>
+        <param>
+          <type>ParameterExpression</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="84" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="84" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="484">
+        <label>KanbanApp.Core.Predicate.PredicateBuilder.ParameterRebinder</label>
+        <link refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder"/>
+        <childnode refid="485" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="485">
+        <label>ExpressionVisitor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="486">
+        <label>KanbanApp.Core.Predicate.PredicateBuilder.ParameterRebinder</label>
+        <link refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="487">
+        <label>ExpressionVisitor</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" line="71" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/Predicate/PredicateBuilder.cs" bodystart="70" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1a49f93ef488e6449a0613f1be7d81da97" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder::ParameterRebinder</scope><name>map</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1a24a2b7cbdf3aed1268b4b362db68f9bc" prot="private" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder::ParameterRebinder</scope><name>ParameterRebinder</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1aeab94edc2005dcc93ad40b24e3129416" prot="public" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder::ParameterRebinder</scope><name>ReplaceParameters</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_predicate_1_1_predicate_builder_1_1_parameter_rebinder_1a730603710666697ecfd02cedc487990a" prot="protected" virt="non-virtual"><scope>KanbanApp::Core::Predicate::PredicateBuilder::ParameterRebinder</scope><name>VisitParameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

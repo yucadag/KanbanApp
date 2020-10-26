@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_435b55154ec35390474486b4003638d0" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions</compoundname>
+    <innerfile refid="_service_validation_exception_8cs">ServiceValidationException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Exceptions/"/>
+  </compounddef>
+</doxygen>

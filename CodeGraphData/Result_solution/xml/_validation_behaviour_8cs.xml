@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_validation_behaviour_8cs" kind="file">
+    <compoundname>ValidationBehaviour.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4" prot="public">KanbanApp::Services::PipelineBehaviors::ValidationBehaviour&lt; TRequest, TResponse &gt;</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_services_1_1_pipeline_behaviors">KanbanApp::Services::PipelineBehaviors</innernamespace>
+    <innernamespace refid="namespace_fluent_validation">FluentValidation</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading">System::Threading</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>FluentValidation;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>KanbanApp.Services.Exceptions;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MediatR;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespace_kanban_app_1_1_services_1_1_pipeline_behaviors" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Services.PipelineBehaviors</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ValidationBehaviour&lt;TRequest,<sp/>TResponse&gt;<sp/>:<sp/>IPipelineBehavior&lt;TRequest,<sp/>TResponse&gt;<sp/>where<sp/>TRequest<sp/>:<sp/>IRequest&lt;TResponse&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a09edaec2482e0cffc918c3ea62dc1a65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>IEnumerable&lt;IValidator&lt;TRequest&gt;&gt;<sp/><ref refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a09edaec2482e0cffc918c3ea62dc1a65" kindref="member">_validators</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a221675f7b78e6fec0ee2f53afdac14d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a221675f7b78e6fec0ee2f53afdac14d3" kindref="member">ValidationBehaviour</ref>(IEnumerable&lt;IValidator&lt;TRequest&gt;&gt;<sp/>validators)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_validators<sp/>=<sp/>validators;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18" refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a318d9582c099811f2bf6279857f0cabc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task&lt;TResponse&gt;<sp/><ref refid="class_kanban_app_1_1_services_1_1_pipeline_behaviors_1_1_validation_behaviour_3_01_t_request_00_01_t_response_01_4_1a318d9582c099811f2bf6279857f0cabc" kindref="member">Handle</ref>(TRequest<sp/>request,<sp/>CancellationToken<sp/>cancellationToken,<sp/>RequestHandlerDelegate&lt;TResponse&gt;<sp/>next)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>validationFailures<sp/>=<sp/>_validators</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Select(validator<sp/>=&gt;<sp/>validator.Validate(request))</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.SelectMany(validationResult<sp/>=&gt;<sp/>validationResult.Errors)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Where(validationFailure<sp/>=&gt;<sp/>validationFailure<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.ToList();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(validationFailures.Any())</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>error<sp/>=<sp/>string.Join(</highlight><highlight class="stringliteral">&quot;\r\n&quot;</highlight><highlight class="normal">,<sp/>validationFailures);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_kanban_app_1_1_services_1_1_exceptions_1_1_service_validation_exception" kindref="compound">ServiceValidationException</ref>(error);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>next();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/PipelineBehaviors/ValidationBehaviour.cs"/>
+  </compounddef>
+</doxygen>

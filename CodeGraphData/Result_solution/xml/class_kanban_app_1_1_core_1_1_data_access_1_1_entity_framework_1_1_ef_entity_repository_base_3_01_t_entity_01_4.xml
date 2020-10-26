@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4" kind="class" prot="public">
+    <compoundname>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</compoundname>
+    <basecompoundref refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4" prot="public" virt="non-virtual">KanbanApp.Core.DataAccess.IEntityRepository&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>TEntity</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a482cf001ccdd97af10b3e8b53a7125c1" prot="private" static="no" mutable="no">
+        <type>readonly DbContext</type>
+        <definition>readonly DbContext KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="15" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a38acaae3b0a471bcc9719ca99197927a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.EfEntityRepositoryBase</definition>
+        <argsstring>(DbContext context)</argsstring>
+        <name>EfEntityRepositoryBase</name>
+        <param>
+          <type>DbContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="17" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a76344e9abf4808a09f44bd529b8e9e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TEntity</type>
+        <definition>TEntity KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.Get</definition>
+        <argsstring>(Expression&lt; Func&lt; TEntity, bool &gt;&gt; filter=null)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>Expression&lt; Func&lt; TEntity, bool &gt;&gt;</type>
+          <declname>filter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="22" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab7fde1e4eb797c7e64152b56cb99772c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; TEntity &gt;</type>
+        <definition>List&lt;TEntity&gt; KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.GetList</definition>
+        <argsstring>(Expression&lt; Func&lt; TEntity, bool &gt;&gt; filter=null)</argsstring>
+        <name>GetList</name>
+        <param>
+          <type>Expression&lt; Func&lt; TEntity, bool &gt;&gt;</type>
+          <declname>filter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="29" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="29" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a6c14bcaa67ddd02951e4c88bc984234c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TEntity</type>
+        <definition>TEntity KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.Add</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="38" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aa0f002e0f289715e86bfad12f4bd9628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.Update</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="48" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2ee2139bc7a8e17f7ae78fe8e2c70cd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.Delete</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="57" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab9f4199cb93dcb54c1465412bf337b22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; TEntity &gt;</type>
+        <definition>async Task&lt;TEntity&gt; KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.GetAsync</definition>
+        <argsstring>(Expression&lt; Func&lt; TEntity, bool &gt;&gt; filter=null)</argsstring>
+        <name>GetAsync</name>
+        <param>
+          <type>Expression&lt; Func&lt; TEntity, bool &gt;&gt;</type>
+          <declname>filter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="66" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a7f9559b8fa447e4c412a74066888ae44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; TEntity &gt; &gt;</type>
+        <definition>Task&lt;List&lt;TEntity&gt; &gt; KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.GetListAsync</definition>
+        <argsstring>(Expression&lt; Func&lt; TEntity, bool &gt;&gt; filter=null)</argsstring>
+        <name>GetListAsync</name>
+        <param>
+          <type>Expression&lt; Func&lt; TEntity, bool &gt;&gt;</type>
+          <declname>filter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="73" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2f8ba535580cbab58ea7f5bc9957cbb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; TEntity &gt;</type>
+        <definition>Task&lt;TEntity&gt; KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.AddAsync</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>AddAsync</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="78" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aecbb4e5c02cc3a7dcee399fd5e5863e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.UpdateAsync</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>UpdateAsync</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="83" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a73c8523ec34b19f5b9487b2123569e74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;.DeleteAsync</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>DeleteAsync</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="88" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="241">
+        <label>KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;</label>
+        <link refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>IEntityRepository&lt; TEntity &gt;</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="243">
+        <label>KanbanApp.Core.DataAccess.EntityFramework.EfEntityRepositoryBase&lt; TEntity &gt;</label>
+        <link refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>IEntityRepository&lt; TEntity &gt;</label>
+        <link refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" bodystart="10" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a482cf001ccdd97af10b3e8b53a7125c1" prot="private" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>_context</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a6c14bcaa67ddd02951e4c88bc984234c" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Add</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a7ee6f78807b51f8b07e6ce625595b6a6" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Add</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2f8ba535580cbab58ea7f5bc9957cbb4" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>AddAsync</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a4baa42333f4aadd956cad55a10e764aa" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>AddAsync</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a2ee2139bc7a8e17f7ae78fe8e2c70cd7" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Delete</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a767af1b5207031da7b3ac05d41b30850" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Delete</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a73c8523ec34b19f5b9487b2123569e74" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>DeleteAsync</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1aeb590d890ade427c4ebcf66c54f73865" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>DeleteAsync</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a38acaae3b0a471bcc9719ca99197927a" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>EfEntityRepositoryBase</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a76344e9abf4808a09f44bd529b8e9e3a" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Get</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a60730d1a7a522c4a00faa47d4f523bce" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab9f4199cb93dcb54c1465412bf337b22" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>GetAsync</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a41378c33639e296b77457e3a779301e6" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>GetAsync</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1ab7fde1e4eb797c7e64152b56cb99772c" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>GetList</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1aedcf3332e96b22393be147e90e51952e" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>GetList</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1a7f9559b8fa447e4c412a74066888ae44" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>GetListAsync</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a56e5e89f81de1e98884c3c4b408291bd" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>GetListAsync</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aa0f002e0f289715e86bfad12f4bd9628" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Update</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a80356c5885578dc4428813b122fabc25" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>Update</name></member>
+      <member refid="class_kanban_app_1_1_core_1_1_data_access_1_1_entity_framework_1_1_ef_entity_repository_base_3_01_t_entity_01_4_1aecbb4e5c02cc3a7dcee399fd5e5863e7" prot="public" virt="non-virtual"><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>UpdateAsync</name></member>
+      <member refid="interface_kanban_app_1_1_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a579be8818e8edece0baaffaf345fcd4c" prot="public" virt="non-virtual" ambiguityscope="KanbanApp::Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>KanbanApp::Core::DataAccess::EntityFramework::EfEntityRepositoryBase&lt; TEntity &gt;</scope><name>UpdateAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

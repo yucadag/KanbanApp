@@ -1,6 +1,10 @@
-g
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.cs
+t
+BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.cs
 
- 
+ 
 
- 
+ 
+
+ 
+
+ 

@@ -8,6 +8,7 @@ namespace KanbanApp.Domain.Entities
     public class CardTask : IEntity
     {
         public string CardTaskId { get; set; }
+        public string CardId { get; set; }
         public string Text { get; set; }
         public ECardTaskState CardTaskState { get; set; }
         public DateTime DueDate { get; set; }

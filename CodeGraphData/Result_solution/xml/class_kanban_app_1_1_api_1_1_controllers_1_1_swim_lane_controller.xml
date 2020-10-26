@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Controllers::SwimLaneController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a7302d0c8e450c348c9dbc9f5dd93d8de" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service" kindref="compound">ISwimLaneService</ref></type>
+        <definition>readonly ISwimLaneService KanbanApp.Api.Controllers.SwimLaneController._swimLaneService</definition>
+        <argsstring></argsstring>
+        <name>_swimLaneService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="22" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a0d2b92b77dde301850523e9ac4716de5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Api.Controllers.SwimLaneController.SwimLaneController</definition>
+        <argsstring>(ISwimLaneService service)</argsstring>
+        <name>SwimLaneController</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service" kindref="compound">ISwimLaneService</ref></type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="28" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1abf43852daa4932480acbd5f6b6487bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result" kindref="compound">GetSwimlaneDetailCommandResult</ref> &gt;</type>
+        <definition>ActionResult&lt;GetSwimlaneDetailCommandResult&gt; KanbanApp.Api.Controllers.SwimLaneController.Get</definition>
+        <argsstring>(string swimLaneId)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>string</type>
+          <declname>swimLaneId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>swimLaneId</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="39" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="39" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a0163032bf684a6df80ec4073a37fcd82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_create_swimlane_1_1_create_swimlane_command_result" kindref="compound">CreateSwimlaneCommandResult</ref> &gt;</type>
+        <definition>ActionResult&lt;CreateSwimlaneCommandResult&gt; KanbanApp.Api.Controllers.SwimLaneController.Add</definition>
+        <argsstring>(SwimLaneAddInput input)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_add_input" kindref="compound">SwimLaneAddInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="64" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="64" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a64877c6249b6429ed556bf471bee3333" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; List&lt; <ref refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output" kindref="compound">SwimlaneCardsOutput</ref> &gt; &gt;</type>
+        <definition>ActionResult&lt;List&lt;SwimlaneCardsOutput&gt; &gt; KanbanApp.Api.Controllers.SwimLaneController.GetSwimLaneCards</definition>
+        <argsstring>(string boardId, string swimLaneId)</argsstring>
+        <name>GetSwimLaneCards</name>
+        <param>
+          <type>string</type>
+          <declname>boardId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>swimLaneId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boardId</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>swimLaneId</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="91" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="91" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a73a6fe330c6d0d8259951f65abde7bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_move_swimlane_1_1_move_swimlane_command_result" kindref="compound">MoveSwimlaneCommandResult</ref> &gt;</type>
+        <definition>ActionResult&lt;MoveSwimlaneCommandResult&gt; KanbanApp.Api.Controllers.SwimLaneController.Move</definition>
+        <argsstring>(SwimLaneMoveInput input)</argsstring>
+        <name>Move</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_input_1_1_swim_lane_move_input" kindref="compound">SwimLaneMoveInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="129" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="129" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1ad02b50160c156fee9732a1767df38f34" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_swim_lanes_1_1_output_1_1_swimlane_cards_output" kindref="compound">SwimlaneCardsOutput</ref></type>
+        <definition>static SwimlaneCardsOutput KanbanApp.Api.Controllers.SwimLaneController.GetSwimLaneCardsCommandResultItemToSwimlaneCardsOutput</definition>
+        <argsstring>(GetSwimLaneCardsCommandResultItem input)</argsstring>
+        <name>GetSwimLaneCardsCommandResultItemToSwimlaneCardsOutput</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swim_lane_cards_1_1_get_swim_lane_cards_command_result_item" kindref="compound">GetSwimLaneCardsCommandResultItem</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="110" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="110" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="529">
+        <label>ControllerBase</label>
+      </node>
+      <node id="528">
+        <label>KanbanApp.Api.Controllers.SwimLaneController</label>
+        <link refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller"/>
+        <childnode refid="529" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="532">
+        <label>KanbanApp.Services.Abstract.ISwimLaneService</label>
+        <link refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_swim_lane_service"/>
+      </node>
+      <node id="531">
+        <label>ControllerBase</label>
+      </node>
+      <node id="530">
+        <label>KanbanApp.Api.Controllers.SwimLaneController</label>
+        <link refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller"/>
+        <childnode refid="531" relation="public-inheritance">
+        </childnode>
+        <childnode refid="532" relation="usage">
+          <edgelabel>_swimLaneService</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Controllers/SwimLaneController.cs" bodystart="20" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a7302d0c8e450c348c9dbc9f5dd93d8de" prot="private" virt="non-virtual"><scope>KanbanApp::Api::Controllers::SwimLaneController</scope><name>_swimLaneService</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a0163032bf684a6df80ec4073a37fcd82" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::SwimLaneController</scope><name>Add</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1abf43852daa4932480acbd5f6b6487bcb" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::SwimLaneController</scope><name>Get</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a64877c6249b6429ed556bf471bee3333" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::SwimLaneController</scope><name>GetSwimLaneCards</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1ad02b50160c156fee9732a1767df38f34" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::SwimLaneController</scope><name>GetSwimLaneCardsCommandResultItemToSwimlaneCardsOutput</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a73a6fe330c6d0d8259951f65abde7bf3" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::SwimLaneController</scope><name>Move</name></member>
+      <member refid="class_kanban_app_1_1_api_1_1_controllers_1_1_swim_lane_controller_1a0d2b92b77dde301850523e9ac4716de5" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Controllers::SwimLaneController</scope><name>SwimLaneController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

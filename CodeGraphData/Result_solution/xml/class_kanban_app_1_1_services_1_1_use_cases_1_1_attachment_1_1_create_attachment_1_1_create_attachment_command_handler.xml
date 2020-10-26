@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; CreateAttachmentCommand, CreateAttachmentCommandResult &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1ae6a05db3a224a9874fb7b11a0d8fae90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommandHandler.CreateAttachmentCommandHandler</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAttachmentCommandHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandHandler.cs" line="12" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandHandler.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1a0c4673f760353a13d8bf085ecff1d1cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_result" kindref="compound">CreateAttachmentCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;CreateAttachmentCommandResult&gt; KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommandHandler.Handle</definition>
+        <argsstring>(CreateAttachmentCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command" kindref="compound">CreateAttachmentCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandHandler.cs" bodystart="16" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="128">
+        <label>IRequestHandler&lt; CreateAttachmentCommand, CreateAttachmentCommandResult &gt;</label>
+      </node>
+      <node id="127">
+        <label>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="130">
+        <label>IRequestHandler&lt; CreateAttachmentCommand, CreateAttachmentCommandResult &gt;</label>
+      </node>
+      <node id="129">
+        <label>KanbanApp.Services.UseCases.Attachment.CreateAttachment.CreateAttachmentCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandHandler.cs" line="10" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Attachment/CreateAttachment/CreateAttachmentCommandHandler.cs" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1ae6a05db3a224a9874fb7b11a0d8fae90" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandHandler</scope><name>CreateAttachmentCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_handler_1a0c4673f760353a13d8bf085ecff1d1cb" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Attachment::CreateAttachment::CreateAttachmentCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

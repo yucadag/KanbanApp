@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; CreateBoardCommand, CreateBoardCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler_1ad2f2191e1170e62bd527cfef113859c1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kindref="compound">IBoardRepository</ref></type>
+        <definition>readonly IBoardRepository KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandHandler._boardRepository</definition>
+        <argsstring></argsstring>
+        <name>_boardRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler_1a3bd5e0cee88c3a70e421489d64e2580f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandHandler.CreateBoardCommandHandler</definition>
+        <argsstring>(IBoardRepository boardRepository)</argsstring>
+        <name>CreateBoardCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kindref="compound">IBoardRepository</ref></type>
+          <declname>boardRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler_1ad85e22eae22d86a266816216e473cbe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_result" kindref="compound">CreateBoardCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;CreateBoardCommandResult&gt; KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandHandler.Handle</definition>
+        <argsstring>(CreateBoardCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command" kindref="compound">CreateBoardCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" line="22" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" bodystart="22" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="142">
+        <label>IRequestHandler&lt; CreateBoardCommand, CreateBoardCommandResult &gt;</label>
+      </node>
+      <node id="141">
+        <label>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="146">
+        <label>IEntityRepository&lt; Board &gt;</label>
+      </node>
+      <node id="144">
+        <label>IRequestHandler&lt; CreateBoardCommand, CreateBoardCommandResult &gt;</label>
+      </node>
+      <node id="143">
+        <label>KanbanApp.Services.UseCases.Boards.CreateBoard.CreateBoardCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+        <childnode refid="145" relation="usage">
+          <edgelabel>_boardRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="145">
+        <label>KanbanApp.Domain.Data.IBoardRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/CreateBoard/CreateBoardCommandHandler.cs" bodystart="12" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler_1ad2f2191e1170e62bd527cfef113859c1" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommandHandler</scope><name>_boardRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler_1a3bd5e0cee88c3a70e421489d64e2580f" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommandHandler</scope><name>CreateBoardCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_create_board_1_1_create_board_command_handler_1ad85e22eae22d86a266816216e473cbe4" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::CreateBoard::CreateBoardCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,6 +2,9 @@
 
 namespace KanbanApp.Api.Models.Boards.Output
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class BoardGetOutput : BaseOutput
     {
         public string BoardId { get; set; }

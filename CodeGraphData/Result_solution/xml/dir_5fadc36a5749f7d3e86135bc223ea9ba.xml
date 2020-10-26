@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5fadc36a5749f7d3e86135bc223ea9ba" kind="dir">
+    <compoundname>C:/TFSProjects/KanbanApp/KanbanApp.Core/Result</compoundname>
+    <innerfile refid="_either_8cs">Either.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Core/Result/"/>
+  </compounddef>
+</doxygen>

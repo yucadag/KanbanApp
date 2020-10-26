@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_attachment_service" kind="interface" prot="public">
+    <compoundname>KanbanApp::Services::Abstract::IAttachmentService</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_attachment_service_1aef1e7e7cac284e5311b78b589a214fb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command_result" kindref="compound">CreateAttachmentCommandResult</ref> &gt;</type>
+        <definition>Task&lt;CreateAttachmentCommandResult&gt; KanbanApp.Services.Abstract.IAttachmentService.CreateAttachment</definition>
+        <argsstring>(CreateAttachmentCommand command)</argsstring>
+        <name>CreateAttachment</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_attachment_1_1_create_attachment_1_1_create_attachment_command" kindref="compound">CreateAttachmentCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/IAttachmentService.cs" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/IAttachmentService.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/Abstract/IAttachmentService.cs" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_kanban_app_1_1_services_1_1_abstract_1_1_i_attachment_service_1aef1e7e7cac284e5311b78b589a214fb1" prot="public" virt="non-virtual"><scope>KanbanApp::Services::Abstract::IAttachmentService</scope><name>CreateAttachment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

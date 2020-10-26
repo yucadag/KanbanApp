@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_card_get_input_8cs" kind="file">
+    <compoundname>CardGetInput.cs</compoundname>
+    <innerclass refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input" prot="public">KanbanApp::Api::Models::Cards::Input::CardGetInput</innerclass>
+    <innernamespace refid="namespace_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input">KanbanApp::Api::Models::Cards::Input</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="namespace_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">KanbanApp.Api.Models.Cards.Input</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="4" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input" kindref="compound">CardGetInput</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="class_kanban_app_1_1_api_1_1_models_1_1_cards_1_1_input_1_1_card_get_input_1acd7a36d8d4b039bbe04853f0af03eb39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>CardId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Cards/Input/CardGetInput.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRequestHandler&lt; GetSwimlaneDetailCommand, GetSwimlaneDetailCommandResult &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler_1a26a960b0e63d23683c945d4f21375dbf" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kindref="compound">ISwimLaneRepository</ref></type>
+        <definition>readonly ISwimLaneRepository KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandHandler._swimLaneRepository</definition>
+        <argsstring></argsstring>
+        <name>_swimLaneRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" line="14" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler_1ab8a1e241f28751cd7bb367ce39f55202" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandHandler.GetSwimlaneDetailCommandHandler</definition>
+        <argsstring>(ISwimLaneRepository swimLaneRepository)</argsstring>
+        <name>GetSwimlaneDetailCommandHandler</name>
+        <param>
+          <type><ref refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kindref="compound">ISwimLaneRepository</ref></type>
+          <declname>swimLaneRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler_1adc234d9c11896389dc37c225da4fddb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_result" kindref="compound">GetSwimlaneDetailCommandResult</ref> &gt;</type>
+        <definition>async Task&lt;GetSwimlaneDetailCommandResult&gt; KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandHandler.Handle</definition>
+        <argsstring>(GetSwimlaneDetailCommand request, CancellationToken cancellationToken)</argsstring>
+        <name>Handle</name>
+        <param>
+          <type><ref refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command" kindref="compound">GetSwimlaneDetailCommand</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" line="21" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" bodystart="21" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="371">
+        <label>KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler"/>
+        <childnode refid="372" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>IRequestHandler&lt; GetSwimlaneDetailCommand, GetSwimlaneDetailCommandResult &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="373">
+        <label>KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail.GetSwimlaneDetailCommandHandler</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler"/>
+        <childnode refid="374" relation="public-inheritance">
+        </childnode>
+        <childnode refid="375" relation="usage">
+          <edgelabel>_swimLaneRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="374">
+        <label>IRequestHandler&lt; GetSwimlaneDetailCommand, GetSwimlaneDetailCommandResult &gt;</label>
+      </node>
+      <node id="376">
+        <label>IEntityRepository&lt; SwimLane &gt;</label>
+      </node>
+      <node id="375">
+        <label>KanbanApp.Domain.Data.ISwimLaneRepository</label>
+        <link refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository"/>
+        <childnode refid="376" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" line="13" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/SwimLanes/GetSwimlaneDetail/GetSwimlaneDetailCommandHandler.cs" bodystart="12" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler_1a26a960b0e63d23683c945d4f21375dbf" prot="private" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandHandler</scope><name>_swimLaneRepository</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler_1ab8a1e241f28751cd7bb367ce39f55202" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandHandler</scope><name>GetSwimlaneDetailCommandHandler</name></member>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_swim_lanes_1_1_get_swimlane_detail_1_1_get_swimlane_detail_command_handler_1adc234d9c11896389dc37c225da4fddb0" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::SwimLanes::GetSwimlaneDetail::GetSwimlaneDetailCommandHandler</scope><name>Handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

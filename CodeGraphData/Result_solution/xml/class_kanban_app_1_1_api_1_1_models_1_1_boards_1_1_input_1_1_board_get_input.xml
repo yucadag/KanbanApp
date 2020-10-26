@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input" kind="class" prot="public">
+    <compoundname>KanbanApp::Api::Models::Boards::Input::BoardGetInput</compoundname>
+    <basecompoundref refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input" prot="public" virt="non-virtual">KanbanApp.Api.Models.BaseModels.BaseInput</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input_1aac58c7ba269c3a1a2e77b90ee4cd4b21" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KanbanApp.Api.Models.Boards.Input.BoardGetInput.BoardId</definition>
+        <argsstring></argsstring>
+        <name>BoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardGetInput.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardGetInput.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_kanban_app_1_1_api_1_1_controllers_1_1_board_controller_1acd43f6f78ca2f96ab72ac51de30011b4" compoundref="_kanban_app_8_api_2_controllers_2_board_controller_8cs" startline="41" endline="63">KanbanApp.Api.Controllers.BoardController.Get</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardGetInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>KanbanApp.Api.Models.Boards.Input.BoardGetInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>BaseInput</label>
+        <link refid="class_kanban_app_1_1_api_1_1_models_1_1_base_models_1_1_base_input"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardGetInput.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Api/Models/Boards/Input/BoardGetInput.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_api_1_1_models_1_1_boards_1_1_input_1_1_board_get_input_1aac58c7ba269c3a1a2e77b90ee4cd4b21" prot="public" virt="non-virtual"><scope>KanbanApp::Api::Models::Boards::Input::BoardGetInput</scope><name>BoardId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

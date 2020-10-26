@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list" kind="namespace">
+    <compoundname>KanbanApp::Services::UseCases::Cards::GetAttachmentList</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command" prot="public">KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommand</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_handler" prot="public">KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandHandler</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result" prot="public">KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandResult</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_result_item" prot="public">KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandResultItem</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_cards_1_1_get_attachment_list_1_1_get_attachment_list_command_validator" prot="public">KanbanApp::Services::UseCases::Cards::GetAttachmentList::GetAttachmentListCommandValidator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Cards/GetAttachmentList/GetAttachmentListCommand.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

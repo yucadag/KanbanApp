@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kanban_app_1_1_services_1_1_d_t_o_1_1_core" kind="namespace">
+    <compoundname>KanbanApp::Services::DTO::Core</compoundname>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_message" prot="public">KanbanApp::Services::DTO::Core::ServiceMessage</innerclass>
+    <innerclass refid="class_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1_1_service_result_3_01_t_01_4" prot="public">KanbanApp::Services::DTO::Core::ServiceResult&lt; T &gt;</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1a7f4f1f0cdb5ccee7c39fb5068aa67f89" prot="public" static="no">
+        <name>eServiceMessageType</name>
+        <enumvalue id="namespace_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1a7f4f1f0cdb5ccee7c39fb5068aa67f89a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1a7f4f1f0cdb5ccee7c39fb5068aa67f89a0eaadb4fcb48a0a0ed7bc9868be9fbaa" prot="public">
+          <name>Warning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_kanban_app_1_1_services_1_1_d_t_o_1_1_core_1a7f4f1f0cdb5ccee7c39fb5068aa67f89a505a83f220c02df2f85c3810cd9ceb38" prot="public">
+          <name>Success</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="16" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/DTO/Core/ServiceMessage.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

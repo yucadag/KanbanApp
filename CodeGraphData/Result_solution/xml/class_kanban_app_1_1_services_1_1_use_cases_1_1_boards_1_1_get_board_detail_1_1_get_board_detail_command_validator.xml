@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_validator" kind="class" prot="public">
+    <compoundname>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandValidator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractValidator&lt; GetBoardDetailCommand &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_validator_1ad11cb8755e572782ea74cf21fc5dc9a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommandValidator.GetBoardDetailCommandValidator</definition>
+        <argsstring>()</argsstring>
+        <name>GetBoardDetailCommandValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandValidator.cs" line="7" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandValidator.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="296">
+        <label>AbstractValidator&lt; GetBoardDetailCommand &gt;</label>
+      </node>
+      <node id="295">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_validator"/>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="298">
+        <label>AbstractValidator&lt; GetBoardDetailCommand &gt;</label>
+      </node>
+      <node id="297">
+        <label>KanbanApp.Services.UseCases.Boards.GetBoardDetail.GetBoardDetailCommandValidator</label>
+        <link refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_validator"/>
+        <childnode refid="298" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandValidator.cs" line="6" column="1" bodyfile="C:/TFSProjects/KanbanApp/KanbanApp.Services/UseCases/Boards/GetBoardDetail/GetBoardDetailCommandValidator.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_kanban_app_1_1_services_1_1_use_cases_1_1_boards_1_1_get_board_detail_1_1_get_board_detail_command_validator_1ad11cb8755e572782ea74cf21fc5dc9a5" prot="public" virt="non-virtual"><scope>KanbanApp::Services::UseCases::Boards::GetBoardDetail::GetBoardDetailCommandValidator</scope><name>GetBoardDetailCommandValidator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

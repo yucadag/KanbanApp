@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board" kind="class"><name>KanbanApp::Domain::Entities::Board</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a5e09e8d3e64a59f613297e619b088e88" kind="property"><name>BoardId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a062f609d66bc48943a9411cd4732056c" kind="property"><name>OwnerId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1aa6e35a924635a5a0ba964ea1ddba89a9" kind="property"><name>Name</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a96ced0871b9d7dae426810445fa80fd9" kind="property"><name>Description</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a2afc7d0830fd6f46679ab224ecc8939c" kind="property"><name>BoardSettings</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a213dd86ebd993ec81d84a6f20c64d6c0" kind="property"><name>SwimLanes</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_board_1a3e7e619b2bf69533594232a5898ad9f6" kind="function"><name>Board</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card" kind="class"><name>KanbanApp::Domain::Entities::Card</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1ae8fb0a3e0c88dca38f3bcc86eef9bb64" kind="property"><name>BoardId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a4a7a585ddc1056610180df2308ebd528" kind="property"><name>SwimLaneId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a6649b32b17d99f63262057390af9a155" kind="property"><name>CardId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a11b0a4582349929a15678dac214090fa" kind="property"><name>Name</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a4093986b7dcdbdc496cafadb060dd956" kind="property"><name>Description</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a345e8755c46b359bee954567aed15a62" kind="property"><name>CardPriority</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1ae02dcb86a3cc7547064a7344972aae6d" kind="property"><name>Type</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a7ec1c47094206195494a86639734393d" kind="property"><name>CardPosition</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a26d19d67fb27e315bc30c5e228602dc1" kind="property"><name>CardTasks</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1af2104e37e4c3655e412f7218d1d3552c" kind="property"><name>CardWeightSize</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a54c18316fb0470e9d1d7b1f6a8b64ad1" kind="property"><name>AssignUserList</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1adc6519e1456ad106acd180c9823bdd8a" kind="property"><name>AttachmentList</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a5ad0f343fb46bbe6d26721aa0b25fade" kind="property"><name>EstimateHours</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1afdad15e9e9789ca7e2baa9afc775c071" kind="property"><name>TagList</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_1a8f4240a608ac08d61198b8f643cea215" kind="function"><name>Card</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment" kind="class"><name>KanbanApp::Domain::Entities::CardAttachment</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1a42c46ddde6547ac2311bcd4c2e4d9329" kind="property"><name>CardId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1aae58126cb2a3374cf1d0faa78bf91843" kind="property"><name>CardAttachmentId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1acdb26f663f9d95d0d0d8bd55dfba5fc7" kind="property"><name>AttachmentName</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_attachment_1ad4f86e150cc1eb7b7abf3e378efb9abc" kind="property"><name>AttachmentDownloadLink</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task" kind="class"><name>KanbanApp::Domain::Entities::CardTask</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task_1a83e0d00c76ddc132e76ed0094162fce6" kind="property"><name>CardTaskId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task_1ab2d57612b102931f9c3eb01237c626e6" kind="property"><name>Text</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task_1a4d6f297b2fdb8d190efab2a134300e03" kind="property"><name>CardTaskState</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task_1ad614cbe45c27a9b77f6c4084bda08602" kind="property"><name>DueDate</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task_1a5e57bfef1741f4731fcec331a292f88b" kind="property"><name>Estimate</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_task_1aa647d274b751fde9e29313f8d5f62946" kind="property"><name>AssignUserList</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_type" kind="class"><name>KanbanApp::Domain::Entities::CardType</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_type_1a60ab5dc9a7b16a51e45b68c943621e64" kind="property"><name>CardTypeId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_type_1a304721f08e3dc68d312cc7c79b4c00a8" kind="property"><name>Name</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size" kind="class"><name>KanbanApp::Domain::Entities::CardWeightSize</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size_1a6c150de18c81c2001d76e20cd8ce9a8b" kind="property"><name>CardWeightSizeId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_card_weight_size_1ac221032a7586d7fe18587722cb02040f" kind="property"><name>CardWeightSizeName</name></member>
+  </compound>
+  <compound refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository" kind="interface"><name>KanbanApp::Domain::Data::IBoardRepository</name>
+    <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1a46c72ccc994d0d728a48471571f07d22" kind="function"><name>GetBoardSwimLanes</name></member>
+    <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_board_repository_1af5e1edc343fd332954eecaa23c6deb16" kind="function"><name>GetBoardSwimLanesAsync</name></member>
+  </compound>
+  <compound refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository" kind="interface"><name>KanbanApp::Domain::Data::ICardRepository</name>
+    <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_card_repository_1a1719c77af6719d4adc86695a7de3812d" kind="function"><name>GetCardAttachments</name></member>
+  </compound>
+  <compound refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository" kind="interface"><name>KanbanApp::Domain::Data::ISwimLaneRepository</name>
+    <member refid="interface_kanban_app_1_1_domain_1_1_data_1_1_i_swim_lane_repository_1a56386433eed09ce89ba2709810a814a8" kind="function"><name>GetSwimLaneCards</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority" kind="class"><name>KanbanApp::Domain::Entities::Priority</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a036bdc454ae819eb5641cdcc2644c462" kind="property"><name>PriorityId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a80d29517550b370bc30c591d30e06144" kind="property"><name>Name</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_priority_1a01c516f58ad6a6c57e9c4e24eccdf60c" kind="property"><name>Color</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting" kind="class"><name>KanbanApp::Domain::Entities::Setting</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ad056497283b0155f6254fe7af7627f19" kind="enum"><name>ValueType</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ad056497283b0155f6254fe7af7627f19a2e5c11fd297ce18996a90478fb22c761" kind="enumvalue"><name>DecimalType</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ad056497283b0155f6254fe7af7627f19ab900a78030fdadc18121e26865e75791" kind="enumvalue"><name>StringType</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1a06e44cd5a5f48b3c3dffe866b721e020" kind="property"><name>SettingId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ac43a552e0fb75c10fed801257c4a52f5" kind="property"><name>SettingsName</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_setting_1ac8b1cad29540664795e9fc64b9448fc0" kind="property"><name>Value</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane" kind="class"><name>KanbanApp::Domain::Entities::SwimLane</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_1a1cb4d1ce9362a94a40c11e9ff551a681" kind="property"><name>BoardId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_1aa83656ed594b2feff93edeb7a4f70215" kind="property"><name>SwimLaneId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_1aefa6743335097520bf5911f37ee1d9b5" kind="property"><name>Name</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_1a5c2b1d9730698a007b018a1d0bba56d6" kind="property"><name>Cards</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_1a0073c10368b5fc94d6024746c67e43ee" kind="property"><name>Position</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_1af4c148fee01abe389c495ffda2bb1076" kind="property"><name>Settings</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_1acab200364a9be165c3927cf4060ac159" kind="function"><name>SwimLane</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting" kind="class"><name>KanbanApp::Domain::Entities::SwimLaneSetting</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a2959300381a2e68ca6a527f70946b829" kind="property"><name>SwimLaneSettingId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a222635d255f765903c9e7b470e073c9e" kind="property"><name>HeaderColor</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a43404e8b1a6b122743f501022d55d27d" kind="property"><name>BackgroundColor</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1a500092d2451a54ad7a94c591ef546394" kind="property"><name>MaxCardCount</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_swim_lane_setting_1afd091d8c3d9da28523844ca8395e7d16" kind="function"><name>SwimLaneSetting</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag" kind="class"><name>KanbanApp::Domain::Entities::Tag</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag_1abac30eaa4b400a44dee80858ae127225" kind="property"><name>TagId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_tag_1a7bce8b0b4eb0407bf357740532291b20" kind="property"><name>Name</name></member>
+  </compound>
+  <compound refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user" kind="class"><name>KanbanApp::Domain::Entities::User</name>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a84a9ed53e0dc61458749aead23b098c3" kind="property"><name>UserId</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a71f9ad4397f0ffac2ab175a613b761e6" kind="property"><name>UserName</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1ad4cebb48e41711d5c5f6e668a0dff02e" kind="property"><name>EMail</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1aab745832f8b924e35c8006960e2bad11" kind="property"><name>Name</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a71dab654212eeeb7685e2fec833a1ce1" kind="property"><name>Surname</name></member>
+    <member refid="class_kanban_app_1_1_domain_1_1_entities_1_1_user_1a134cc863525d81dcfb91d8242e2ade4d" kind="property"><name>ProfilePicture</name></member>
+  </compound>
+  <compound refid="namespace_kanban_app" kind="namespace"><name>KanbanApp</name>
+  </compound>
+  <compound refid="namespace_kanban_app_1_1_core" kind="namespace"><name>KanbanApp::Core</name>
+  </compound>
+  <compound refid="namespace_kanban_app_1_1_core_1_1_data_access" kind="namespace"><name>KanbanApp::Core::DataAccess</name>
+  </compound>
+  <compound refid="namespace_kanban_app_1_1_domain" kind="namespace"><name>KanbanApp::Domain</name>
+  </compound>
+  <compound refid="namespace_kanban_app_1_1_domain_1_1_data" kind="namespace"><name>KanbanApp::Domain::Data</name>
+  </compound>
+  <compound refid="namespace_kanban_app_1_1_domain_1_1_entities" kind="namespace"><name>KanbanApp::Domain::Entities</name>
+  </compound>
+  <compound refid="namespace_kanban_app_1_1_domain_1_1_shared" kind="namespace"><name>KanbanApp::Domain::Shared</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_i_board_repository_8cs" kind="file"><name>IBoardRepository.cs</name>
+  </compound>
+  <compound refid="_i_card_repository_8cs" kind="file"><name>ICardRepository.cs</name>
+  </compound>
+  <compound refid="_i_swim_lane_repository_8cs" kind="file"><name>ISwimLaneRepository.cs</name>
+  </compound>
+  <compound refid="_board_8cs" kind="file"><name>Board.cs</name>
+  </compound>
+  <compound refid="_card_8cs" kind="file"><name>Card.cs</name>
+  </compound>
+  <compound refid="_card_attachment_8cs" kind="file"><name>CardAttachment.cs</name>
+  </compound>
+  <compound refid="_card_task_8cs" kind="file"><name>CardTask.cs</name>
+  </compound>
+  <compound refid="_card_type_8cs" kind="file"><name>CardType.cs</name>
+  </compound>
+  <compound refid="_card_weight_size_8cs" kind="file"><name>CardWeightSize.cs</name>
+  </compound>
+  <compound refid="_priority_8cs" kind="file"><name>Priority.cs</name>
+  </compound>
+  <compound refid="_setting_8cs" kind="file"><name>Setting.cs</name>
+  </compound>
+  <compound refid="_swim_lane_8cs" kind="file"><name>SwimLane.cs</name>
+  </compound>
+  <compound refid="_swim_lane_setting_8cs" kind="file"><name>SwimLaneSetting.cs</name>
+  </compound>
+  <compound refid="_tag_8cs" kind="file"><name>Tag.cs</name>
+  </compound>
+  <compound refid="_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="dir_a5593dd258c18cb2472ad98542e9265c" kind="dir"><name>C:/TFSProjects/KanbanApp/KanbanApp.Domain/Data</name>
+  </compound>
+  <compound refid="dir_12ffabd1ac7f6e6fc3fbe0d726afcee9" kind="dir"><name>C:/TFSProjects/KanbanApp/KanbanApp.Domain/Entities</name>
+  </compound>
+  <compound refid="dir_5704751da050db1ff77c73a62f965f09" kind="dir"><name>C:/TFSProjects/KanbanApp</name>
+  </compound>
+  <compound refid="dir_b9bc22de850cbb07174b4b89367a8385" kind="dir"><name>C:/TFSProjects/KanbanApp/KanbanApp.Domain</name>
+  </compound>
+  <compound refid="dir_6386e56a68fc99a483441196679ef87f" kind="dir"><name>C:/TFSProjects</name>
+  </compound>
+</doxygenindex>
