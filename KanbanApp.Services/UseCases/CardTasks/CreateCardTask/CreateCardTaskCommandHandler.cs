@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using KanbanApp.Domain.Data;
+﻿using KanbanApp.Domain.Data;
 using KanbanApp.Domain.Entities;
 using KanbanApp.Domain.Shared;
 using KanbanApp.Services.DTO.Core;
 using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace KanbanApp.Services.UseCases.CardTasks.CreateCardTask
 {
@@ -18,7 +18,7 @@ namespace KanbanApp.Services.UseCases.CardTasks.CreateCardTask
             _cardTaskRepository = cardTaskRepository ?? throw new ArgumentNullException(nameof(cardTaskRepository));
         }
 
-        public async  Task<CreateCardTaskCommandResult> Handle(CreateCardTaskCommand command, CancellationToken cancellationToken)
+        public async Task<CreateCardTaskCommandResult> Handle(CreateCardTaskCommand command, CancellationToken cancellationToken)
         {
             CreateCardTaskCommandResult result = new CreateCardTaskCommandResult
             {

@@ -39,7 +39,7 @@ namespace KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards
                     CardId = x.CardId,
                     Name = x.Name,
                     Description = x.Description,
-                    PriorityColor=x.CardPriority.Color
+                    PriorityColor = x.CardPriority.Color
 
                 }).ToList();
 

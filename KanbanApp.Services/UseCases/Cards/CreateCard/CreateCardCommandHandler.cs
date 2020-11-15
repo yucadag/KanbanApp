@@ -34,7 +34,7 @@ namespace KanbanApp.Services.UseCases.Cards.CreateCard
 
                 if (validationResult.IsValid)
                 {
-                    _cardRepository.Add(new Card() { BoardId = request.BoardId, SwimLaneId = request.SwimLaneId, CardId = request.CardId, Name = request.Name, Description = request.Description, CardPriority=new Priority() { PriorityId=request.PriorityId } });
+                    _cardRepository.Add(new Card() { BoardId = request.BoardId, SwimLaneId = request.SwimLaneId, CardId = request.CardId, Name = request.Name, Description = request.Description, CardPriority = new Priority() { PriorityId = request.PriorityId } });
                     result.ResultObject.Success = true;
                     result.ResultObject.Data = new CreateCardCommandResultItem
                     {
@@ -50,8 +50,8 @@ namespace KanbanApp.Services.UseCases.Cards.CreateCard
                 {
                     foreach (var item in validationResult.Errors)
                     {
-                        result.ResultObject.ServiceMessageList.Add(new ServiceMessage() { ServiceMessageType=eServiceMessageType.Error, UserFriendlyText=item.ErrorMessage });
-                    } 
+                        result.ResultObject.ServiceMessageList.Add(new ServiceMessage() { ServiceMessageType = eServiceMessageType.Error, UserFriendlyText = item.ErrorMessage });
+                    }
                     result.ResultObject.Success = false;
                 }
             }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Concrete
 {
-  public   class CardTaskService : ICardTaskService
+    public class CardTaskService : ICardTaskService
     {
         private readonly IMediator _mediator;
 

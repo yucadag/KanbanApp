@@ -32,11 +32,13 @@ namespace KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane
             try
             {
                 _swimLaneRepository.Update(new SwimLane() { BoardId = request.BoardId, Name = request.Name, Position = request.Position });
-
+                result.ResultObject.Data.IsSuccess = true;
                 result.ResultObject.Success = true;
             }
             catch (Exception ex)
             {
+                result.ResultObject.Data.IsSuccess = false;
+                result.ResultObject.Success = false;
                 result.ResultObject.ServiceMessageList.Add(new ServiceMessage()
                 {
                     ServiceMessageType = eServiceMessageType.Error,
@@ -45,9 +47,7 @@ namespace KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane
                 });
             }
 
-
             return result;
-
         }
     }
 }

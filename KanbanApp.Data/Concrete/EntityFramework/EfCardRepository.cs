@@ -1,8 +1,11 @@
 ﻿using KanbanApp.Core.DataAccess.EntityFramework;
 using KanbanApp.Domain.Data;
 using KanbanApp.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace KanbanApp.Data.Concrete.EntityFramework
 {
@@ -19,5 +22,12 @@ namespace KanbanApp.Data.Concrete.EntityFramework
         {
             return context.CardAttachments.Where(x => x.CardId == CardId).ToList();
         }
+
+        public Card GetCardWithdetail(Expression<Func<Card, bool>> filter = null)
+        {
+            return context.Cards.Include(c => c.CardPriority).Where(filter).SingleOrDefault();
+         
+        }
+
     }
 }

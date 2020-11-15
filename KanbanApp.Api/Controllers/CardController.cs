@@ -1,4 +1,5 @@
-﻿using KanbanApp.Api.Models.Cards.Input;
+﻿using AutoMapper;
+using KanbanApp.Api.Models.Cards.Input;
 using KanbanApp.Api.Models.Cards.Output;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.UseCases.Cards.CreateCard;
@@ -8,7 +9,6 @@ using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
 using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
 using System;
 using System.Threading.Tasks;
 
@@ -19,14 +19,16 @@ namespace KanbanApp.Api.Controllers
     public class CardController : ControllerBase
     {
         private readonly ICardService _cardService;
+        private readonly IMapper _mapper;
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="_service"></param>
-        public CardController(ICardService _service)
+        public CardController(ICardService _service, IMapper mapper)
         {
             _cardService = _service;
-
+            _mapper = mapper;
         }
 
         /// <summary>
@@ -54,6 +56,7 @@ namespace KanbanApp.Api.Controllers
                 returnValue.Name = result.Result.ResultObject.Data.Name;
                 returnValue.Description = result.Result.ResultObject.Data.Description;
                 returnValue.Position = result.Result.ResultObject.Data.Position;
+                returnValue.PriorityId= result.Result.ResultObject.Data.PriorityId;
 
                 return Ok(returnValue);
             }
@@ -62,8 +65,6 @@ namespace KanbanApp.Api.Controllers
                 return BadRequest(returnValue);
             }
         }
-
-
 
         /// <summary>
         /// 
@@ -123,43 +124,42 @@ namespace KanbanApp.Api.Controllers
         /// <returns></returns>
         [Route("MoveCard")]
         [HttpPost]
-        public ActionResult<MoveCardCommandResult> MoveCard(MoveCardCommand command)
+        public ActionResult<CardMoveOutput> MoveCard(CardMoveInput input)
         {
-            MoveCardCommand _command = new MoveCardCommand(command.CardId, command.SwimLaneId);
+            MoveCardCommand _command = _mapper.Map<CardMoveInput, MoveCardCommand>(input);
             Task<MoveCardCommandResult> result = _cardService.MoveCard(_command);
-
+            CardMoveOutput resultValue = _mapper.Map<MoveCardCommandResultItem, CardMoveOutput>(result.Result.ResultObject.Data);
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                return Ok(resultValue);
             }
             else
             {
-                return BadRequest(result);
+                return BadRequest(resultValue);
             }
         }
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="command"></param>
+        /// <param name="input"></param>
         /// <returns></returns>
         [Route("CreateCard")]
         [HttpPost]
-        public ActionResult<CardCreateOutput> CreateCard(CreateCardCommand command)
+        public ActionResult<CardCreateOutput> CreateCard(CardCreateInput input)
         {
-            CardCreateOutput resultValue = new CardCreateOutput();
+
+            CreateCardCommand command = _mapper.Map<CardCreateInput, CreateCardCommand>(input);
             command.CardId = Guid.NewGuid().ToString();
             Task<CreateCardCommandResult> result = _cardService.CreateCard(command);
+
+            CardCreateOutput resultValue = _mapper.Map<CreateCardCommandResultItem, CardCreateOutput>(result.Result.ResultObject.Data);
 
             if (result.Result.ResultObject.Success)
             {
                 resultValue.IsSuccess = true;
-                resultValue.BoardId = result.Result.ResultObject.Data.BoardId;
-                resultValue.SwimLaneId = result.Result.ResultObject.Data.SwimLaneId;
-                resultValue.CardId = result.Result.ResultObject.Data.CardId;
-                resultValue.Name = result.Result.ResultObject.Data.Name;
-                resultValue.Description = result.Result.ResultObject.Data.Description;
-   
+
+
                 return Ok(resultValue);
             }
             else

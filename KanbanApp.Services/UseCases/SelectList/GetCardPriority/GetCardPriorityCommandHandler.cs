@@ -1,26 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using AutoMapper;
-using KanbanApp.Domain.Data;
+﻿using KanbanApp.Domain.Data;
 using KanbanApp.Domain.Entities;
 using KanbanApp.Services.DTO.Core;
 using MediatR;
-using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace KanbanApp.Services.UseCases.SelectList.GetCardPriority
 {
     public class GetCardPriorityCommandHandler : IRequestHandler<GetCardPriorityCommand, GetCardPriorityCommandResult>
     {
         private readonly IPriorityRepository _priorityRepository;
-        private readonly IMapper _mapper;
+        // private readonly IMapper _mapper;
 
-        public GetCardPriorityCommandHandler(IPriorityRepository priorityRepository, IMapper mapper)
+        public GetCardPriorityCommandHandler(IPriorityRepository priorityRepository)
         {
             _priorityRepository = priorityRepository;
-            _mapper = mapper;
+            // _mapper = mapper;
         }
 
         public async Task<GetCardPriorityCommandResult> Handle(GetCardPriorityCommand command, CancellationToken cancellationToken)
@@ -42,7 +39,7 @@ namespace KanbanApp.Services.UseCases.SelectList.GetCardPriority
                     List<Priority> priorityList = _priorityRepository.GetList();
                     foreach (var item in priorityList)
                     {
-                        result.ResultObject.Data.Add(new GetCardPriorityCommandResultItem() { PriorityId=item.PriorityId, Name=item.Name, Color=item.Color });
+                        result.ResultObject.Data.Add(new GetCardPriorityCommandResultItem() { PriorityId = item.PriorityId, Name = item.Name, Color = item.Color });
                     }
                     //_mapper.Map<List<Priority>, List<GetCardPriorityCommandResultItem>>(priorityList, result.ResultObject.Data);
                 }

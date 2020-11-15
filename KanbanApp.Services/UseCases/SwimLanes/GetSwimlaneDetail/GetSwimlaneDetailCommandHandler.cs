@@ -21,19 +21,19 @@ namespace KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail
         public async Task<GetSwimlaneDetailCommandResult> Handle(GetSwimlaneDetailCommand request, CancellationToken cancellationToken)
         {
             GetSwimlaneDetailCommandResult result = new GetSwimlaneDetailCommandResult();
-            result.ResultObject = new ServiceResult<List<GetSwimlaneDetailCommandResultItem>>();
+            result.ResultObject = new ServiceResult<GetSwimlaneDetailCommandResultItem>();
             result.ResultObject.Success = false;
             result.ResultObject.ServiceMessageList = new List<ServiceMessage>();
-            result.ResultObject.Data = new List<GetSwimlaneDetailCommandResultItem>();
+            result.ResultObject.Data = new GetSwimlaneDetailCommandResultItem();
 
             //PredicateBuilder
 
             try
             {
                 SwimLane swimLane = _swimLaneRepository.Get(x => x.SwimLaneId == request.SwimLaneId);
-                result.ResultObject.Data[0].BoardId = swimLane.BoardId;
-                result.ResultObject.Data[0].SwimLaneId = swimLane.SwimLaneId;
-                result.ResultObject.Data[0].Name = swimLane.Name;
+                result.ResultObject.Data.BoardId = swimLane.BoardId;
+                result.ResultObject.Data.SwimLaneId = swimLane.SwimLaneId;
+                result.ResultObject.Data.Name = swimLane.Name;
 
 
                 result.ResultObject.Success = true;

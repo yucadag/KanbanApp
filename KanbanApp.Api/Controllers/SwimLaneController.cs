@@ -1,4 +1,5 @@
-﻿using KanbanApp.Api.Models.SwimLanes.Input;
+﻿using AutoMapper;
+using KanbanApp.Api.Models.SwimLanes.Input;
 using KanbanApp.Api.Models.SwimLanes.Output;
 using KanbanApp.Services.Abstract;
 using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
@@ -6,7 +7,6 @@ using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
 using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -20,36 +20,36 @@ namespace KanbanApp.Api.Controllers
     public class SwimLaneController : ControllerBase
     {
         private readonly ISwimLaneService _swimLaneService;
-
+        private readonly IMapper _mapper;
         /// <summary>
         /// 
         /// </summary>
         /// <param name="service"></param>
-        public SwimLaneController(ISwimLaneService service)
+        public SwimLaneController(ISwimLaneService service, IMapper mapper)
         {
+            _mapper = mapper;
             _swimLaneService = service;
         }
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="swimLaneId"></param>
+        /// <param name="input"></param>
         /// <returns></returns>
-        [HttpGet("Get/{swimLaneId}")]
-        public ActionResult<GetSwimlaneDetailCommandResult> Get(string swimLaneId)
+        [Route("Get")]
+        [HttpPost]
+        public ActionResult<SwimLaneGetOutput> Get(SwimLaneGetInput input)
         {
-            GetSwimlaneDetailCommand command = new GetSwimlaneDetailCommand
-            {
-                SwimLaneId = swimLaneId
-            };
+            GetSwimlaneDetailCommand command = _mapper.Map<SwimLaneGetInput, GetSwimlaneDetailCommand>(input);
             Task<GetSwimlaneDetailCommandResult> result = _swimLaneService.Get(command);
+            SwimLaneGetOutput returnValue = _mapper.Map<GetSwimlaneDetailCommandResultItem, SwimLaneGetOutput>(result.Result.ResultObject.Data);
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                return Ok(returnValue);
             }
             else
             {
-                return BadRequest(result);
+                return BadRequest(returnValue);
             }
         }
 
@@ -61,22 +61,19 @@ namespace KanbanApp.Api.Controllers
         /// <returns></returns>
         [Route("Add")]
         [HttpPost]
-        public ActionResult<CreateSwimlaneCommandResult> Add(SwimLaneAddInput input)
+        public ActionResult<SwimLaneAddOutput> Add(SwimLaneAddInput input)
         {
-            CreateSwimlaneCommand command = new CreateSwimlaneCommand
-            {
-                BoardId = input.BoardId,
-                SwimLaneId = input.SwimLaneId,
-                Name = input.Name
-            };
+            CreateSwimlaneCommand command = _mapper.Map<SwimLaneAddInput, CreateSwimlaneCommand>(input);
             Task<CreateSwimlaneCommandResult> result = _swimLaneService.Add(command);
+            SwimLaneAddOutput returnValue = _mapper.Map<CreateSwimlaneCommandResultItem, SwimLaneAddOutput>(result.Result.ResultObject.Data);
+
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                return Ok(returnValue);
             }
             else
             {
-                return BadRequest(result);
+                return BadRequest(returnValue);
             }
         }
 
@@ -84,17 +81,15 @@ namespace KanbanApp.Api.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="boardId"></param>
-        /// <param name="swimLaneId"></param>
+        /// <param name="input"></param>
         /// <returns></returns>
-        [HttpGet("GetSwimLaneCards/{boardId}/{swimLaneId}")]
-        public ActionResult<List<SwimlaneCardsOutput>> GetSwimLaneCards(string boardId, string swimLaneId)
+        [Route("GetSwimLaneCards")]
+        [HttpPost]
+        public ActionResult<List<SwimlaneCardsOutput>> GetSwimLaneCards(SwimLaneCardsInput input)
         {
-            GetSwimLaneCardsCommand command = new GetSwimLaneCardsCommand(boardId, swimLaneId);
-            Task<GetSwimLaneCardsCommandResult> result = _swimLaneService.GetBoardSwimLanes(command);
-            List<SwimlaneCardsOutput> returnValue = new List<SwimlaneCardsOutput>();
-
-            returnValue = result.Result.ResultObject.Data.ConvertAll<SwimlaneCardsOutput>(new Converter<GetSwimLaneCardsCommandResultItem, SwimlaneCardsOutput>(GetSwimLaneCardsCommandResultItemToSwimlaneCardsOutput));
+            GetSwimLaneCardsCommand command = _mapper.Map<SwimLaneCardsInput, GetSwimLaneCardsCommand>(input);
+            Task<GetSwimLaneCardsCommandResult> result = _swimLaneService.GetSwimLanesCards(command);
+            List<SwimlaneCardsOutput> returnValue = _mapper.Map<List<GetSwimLaneCardsCommandResultItem>, List<SwimlaneCardsOutput>>(result.Result.ResultObject.Data);
 
             if (result.Result.ResultObject.Success)
             {
@@ -107,19 +102,6 @@ namespace KanbanApp.Api.Controllers
             }
         }
 
-        public static SwimlaneCardsOutput GetSwimLaneCardsCommandResultItemToSwimlaneCardsOutput(GetSwimLaneCardsCommandResultItem input)
-        {
-            return new SwimlaneCardsOutput()
-            {
-                BoardId = input.BoardId,
-                Name = input.Name,
-                SwimLaneId = input.SwimLaneId,
-                CardId = input.CardId,
-                Description = input.Description,
-                PriorityColor=input.PriorityColor
-            };
-        }
-
         /// <summary>
         /// 
         /// </summary>
@@ -127,23 +109,18 @@ namespace KanbanApp.Api.Controllers
         /// <returns></returns>
         [Route("Move")]
         [HttpPatch]
-        public ActionResult<MoveSwimlaneCommandResult> Move(SwimLaneMoveInput input)
+        public ActionResult<SwimLaneMoveOutput> Move(SwimLaneMoveInput input)
         {
-            MoveSwimlaneCommand command = new MoveSwimlaneCommand
-            {
-                BoardId = input.BoardId,
-                SwimLaneId = input.SwimLaneId,
-                Name = input.Name,
-                Position = input.Position
-            };
+            MoveSwimlaneCommand command = _mapper.Map<SwimLaneMoveInput, MoveSwimlaneCommand>(input);
             Task<MoveSwimlaneCommandResult> result = _swimLaneService.Move(command);
+            SwimLaneMoveOutput resultValue = _mapper.Map<MoveSwimlaneCommandResultItem, SwimLaneMoveOutput>(result.Result.ResultObject.Data);
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                return Ok(resultValue);
             }
             else
             {
-                return BadRequest(result);
+                return BadRequest(resultValue);
             }
         }
 

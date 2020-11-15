@@ -10,6 +10,6 @@ namespace KanbanApp.Api.Models.SwimLanes.Output
         public string Name { get; set; }
         public string Description { get; set; }
         public string PriorityColor { get; set; }
-        
+
     }
 }

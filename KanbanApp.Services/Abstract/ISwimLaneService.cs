@@ -12,6 +12,6 @@ namespace KanbanApp.Services.Abstract
         Task<GetSwimlaneDetailCommandResult> Get(GetSwimlaneDetailCommand command);
         Task<CreateSwimlaneCommandResult> Add(CreateSwimlaneCommand command);
         Task<MoveSwimlaneCommandResult> Move(MoveSwimlaneCommand command);
-        Task<GetSwimLaneCardsCommandResult> GetBoardSwimLanes(GetSwimLaneCardsCommand command);
+        Task<GetSwimLaneCardsCommandResult> GetSwimLanesCards(GetSwimLaneCardsCommand command);
     }
 }

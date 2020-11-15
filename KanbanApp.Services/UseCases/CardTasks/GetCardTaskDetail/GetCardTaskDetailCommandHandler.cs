@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using KanbanApp.Domain.Data;
+﻿using KanbanApp.Domain.Data;
 using KanbanApp.Domain.Entities;
 using KanbanApp.Services.DTO.Core;
 using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 
 namespace KanbanApp.Services.UseCases.CardTasks.GetCardTaskDetail

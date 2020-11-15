@@ -1,10 +1,6 @@
 ﻿using KanbanApp.Services.Abstract;
-using KanbanApp.Services.UseCases.SelectList;
 using KanbanApp.Services.UseCases.SelectList.GetCardPriority;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Concrete

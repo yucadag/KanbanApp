@@ -1,17 +1,7 @@
-﻿using KanbanApp.Api.Models.Cards.Input;
-using KanbanApp.Api.Models.Cards.Output;
-using KanbanApp.Api.Models.SelectList.Output;
+﻿using KanbanApp.Api.Models.SelectList.Output;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.UseCases.Cards.CreateCard;
-using KanbanApp.Services.UseCases.Cards.DeleteCard;
-using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
-using KanbanApp.Services.UseCases.Cards.GetCardDetail;
-using KanbanApp.Services.UseCases.Cards.MoveCard;
-using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using KanbanApp.Services.UseCases.SelectList.GetCardPriority;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

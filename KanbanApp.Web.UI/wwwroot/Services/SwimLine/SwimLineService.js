@@ -1,18 +1,41 @@
 ﻿var SwimLaneService = (function () {
 
-    var GetSwimLaneCards = function (BoardId,SwimLaneId) {
+    var GetSwimLaneCards = function (BoardId, SwimLaneId) {
         var Result;
 
+
+        //    = [{
+        //    "boardId": "",
+        //    "swimLaneId": "",
+        //    "cardId": "",
+        //    "Name": "",
+        //    "Description": "",
+        //    "PriorityColor": "",
+        //    "isSuccess": "",
+        //    "messageList": ""
+        //}];
+
         var settings = {
-            "url": "https://localhost:5002/api/SwimLane/GetSwimLaneCards/" + BoardId + "/" + SwimLaneId,
-            "method": "GET",
+            "url": "https://localhost:5002/api/SwimLane/GetSwimLaneCards",
+            "method": "POST",
             "timeout": 0,
-            "async":false
+            "async": false,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify({ "boardId": BoardId, "swimLaneId": SwimLaneId }),
+            error: function (jqXHR, textStatus, errorThrown) {
+                {
+                    console.log(jqXHR)
+                }
+            }
         };
 
         $.ajax(settings).done(function (response) {
-            Result=response;
-        });
+            //if (response.success == true) {
+                Result = response;
+            //}
+        }).fail(function (jqXHR, textStatus, errorThrown) { console.log(errorThrown) });
 
         return Result;
     };
@@ -53,7 +76,7 @@
 
 
     return {
-        SwimLaneCards: GetSwimLaneCards,      
+        SwimLaneCards: GetSwimLaneCards,
         CardSave: Save,
         CardDelete: Delete,
         CardMoveDifferentColumn: MoveDifferentColumn,

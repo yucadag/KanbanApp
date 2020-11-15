@@ -10,7 +10,7 @@ namespace KanbanApp.Services.Abstract
     {
         Task<UpdateCardTaskCommandResult> Update(UpdateCardTaskCommand command);
         Task<DeleteCardTaskCommandResult> Delete(DeleteCardTaskCommand command);
-        Task<GetCardTaskDetailCommandResult> Get(GetCardTaskDetailCommand command);   
+        Task<GetCardTaskDetailCommandResult> Get(GetCardTaskDetailCommand command);
         Task<CreateCardTaskCommandResult> CreateCard(CreateCardTaskCommand command);
 
     }

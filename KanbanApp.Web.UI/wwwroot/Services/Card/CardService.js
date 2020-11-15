@@ -3,7 +3,7 @@
     var GetByCardId = function (CardId) {
 
 
-        var Card = { CardId: "", Name: "", Description: "" };
+        var Card = { CardId: "", Name: "", Description: "", PriorityId:"" };
 
         var settings = {
             "url": "https://localhost:5002/api/Card/Get",
@@ -20,6 +20,7 @@
             Card.CardId = CardId;
             Card.Name = response.name;
             Card.Description = response.description;
+            Card.PriorityId = response.priorityId;
         });
 
         return Card;

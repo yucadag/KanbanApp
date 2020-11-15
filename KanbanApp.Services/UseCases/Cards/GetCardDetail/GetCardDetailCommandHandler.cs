@@ -32,10 +32,11 @@ namespace KanbanApp.Services.UseCases.Cards.GetCardDetail
 
             try
             {
-                Card card = _cardRepository.Get(x => x.CardId == request.CardId);
+                Card card = _cardRepository.GetCardWithdetail(x => x.CardId == request.CardId);
                 result.ResultObject.Data.CardId = card.CardId;
                 result.ResultObject.Data.Name = card.Name;
                 result.ResultObject.Data.Description = card.Description;
+                result.ResultObject.Data.PriorityId = card.CardPriority.PriorityId;
 
                 result.ResultObject.Success = true;
             }

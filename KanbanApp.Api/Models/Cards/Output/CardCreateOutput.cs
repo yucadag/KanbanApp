@@ -2,7 +2,7 @@
 
 namespace KanbanApp.Api.Models.Cards.Output
 {
-    public class CardCreateOutput:BaseOutput
+    public class CardCreateOutput : BaseOutput
     {
         public string BoardId { get; set; }
         public string SwimLaneId { get; set; }

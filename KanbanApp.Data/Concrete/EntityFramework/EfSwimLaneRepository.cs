@@ -17,7 +17,7 @@ namespace KanbanApp.Data.Concrete.EntityFramework
 
         public List<Card> GetSwimLaneCards(string SwimLaneId)
         {
-            return _context.Cards.Include(c=>c.CardPriority).Where(x => x.SwimLaneId == SwimLaneId).ToList();
+            return _context.Cards.Include(c => c.CardPriority).Where(x => x.SwimLaneId == SwimLaneId).ToList();
 
             //        .Join(_context.Priority, card => card.CardPriority.PriorityId,
             //priority => priority.PriorityId,

@@ -11,7 +11,6 @@ using KanbanApp.Services.UseCases.Cards.CreateCard;
 using KanbanApp.Services.UseCases.Cards.DeleteCard;
 using KanbanApp.Services.UseCases.Cards.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.MoveCard;
-using KanbanApp.Services.UseCases.SelectList;
 using KanbanApp.Services.UseCases.SelectList.GetCardPriority;
 using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
 using MediatR;
@@ -38,15 +37,16 @@ namespace KanbanApp.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+
+            services.AddAutoMapper(typeof(Startup));
+
+
+            services.AddMetrics();
             services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0).AddJsonOptions(options =>
             {
                 options.JsonSerializerOptions.MaxDepth = 1000;  // or however deep you need
             });
-
-            services.AddMetrics();
-
-            services.AddAutoMapper(typeof(Startup));
-
             services.AddDbContext<KanbanContext>(option => option.UseSqlServer(@"Data Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial Catalog=Kanban;Integrated Security=True", b => b.MigrationsAssembly("KanbanApp.Api")));
 
             services.AddScoped<IRequestHandler<GetBoardSwimLanesCommand, GetBoardSwimLanesCommandResult>, GetBoardSwimLanesCommandHandler>();
@@ -106,6 +106,8 @@ namespace KanbanApp.Api
                     }
                 });
             });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

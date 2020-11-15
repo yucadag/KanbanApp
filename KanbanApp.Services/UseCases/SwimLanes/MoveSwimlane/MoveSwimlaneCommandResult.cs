@@ -9,10 +9,7 @@ namespace KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane
 
     public class MoveSwimlaneCommandResultItem
     {
-        public string BoardId { get; set; }
-        public string SwimLaneId { get; set; }
-        public string Name { get; set; }
-        public int Position { get; set; }
+        public bool IsSuccess { get; set; }
     }
 
 }

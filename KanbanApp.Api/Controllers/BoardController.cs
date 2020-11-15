@@ -1,3 +1,5 @@
+
+using AutoMapper;
 using KanbanApp.Api.Models.Boards.Input;
 using KanbanApp.Api.Models.Boards.Output;
 using KanbanApp.Services.Abstract;
@@ -8,7 +10,6 @@ using KanbanApp.Services.UseCases.Boards.GetBoardList;
 using KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;
 using KanbanApp.Services.UseCases.Boards.UpdateBoard;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -22,12 +23,15 @@ namespace KanbanApp.Api.Controllers
     public class BoardController : ControllerBase
     {
         private readonly IBoardService _boardService;
+        private readonly IMapper _mapper;
         /// <summary>
         /// 
         /// </summary>
         /// <param name="_service"></param>
-        public BoardController(IBoardService _service)
+        /// <param name="mapper"></param>
+        public BoardController(IBoardService _service, IMapper mapper)
         {
+            _mapper = mapper;
             _boardService = _service;
 
         }
@@ -40,7 +44,8 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<BoardGetOutput> Get(BoardGetInput input)
         {
-            GetBoardDetailCommand command = new GetBoardDetailCommand(input.BoardId);
+            GetBoardDetailCommand command = _mapper.Map<BoardGetInput, GetBoardDetailCommand>(input);
+
             BoardGetOutput returnValue = new BoardGetOutput();
 
             Task<GetBoardDetailCommandResult> result = _boardService.Get(command);
@@ -62,17 +67,6 @@ namespace KanbanApp.Api.Controllers
             }
         }
 
-        public static BoardGetOutput GetBoardListCommandResultItemToBoardGetOutput(GetBoardListCommandResultItem input)
-        {
-            return new BoardGetOutput()
-            {
-                BoardId = input.BoardId,
-                Name = input.Name,
-                Description = input.Description
-
-            };
-        }
-
         /// <summary>
         /// 
         /// </summary>
@@ -82,11 +76,11 @@ namespace KanbanApp.Api.Controllers
         public ActionResult<List<BoardGetOutput>> GetList()
         {
             GetBoardListCommand command = new GetBoardListCommand();
-            List<BoardGetOutput> returnValue = new List<BoardGetOutput>();
+
             Task<GetBoardListCommandResult> result = _boardService.GetList(command);
+            List<BoardGetOutput> returnValue = _mapper.Map<List<GetBoardListCommandResultItem>, List<BoardGetOutput>>(result.Result.ResultObject.Data);
             if (result.Result.ResultObject.Success)
             {
-                returnValue = result.Result.ResultObject.Data.ConvertAll<BoardGetOutput>(new Converter<GetBoardListCommandResultItem, BoardGetOutput>(GetBoardListCommandResultItemToBoardGetOutput));
                 return Ok(returnValue);
             }
             else
@@ -104,17 +98,15 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<BoardAddOutput> Add(BoardAddInput input)
         {
-            CreateBoardCommand command = new CreateBoardCommand(input.BoardId, string.Empty, input.Name, input.Description);
-            BoardAddOutput returnValue = new BoardAddOutput();
+            CreateBoardCommand command = _mapper.Map<BoardAddInput, CreateBoardCommand>(input);
+
             Task<CreateBoardCommandResult> result = _boardService.Add(command);
 
-            returnValue.BoardId = result.Result.ResultObject.Data.BoardId;
-            returnValue.Name = result.Result.ResultObject.Data.Name;
-            returnValue.Description = result.Result.ResultObject.Data.Description;
-            returnValue.IsSuccess = true;
+            BoardAddOutput returnValue = _mapper.Map<CreateBoardCommandResultItem, BoardAddOutput>(result.Result.ResultObject.Data);
 
             if (result.Result.ResultObject.Success)
             {
+                returnValue.IsSuccess = true;
                 return Ok(result);
             }
             else
@@ -131,14 +123,9 @@ namespace KanbanApp.Api.Controllers
         /// <returns></returns>
         [Route("Update")]
         [HttpPatch]
-        public ActionResult<UpdateBoardCommandResult> Update(BoardUpdateInput input)
+        public ActionResult<BoardUpdateOutput> Update(BoardUpdateInput input)
         {
-            UpdateBoardCommand command = new UpdateBoardCommand
-            {
-                BoardId = input.BoardId,
-                Name = input.Name,
-                Description = input.Description
-            };
+            UpdateBoardCommand command = _mapper.Map<BoardUpdateInput, UpdateBoardCommand>(input);
 
             Task<UpdateBoardCommandResult> result = _boardService.Update(command);
             if (result.Result.ResultObject.Success)
@@ -159,21 +146,19 @@ namespace KanbanApp.Api.Controllers
         /// <returns></returns>
         [Route("Delete")]
         [HttpPost]
-        public ActionResult<DeleteBoardCommandResult> Delete(BoardDeleteInput input)
+        public ActionResult<bool> Delete(BoardDeleteInput input)
         {
-            DeleteBoardCommand command = new DeleteBoardCommand(input.BoardId);
-
+            DeleteBoardCommand command = _mapper.Map<BoardDeleteInput, DeleteBoardCommand>(input);
             Task<DeleteBoardCommandResult> result = _boardService.Delete(command);
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                return Ok(result.Result.ResultObject);
             }
             else
             {
                 return BadRequest(result);
             }
         }
-
 
         /// <summary>
         /// 
@@ -183,12 +168,10 @@ namespace KanbanApp.Api.Controllers
         [HttpGet("GetBoardSwimLanes/{boardId}")]
         public ActionResult<List<BoardSwimlanesOutput>> GetBoardSwimLanes(string boardId)
         {
-            List<BoardSwimlanesOutput> returnValue = new List<BoardSwimlanesOutput>();
-
             GetBoardSwimLanesCommand command = new GetBoardSwimLanesCommand(boardId);
             Task<GetBoardSwimLanesCommandResult> result = _boardService.GetBoardSwimLanes(command);
+            List<BoardSwimlanesOutput> returnValue = _mapper.Map<List<GetBoardSwimLanesCommandResultItem>, List<BoardSwimlanesOutput>>(result.Result.ResultObject.Data);
 
-            returnValue = result.Result.ResultObject.Data.ConvertAll<BoardSwimlanesOutput>(new Converter<GetBoardSwimLanesCommandResultItem, BoardSwimlanesOutput>(GetBoardSwimLanesCommandResultItemToBoardSwimlanesOutput));
 
             if (result.Result.ResultObject.Success)
             {
@@ -199,19 +182,6 @@ namespace KanbanApp.Api.Controllers
             {
                 return BadRequest(result);
             }
-        }
-
-
-        public static BoardSwimlanesOutput GetBoardSwimLanesCommandResultItemToBoardSwimlanesOutput(GetBoardSwimLanesCommandResultItem input)
-        {
-            return new BoardSwimlanesOutput()
-            {
-                BoardId = input.BoardId,
-                Name = input.Name,
-                SwimLaneId = input.SwimLaneId
-
-
-            };
         }
 
     }

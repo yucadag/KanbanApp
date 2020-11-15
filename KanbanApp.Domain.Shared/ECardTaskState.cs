@@ -2,8 +2,8 @@
 {
     public enum ECardTaskState
     {
-        Pending=1,
-        InProgress=2,
-        Completed=3
+        Pending = 1,
+        InProgress = 2,
+        Completed = 3
     }
 }

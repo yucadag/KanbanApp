@@ -59,7 +59,7 @@ function ApplyDragula(SwimLanelist) {
             cardId: CardId,
             name: $('#CardName').val(),
             description: $('#CardDescription').val(),
-            priorityId: $("#CardPriority").val()
+            priorityId: parseInt($("#CardPriority").val())
         }
 
         var NewCard = CardService.CardSave(Card);
@@ -72,10 +72,10 @@ function ApplyDragula(SwimLanelist) {
 
 function initialize() {
 
-    var SwimLanelist = BoardService.BoardSwimLanesByBoardId(1);
+    var SwimLanelist = BoardService.BoardSwimLanesByBoardId("1");
 
     for (var i = 0; i < SwimLanelist.length; i++) {
-        SwimLaneTest(SwimLanelist[i].name, SwimLanelist[i].swimLaneId, 1);
+        SwimLaneTest(SwimLanelist[i].name, SwimLanelist[i].swimLaneId, "1");
     }
 }
 
@@ -91,6 +91,10 @@ function BindCardAdd() {
         $('#CardKeys').attr("Boardid", BoardId);
         $('#CardKeys').attr("SwimLaneId", SwimLaneId);
         FillPriorityCombo();
+        $('#CardName').val("");
+        $('#CardDescription').val("");
+        
+        
         $('#modal-lg').modal('show');
 
     });
@@ -126,13 +130,13 @@ function BindCardEdit() {
     $('[id^=CardEdit_]').click(function () {
 
         var Card = CardService.CardGetByCardId($(this).attr("CardId"))
-
+        FillPriorityCombo();
         $('#CardKeys').attr("CardId", Card.CardId);
         $('#CardKeys').attr("BoardId", "1");
         $('#CardKeys').attr("SwimLaneId", $(this).attr("SwimLaneId"));
         $('#CardName').val(Card.Name);
         $('#CardDescription').val(Card.Description);
-
+        $('#CardPriority').val(Card.PriorityId).trigger('change');
         $('#modal-lg').modal('show');
 
     });

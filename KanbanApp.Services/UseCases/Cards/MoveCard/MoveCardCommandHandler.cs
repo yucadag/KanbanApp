@@ -24,17 +24,17 @@ namespace KanbanApp.Services.UseCases.Cards.MoveCard
         public async Task<MoveCardCommandResult> Handle(MoveCardCommand request, CancellationToken cancellationToken)
         {
             MoveCardCommandResult result = new MoveCardCommandResult();
-            result.ResultObject = new ServiceResult<List<MoveCardCommandResultItem>>();
+            result.ResultObject = new ServiceResult<MoveCardCommandResultItem>();
             result.ResultObject.Success = false;
             result.ResultObject.ServiceMessageList = new List<ServiceMessage>();
-            result.ResultObject.Data = new List<MoveCardCommandResultItem>();
+            result.ResultObject.Data = new MoveCardCommandResultItem();
 
             try
             {
                 Card card = _cardRepository.Get(p => p.CardId == request.CardId);
                 card.SwimLaneId = request.SwimLaneId;
                 _cardRepository.Update(card);
-
+                result.ResultObject.Data.IsSuccess = true;
                 result.ResultObject.Success = true;
             }
             catch (Exception ex)

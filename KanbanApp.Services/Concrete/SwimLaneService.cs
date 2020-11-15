@@ -35,7 +35,7 @@ namespace KanbanApp.Services.Concrete
             return result;
 
         }
-        public Task<GetSwimLaneCardsCommandResult> GetBoardSwimLanes(GetSwimLaneCardsCommand command)
+        public Task<GetSwimLaneCardsCommandResult> GetSwimLanesCards(GetSwimLaneCardsCommand command)
         {
             Task<GetSwimLaneCardsCommandResult> result;
 
