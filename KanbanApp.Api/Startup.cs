@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using KanbanApp.Api.Configuration.Extensions;
 using KanbanApp.Data.Concrete.EntityFramework;
 using KanbanApp.Domain.Data;
 using KanbanApp.Services.Abstract;
@@ -84,28 +85,31 @@ namespace KanbanApp.Api
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
             });
 
+
+            services.AddSwaggerDocumentation();
+
             // Register the Swagger generator, defining 1 or more Swagger documents
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Version = "v1",
-                    Title = "Kanban API",
-                    Description = "A simple example ASP.NET Core Web API",
-                    TermsOfService = new Uri("https://example.com/terms"),
-                    Contact = new OpenApiContact
-                    {
-                        Name = "Mustafa YUCADAĞ",
-                        Email = "yucadag@gmail.com",
-                        Url = new Uri("https://www.zedotech.com"),
-                    },
-                    License = new OpenApiLicense
-                    {
-                        Name = "Use under LICX",
-                        Url = new Uri("https://example.com/license"),
-                    }
-                });
-            });
+            //services.AddSwaggerGen(c =>
+            //{
+            //    c.SwaggerDoc("v1", new OpenApiInfo
+            //    {
+            //        Version = "v1",
+            //        Title = "Kanban API",
+            //        Description = "A simple example ASP.NET Core Web API",
+            //        TermsOfService = new Uri("https://example.com/terms"),
+            //        Contact = new OpenApiContact
+            //        {
+            //            Name = "Mustafa YUCADAĞ",
+            //            Email = "yucadag@gmail.com",
+            //            Url = new Uri("https://www.zedotech.com"),
+            //        },
+            //        License = new OpenApiLicense
+            //        {
+            //            Name = "Use under LICX",
+            //            Url = new Uri("https://example.com/license"),
+            //        }
+            //    });
+            //});
 
 
         }
@@ -124,14 +128,16 @@ namespace KanbanApp.Api
 
             app.UseMvc();
 
-            // Enable middleware to serve generated Swagger as a JSON endpoint.
-            app.UseSwagger();
-            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
-            // specifying the Swagger JSON endpoint.
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Kanban API V1");
-            });
+            app.UseSwaggerDocumentation();
+
+            //// Enable middleware to serve generated Swagger as a JSON endpoint.
+            //app.UseSwagger();
+            //// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            //// specifying the Swagger JSON endpoint.
+            //app.UseSwaggerUI(c =>
+            //{
+            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Kanban API V1");
+            //});
 
             app.UseStaticFiles();
             app.UseRouting();
