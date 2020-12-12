@@ -106,13 +106,13 @@ namespace KanbanApp.Api.Controllers
 
             if (result.Result.ResultObject.Success)
             {
-                returnValue.IsSuccess = true;
-                return Ok(result);
+                //returnValue.IsSuccess = true;
+                return Ok(returnValue);
             }
             else
             {
-                returnValue.IsSuccess = false;
-                return BadRequest(result);
+               // returnValue.IsSuccess = false;
+                return BadRequest(returnValue);
             }
         }
 
@@ -171,7 +171,7 @@ namespace KanbanApp.Api.Controllers
             GetBoardSwimLanesCommand command = new GetBoardSwimLanesCommand(boardId);
             Task<GetBoardSwimLanesCommandResult> result = _boardService.GetBoardSwimLanes(command);
             List<BoardSwimlanesOutput> returnValue = _mapper.Map<List<GetBoardSwimLanesCommandResultItem>, List<BoardSwimlanesOutput>>(result.Result.ResultObject.Data);
-
+           
 
             if (result.Result.ResultObject.Success)
             {
