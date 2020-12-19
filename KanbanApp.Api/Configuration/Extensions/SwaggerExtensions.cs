@@ -2,11 +2,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Configuration.Extensions
 {
@@ -21,17 +18,14 @@ namespace KanbanApp.Api.Configuration.Extensions
                     Version = "v1",
                     Title = "Kanban API",
                     Description = "A simple example ASP.NET Core Web API",
-                    TermsOfService = new Uri("https://example.com/terms"),
                     Contact = new OpenApiContact
                     {
                         Name = "Mustafa YUCADAĞ",
-                        Email = "yucadag@gmail.com",
-                        Url = new Uri("https://www.zedotech.com"),
+                        Email = "yucadag@gmail.com"
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Use under LICX",
-                        Url = new Uri("https://example.com/license"),
+                        Name = "Use under LICX"
                     }
                 });
 

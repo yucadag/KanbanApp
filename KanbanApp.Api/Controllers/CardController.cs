@@ -24,10 +24,11 @@ namespace KanbanApp.Api.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="_service"></param>
-        public CardController(ICardService _service, IMapper mapper)
+        /// <param name="service"></param>
+        /// <param name="mapper"></param>
+        public CardController(ICardService service, IMapper mapper)
         {
-            _cardService = _service;
+            _cardService = service;
             _mapper = mapper;
         }
 
@@ -56,7 +57,7 @@ namespace KanbanApp.Api.Controllers
                 returnValue.Name = result.Result.ResultObject.Data.Name;
                 returnValue.Description = result.Result.ResultObject.Data.Description;
                 returnValue.Position = result.Result.ResultObject.Data.Position;
-                returnValue.PriorityId= result.Result.ResultObject.Data.PriorityId;
+                returnValue.PriorityId = result.Result.ResultObject.Data.PriorityId;
 
                 return Ok(returnValue);
             }
@@ -120,7 +121,7 @@ namespace KanbanApp.Api.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="command"></param>
+        /// <param name="input"></param>
         /// <returns></returns>
         [Route("MoveCard")]
         [HttpPost]

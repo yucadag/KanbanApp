@@ -1,8 +1,9 @@
-﻿using MediatR;
+﻿using KanbanApp.Services.PipelineBehaviors;
+using MediatR;
 
 namespace KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes
 {
-    public sealed class GetBoardSwimLanesCommand : IRequest<GetBoardSwimLanesCommandResult>
+    public sealed class GetBoardSwimLanesCommand : IRequest<GetBoardSwimLanesCommandResult>,IValidateable
     {
         public GetBoardSwimLanesCommand(string boardId)
         {

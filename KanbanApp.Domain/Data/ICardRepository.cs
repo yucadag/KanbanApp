@@ -11,6 +11,6 @@ namespace KanbanApp.Domain.Data
         List<CardAttachment> GetCardAttachments(string CardId);
 
         Card GetCardWithdetail(Expression<Func<Card, bool>> filter = null);
-       
+
     }
 }

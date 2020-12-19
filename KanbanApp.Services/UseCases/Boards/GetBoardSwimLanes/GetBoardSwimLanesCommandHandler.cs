@@ -35,7 +35,6 @@ namespace KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes
 
                 if (validationResult.IsValid)
                 {
-
                     List<SwimLane> boardList = _boardRepository.GetBoardSwimLanes(request.BoardId);
                     result.ResultObject.Data = boardList.Select(x => new GetBoardSwimLanesCommandResultItem()
                     {
@@ -46,7 +45,6 @@ namespace KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes
                     }).ToList();
 
                     result.ResultObject.Success = true;
-
                 }
                 else
                 {

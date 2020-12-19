@@ -1,5 +1,4 @@
 ﻿using KanbanApp.Services.DTO.Core;
-using System.Collections.Generic;
 
 namespace KanbanApp.Services.UseCases.Cards.MoveCard
 {

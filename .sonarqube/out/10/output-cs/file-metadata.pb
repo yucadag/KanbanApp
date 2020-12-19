@@ -1,8 +1,0 @@
-v
-fC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\Controllers\BoardControllerIntegrationTests.cswindows-1254n
-eC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\Helpers\Serialization\JsonSerializerHelper.csutf-8`
-WC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\Helpers\TestingWebAppFactory.csutf-8M
-DC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\UnitTest1.csutf-8}
-rC:\Users\myuca\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.csutf-8[
-PC:\Users\myuca\AppData\Local\Temp\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8‰
-~C:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\obj\Debug\netcoreapp3.1\KanbanApp.Api.IntegrationTests.AssemblyInfo.csutf-8

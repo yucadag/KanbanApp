@@ -1,4 +1,4 @@
-’
+õ
 BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.cs
 	namespace 	
 	KanbanApp
@@ -14,10 +14,16 @@ BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.cs
 ECardTaskState 
 { 
 Pending 
-, 
+= 
+$num 
+, 
 
 InProgress 
-, 
+= 
+$num 
+, 
 	Completed 
+= 
+$num 
 } 
 }		 

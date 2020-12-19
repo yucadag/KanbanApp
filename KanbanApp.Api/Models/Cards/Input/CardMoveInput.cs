@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace KanbanApp.Api.Models.Cards.Input
+﻿namespace KanbanApp.Api.Models.Cards.Input
 {
     public class CardMoveInput
     {

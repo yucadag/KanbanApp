@@ -21,10 +21,12 @@ namespace KanbanApp.Api.Controllers
     {
         private readonly ISwimLaneService _swimLaneService;
         private readonly IMapper _mapper;
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="service"></param>
+        /// <param name="mapper"></param>
         public SwimLaneController(ISwimLaneService service, IMapper mapper)
         {
             _mapper = mapper;

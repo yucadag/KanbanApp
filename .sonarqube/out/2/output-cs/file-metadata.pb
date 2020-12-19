@@ -1,5 +1,10 @@
-D
-;C:\TFSProjects\KanbanApp\KanbanApp.Api.Test\BoardApiTest.csutf-8}
-rC:\Users\myuca\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.csutf-8[
-PC:\Users\myuca\AppData\Local\Temp\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8q
-fC:\TFSProjects\KanbanApp\KanbanApp.Api.Test\obj\Debug\netcoreapp3.1\KanbanApp.Api.Test.AssemblyInfo.csutf-8
+e
+\C:\TFSProjects\KanbanApp\KanbanApp.Core\DataAccess\EntityFramework\EfEntityRepositoryBase.csutf-8P
+GC:\TFSProjects\KanbanApp\KanbanApp.Core\DataAccess\IEntityRepository.csutf-8J
+AC:\TFSProjects\KanbanApp\KanbanApp.Core\DataAccess\IUnitOfWork.csutf-8;
+2C:\TFSProjects\KanbanApp\KanbanApp.Core\IEntity.csutf-8C
+:C:\TFSProjects\KanbanApp\KanbanApp.Core\Mapping\IMapper.csutf-8N
+EC:\TFSProjects\KanbanApp\KanbanApp.Core\Predicate\PredicateBuilder.csutf-8A
+8C:\TFSProjects\KanbanApp\KanbanApp.Core\Result\Either.csutf-8{
+pC:\TFSProjects\KanbanApp\KanbanApp.Core\obj\Debug\netstandard2.0\.NETStandard,Version=v2.0.AssemblyAttributes.csutf-8j
+_C:\TFSProjects\KanbanApp\KanbanApp.Core\obj\Debug\netstandard2.0\KanbanApp.Core.AssemblyInfo.csutf-8

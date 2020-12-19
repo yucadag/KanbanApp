@@ -13,7 +13,7 @@ namespace KanbanApp.Api.Mapping
             CreateMap<CardCreateInput, CreateCardCommand>();
             CreateMap<CreateCardCommandResultItem, CardCreateOutput>();
             CreateMap<CardMoveInput, MoveCardCommand>();
-            CreateMap<MoveCardCommandResultItem,CardMoveOutput>();
+            CreateMap<MoveCardCommandResultItem, CardMoveOutput>();
         }
     }
 }

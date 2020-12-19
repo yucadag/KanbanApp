@@ -26,7 +26,7 @@ namespace KanbanApp.Data.Concrete.EntityFramework
         public Card GetCardWithdetail(Expression<Func<Card, bool>> filter = null)
         {
             return context.Cards.Include(c => c.CardPriority).Where(filter).SingleOrDefault();
-         
+
         }
 
     }

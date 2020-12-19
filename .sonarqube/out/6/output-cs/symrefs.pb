@@ -1,72 +1,208 @@
-ø
-UC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfBoardRepository.cs
+Ä
+BC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IBoardRepository.cs
 
- "(
-' .    
+		 %
 
-  
-/ 6? F "
+ (
 
- /
-7 >= D
-+ ,0 1
-N OS T
+0 7
 
-* @
-H OC J
-1 26 7Ê
-TC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardRepository.cs
+ 3
 
-		 !
-' .  
+; B
+AC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardRepository.cs
 
- 
-. 5> E "
+		 $
 
-$ 6
-> DB H
-1 26 7Í
-XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfSwimLaneRepository.cs
+ /
 
-		 %
-' /  
+7 =
 
- #
-2 9B I 
+ 
 
- *
-2 <= G
-( )- .¨
-PC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfUnitOfWork.cs
+< BS
+EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTaskRepository.cs
 
- 
-' .  
+ (S
+EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IPriorityRepository.cs
+
+ (k
+EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ISwimLaneRepository.cs
+
+ (
+
+		 #
+
+		+ 5±
+;C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Board.cs
+
+ 
+
+ 
+ '
+
+ 
+ * 
+
+ 
+
+ 
+
+ 
+
+ !§
+:C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Card.cs
+
+ 
+
+ 
+ '
+
+ 
+$ 2 
+ ( 
+   
+
+ 
+
+  
+
+ 
+
+ 
+
+ !
+
+ $
+
+ 
+
+ 
+
+ ,
+
+  Ç
+DC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardAttachment.cs
+
+ 
+
+ 
+
+		 &
 
 
 
- 
+ $
+
+ ,†
+>C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardTask.cs
+
+ 
+
 
 
-* 1 "
+  
 
- '’
-QC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\KanbanContext.cs
+ 
 
- 
+ 
 
- 
-. 5 
+ +
 
- "
+ 
 
- (
+ 
 
- &
+ (d
+>C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardType.cs
 
-  
+ 
 
-% 4
+  
 
- (
+ j
+DC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardWeightSize.cs
 
-  
+ 
+
+ #
+
+ (p
+>C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Priority.cs
+
+ 
+
+ 
+
+ 
+
+		 ì
+=C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Setting.cs
+
+ 
+
+ 
+
+ "
+
+		 
+
+ 
+
+ 
+
+ ™
+>C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLane.cs
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 'ô
+EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLaneSetting.cs
+
+  
+
+ 
+ !		 
+
+ '
+
+ %
+
+ _
+9C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Tag.cs
+
+ 
+
+ 
+
+ ê
+:C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\User.cs
+
+ 
+
+ 
+
+ 
+
+		 
+
+
+
+ 
+
+ 
+
+ $
