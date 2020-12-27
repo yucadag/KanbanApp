@@ -10,6 +10,7 @@ using KanbanApp.Services.UseCases.Cards.MoveCard;
 using KanbanApp.Services.UseCases.Cards.UpdateCard;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Api.Controllers
@@ -100,21 +101,24 @@ namespace KanbanApp.Api.Controllers
         /// <param name="cardId"></param>
         /// <returns></returns>
         [HttpGet("GetCardAttachments/{cardId}")]
-        public ActionResult<GetAttachmentListCommandResult> GetAttachmentList(string cardId)
+        public ActionResult<List<CardGetAttachmentListOutput>> GetAttachmentList(string cardId)
         {
             GetAttachmentListCommand command = new GetAttachmentListCommand
             {
                 CardId = cardId,
-            };
+            };           
+           
             Task<GetAttachmentListCommandResult> result = _cardService.GetAttachmentList(command);
+            List<CardGetAttachmentListOutput> returnValue = _mapper.Map<List<GetAttachmentListCommandResultItem>, List<CardGetAttachmentListOutput>>(result.Result.ResultObject.Data);
+
 
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                return Ok(returnValue);
             }
             else
             {
-                return BadRequest(result);
+                return BadRequest(returnValue);
             }
         }
 

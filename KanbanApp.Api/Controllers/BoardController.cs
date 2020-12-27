@@ -44,6 +44,7 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<BoardGetOutput> Get(BoardGetInput input)
         {
+            
             GetBoardDetailCommand command = _mapper.Map<BoardGetInput, GetBoardDetailCommand>(input);
 
             BoardGetOutput returnValue = new BoardGetOutput();
