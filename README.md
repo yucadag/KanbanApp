@@ -1,5 +1,3 @@
-# KanbanApp
-
 # Kanban App
 
 Database start script;
