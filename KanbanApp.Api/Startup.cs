@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace KanbanApp.Api
 {
@@ -38,7 +39,7 @@ namespace KanbanApp.Api
 
             services.AddServiceRegistration();
 
-            services.AddMediatR(typeof(Startup));
+            services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddScoped<IMediator, Mediator>();
 
 
