@@ -34,7 +34,7 @@ namespace KanbanApp.Api
             {
                 options.JsonSerializerOptions.MaxDepth = 1000;  // or however deep you need
             });
-            services.AddDbContext<KanbanContext>(option => option.UseSqlServer(@"Data Source=DESKTOP-BRA5MEI\SQLEXPRESS;Initial Catalog=Kanban;Integrated Security=True", b => b.MigrationsAssembly("KanbanApp.Api")));
+            services.AddDbContext<KanbanContext>(option => option.UseSqlServer(@"Data Source=127.0.0.1;Initial Catalog=Kanban;User ID=Sa;Password=Pa$$w0rd2019;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False", b => b.MigrationsAssembly("KanbanApp.Api")));
 
             services.AddServiceRegistration();
 
