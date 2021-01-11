@@ -2,7 +2,7 @@ using AutoMapper;
 using KanbanApp.Api.Controllers;
 using KanbanApp.Api.Models.Boards.Input;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.UseCases.Boards.CreateBoard;
+using KanbanApp.Services.UseCases.Boards.Commands.CreateBoard;
 using Moq;
 using Xunit;
 

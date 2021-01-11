@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using KanbanApp.Api.Models.Cards.Input;
 using KanbanApp.Api.Models.Cards.Output;
-using KanbanApp.Services.UseCases.Cards.CreateCard;
-using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
-using KanbanApp.Services.UseCases.Cards.MoveCard;
+using KanbanApp.Services.UseCases.Cards.Commands.CreateCard;
+using KanbanApp.Services.UseCases.Cards.Queries.GetAttachmentList;
+using KanbanApp.Services.UseCases.Cards.Commands.MoveCard;
 
 namespace KanbanApp.Api.Mapping
 {

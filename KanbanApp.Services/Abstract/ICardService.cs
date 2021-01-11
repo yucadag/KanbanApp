@@ -1,9 +1,9 @@
-﻿using KanbanApp.Services.UseCases.Cards.CreateCard;
-using KanbanApp.Services.UseCases.Cards.DeleteCard;
-using KanbanApp.Services.UseCases.Cards.GetAttachmentList;
-using KanbanApp.Services.UseCases.Cards.GetCardDetail;
-using KanbanApp.Services.UseCases.Cards.MoveCard;
-using KanbanApp.Services.UseCases.Cards.UpdateCard;
+﻿using KanbanApp.Services.UseCases.Cards.Commands.CreateCard;
+using KanbanApp.Services.UseCases.Cards.Commands.DeleteCard;
+using KanbanApp.Services.UseCases.Cards.Queries.GetAttachmentList;
+using KanbanApp.Services.UseCases.Cards.Queries.GetCardDetail;
+using KanbanApp.Services.UseCases.Cards.Commands.MoveCard;
+using KanbanApp.Services.UseCases.Cards.Commands.UpdateCard;
 using System.Threading.Tasks;
 
 namespace KanbanApp.Services.Abstract

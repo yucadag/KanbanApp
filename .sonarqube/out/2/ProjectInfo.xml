@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>KanbanApp.Core</ProjectName>
+  <ProjectName>KanbanApp.Domain.Shared</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>0a25fdc2-e2d3-4eac-8a70-f90ef4244780</ProjectGuid>
-  <FullPath>C:\TFSProjects\KanbanApp\KanbanApp.Core\KanbanApp.Core.csproj</FullPath>
+  <ProjectGuid>1837b604-92c2-452e-9890-062381c604f5</ProjectGuid>
+  <FullPath>C:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\KanbanApp.Domain.Shared.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\TFSProjects\KanbanApp\.sonarqube\out\2\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePath">C:\TFSProjects\KanbanApp\KanbanApp.Core\bin\Debug\netstandard2.0\KanbanApp.Core.dll.RoslynCA.json|C:\TFSProjects\KanbanApp\KanbanApp.Core\bin\Debug\netstandard2.0\KanbanApp.Core.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\bin\Debug\netstandard2.0\KanbanApp.Domain.Shared.dll.RoslynCA.json|C:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\bin\Debug\netstandard2.0\KanbanApp.Domain.Shared.dll.RoslynCA.json</Property>
     <Property Name="sonar.cs.analyzer.projectOutPath">C:\TFSProjects\KanbanApp\.sonarqube\out\2</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>

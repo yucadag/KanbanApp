@@ -1,70 +1,63 @@
-®
-fC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\Controllers\BoardControllerIntegrationTests.cs
+I
+;C:\TFSProjects\KanbanApp\KanbanApp.Api.Test\BoardApiTest.cs
 
- 0
-$ + **! (
-7 ? 
+ è
+IC:\TFSProjects\KanbanApp\KanbanApp.Api.Test\Common\DatabaseContextMock.cs
 
- .(
-M T   
+		 +P
+		, -		5 6' ( F G' ( F G
 
-!! <
-## ,**F X
-** ,,# +DD 
+ 4
 
-,, 
+* :
+  ' 
 
-HH, <
-LL ]] !
-``. Hll& @
-``O Qdd dd) +
+* 0
+B L '
+  ' @
+>C:\TFSProjects\KanbanApp\KanbanApp.Api.Test\Common\TestBase.cs˘
+OC:\TFSProjects\KanbanApp\KanbanApp.Api.Test\Controllers\BoardControllerTests.cs
 
-jj# ;
-jjB DllA Cã
-eC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\Helpers\Serialization\JsonSerializerHelper.cs
+ %d
+ - ) 7# 111 ?? OO __ oo  
+$ 4 ! %(
+ (     
 
- ,
+ #F
+  5((' <88' <FF' <VV' <ff' <vv' <
+" #' (
 
-, G
+%% 7
+(( ,, (
+)) -- 
 
-, Iã
-WC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\Helpers\TestingWebAppFactory.cs
+,, 
 
-
-
- %
+55 ;
+88 ;; (
 
-
-
-& '
+;; 
 
-  0
-A H 2
-& .! )  $$ !
-  $ .
-  
- #!!7 F
-5 <   !! 
-$$ &&# %
-&&  ((, 1
-(( ),, &
-..) +11" $Ä
-XC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\Models\TestBoardAddInputModel.cs2
- ' %7 M  /
+CC 7
+FF JJ (
+GG KK 
 
-		 
+JJ 
 
-
-
- 
+SS :
+VV ZZ (
+WW "[[ 
 
- 
+ZZ 
 
- !
+cc :
+ff jj (
+gg "kk 
 
-& /
-O V 
-   R
-DC:\TFSProjects\KanbanApp\KanbanApp.Api.IntegrationTests\UnitTest1.cs
+jj 
 
- 
+ss E
+vv zz (
+ww {{ 
+
+zz 

@@ -1,39 +1,13 @@
-T
-BC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IBoardRepository.csr	
-T
-AC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardRepository.csr	
-S
-EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTaskRepository.csr
-S
-EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IPriorityRepository.csr	U
-EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ISwimLaneRepository.csr
-	
-_
-;C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Board.cs 8r	
-Ç
-j
-:C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Card.cs 8r	
- Ç
-Y
-DC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardAttachment.cs 8r	
-Y
->C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardTask.cs 8r	
-Q
->C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardType.cs 8r		
-V
-DC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\CardWeightSize.cs 8r	
-R
->C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Priority.cs 8r
-	
-V
-=C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Setting.cs 8r	
-`
->C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLane.cs 8r	
-Ç
-d
-EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\SwimLaneSetting.cs 	8	r	
-Ç	L
-9C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\Tag.cs 8r		
-Q
-:C:\TFSProjects\KanbanApp\KanbanApp.Domain\Entities\User.cs 8r	
-
+Å
+UC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfBoardRepository.cs 8r	
+ÇÅ
+TC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardRepository.cs 8r
+ !Çv
+XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardTaskRepository.cs 8r	
+Çv
+XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfPriorityRepository.cs 8r	ÇÜ
+XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfSwimLaneRepository.cs 8jr	
+Çr
+PC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfUnitOfWork.cs 8r
+Çs
+QC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\KanbanContext.cs 8j	r

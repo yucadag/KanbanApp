@@ -1,10 +1,10 @@
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.UseCases.Boards.CreateBoard;
-using KanbanApp.Services.UseCases.Boards.DeleteBoard;
-using KanbanApp.Services.UseCases.Boards.GetBoardDetail;
-using KanbanApp.Services.UseCases.Boards.GetBoardList;
-using KanbanApp.Services.UseCases.Boards.GetBoardSwimLanes;
-using KanbanApp.Services.UseCases.Boards.UpdateBoard;
+using KanbanApp.Services.UseCases.Boards.Commands.CreateBoard;
+using KanbanApp.Services.UseCases.Boards.Commands.DeleteBoard;
+using KanbanApp.Services.UseCases.Boards.Commands.UpdateBoard;
+using KanbanApp.Services.UseCases.Boards.Queries.GetBoardDetail;
+using KanbanApp.Services.UseCases.Boards.Queries.GetBoardList;
+using KanbanApp.Services.UseCases.Boards.Queries.GetBoardSwimLanes;
 using MediatR;
 using System.Threading.Tasks;
 

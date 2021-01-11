@@ -120,7 +120,7 @@
     <Property Name="sonaranalyzer-vbnet.pluginKey">vbnet</Property>
     <Property Name="sonar.updatecenter.url">https://update.sonarsource.org/update-center.properties</Property>
     <Property Name="sonar.core.id">BF41A1F2-AXZ61KNgJZweZYfclyN6</Property>
-    <Property Name="sonar.core.startTime">19.12.2020 15:50:50</Property>
+    <Property Name="sonar.core.startTime">3.01.2021 23:13:22</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://localhost:9000</Property>
@@ -133,17 +133,17 @@
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="8.15.0.24505" StaticResourceName="SonarAnalyzer-8.15.0.24505.zip">
           <AssemblyPaths>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\Google.Protobuf.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\SonarAnalyzer.CFG.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\SonarAnalyzer.CSharp.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\SonarAnalyzer.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\Google.Protobuf.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\SonarAnalyzer.CFG.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\SonarAnalyzer.CSharp.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\SonarAnalyzer.dll</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
         <AnalyzerPlugin Key="vbnet" Version="8.15.0.24505" StaticResourceName="SonarAnalyzer-8.15.0.24505.zip">
           <AssemblyPaths>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\9\Google.Protobuf.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\9\SonarAnalyzer.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\9\SonarAnalyzer.VisualBasic.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\11\Google.Protobuf.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\11\SonarAnalyzer.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\11\SonarAnalyzer.VisualBasic.dll</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
       </AnalyzerPlugins>
@@ -158,17 +158,17 @@
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="8.15.0.24505" StaticResourceName="SonarAnalyzer-8.15.0.24505.zip">
           <AssemblyPaths>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\Google.Protobuf.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\SonarAnalyzer.CFG.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\SonarAnalyzer.CSharp.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\8\SonarAnalyzer.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\Google.Protobuf.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\SonarAnalyzer.CFG.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\SonarAnalyzer.CSharp.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\10\SonarAnalyzer.dll</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
         <AnalyzerPlugin Key="vbnet" Version="8.15.0.24505" StaticResourceName="SonarAnalyzer-8.15.0.24505.zip">
           <AssemblyPaths>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\9\Google.Protobuf.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\9\SonarAnalyzer.dll</Path>
-            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\9\SonarAnalyzer.VisualBasic.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\11\Google.Protobuf.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\11\SonarAnalyzer.dll</Path>
+            <Path>C:\Users\myuca\AppData\Local\Temp\.sonarqube\resources\11\SonarAnalyzer.VisualBasic.dll</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
       </AnalyzerPlugins>

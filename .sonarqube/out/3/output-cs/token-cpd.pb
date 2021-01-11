@@ -1,29 +1,24 @@
-õ
-BC:\TFSProjects\KanbanApp\KanbanApp.Domain.Shared\ECardTaskState.cs
-	namespace 	
-	KanbanApp
+¼
+MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.cs
+	namespace 	
+	KanbanApp
  
-. 
-Domain 
-. 
-Shared !
-{ 
-public 
-
-enum 
-ECardTaskState 
-{ 
-Pending 
-= 
-$num 
-, 
-
-InProgress 
-= 
-$num 
-, 
-	Completed 
-= 
-$num 
+. 
+Infrastructure "
+." #
+Logging# *
+.* +
+Abstract+ 3
+{ 
+public 
+
+	interface 
+ILogger 
+{ 
+Task 
+LogEvent 
+( 
+) 
+; 
 } 
 }		 
