@@ -41,6 +41,15 @@ namespace KanbanApp.Web.UI
             return View();
         }
 
+        public IActionResult List()
+        {
+
+
+
+            return View();
+        }
+
+
         public IActionResult Deneme()
         {
 

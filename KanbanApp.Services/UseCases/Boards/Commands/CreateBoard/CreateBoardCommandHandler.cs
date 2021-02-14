@@ -46,7 +46,11 @@ namespace KanbanApp.Services.UseCases.Boards.Commands.CreateBoard
                 }
                 else
                 {
-                    result.ResultObject.ServiceMessageList.Add(new ServiceMessage() { ServiceMessageType = eServiceMessageType.Error, UserFriendlyText = validationResult.Errors[0].ErrorMessage });
+                    foreach (var item in validationResult.Errors)
+                    {
+                        result.ResultObject.ServiceMessageList.Add(new ServiceMessage() { ServiceMessageType = eServiceMessageType.Error, UserFriendlyText = item.ErrorMessage });
+                    }
+                   
                     result.ResultObject.Success = false;
                 }
             }

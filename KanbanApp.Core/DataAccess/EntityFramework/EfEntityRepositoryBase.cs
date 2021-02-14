@@ -13,10 +13,12 @@ namespace KanbanApp.Core.DataAccess.EntityFramework
     {
 
         private readonly DbContext _context;
+      
 
         public EfEntityRepositoryBase(DbContext context)
         {
             _context = context;
+          
         }
 
         public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
@@ -33,6 +35,23 @@ namespace KanbanApp.Core.DataAccess.EntityFramework
                 ? _context.Set<TEntity>().ToList()
                 : _context.Set<TEntity>().Where(filter).ToList();
 
+        }
+
+        public IQueryable<TEntity> GetPagedList(Expression<Func<TEntity, bool>> predicate, int PageNumber, int PageSize)
+        {
+            var query = _context.Set<TEntity>().AsQueryable();
+
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+
+
+            var skip = (PageNumber - 1) * PageSize;
+            query = query.Skip(skip).Take(PageSize);
+
+
+            return query.AsNoTracking();
         }
 
         public TEntity Add(TEntity entity)

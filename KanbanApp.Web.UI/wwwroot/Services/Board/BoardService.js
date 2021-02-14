@@ -150,36 +150,104 @@ var BoardService = (function () {
 
     var GetByBoardId = function (BoardId) {
 
-        var SwimlineList;
+        var Board;
 
         var settings = {
-            "url": "https://localhost:44321/api/Board/Get/" + BoardId,
-            "method": "GET",
-            "timeout": 0,
-        };
-
-        $.ajax(settings).done(function (response) {
-            SwimlineList= response;
-        });
-
-        return SwimlineList;
-    };
-
-    var Save = function (Card) {
-        var settings = {
-            "url": "https://localhost:44321/api/Board/Add",
+            "url": "https://localhost:5002/api/Board",
             "method": "POST",
             "timeout": 0,
+            "async": false,
             "headers": {
                 "Content-Type": "application/json"
             },
-            "data": JSON.stringify({ "boardId": "2", "ownerId": "1", "name": "APÝ Ýþlemleri 2", "description": "APÝ Ýþlemleri burada yapýlacak 2" }),
+            "data": JSON.stringify({ "boardId": BoardId }),
         };
 
         $.ajax(settings).done(function (response) {
-            return response;
+            Board= response;
         });
 
+        return Board;
+    };
+
+    var Save = function (Board) {
+        var Result;
+
+        var settings = {
+            "url": "https://localhost:5002/api/Board/Add",
+            "method": "POST",
+            "timeout": 0,
+            "async": false,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify(Board),
+            success: function (Deneme) {
+              //  console.log(Deneme);
+                //if (Result.d.Success) {
+                //    var ResultData = JSON.parse(Result.d.Data);
+
+                //    AxaHayatLibrary.ShowStatus($("#StatusVeriSorgulama"), "Aktarým Durum Sorgulama servisi baþarý ile çalýþmýþtýr.", "success");
+
+                //} else {
+                //    OpenDialog("Hata", Result.d.Message);
+
+                //}
+            },
+            error: function (response) {
+              //  console.log("Error");
+                // Update the UI here to reflect that the request was unsuccessful
+                // doSomethingMoreClever();
+            },
+            complete: function (response) {
+               // console.log("Complete");
+                // Update the UI here to reflect completion
+                //doSomethingEvenMoreClever();
+            } 
+        }; 
+
+        return $.ajax(settings);
+
+        //    .done(function (response) {
+        //    console.log(response);
+        //    //  return response;
+        //});
+
+        //  .always(function (xhr, status) {
+        //    Result= xhr.responseText;
+        //});
+
+      //  return Result;
+    };
+
+    var Update = function (Board) {
+       // var Result;
+
+        var settings = {
+            "url": "https://localhost:5002/api/Board/Update",
+            "method": "PATCH",
+            "timeout": 0,
+            "async": false,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": JSON.stringify(Board),
+            success: function (response) {
+            //    Result = response;
+            },
+            error: function (response) {
+                // Update the UI here to reflect that the request was unsuccessful
+               // doSomethingMoreClever();
+            },
+            complete: function (response) {
+                // Update the UI here to reflect completion
+                //doSomethingEvenMoreClever();
+            } 
+        };
+
+      return  $.ajax(settings);
+
+       // return Result;
     };
 
     var GetBoardSwimLanesByBoardId = function (BoardId) {
@@ -204,12 +272,30 @@ var BoardService = (function () {
 
     };
 
-  
+    var GetBoardList = function () {
+
+        var Result;
+
+        var settings = {
+            "url": "https://localhost:5002/api/Board/GetList",
+            "method": "GET",
+            "timeout": 0,
+            "async": false
+        };
+
+        $.ajax(settings).done(function (response) {
+            Result=response;
+        });
+
+        return Result;
+    };
 
     return {
         BoardGetByBoardId: GetByBoardId,
         BoardSave: Save,
-        BoardSwimLanesByBoardId: GetBoardSwimLanesByBoardId
+        BoardUpdate: Update,
+        BoardSwimLanesByBoardId: GetBoardSwimLanesByBoardId,
+        BoardGetBoardList: GetBoardList
 
 
     }

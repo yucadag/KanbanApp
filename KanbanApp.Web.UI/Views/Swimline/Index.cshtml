@@ -1,35 +1,93 @@
-@model KanbanApp.Web.UI.ViewModels.SwimlineViewModel
 
-@{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
-}
 
-<h2>@Model.BoardItem.Name</h2>
-<div class="row flex-row flex-sm-nowrap py-5">
+@{ Layout = "_Layout1"; }
 
-     @foreach (var item in Model.SwimLaneList)
-{
-    <div class="col-sm-4 col-md-3">
-    <div class="card">
-        <div class="card-block">
-            <a href="" data-toggle="dismiss" class="close">&times;</a>
-            <h4 class="card-title text-truncate py-2">@item.Name </h4>
-            @foreach (var subItem in Model.SwimLaneList.Find(x => x.SwimLaneId == item.SwimLaneId).Cards)
-            {
-                <div class="card p-2 bg-faded">
-                    <h5 class="card-title">@subItem.Name </h5>
-                    <p>@subItem.Description</p>
-                </div>
-                <hr> 
-            }
-            
+
+
+
+
+<div class="container-fluid" id="loading-light-theme">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- left column -->
+
+            <div id="BoardContent"></div>
+            <!-- /.card -->
+            <!-- /.card -->
+            <!--/.col (left) -->
         </div>
     </div>
-</div>
-            }
+
+    <!-- /.row -->
+</div><!-- /.container-fluid -->
+<!-- /.modal-dialog baþlangýç -->
+<div class="modal fade" id="modal-lg" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Board Update</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="BoardKeys" BoardId=""></div>
+
+                <div class="row">
+                    <div class="col-7 col-sm-9">
+                        <div class="tab-content" id="vert-tabs-right-tabContent">
+                            <div class="tab-pane fade active show" id="vert-tabs-right-home" role="tabpanel" aria-labelledby="vert-tabs-right-home-tab">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Board Name</label>
+                                            <input type="text" id="BoardName" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!-- textarea -->
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <textarea class="form-control" id="BoardDescription" rows="3" placeholder="Enter ..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="SaveBoard" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
 </div>
 
-           
-           
-           
+<script src="~/AdminLTE3/plugins/jquery/jquery.min.js"></script>
+<script src="~/Services/Board/BoardService.js"></script>
+<script src="~/Components/Board/BoardHelper.js"></script>
+<script src="~/Components/Notification/NotificationHelper.js"></script>
+<script src="~/Plugins/handlebars/handlebars.min-v4.7.2.js"></script>
+<script src="~/Components/Board/BoardView.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        //   BoardView.BoardListBindBoardEdit();
+        // BoardView.BoardBoardUpdate();
+    });
+
+    BoardView.BoardGetBoardListView();
+
+
+</script>

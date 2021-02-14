@@ -10,6 +10,7 @@ using KanbanApp.Services.UseCases.Boards.Queries.GetBoardDetail;
 using KanbanApp.Services.UseCases.Boards.Queries.GetBoardList;
 using KanbanApp.Services.UseCases.Boards.Queries.GetBoardSwimLanes;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -99,20 +100,27 @@ namespace KanbanApp.Api.Controllers
         [HttpPost]
         public ActionResult<BoardAddOutput> Add(BoardAddInput input)
         {
+            
             CreateBoardCommand command = _mapper.Map<BoardAddInput, CreateBoardCommand>(input);
-
+            command.BoardId = Guid.NewGuid().ToString();
             Task<CreateBoardCommandResult> result = _boardService.Add(command);
 
             BoardAddOutput returnValue = _mapper.Map<CreateBoardCommandResultItem, BoardAddOutput>(result.Result.ResultObject.Data);
+            foreach (var item in result.Result.ResultObject.GetErrorMessageList())
+            {
+                returnValue.MessageList.Add(item.UserFriendlyText);
+            }
 
+            
+         
             if (result.Result.ResultObject.Success)
             {
-                //returnValue.IsSuccess = true;
+                returnValue.IsSuccess = true;
                 return Ok(returnValue);
             }
             else
             {
-               // returnValue.IsSuccess = false;
+                returnValue.IsSuccess = false;
                 return BadRequest(returnValue);
             }
         }
@@ -129,13 +137,22 @@ namespace KanbanApp.Api.Controllers
             UpdateBoardCommand command = _mapper.Map<BoardUpdateInput, UpdateBoardCommand>(input);
 
             Task<UpdateBoardCommandResult> result = _boardService.Update(command);
+
+            BoardUpdateOutput returnValue = _mapper.Map<UpdateBoardCommandResultItem, BoardUpdateOutput>(result.Result.ResultObject.Data);
+            foreach (var item in result.Result.ResultObject.GetErrorMessageList())
+            {
+                returnValue.MessageList.Add(item.UserFriendlyText);
+            }
+
             if (result.Result.ResultObject.Success)
             {
-                return Ok(result);
+                returnValue.IsSuccess = true;
+                return Ok(returnValue);
             }
             else
             {
-                return BadRequest(result);
+                returnValue.IsSuccess = false;
+                return BadRequest(returnValue);
             }
         }
 

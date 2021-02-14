@@ -1,5 +1,5 @@
-Ÿ
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.cs
+ƒ
+?C:\TFSProjects\KanbanApp\KanbanApp.Services.Contracts\Class1.cs
  
  	 
-   
+  

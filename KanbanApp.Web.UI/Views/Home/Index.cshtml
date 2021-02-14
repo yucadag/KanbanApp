@@ -1,6 +1,336 @@
-@model object
 @{
-    Layout = "_Layout";
+    Layout = "_Layout1";
 }
 
-      DEnemeß
+
+<div id="BoardContent" class="row">
+
+</div>
+
+
+
+
+@*<div id="SwimLanes1" class="col-md-4"></div>
+    <div id="SwimLanes2" class="col-md-4"></div>
+    <div id="SwimLanes3" class="col-md-4"></div>*@
+@*<button onclick="initialize3()">Click me</button>*@
+<script src="~/Services/Card/CardService.js"></script>
+<script src="~/Services/SwimLine/SwimLineService.js"></script>
+<script src="~/Services/Board/BoardService.js"></script>
+
+
+@*<style src="~/jkanban/jkanban.css" type="text/css"></style>
+    <script src="~/Services/Card/CardService.js"></script>
+    <script src="~/Services/Board/BoardService.js"></script>*@
+@*<script type="text/javascript">
+        //$(document).ready(function () {
+        //    $("#sortable1, #sortable2, #sortable3")
+        //        .sortable({
+        //            connectWith: ".ui-sortable",
+        //            receive: function (event, ui) {
+        //                alert($(this).attr("id"))
+        //            }
+        //        });
+
+        //    var BoardView = BoardService.BoardSwimLanesByBoardId(1);
+        //    alert("Deneme");
+        //});
+
+
+        //var Card = {
+
+        //}
+
+        //CardService.CardSave();
+    </script>*@
+
+@*<script src="~/AdminLTE3/plugins/jquery/jquery.min.js"></script>*@
+
+
+<!-- /.modal-dialog başlangıç -->
+<div class="modal fade" id="modal-lg" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Large Modal</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="CardKeys" BoardId="" SwimLaneId="" CardId=""></div>
+
+                <div class="row">
+                    <div class="col-7 col-sm-9">
+                        <div class="tab-content" id="vert-tabs-right-tabContent">
+                            <div class="tab-pane fade active show" id="vert-tabs-right-home" role="tabpanel" aria-labelledby="vert-tabs-right-home-tab">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Card Name</label>
+                                            <input type="text" id="CardName" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!-- textarea -->
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <textarea class="form-control" id="CardDescription" rows="3" placeholder="Enter ..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label>Card Priority</label>
+                                            <select class="form-control" id="CardPriority" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label>Card Type</label>
+                                            <select class="form-control select2 select2-hidden-accessible" id="CardType" style="width: 100%;" data-select2-id="1" tabindex="-1" aria-hidden="true">
+                                                <option selected="selected" data-select2-id="1">1</option>
+                                                <option data-select2-id="2">2</option>
+                                                <option data-select2-id="3">3</option>
+                                                <option data-select2-id="4">4</option>
+                                                <option data-select2-id="5">5</option>
+                                                <option data-select2-id="6">6</option>
+                                                <option data-select2-id="7">7</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Card Weight</label>
+                                            <input type="text" class="form-control" placeholder="Enter ...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Estimated Hours</label>
+                                            <input type="text" class="form-control" placeholder="Enter ...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="vert-tabs-right-profile" role="tabpanel" aria-labelledby="vert-tabs-right-profile-tab">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!-- text input -->
+                                        <div class="form-group">
+                                            <label>Dosya Adı</label>
+                                            <input type="text" class="form-control" placeholder="Enter ...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="customFile">
+                                            <label class="custom-file-label" for="customFile">Choose file</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h3 class="card-title">Bordered Table</h3>
+                                            </div>
+                                            <!-- /.card-header -->
+                                            <div class="card-body">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width: 10px">#</th>
+                                                            <th>Task</th>
+                                                            <th>Progress</th>
+                                                            <th style="width: 40px">Label</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1.</td>
+                                                            <td>Update software</td>
+                                                            <td>
+                                                                <div class="progress progress-xs">
+                                                                    <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="badge bg-danger">55%</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2.</td>
+                                                            <td>Clean database</td>
+                                                            <td>
+                                                                <div class="progress progress-xs">
+                                                                    <div class="progress-bar bg-warning" style="width: 70%"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="badge bg-warning">70%</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3.</td>
+                                                            <td>Cron job running</td>
+                                                            <td>
+                                                                <div class="progress progress-xs progress-striped active">
+                                                                    <div class="progress-bar bg-primary" style="width: 30%"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="badge bg-primary">30%</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4.</td>
+                                                            <td>Fix and squish bugs</td>
+                                                            <td>
+                                                                <div class="progress progress-xs progress-striped active">
+                                                                    <div class="progress-bar bg-success" style="width: 90%"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="badge bg-success">90%</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <!-- /.card-body -->
+                                            <div class="card-footer clearfix">
+                                                <ul class="pagination pagination-sm m-0 float-right">
+                                                    <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">»</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="vert-tabs-right-messages" role="tabpanel" aria-labelledby="vert-tabs-right-messages-tab">
+                                Morbi turpis dolor, vulputate vitae felis non, tincidunt congue mauris. Phasellus volutpat augue id mi placerat mollis. Vivamus faucibus eu massa eget condimentum. Fusce nec hendrerit sem, ac tristique nulla. Integer vestibulum orci odio. Cras nec augue ipsum. Suspendisse ut velit condimentum, mattis urna a, malesuada nunc. Curabitur eleifend facilisis velit finibus tristique. Nam vulputate, eros non luctus efficitur, ipsum odio volutpat massa, sit amet sollicitudin est libero sed ipsum. Nulla lacinia, ex vitae gravida fermentum, lectus ipsum gravida arcu, id fermentum metus arcu vel metus. Curabitur eget sem eu risus tincidunt eleifend ac ornare magna.
+                            </div>
+                            <div class="tab-pane fade" id="vert-tabs-right-settings" role="tabpanel" aria-labelledby="vert-tabs-right-settings-tab">
+                                Pellentesque vestibulum commodo nibh nec blandit. Maecenas neque magna, iaculis tempus turpis ac, ornare sodales tellus. Mauris eget blandit dolor. Quisque tincidunt venenatis vulputate. Morbi euismod molestie tristique. Vestibulum consectetur dolor a vestibulum pharetra. Donec interdum placerat urna nec pharetra. Etiam eget dapibus orci, eget aliquet urna. Nunc at consequat diam. Nunc et felis ut nisl commodo dignissim. In hac habitasse platea dictumst. Praesent imperdiet accumsan ex sit amet facilisis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-sm-3">
+                        <div class="nav flex-column nav-tabs nav-tabs-right h-100" id="vert-tabs-right-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="vert-tabs-right-home-tab" data-toggle="pill" href="#vert-tabs-right-home" role="tab" aria-controls="vert-tabs-right-home" aria-selected="true">General Information</a>
+                            <a class="nav-link" id="vert-tabs-right-profile-tab" data-toggle="pill" href="#vert-tabs-right-profile" role="tab" aria-controls="vert-tabs-right-profile" aria-selected="false">Attachments</a>
+                            <a class="nav-link" id="vert-tabs-right-messages-tab" data-toggle="pill" href="#vert-tabs-right-messages" role="tab" aria-controls="vert-tabs-right-messages" aria-selected="false">Messages</a>
+                            <a class="nav-link" id="vert-tabs-right-settings-tab" data-toggle="pill" href="#vert-tabs-right-settings" role="tab" aria-controls="vert-tabs-right-settings" aria-selected="false">Settings</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="SaveCard" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="LoadingModal"><!-- Place at bottom of page --></div>
+<script src="~/Plugins/dragula/dragula.min.js"></script>
+
+<!-- /.modal-dialog bitiş-->
+
+<div class="modal fade" id="modal-default" CardId="" SwimLaneId="" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Default Modal</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnCardDelete">Delete</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<script src="~/Plugins/handlebars/handlebars.min-v4.7.2.js"></script>
+<script src="~/Components/SwimLine/SwimLaneTemplateHelper.js"></script>
+<link href="https://bevacqua.github.io/dragula/dist/dragula.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    .card .ex-moved {
+        background-color: #e74c3c;
+    }
+
+    .card .ex-over {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Start by setting display:none to make this hidden.
+        Then we position it in relation to the viewport window
+        with position:fixed. Width, height, top and left speak
+        for themselves. Background we set to 80% white with
+        our animation centered, and no-repeating */
+    .LoadingModal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba( 255, 255, 255, .8 ) url('../images/ajax-loader.gif') 50% 50% no-repeat;
+    }
+
+    /* When the body has the loading class, we turn
+        the scrollbar off with overflow:hidden */
+    body.loading .LoadingModal {
+        overflow: hidden;
+    }
+
+    /* Anytime the body has the loading class, our
+        modal element will be visible */
+    body.loading .LoadingModal {
+        display: block;
+    }
+</style>
+
+
+<script type="text/javascript">
+
+
+
+
+    $(document).ready(function () {
+        ApplyDragula(BoardService.BoardSwimLanesByBoardId(1));
+        BindCardEdit();
+        BindCardAdd();
+        BindCardDeleteModal();
+        BindCardDelete();
+
+    });
+
+    initialize();
+
+</script>

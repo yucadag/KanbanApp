@@ -1,6 +1,5 @@
 ﻿using AutoFixture;
 using MediatR;
-using Moq;
 using System;
 
 namespace KanbanApp.Services.Test

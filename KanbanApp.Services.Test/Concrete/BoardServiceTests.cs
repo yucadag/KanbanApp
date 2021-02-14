@@ -1,6 +1,6 @@
 using AutoFixture;
-using AutoFixture.AutoMoq;
 using KanbanApp.Services.Concrete;
+using KanbanApp.Services.DTO.Core;
 using KanbanApp.Services.UseCases.Boards.Commands.CreateBoard;
 using KanbanApp.Services.UseCases.Boards.Commands.DeleteBoard;
 using KanbanApp.Services.UseCases.Boards.Commands.UpdateBoard;
@@ -10,6 +10,7 @@ using KanbanApp.Services.UseCases.Boards.Queries.GetBoardSwimLanes;
 using MediatR;
 using Moq;
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
@@ -24,28 +25,32 @@ namespace KanbanApp.Services.Test.Concrete
 
         public BoardServiceTests()
         {
-            this.mockRepository = new MockRepository(MockBehavior.Strict);
+            mockRepository = new MockRepository(MockBehavior.Strict);
 
-            this.mockMediator = this.mockRepository.Create<IMediator>();
+            mockMediator = this.mockRepository.Create<IMediator>();
         }
 
         private BoardService CreateService()
         {
-           return new BoardService(this.mockMediator.Object);
+            return new BoardService(mockMediator.Object);
         }
 
         [Fact]
+        [Trait("Category","Queries")]
         public async Task GetList_StateUnderTest_ExpectedBehavior()
         {
-            this.mockMediator.Setup(m => m.Send(It.IsAny<GetBoardListCommand>(), It.IsAny<CancellationToken>()))
-                      .ReturnsAsync(new GetBoardListCommandResult()); //<-- return Task to allow await to continue
-                      
-            BoardService service = new BoardService(this.mockMediator.Object);
+
+            BoardService service = new BoardService(mockMediator.Object);
             // Arrange
             // var service = this.CreateService();
             Fixture fixture = new Fixture();
             GetBoardListCommand command = fixture.Build<GetBoardListCommand>().With(x => x.BoardId, Guid.NewGuid().ToString()).Create();
-                   
+            GetBoardListCommandResult resultValue = fixture.Build<GetBoardListCommandResult>().With(x => x.ResultObject, new ServiceResult<List<GetBoardListCommandResultItem>>() { Success = true }).Create();
+
+            this.mockMediator.Setup(m => m.Send(It.IsAny<GetBoardListCommand>(), It.IsAny<CancellationToken>()))
+                     .ReturnsAsync(resultValue); //<-- return Task to allow await to continue
+
+
             // Act
             var result = await service.GetList(
                 command);

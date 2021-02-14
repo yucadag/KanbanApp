@@ -1,4 +1,5 @@
 ﻿using KanbanApp.Services.DTO.Core;
+using System;
 
 namespace KanbanApp.Services.UseCases.Cards.Queries.GetCardDetail
 {
@@ -17,7 +18,8 @@ namespace KanbanApp.Services.UseCases.Cards.Queries.GetCardDetail
         public string Name { get; set; }
         public int Position { get; set; }
         public int PriorityId { get; set; }
-
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
     }
 
 }

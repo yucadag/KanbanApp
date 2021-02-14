@@ -1,4 +1,5 @@
-﻿var SwimLaneService = (function () {
+﻿
+var SwimLaneService = (function () {
 
     var GetSwimLaneCards = function (BoardId, SwimLaneId) {
         var Result;

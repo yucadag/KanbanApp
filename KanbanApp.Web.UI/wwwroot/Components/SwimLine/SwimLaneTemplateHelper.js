@@ -87,15 +87,28 @@ function BindCardAdd() {
         var BoardId = $(this).attr("BoardId");
         var SwimLaneId = $(this).attr("SwimLaneId");
 
-        $('#CardKeys').attr("CardId", "");
-        $('#CardKeys').attr("Boardid", BoardId);
-        $('#CardKeys').attr("SwimLaneId", SwimLaneId);
+        var Card = {
+            boardId: BoardId,
+            swimLaneId: SwimLaneId,
+            cardId: "",
+            name: $('#NewCardName_' + SwimLaneId).val(),
+            description: "",
+            priorityId: 1
+        }
+
+        var NewCard = CardService.CardSave(Card);
+       
+        AddCardTemplate(NewCard);
         FillPriorityCombo();
-        $('#CardName').val("");
-        $('#CardDescription').val("");
+        //$('#CardKeys').attr("CardId", "");
+        //$('#CardKeys').attr("Boardid", BoardId);
+        //$('#CardKeys').attr("SwimLaneId", SwimLaneId);
+        //FillPriorityCombo();
+        //$('#CardName').val("");
+        //$('#CardDescription').val("");
         
         
-        $('#modal-lg').modal('show');
+        //$('#modal-lg').modal('show');
 
     });
 

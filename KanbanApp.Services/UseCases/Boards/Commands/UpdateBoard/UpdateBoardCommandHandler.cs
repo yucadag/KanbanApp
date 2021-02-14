@@ -31,11 +31,29 @@ namespace KanbanApp.Services.UseCases.Boards.Commands.UpdateBoard
 
             try
             {
-                _boardRepository.Update(new Board() { BoardId = request.BoardId, Name = request.Name, Description = request.Description, OwnerId = request.OwnerId });
-                result.ResultObject.Data.BoardId = request.BoardId;
-                result.ResultObject.Data.Name = request.Name;
-                result.ResultObject.Data.Description = request.Description;
-                result.ResultObject.Data.OwnerId = request.OwnerId;
+                var validator = new UpdateBoardCommandValidator();
+                var validationResult = validator.Validate(request);
+
+                if (validationResult.IsValid)
+                {
+
+                    _boardRepository.Update(new Board() { BoardId = request.BoardId, Name = request.Name, Description = request.Description, OwnerId = request.OwnerId });
+                    result.ResultObject.Data.BoardId = request.BoardId;
+                    result.ResultObject.Data.Name = request.Name;
+                    result.ResultObject.Data.Description = request.Description;
+                    result.ResultObject.Data.OwnerId = request.OwnerId;
+                    result.ResultObject.Success = true;
+
+                }
+                else
+                {
+                    foreach (var item in validationResult.Errors)
+                    {
+                        result.ResultObject.ServiceMessageList.Add(new ServiceMessage() { ServiceMessageType = eServiceMessageType.Error, UserFriendlyText = item.ErrorMessage });
+                    }
+
+                    result.ResultObject.Success = false;
+                }
             }
             catch (Exception ex)
             {
@@ -45,6 +63,7 @@ namespace KanbanApp.Services.UseCases.Boards.Commands.UpdateBoard
                     UserFriendlyText = "An error occured",
                     LogText = "BoardService.Update() method error message: " + ex.Message + " Inner Message: " + ex.InnerException
                 });
+                result.ResultObject.Success = false;
             }
 
             return result;

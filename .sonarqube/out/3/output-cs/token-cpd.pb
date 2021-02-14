@@ -1,24 +1,17 @@
-¼
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.cs
+«
+?C:\TFSProjects\KanbanApp\KanbanApp.Services.Contracts\Class1.cs
 	namespace 	
 	KanbanApp
  
-. 
-Infrastructure "
-." #
-Logging# *
-.* +
-Abstract+ 3
+. 
+Services 
+. 
+	Contracts &
 { 
 public 
-
-	interface 
-ILogger 
-{ 
-Task 
-LogEvent 
-( 
-) 
-; 
-} 
-}		 
+
+class 
+Class1 
+{ 
+} 
+} 

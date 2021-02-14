@@ -2,8 +2,8 @@
 using KanbanApp.Api.Models.Cards.Input;
 using KanbanApp.Api.Models.Cards.Output;
 using KanbanApp.Services.UseCases.Cards.Commands.CreateCard;
-using KanbanApp.Services.UseCases.Cards.Queries.GetAttachmentList;
 using KanbanApp.Services.UseCases.Cards.Commands.MoveCard;
+using KanbanApp.Services.UseCases.Cards.Queries.GetAttachmentList;
 
 namespace KanbanApp.Api.Mapping
 {

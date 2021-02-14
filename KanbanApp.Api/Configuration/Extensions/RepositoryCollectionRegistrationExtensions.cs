@@ -22,6 +22,10 @@ namespace KanbanApp.Api.Configuration.Extensions
             services.AddTransient<IPriorityRepository, EfPriorityRepository>();
             services.AddTransient<IPriorityService, PriorityService>();
 
+
+            services.AddTransient<ICardTypeRepository, EfCardTypeRepository>();
+            services.AddTransient<ICardTypeService, CardTypeService>();
+
             return services;
         }
 

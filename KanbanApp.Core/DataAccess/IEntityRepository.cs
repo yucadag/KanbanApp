@@ -13,6 +13,8 @@ namespace KanbanApp.Core.DataAccess
 
         List<T> GetList(Expression<Func<T, bool>> filter = null);
 
+       
+
         Task<List<T>> GetListAsync(Expression<Func<T, bool>> filter = null);
 
         T Add(T entity);

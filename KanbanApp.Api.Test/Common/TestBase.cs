@@ -1,15 +1,4 @@
-﻿using AutoFixture;
-using KanbanApp.Data.Concrete.EntityFramework;
-using MediatR;
-using Microsoft.Extensions.DependencyInjection;
-using Moq;
-using System;
-using FluentValidation;
-using System.Collections.Generic;
-using System.Text;
-using AutoMapper;
-
-namespace KanbanApp.Api.Test.Common
+﻿namespace KanbanApp.Api.Test.Common
 {
     //public class TestBase : IDisposable
     //{

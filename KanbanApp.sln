@@ -34,6 +34,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.BackgroundIntegra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.Services.Test", "KanbanApp.Services.Test\KanbanApp.Services.Test.csproj", "{A1B30553-334B-47E7-8349-180C84018342}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.Services.Contracts", "KanbanApp.Services.Contracts\KanbanApp.Services.Contracts.csproj", "{EFE5B050-5D30-42F0-93CC-22C842858D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanApp.DbRecordGenerator", "KanbanApp.DbRecordGenerator\KanbanApp.DbRecordGenerator.csproj", "{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +96,14 @@ Global
 		{A1B30553-334B-47E7-8349-180C84018342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B30553-334B-47E7-8349-180C84018342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B30553-334B-47E7-8349-180C84018342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE5B050-5D30-42F0-93CC-22C842858D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE5B050-5D30-42F0-93CC-22C842858D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE5B050-5D30-42F0-93CC-22C842858D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE5B050-5D30-42F0-93CC-22C842858D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

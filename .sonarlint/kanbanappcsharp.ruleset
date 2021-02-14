@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RuleSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SonarQube - KanbanApp Sonar way" Description="This rule set was automatically generated from SonarQube http://localhost:9000/profiles/show?key=AXTLCjSXElfknW_p_Ly5" ToolsVersion="14.0">
+<RuleSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SonarQube - KanbanApp Sonar way" Description="This rule set was automatically generated from SonarQube http://localhost:9000/profiles/show?key=AXegK0jJtO4LjxN8Q181" ToolsVersion="14.0">
   <Rules AnalyzerId="SonarAnalyzer.CSharp" RuleNamespace="SonarAnalyzer.CSharp">
     <Rule Id="S100" Action="None" />
     <Rule Id="S1006" Action="Warning" />
@@ -170,6 +170,7 @@
     <Rule Id="S2997" Action="Warning" />
     <Rule Id="S3005" Action="Warning" />
     <Rule Id="S3010" Action="Warning" />
+    <Rule Id="S3011" Action="Warning" />
     <Rule Id="S3052" Action="None" />
     <Rule Id="S3060" Action="Warning" />
     <Rule Id="S3168" Action="Warning" />
@@ -294,7 +295,7 @@
     <Rule Id="S4004" Action="None" />
     <Rule Id="S4005" Action="None" />
     <Rule Id="S4015" Action="Warning" />
-    <Rule Id="S4016" Action="Warning" />
+    <Rule Id="S4016" Action="None" />
     <Rule Id="S4017" Action="None" />
     <Rule Id="S4018" Action="None" />
     <Rule Id="S4019" Action="Warning" />
@@ -358,6 +359,7 @@
     <Rule Id="S5542" Action="Warning" />
     <Rule Id="S5547" Action="Warning" />
     <Rule Id="S5659" Action="Warning" />
+    <Rule Id="S5773" Action="Warning" />
     <Rule Id="S818" Action="Info" />
     <Rule Id="S881" Action="None" />
     <Rule Id="S907" Action="Warning" />

@@ -1,4 +1,5 @@
 using KanbanApp.Core;
+using System;
 using System.Collections.Generic;
 
 namespace KanbanApp.Domain.Entities
@@ -18,6 +19,8 @@ namespace KanbanApp.Domain.Entities
         public string CardId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
         public Priority CardPriority { get; set; }
         public CardType Type { get; set; }
         public int CardPosition { get; set; }

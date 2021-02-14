@@ -1,4 +1,6 @@
-﻿namespace KanbanApp.Api.Models.Cards.Output
+﻿using System;
+
+namespace KanbanApp.Api.Models.Cards.Output
 {
     public class GetCardOutput
     {
@@ -9,5 +11,7 @@
         public string Name { get; set; }
         public int Position { get; set; }
         public int PriorityId { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
     }
 }

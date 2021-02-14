@@ -1,8 +1,9 @@
 ﻿using KanbanApp.Services.Abstract;
-using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
-using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
-using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
-using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Commands.CreateSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Commands.MoveSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimLaneCards;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimLaneCardsWithPaging;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimlaneDetail;
 using MediatR;
 using System.Threading.Tasks;
 
@@ -43,6 +44,16 @@ namespace KanbanApp.Services.Concrete
 
             return result;
         }
+
+        public Task<GetSwimLaneCardsWithPagingCommandResult> GetSwimLanesCardsWithPaging(GetSwimLaneCardsWithPagingCommand command)
+        {
+            Task<GetSwimLaneCardsWithPagingCommandResult> result;
+
+            result = _mediator.Send(command);
+
+            return result;
+        }
+
         public Task<MoveSwimlaneCommandResult> Move(MoveSwimlaneCommand command)
         {
 

@@ -37,6 +37,9 @@ namespace KanbanApp.Services.UseCases.Cards.Queries.GetCardDetail
                 result.ResultObject.Data.Name = card.Name;
                 result.ResultObject.Data.Description = card.Description;
                 result.ResultObject.Data.PriorityId = card.CardPriority.PriorityId;
+          
+                result.ResultObject.Data.StartDate = card.StartDate;
+                result.ResultObject.Data.EndDate = card.EndDate;
 
                 result.ResultObject.Success = true;
             }

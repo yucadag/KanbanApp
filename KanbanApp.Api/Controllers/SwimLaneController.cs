@@ -2,11 +2,13 @@
 using KanbanApp.Api.Models.SwimLanes.Input;
 using KanbanApp.Api.Models.SwimLanes.Output;
 using KanbanApp.Services.Abstract;
-using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
-using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
-using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
-using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Commands.CreateSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Commands.MoveSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimLaneCards;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimLaneCardsWithPaging;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimlaneDetail;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -103,6 +105,43 @@ namespace KanbanApp.Api.Controllers
                 return BadRequest(returnValue);
             }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        [Route("GetSwimLaneCardsWithPaging")]
+        [HttpPost]
+        public ActionResult<List<SwimLaneCardsWithPagingOutput>> GetSwimLaneCardsWithPaging(SwimLaneCardsWithPagingInput input)
+        {
+            GetSwimLaneCardsWithPagingCommand command = _mapper.Map<SwimLaneCardsWithPagingInput, GetSwimLaneCardsWithPagingCommand>(input);
+            command.PagingParameter = new Core.Paging.PagingParameterBase();
+            command.PagingParameter.PageNumber = input.PageNumber;
+            command.PagingParameter.PageSize = input.PageSize;
+            Task<GetSwimLaneCardsWithPagingCommandResult> result = _swimLaneService.GetSwimLanesCardsWithPaging(command);
+            List<SwimLaneCardsWithPagingOutput> returnValue = _mapper.Map<List<GetSwimLaneCardsWithPagingCommandResultItem>, List<SwimLaneCardsWithPagingOutput>>(result.Result.ResultObject.Data);
+
+            if (result.Result.ResultObject.Success)
+            {
+                var metadata = new
+                {
+                    result.Result.ResultObject.Data.TotalCount,
+                    result.Result.ResultObject.Data.PageSize,
+                    result.Result.ResultObject.Data.CurrentPage,
+                    result.Result.ResultObject.Data.TotalPages,
+                    result.Result.ResultObject.Data.HasNext,
+                    result.Result.ResultObject.Data.HasPrevious
+                };
+                Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(metadata));
+                return Ok(returnValue);
+            }
+            else
+            {
+                return BadRequest(returnValue);
+            }
+        }
+
 
         /// <summary>
         /// 

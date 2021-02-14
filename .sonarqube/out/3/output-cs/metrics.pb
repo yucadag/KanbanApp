@@ -1,2 +1,2 @@
-[
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.csr	
+L
+?C:\TFSProjects\KanbanApp\KanbanApp.Services.Contracts\Class1.csr

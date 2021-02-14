@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
 using KanbanApp.Api.Models.SwimLanes.Input;
 using KanbanApp.Api.Models.SwimLanes.Output;
-using KanbanApp.Services.UseCases.SwimLanes.CreateSwimlane;
-using KanbanApp.Services.UseCases.SwimLanes.GetSwimLaneCards;
-using KanbanApp.Services.UseCases.SwimLanes.GetSwimlaneDetail;
-using KanbanApp.Services.UseCases.SwimLanes.MoveSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Commands.CreateSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Commands.MoveSwimlane;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimLaneCards;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimLaneCardsWithPaging;
+using KanbanApp.Services.UseCases.SwimLanes.Queries.GetSwimlaneDetail;
 
 namespace KanbanApp.Api.Mapping
 {
@@ -20,6 +21,9 @@ namespace KanbanApp.Api.Mapping
             CreateMap<SwimLaneAddInput, CreateSwimlaneCommand>();
             CreateMap<CreateSwimlaneCommandResultItem, SwimLaneAddOutput>();
             CreateMap<MoveSwimlaneCommandResultItem, SwimLaneMoveOutput>();
+            CreateMap<SwimLaneCardsWithPagingInput, SwimLaneCardsWithPagingOutput>();
+            CreateMap<SwimLaneCardsWithPagingInput, GetSwimLaneCardsWithPagingCommand>();
+            CreateMap<GetSwimLaneCardsWithPagingCommandResultItem, SwimLaneCardsWithPagingOutput>();
         }
     }
 }

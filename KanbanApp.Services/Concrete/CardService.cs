@@ -1,10 +1,10 @@
 ﻿using KanbanApp.Services.Abstract;
 using KanbanApp.Services.UseCases.Cards.Commands.CreateCard;
 using KanbanApp.Services.UseCases.Cards.Commands.DeleteCard;
-using KanbanApp.Services.UseCases.Cards.Queries.GetAttachmentList;
-using KanbanApp.Services.UseCases.Cards.Queries.GetCardDetail;
 using KanbanApp.Services.UseCases.Cards.Commands.MoveCard;
 using KanbanApp.Services.UseCases.Cards.Commands.UpdateCard;
+using KanbanApp.Services.UseCases.Cards.Queries.GetAttachmentList;
+using KanbanApp.Services.UseCases.Cards.Queries.GetCardDetail;
 using MediatR;
 using System.Threading.Tasks;
 

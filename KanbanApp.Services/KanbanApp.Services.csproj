@@ -34,4 +34,9 @@
       <ProjectReference Include="..\KanbanApp.Domain\KanbanApp.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Extensions\" />
+      <Folder Include="UseCases\SelectList\Commands\" />
+    </ItemGroup>
+
 </Project>

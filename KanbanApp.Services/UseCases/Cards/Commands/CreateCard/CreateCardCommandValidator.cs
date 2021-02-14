@@ -8,7 +8,7 @@ namespace KanbanApp.Services.UseCases.Cards.Commands.CreateCard
         {
             RuleFor(x => x.CardId).NotEmpty().WithMessage("Card Id boş olamaz.");
             RuleFor(x => x.Name).NotEmpty().WithMessage("Name boş olamaz.");
-            RuleFor(x => x.Description).NotEmpty().WithMessage("Description boş olamaz.");
+          
         }
     }
 }
