@@ -1,23 +1,4 @@
-¡
-[C:\TFSProjects\KanbanApp\KanbanApp.BackgroundIntegration\Jobs\ExchangeMailIntegrationJob.cs
+M
+?C:\TFSProjects\KanbanApp\KanbanApp.Services.Contracts\Class1.cs
 
- +
-
- 
-
-
- '; I
-   .i
-CC:\TFSProjects\KanbanApp\KanbanApp.BackgroundIntegration\Program.cs
-
-
- 
-
- 
-
-( ,€
-fC:\TFSProjects\KanbanApp\KanbanApp.BackgroundIntegration\Registries\ExchangeMailIntegrationRegistry.cs
-
- 0
-
- .
+ 

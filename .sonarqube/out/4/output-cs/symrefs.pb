@@ -1,19 +1,23 @@
-e
-?C:\TFSProjects\KanbanApp\KanbanApp.DbRecordGenerator\Program.cs
+¡
+[C:\TFSProjects\KanbanApp\KanbanApp.BackgroundIntegration\Jobs\ExchangeMailIntegrationJob.cs
+
+ +
+
+ 
+
+
+ '; I
+   .i
+CC:\TFSProjects\KanbanApp\KanbanApp.BackgroundIntegration\Program.cs
 
 
  
 
- 
+ 
 
-" &z
-@C:\TFSProjects\KanbanApp\KanbanApp.DbRecordGenerator\SeedData.cs
+( ,€
+fC:\TFSProjects\KanbanApp\KanbanApp.BackgroundIntegration\Registries\ExchangeMailIntegrationRegistry.cs
 
- !
+ 0
 
-
-
-  "
-
-
-4 D  
+ .

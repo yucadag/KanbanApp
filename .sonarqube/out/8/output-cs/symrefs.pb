@@ -41,13 +41,11 @@ XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardTaskRepo
 2 9B I "¨
 XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardTypeRepository.cs
 
-
-
- $
-' . 
+ %
+		' . 
 
- #
-2 9B I "¨
+ #
+2 9B I "¨
 XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfPriorityRepository.cs
 
  %

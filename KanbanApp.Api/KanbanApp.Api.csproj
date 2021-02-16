@@ -17,7 +17,7 @@
     <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
     <CodeAnalysisRuleSet>..\.sonarlint\kanbanappcsharp.ruleset</CodeAnalysisRuleSet>
     <UserSecretsId>0aa0bcae-2e3c-4de5-bf36-efab2f092f26</UserSecretsId>
-
+ 
 
   </PropertyGroup>
 

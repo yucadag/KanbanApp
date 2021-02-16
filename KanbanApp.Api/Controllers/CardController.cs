@@ -159,6 +159,11 @@ namespace KanbanApp.Api.Controllers
             Task<CreateCardCommandResult> result = _cardService.CreateCard(command);
 
             CardCreateOutput resultValue = _mapper.Map<CreateCardCommandResultItem, CardCreateOutput>(result.Result.ResultObject.Data);
+           
+            foreach (var item in result.Result.ResultObject.GetErrorMessageList())
+            {
+                resultValue.MessageList.Add(item.UserFriendlyText);
+            }
 
             if (result.Result.ResultObject.Success)
             {

@@ -120,28 +120,28 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTaskRepository.cs
  
 } ù
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTypeRepository.cs
-	namespace 	
-	KanbanApp
+	namespace 	
+	KanbanApp
  
-. 
-Domain 
-. 
-Data 
-{ 
-public		 
+. 
+Domain 
+. 
+Data 
+{ 
+public 
 
-	interface		 
-ICardTypeRepository		 (
-:		) *
-IEntityRepository		+ <
-<		< =
-CardType		= E
->		E F
-{
+	interface 
+ICardTypeRepository (
+:) *
+IEntityRepository+ <
+<< =
+CardType= E
+>E F
+{ 
+} 
+}
 
- 
-} 
-} ù
+ ù
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IPriorityRepository.cs
 	namespace 	
 	KanbanApp

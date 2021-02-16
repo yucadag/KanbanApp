@@ -26,7 +26,7 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTaskRepository.cs
  (S
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTypeRepository.cs
 
-		 (S
+ (S
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IPriorityRepository.cs
 
  (›

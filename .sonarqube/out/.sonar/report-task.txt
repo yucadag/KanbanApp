@@ -2,5 +2,5 @@ projectKey=KanbanApp
 serverUrl=http://localhost:9000
 serverVersion=8.6.0.39681
 dashboardUrl=http://localhost:9000/dashboard?id=KanbanApp
-ceTaskId=AXegMlTJtO4LjxN8Q20e
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXegMlTJtO4LjxN8Q20e
+ceTaskId=AXegtbGUcHuugdKX7-WQ
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXegtbGUcHuugdKX7-WQ

@@ -96,10 +96,22 @@ function BindCardAdd() {
             priorityId: 1
         }
 
-        var NewCard = CardService.CardSave(Card);
+        var NewCard = CardService.CardSave(Card).responseJSON;
        
         AddCardTemplate(NewCard);
         FillPriorityCombo();
+
+        //var Result = BoardService.BoardSave(Board).responseJSON;
+        //// var  Result = JSON.parse( BoardService.BoardSave(Board));
+
+        if (NewCard.isSuccess) {
+            NotificationHelper.ShowSuccess('Kayıt işlemi başarıyla gerçekleşti!');
+        }
+        else {
+            NotificationHelper.ShowError("Hata oluştu", NewCard.messageList);
+        }
+
+
         //$('#CardKeys').attr("CardId", "");
         //$('#CardKeys').attr("Boardid", BoardId);
         //$('#CardKeys').attr("SwimLaneId", SwimLaneId);

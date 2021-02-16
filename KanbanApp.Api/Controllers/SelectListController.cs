@@ -18,6 +18,7 @@ namespace KanbanApp.Api.Controllers
         /// 
         /// </summary>
         /// <param name="priorityService"></param>
+        /// <param name="cardTypeService"></param>
         public SelectListController(IPriorityService priorityService, ICardTypeService cardTypeService)
         {
             _priorityService = priorityService;

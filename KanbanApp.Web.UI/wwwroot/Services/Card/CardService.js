@@ -38,14 +38,33 @@
                 "Content-Type": "application/json"
             },
             "data": JSON.stringify(Card),
+            success: function (Deneme) {
+                //  console.log(Deneme);
+                //if (Result.d.Success) {
+                //    var ResultData = JSON.parse(Result.d.Data);
+
+                //    AxaHayatLibrary.ShowStatus($("#StatusVeriSorgulama"), "Aktarım Durum Sorgulama servisi başarı ile çalışmıştır.", "success");
+
+                //} else {
+                //    OpenDialog("Hata", Result.d.Message);
+
+                //}
+            },
+            error: function (response) {
+                //  console.log("Error");
+                // Update the UI here to reflect that the request was unsuccessful
+                // doSomethingMoreClever();
+            },
+            complete: function (response) {
+                // console.log("Complete");
+                // Update the UI here to reflect completion
+                //doSomethingEvenMoreClever();
+            } 
         };
 
-        $.ajax(settings).done(function (response) {
-            SavedCard = response;
-           
-        });
+      
 
-        return SavedCard;
+        return $.ajax(settings);
     };
 
     var Update = function (Card) {

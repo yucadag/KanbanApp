@@ -1,4 +1,5 @@
-V
-MC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\Logging\Abstract\ILogger.csutf-8…
-zC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\obj\Debug\netstandard2.0\.NETStandard,Version=v2.0.AssemblyAttributes.csutf-8~
-sC:\TFSProjects\KanbanApp\KanbanApp.Infrastructure\obj\Debug\netstandard2.0\KanbanApp.Infrastructure.AssemblyInfo.csutf-8
+H
+?C:\TFSProjects\KanbanApp\KanbanApp.DbRecordGenerator\Program.csutf-8I
+@C:\TFSProjects\KanbanApp\KanbanApp.DbRecordGenerator\SeedData.csutf-8†
+{C:\TFSProjects\KanbanApp\KanbanApp.DbRecordGenerator\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8ƒ
+xC:\TFSProjects\KanbanApp\KanbanApp.DbRecordGenerator\obj\Debug\netcoreapp3.1\KanbanApp.DbRecordGenerator.AssemblyInfo.csutf-8

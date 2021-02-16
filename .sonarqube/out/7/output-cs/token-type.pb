@@ -18,15 +18,12 @@ EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTaskRepository.cs
  
  
  	 
-  (+ <= EÕ
+  (+ <= E±
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTypeRepository.cs
  
  
- 
- 
- 
- 			 
-		 		 (		+ <		= E±
+ 	 
+  (+ <= E±
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IPriorityRepository.cs
  
  

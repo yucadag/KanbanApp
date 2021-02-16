@@ -1,2 +1,3 @@
-L
-?C:\TFSProjects\KanbanApp\KanbanApp.Services.Contracts\Class1.csr
+\
+9C:\TFSProjects\KanbanApp\MongoDbHelper\MongoRepository.csj
+ "$')+-0357:<>rB

@@ -22,6 +22,7 @@
     <Property Name="sonar.go.exclusions">**/vendor/**</Property>
     <Property Name="sonar.forceAuthentication">true</Property>
     <Property Name="sonar.notifications.delay">60</Property>
+    <Property Name="sonar.cs.fxcop.aspnet">false</Property>
     <Property Name="sonaranalyzer-cs.ruleNamespace">SonarAnalyzer.CSharp</Property>
     <Property Name="sonar.cs.analyzeGeneratedCode">false</Property>
     <Property Name="sonar.builtInQualityProfiles.disableNotificationOnUpdate">false</Property>
@@ -30,6 +31,7 @@
     <Property Name="sonar.html.file.suffixes">.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml</Property>
     <Property Name="sonar.auth.gitlab.enabled">false</Property>
     <Property Name="sonar.cpd.cross_project">false</Property>
+    <Property Name="sonar.dependencyCheck.summarize">false</Property>
     <Property Name="sonar.vbnet.ignoreHeaderComments">true</Property>
     <Property Name="sonar.auth.github.groupsSync">false</Property>
     <Property Name="sonar.scala.file.suffixes">.scala</Property>
@@ -38,6 +40,9 @@
     <Property Name="sonar.dbcleaner.daysBeforeDeletingClosedIssues">30</Property>
     <Property Name="sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByMonth">52</Property>
     <Property Name="sonar.lf.gravatarServerUrl">https://secure.gravatar.com/avatar/{EMAIL_MD5}.jpg?s={SIZE}&amp;d=identicon</Property>
+    <Property Name="sonar.dependencyCheck.skip">false</Property>
+    <Property Name="sonar.vbnet.fxcop.aspnet">false</Property>
+    <Property Name="sonar.dependencyCheck.severity.critical">7.0</Property>
     <Property Name="sonar.notifications.runningDelayBeforeReportingStatus">600</Property>
     <Property Name="sonar.jsp.file.suffixes">.jsp,.jspf,.jspx</Property>
     <Property Name="sonar.javascript.maxFileSize">1000</Property>
@@ -46,8 +51,10 @@
     <Property Name="sonar.ruby.exclusions">**/vendor/**</Property>
     <Property Name="sonar.auth.saml.enabled">false</Property>
     <Property Name="sonar.vbnet.file.suffixes">.vb</Property>
+    <Property Name="sonar.dependencyCheck.jsonReportPath">${WORKSPACE}/dependency-check-report.json</Property>
     <Property Name="sonar.technicalDebt.developmentCost">30</Property>
     <Property Name="sonar.python.file.suffixes">py</Property>
+    <Property Name="sonar.dependencyCheck.xmlReportPath">${WORKSPACE}/dependency-check-report.xml</Property>
     <Property Name="sonar.cs.file.suffixes">.cs</Property>
     <Property Name="sonaranalyzer-vbnet.staticResourceName">SonarAnalyzer-8.15.0.24505.zip</Property>
     <Property Name="sonar.java.file.suffixes">.java,.jav</Property>
@@ -62,6 +69,7 @@
     <Property Name="sonar.go.file.suffixes">.go</Property>
     <Property Name="sonar.auth.saml.applicationId">sonarqube</Property>
     <Property Name="sonar.dbcleaner.weeksBeforeKeepingOnlyAnalysesWithVersion">104</Property>
+    <Property Name="sonar.cs.fxcop.fxCopCmdPath">C:/Program Files (x86)/Microsoft Visual Studio 12.0/Team Tools/Static Analysis Tools/FxCop/FxCopCmd.exe</Property>
     <Property Name="sonar.php.exclusions">**/vendor/**</Property>
     <Property Name="sonar.vbnet.roslyn.ignoreIssues">false</Property>
     <Property Name="sonar.flex.file.suffixes">as</Property>
@@ -70,19 +78,28 @@
     <Property Name="sonar.ruby.file.suffixes">.rb</Property>
     <Property Name="sonar.auth.github.allowUsersToSignUp">true</Property>
     <Property Name="sonar.python.xunit.reportPath">xunit-reports/xunit-result-*.xml</Property>
+    <Property Name="sonar.rci.ratings">97,92,85,75</Property>
     <Property Name="sonar.javascript.globals">angular,goog,google,OpenLayers,d3,dojo,dojox,dijit,Backbone,moment,casper</Property>
     <Property Name="sonar.dbcleaner.hoursBeforeKeepingOnlyOneSnapshotByDay">24</Property>
+    <Property Name="sonar.dependencyCheck.htmlReportPath">${WORKSPACE}/dependency-check-report.html</Property>
+    <Property Name="sonar.dependencyCheck.severity.blocker">9.0</Property>
     <Property Name="sonar.auth.github.webUrl">https://github.com/</Property>
     <Property Name="sonaranalyzer-vbnet.nuget.packageId">SonarAnalyzer.VisualBasic</Property>
     <Property Name="email.from">noreply@nowhere</Property>
     <Property Name="sonaranalyzer-vbnet.pluginVersion">8.15.0.24505</Property>
     <Property Name="sonar.internal.analysis.failFast">false</Property>
+    <Property Name="sonar.vbnet.fxcop.fxCopCmdPath">C:/Program Files (x86)/Microsoft Visual Studio 12.0/Team Tools/Static Analysis Tools/FxCop/FxCopCmd.exe</Property>
     <Property Name="sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek">4</Property>
     <Property Name="sonaranalyzer-vbnet.analyzerId">SonarAnalyzer.VisualBasic</Property>
     <Property Name="email.prefix">[SONARQUBE]</Property>
     <Property Name="sonar.cs.roslyn.ignoreIssues">false</Property>
+    <Property Name="sonar.vbnet.fxcop.timeoutMinutes">10</Property>
     <Property Name="sonaranalyzer-cs.pluginKey">csharp</Property>
+    <Property Name="sonar.rci.weights">10,5,3,1,0</Property>
+    <Property Name="sonar.dependencyCheck.severity.minor">0.0</Property>
+    <Property Name="sonar.dependencyCheck.severity.major">4.0</Property>
     <Property Name="sonar.auth.saml.providerName">SAML</Property>
+    <Property Name="sonar.cs.fxcop.timeoutMinutes">10</Property>
     <Property Name="sonar.ruby.coverage.reportPaths">coverage/.resultset.json</Property>
     <Property Name="sonaranalyzer-cs.staticResourceName">SonarAnalyzer-8.15.0.24505.zip</Property>
     <Property Name="sonar.auth.gitlab.allowUsersToSignUp">true</Property>
@@ -95,12 +112,13 @@
     <Property Name="sonaranalyzer-cs.pluginVersion">8.15.0.24505</Property>
     <Property Name="sonar.developerAggregatedInfo.disabled">false</Property>
     <Property Name="sonar.javascript.file.suffixes">.js,.jsx,.vue</Property>
+    <Property Name="sonar.dependencyCheck.securityHotspot">false</Property>
     <Property Name="sonar.vbnet.analyzeGeneratedCode">false</Property>
     <Property Name="sonar.auth.gitlab.url">https://gitlab.com</Property>
     <Property Name="sonaranalyzer-vbnet.pluginKey">vbnet</Property>
     <Property Name="sonar.updatecenter.url">https://update.sonarsource.org/update-center.properties</Property>
-    <Property Name="sonar.core.startTime">14.02.2021 13:51:40</Property>
     <Property Name="sonar.core.id">BF41A1F2-AXegKuk3tO4LjxN8Qx9r</Property>
+    <Property Name="sonar.core.startTime">14.02.2021 14:05:45</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://localhost:9000</Property>

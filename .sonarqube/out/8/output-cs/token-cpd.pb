@@ -328,74 +328,54 @@ XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardTaskRepo
 } 
 } Ù
 XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfCardTypeRepository.cs
-	namespace 	
-	KanbanApp
+	namespace 	
+	KanbanApp
  
-. 
-Data 
-. 
-Concrete !
-.! "
-EntityFramework" 1
-{		 
-public
-
- 	
-class
-
-
-  
-EfCardTypeRepository
-
- $
-:
-
-% &"
-EfEntityRepositoryBase
-
-' =
-<
-
-= >
-CardType
-
-> F
->
-
-F G
-,
-
-G H
-ICardTypeRepository
-
-I \
-{ 
-private 
-readonly 
-KanbanContext &
-context' .
-;. /
-public  
-EfCardTypeRepository #
-(# $
-KanbanContext$ 1
-context2 9
-)9 :
-:; <
-base= A
-(A B
-contextB I
-)I J
-{ 	
-this 
-. 
-context 
-= 
-context "
-;" #
-} 	
-} 
-} Ù
+. 
+Data 
+. 
+Concrete !
+.! "
+EntityFramework" 1
+{ 
+public 
+
+class  
+EfCardTypeRepository %
+:& '"
+EfEntityRepositoryBase( >
+<> ?
+CardType? G
+>G H
+,H I
+ICardTypeRepositoryJ ]
+{ 
+private		 
+readonly		 
+KanbanContext		 &
+context		' .
+;		. /
+public  
+EfCardTypeRepository #
+(# $
+KanbanContext$ 1
+context2 9
+)9 :
+:; <
+base= A
+(A B
+contextB I
+)I J
+{ 	
+this 
+. 
+context 
+= 
+context "
+;" #
+} 	
+} 
+} Ù
 XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfPriorityRepository.cs
 	namespace 	
 	KanbanApp
@@ -444,7 +424,7 @@ XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfPriorityRepo
 ;" #
 } 	
 } 
-} Þ*
+} Þ)
 XC:\TFSProjects\KanbanApp\KanbanApp.Data\Concrete\EntityFramework\EfSwimLaneRepository.cs
 	namespace
 
@@ -542,15 +522,7 @@ SwimLaneId2 <
 Card 
 > 
 cardList 
-=  !
-new" %
-List& *
-<* +
-Card+ /
->/ 0
-(0 1
-)1 2
-;2 3
+;  
 try 
 { 
 cardList 

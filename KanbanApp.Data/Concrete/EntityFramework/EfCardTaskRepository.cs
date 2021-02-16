@@ -7,11 +7,11 @@ namespace KanbanApp.Data.Concrete.EntityFramework
 
     public class EfCardTaskRepository : EfEntityRepositoryBase<CardTask>, ICardTaskRepository
     {
-        private readonly KanbanContext context;
+        private readonly KanbanContext _context;
 
         public EfCardTaskRepository(KanbanContext context) : base(context)
         {
-            this.context = context;
+            _context = context;
         }
     }
 }

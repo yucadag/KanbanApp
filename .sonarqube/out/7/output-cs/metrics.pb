@@ -4,9 +4,9 @@ BC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IBoardRepository.csr
 AC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardRepository.csr	
 S
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTaskRepository.csr
-V
-EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTypeRepository.csr	
-S
+S
+EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ICardTypeRepository.csr
+S
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\IPriorityRepository.csr	Y
 EC:\TFSProjects\KanbanApp\KanbanApp.Domain\Data\ISwimLaneRepository.csr	
 _
