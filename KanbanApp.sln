@@ -38,6 +38,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.Services.Contract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanbanApp.DbRecordGenerator", "KanbanApp.DbRecordGenerator\KanbanApp.DbRecordGenerator.csproj", "{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanApp.Authentication.Api", "KanbanApp.Authentication.Api\KanbanApp.Authentication.Api.csproj", "{222CD277-3D05-4954-98B0-99E847696BE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +106,10 @@ Global
 		{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8E71317-34C3-4EBA-8E2F-DC9AAD125397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222CD277-3D05-4954-98B0-99E847696BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222CD277-3D05-4954-98B0-99E847696BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222CD277-3D05-4954-98B0-99E847696BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222CD277-3D05-4954-98B0-99E847696BE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
